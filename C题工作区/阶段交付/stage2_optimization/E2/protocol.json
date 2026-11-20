@@ -1,0 +1,14 @@
+{
+  "tau": 0.2,
+  "history_s": 0.2,
+  "age_bins": 30,
+  "min_conditional_points": 100,
+  "quantile": 0.9,
+  "quantile_method": "higher",
+  "thresholds": "within-fold source median of window historical median speed/turn",
+  "zero_motion_turn": 0,
+  "calibration": "each window point once; no multi-horizon duplicates",
+  "threshold_equality": "high if >= median",
+  "validation_rule": "only admitted candidate; no threshold refit using validation",
+  "test_evaluated": false
+}

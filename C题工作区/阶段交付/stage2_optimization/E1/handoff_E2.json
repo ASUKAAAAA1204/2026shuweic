@@ -1,0 +1,9 @@
+{
+  "point_predictor": "damped_constant_velocity",
+  "tau_s": 0.2,
+  "selection": "train only; admitted before validation",
+  "validation_equal_source_long_improvement": 0.207641352212204,
+  "limits": "Standard one environment; short-horizon paired intervals include zero",
+  "next": "E2 conditional uncertainty; do not retune tau",
+  "test_evaluated": false
+}

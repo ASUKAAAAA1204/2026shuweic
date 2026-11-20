@@ -1,0 +1,34 @@
+{
+  "admitted": true,
+  "mean_coverage_error_reduction": 0.000427117867879893,
+  "comparisons": [
+    {
+      "dataset": "EgoDemo",
+      "baseline_coverage": 0.8714034530826413,
+      "conditional_coverage": 0.8688257659510132,
+      "coverage_error_reduction": -0.0025776871316280925,
+      "radius_ratio": 0.9885986918950617,
+      "coverage_drop": 0.0025776871316280925,
+      "fallback_fraction": 0.20229860779014386
+    },
+    {
+      "dataset": "EgoPro",
+      "baseline_coverage": 0.8761111380628023,
+      "conditional_coverage": 0.8772637352309299,
+      "coverage_error_reduction": 0.0011525971681276559,
+      "radius_ratio": 0.9834593922266966,
+      "coverage_drop": -0.0011525971681276559,
+      "fallback_fraction": 0.8669298009143732
+    },
+    {
+      "dataset": "EgoStandard",
+      "baseline_coverage": 0.9072838878243595,
+      "conditional_coverage": 0.9045774442572194,
+      "coverage_error_reduction": 0.0027064435671401155,
+      "radius_ratio": 0.9299215773183007,
+      "coverage_drop": 0.0027064435671401155,
+      "fallback_fraction": 0.16410624624783512
+    }
+  ],
+  "test_evaluated": false
+}

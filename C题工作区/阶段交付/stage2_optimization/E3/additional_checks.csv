@@ -1,0 +1,10 @@
+﻿name,passed
+family_density single job,True
+family_density unreleased wait,True
+family_density unmet predecessor,True
+family_density empty stop,True
+two_step single job,True
+two_step unreleased wait,True
+two_step unmet predecessor,True
+two_step empty stop,True
+all 1800 trials identical rerun excluding runtime,True

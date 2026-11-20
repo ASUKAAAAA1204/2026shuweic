@@ -1,0 +1,111 @@
+{
+  "state": "three preregistered experiments completed; final packaging and broader audit separate",
+  "retain_point_predictor": {
+    "model": "damped_constant_velocity",
+    "tau_s": 0.2
+  },
+  "retain_uncertainty": "age-only recalibrated for damped predictor; coverage remains insufficient",
+  "retain_scheduler": "family_density with family median and no review",
+  "reject_as_default": [
+    "E2 conditional calibration",
+    "E3 two-step lookahead"
+  ],
+  "E1": {
+    "status": "PASS",
+    "training_selected": {
+      "tau": 0.2,
+      "relative_long_ade": 0.8352731053156708,
+      "improvement": 0.16472689468432922,
+      "worst_long_ratio": 0.9082237638986388,
+      "worst_short_ratio": 0.9899108610435372,
+      "admitted": true
+    },
+    "validation_run": true,
+    "validation_rows": 1908,
+    "runtime_s": 7.22400600000401,
+    "test_evaluated": false,
+    "checks": [
+      {
+        "name": "zero age exact",
+        "passed": true
+      },
+      {
+        "name": "zero velocity stationary",
+        "passed": true
+      },
+      {
+        "name": "large tau tends constant velocity",
+        "passed": true
+      },
+      {
+        "name": "bounded long displacement",
+        "passed": true
+      },
+      {
+        "name": "test not evaluated",
+        "passed": true
+      },
+      {
+        "name": "simple baselines source-result agreement",
+        "passed": true,
+        "max_difference": 0.0
+      }
+    ]
+  },
+  "E2": {
+    "status": "PASS",
+    "admitted": true,
+    "train_windows": 1527,
+    "oof_rows": 3054,
+    "folds": 16,
+    "validation_run": true,
+    "mean_coverage_error_reduction": 0.000427117867879893,
+    "runtime_s": 6.624661099995137,
+    "checks": [
+      {
+        "name": "all 16 train environment folds",
+        "passed": true
+      },
+      {
+        "name": "each fold excludes held environment",
+        "passed": true
+      },
+      {
+        "name": "one point prediction for both calibrators",
+        "passed": true
+      },
+      {
+        "name": "test not evaluated",
+        "passed": true
+      },
+      {
+        "name": "finite radius nonnegative",
+        "passed": true
+      }
+    ],
+    "test_evaluated": false
+  },
+  "E3": {
+    "status": "PASS",
+    "admitted": false,
+    "training_trials": 1800,
+    "skipped_environment_cases": 42,
+    "nominal_difference": -0.01637731481481482,
+    "case_differences": {
+      "S1": 0.0,
+      "S2": -0.0340277777777778,
+      "S3": -0.015104166666666667
+    },
+    "five_mapping_difference": -0.0017824074074074092,
+    "checks": {
+      "folds": 16,
+      "fold_separation": true,
+      "invalid_actions": 0,
+      "independent_metric_max_error": 1.1368683772161603e-13,
+      "observation_feature_invariance_checks": 20141,
+      "test_evaluated": false
+    },
+    "runtime_s": 2.7623544999951264
+  },
+  "test_evaluated": false
+}

@@ -1,0 +1,15 @@
+{
+  "registry_sha256": "3b00ac2719796d97d56050bce7999d4fddccde4a7e4b62d972cfd4f5edad5129",
+  "methods": [
+    "family_density",
+    "two_step"
+  ],
+  "second_step_wait": "evaluate now and nearest future release; no arbitrary later wait",
+  "optional_second": "single-step alternative included",
+  "source_pool_order": "source CSV preserved",
+  "training_seeds": [
+    2026112000,
+    2026112029
+  ],
+  "test_evaluated": false
+}

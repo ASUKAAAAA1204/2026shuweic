@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "original snapshot unchanged",
+      "passed": true,
+      "detail": 97
+    },
+    {
+      "name": "synthetic middle-return future isolation",
+      "passed": true,
+      "detail": 348
+    },
+    {
+      "name": "all action source/time/fee/input independently checked",
+      "passed": true,
+      "detail": {
+        "actions": 58453,
+        "failures": 0
+      }
+    },
+    {
+      "name": "32 boundary and 1000 legal traces",
+      "passed": true,
+      "detail": {
+        "total": 32,
+        "passed": 32,
+        "failed": []
+      }
+    },
+    {
+      "name": "q3 metrics and no invalid",
+      "passed": true,
+      "detail": {
+        "trials": 5400,
+        "expected": 5400,
+        "invalid_actions": 0,
+        "independent_metric_max_error": 1.1368683772161603e-13,
+        "hidden_future_invariance_checks": 58453,
+        "test_evaluated": false
+      }
+    },
+    {
+      "name": "registered three experiments",
+      "passed": true,
+      "detail": "E1/E2/E3; train environment holdout; test sealed"
+    }
+  ],
+  "blockers": []
+}

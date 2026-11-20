@@ -1,0 +1,41 @@
+{
+  "version": "baseline-20261120-v2",
+  "state": "mean of 21 keypoints for each hand; source units; no quaternion/camera use",
+  "mask_lengths_s": [
+    0.2,
+    0.6,
+    1.0
+  ],
+  "window_s": 1.0,
+  "inter_window_gap_s": 1.0,
+  "history_s": 0.2,
+  "request_cost": 1,
+  "request_limit": 2,
+  "delays_s": [
+    0,
+    0.1,
+    0.2
+  ],
+  "primary_delay_s": 0.1,
+  "fixed_request_s": [
+    0.3,
+    0.6
+  ],
+  "request_semantics": "sample original at request time, available after delay",
+  "bootstrap_clusters": "environment",
+  "bootstrap_repetitions": 2000,
+  "seed": 20261120,
+  "tolerance_fractions": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "train_scale": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "test_use": "structure only",
+  "q2_protocol_status": "participant-defined; official missing_observation_experiments.md unavailable",
+  "quality_assumption": "Demo sparse absent means unflagged; not independent physical truth"
+}

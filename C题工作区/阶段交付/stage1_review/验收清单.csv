@@ -1,0 +1,7 @@
+﻿name,passed,detail
+original snapshot unchanged,True,97
+synthetic middle-return future isolation,True,348
+all action source/time/fee/input independently checked,True,"{'actions': 58453, 'failures': 0}"
+32 boundary and 1000 legal traces,True,"{'total': 32, 'passed': 32, 'failed': []}"
+q3 metrics and no invalid,True,"{'trials': 5400, 'expected': 5400, 'invalid_actions': 0, 'independent_metric_max_error': 1.1368683772161603e-13, 'hidden_future_invariance_checks': 58453, 'test_evaluated': False}"
+registered three experiments,True,E1/E2/E3; train environment holdout; test sealed

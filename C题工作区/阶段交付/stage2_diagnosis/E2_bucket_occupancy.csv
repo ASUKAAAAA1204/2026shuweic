@@ -1,0 +1,4 @@
+﻿dataset,conditional_buckets,empty,below100,median_points,min_points,max_points
+EgoDemo,120,0,58,123.0,38,460
+EgoPro,120,0,87,70.0,12,305
+EgoStandard,120,0,56,155.0,38,868

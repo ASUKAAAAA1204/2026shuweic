@@ -1,0 +1,6 @@
+﻿name,passed
+all 16 train environment folds,True
+each fold excludes held environment,True
+one point prediction for both calibrators,True
+test not evaluated,True
+finite radius nonnegative,True

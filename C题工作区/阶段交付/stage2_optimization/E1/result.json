@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "training_selected": {
+    "tau": 0.2,
+    "relative_long_ade": 0.8352731053156708,
+    "improvement": 0.16472689468432922,
+    "worst_long_ratio": 0.9082237638986388,
+    "worst_short_ratio": 0.9899108610435372,
+    "admitted": true
+  },
+  "validation_run": true,
+  "validation_rows": 1908,
+  "runtime_s": 7.22400600000401,
+  "test_evaluated": false,
+  "checks": [
+    {
+      "name": "zero age exact",
+      "passed": true
+    },
+    {
+      "name": "zero velocity stationary",
+      "passed": true
+    },
+    {
+      "name": "large tau tends constant velocity",
+      "passed": true
+    },
+    {
+      "name": "bounded long displacement",
+      "passed": true
+    },
+    {
+      "name": "test not evaluated",
+      "passed": true
+    },
+    {
+      "name": "simple baselines source-result agreement",
+      "passed": true,
+      "max_difference": 0.0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "E2_features": [
+    {
+      "dataset": "EgoDemo",
+      "windows": 471,
+      "environments": 10,
+      "target": "log1p mean 1s error",
+      "baseline_mse": 0.0028606256109274643,
+      "feature_mse": 0.002825461115910004,
+      "relative_mse_improvement": 0.012292589034766932
+    },
+    {
+      "dataset": "EgoPro",
+      "windows": 308,
+      "environments": 3,
+      "target": "log1p mean 1s error",
+      "baseline_mse": 0.0047045464772611095,
+      "feature_mse": 0.002992509371632389,
+      "relative_mse_improvement": 0.3639111897190638
+    },
+    {
+      "dataset": "EgoStandard",
+      "windows": 748,
+      "environments": 7,
+      "target": "log1p mean 1s error",
+      "baseline_mse": 0.007569923318844136,
+      "feature_mse": 0.005145910996157838,
+      "relative_mse_improvement": 0.3202162321317179
+    }
+  ],
+  "E3_nominal_counts": {
+    "tie": 68,
+    "win": 43,
+    "loss": 69
+  },
+  "E3_complete_environments": 2,
+  "E3_total_environments": 16,
+  "exact_cases": 3,
+  "test_evaluated": false,
+  "no_parameter_changes": true
+}

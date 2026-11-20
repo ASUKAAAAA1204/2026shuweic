@@ -1,0 +1,4 @@
+﻿fold,seed,oracle_rate,oracle_path,nodes,family_density,two_step,bound
+office_x_corporate_office_0086,2026112003,0.875,S1_J02|S1_J04|S1_J01|S1_J05|S1_J06|S1_J07|S1_J08,43310,0.6875,0.5625,clairvoyant order/subset optimum with frozen reservations; not policy-achievable benchmark
+office_x_corporate_office_0086,2026112009,0.875,S1_J01|S1_J03|S1_J05|S1_J02|S1_J04|S1_J07|S1_J08,48502,0.6875,0.5625,clairvoyant order/subset optimum with frozen reservations; not policy-achievable benchmark
+office_x_corporate_office_0086,2026112019,0.875,S1_J01|S1_J03|S1_J05|S1_J04|S1_J02|S1_J07|S1_J08,41466,0.6875,0.5625,clairvoyant order/subset optimum with frozen reservations; not policy-achievable benchmark

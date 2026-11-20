@@ -1,0 +1,41 @@
+{
+  "scores": [
+    {
+      "tau": 0.1,
+      "relative_long_ade": 0.8934230337428662,
+      "improvement": 0.10657696625713375,
+      "worst_long_ratio": 1.0073745758564117,
+      "worst_short_ratio": 1.1494935137940918,
+      "admitted": false
+    },
+    {
+      "tau": 0.2,
+      "relative_long_ade": 0.8352731053156708,
+      "improvement": 0.16472689468432922,
+      "worst_long_ratio": 0.9082237638986388,
+      "worst_short_ratio": 0.9899108610435372,
+      "admitted": true
+    },
+    {
+      "tau": 0.5,
+      "relative_long_ade": 0.8510844566110457,
+      "improvement": 0.1489155433889543,
+      "worst_long_ratio": 0.9591373978200693,
+      "worst_short_ratio": 0.9364564703417361,
+      "admitted": true
+    },
+    {
+      "tau": 1.0,
+      "relative_long_ade": 0.919573897302974,
+      "improvement": 0.08042610269702599,
+      "worst_long_ratio": 1.09624830609054,
+      "worst_short_ratio": 0.9558854870813157,
+      "admitted": false
+    }
+  ],
+  "selected_tau": 0.2,
+  "admitted": true,
+  "registry_sha256": "3b00ac2719796d97d56050bce7999d4fddccde4a7e4b62d972cfd4f5edad5129",
+  "method": "parameter-free predictors, held-environment scoring; pooled OOF selection, no claim of nested-CV estimate",
+  "test_evaluated": false
+}

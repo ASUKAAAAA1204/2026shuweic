@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "admitted": true,
+  "train_windows": 1527,
+  "oof_rows": 3054,
+  "folds": 16,
+  "validation_run": true,
+  "mean_coverage_error_reduction": 0.000427117867879893,
+  "runtime_s": 6.624661099995137,
+  "checks": [
+    {
+      "name": "all 16 train environment folds",
+      "passed": true
+    },
+    {
+      "name": "each fold excludes held environment",
+      "passed": true
+    },
+    {
+      "name": "one point prediction for both calibrators",
+      "passed": true
+    },
+    {
+      "name": "test not evaluated",
+      "passed": true
+    },
+    {
+      "name": "finite radius nonnegative",
+      "passed": true
+    }
+  ],
+  "test_evaluated": false
+}

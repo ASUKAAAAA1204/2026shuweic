@@ -1,0 +1,265 @@
+{
+  "admitted": false,
+  "nominal_difference": -0.01637731481481482,
+  "case_differences": {
+    "S1": 0.0,
+    "S2": -0.0340277777777778,
+    "S3": -0.015104166666666667
+  },
+  "five_mapping_difference": -0.0017824074074074092,
+  "evaluable_environment_case_pairs": 6,
+  "skipped_environment_cases": [
+    {
+      "split": "train_oof",
+      "fold": "home_x_apartment_0342",
+      "case_id": "S1",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "home_x_apartment_0342",
+      "case_id": "S2",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "home_x_apartment_0342",
+      "case_id": "S3",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "home_x_apartment_0701",
+      "case_id": "S1",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "home_x_apartment_0701",
+      "case_id": "S2",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "home_x_apartment_0701",
+      "case_id": "S3",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "logistics_x_courier_station_0021",
+      "case_id": "S1",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "logistics_x_courier_station_0021",
+      "case_id": "S2",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "logistics_x_courier_station_0021",
+      "case_id": "S3",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_convenience_0014",
+      "case_id": "S1",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_convenience_0014",
+      "case_id": "S2",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_convenience_0014",
+      "case_id": "S3",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0037",
+      "case_id": "S1",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0037",
+      "case_id": "S2",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0037",
+      "case_id": "S3",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0049",
+      "case_id": "S1",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0049",
+      "case_id": "S2",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0049",
+      "case_id": "S3",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0058",
+      "case_id": "S1",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0058",
+      "case_id": "S2",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0058",
+      "case_id": "S3",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0059",
+      "case_id": "S1",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0059",
+      "case_id": "S2",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0059",
+      "case_id": "S3",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0066",
+      "case_id": "S1",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0066",
+      "case_id": "S2",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0066",
+      "case_id": "S3",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0071",
+      "case_id": "S1",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0071",
+      "case_id": "S2",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0071",
+      "case_id": "S3",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0087",
+      "case_id": "S1",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0087",
+      "case_id": "S2",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0087",
+      "case_id": "S3",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0121",
+      "case_id": "S1",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0121",
+      "case_id": "S2",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0121",
+      "case_id": "S3",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0124",
+      "case_id": "S1",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0124",
+      "case_id": "S2",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0124",
+      "case_id": "S3",
+      "missing_families": "A|L"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0125",
+      "case_id": "S1",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0125",
+      "case_id": "S2",
+      "missing_families": "L|P"
+    },
+    {
+      "split": "train_oof",
+      "fold": "retail_x_supermarket_0125",
+      "case_id": "S3",
+      "missing_families": "L|P"
+    }
+  ]
+}

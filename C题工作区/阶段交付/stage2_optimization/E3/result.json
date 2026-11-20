@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "admitted": false,
+  "training_trials": 1800,
+  "skipped_environment_cases": 42,
+  "nominal_difference": -0.01637731481481482,
+  "case_differences": {
+    "S1": 0.0,
+    "S2": -0.0340277777777778,
+    "S3": -0.015104166666666667
+  },
+  "five_mapping_difference": -0.0017824074074074092,
+  "checks": {
+    "folds": 16,
+    "fold_separation": true,
+    "invalid_actions": 0,
+    "independent_metric_max_error": 1.1368683772161603e-13,
+    "observation_feature_invariance_checks": 20141,
+    "test_evaluated": false
+  },
+  "runtime_s": 2.7623544999951264
+}

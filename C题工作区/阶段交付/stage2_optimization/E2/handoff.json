@@ -1,0 +1,6 @@
+{
+  "retain_conditional": false,
+  "decision": "keep age-only unless consistent supported gain; conditional remains exploratory",
+  "point_predictor": "damped tau=.2",
+  "test_evaluated": false
+}

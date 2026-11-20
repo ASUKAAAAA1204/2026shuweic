@@ -1,0 +1,22 @@
+{
+  "registry_sha256": "3b00ac2719796d97d56050bce7999d4fddccde4a7e4b62d972cfd4f5edad5129",
+  "corrected_code": {
+    "audit.py": "7746f38375143289d6ce7b2aa4d7d1d90c2e6a0e80b61e7a803b71869439de3e",
+    "checks.py": "be0b2fd7a8510480d09085c01dfc74737e45552ac1ca16696547fa5899548bbc",
+    "checks_extra.py": "49656edb2f1f90a36f92f46465059a7f5f3d6792e5224bd1a48cde422f53b0e7",
+    "common.py": "6acf4caa4f1d42f5071a40781b089645b446daefcd0220bdf64300f215712558",
+    "duration.py": "f4fdc2afb008da4e50a93ebcca5da651342b5be61d8f411726d3a6480321f55f",
+    "policy_worker.py": "d48eba4097e6b1f0ccc0537babf0cc01ae48d8765ea7281534b7c8c37aa2ca7f",
+    "prepare.py": "6c94eaeeb6186b0def805c7c39a276b8a45ca4f457844d78686e2dd4c352b36a",
+    "q12.py": "8eef4043b81c6f85e28d50d1c7673d9975c807f2204ee76ac65b1dd225c5bd36",
+    "q3.py": "1fb957425ecc5c3e0847419c290572a49b510eb9eb2fa50e38c78f0a92949644",
+    "run_pipeline.py": "f0c0b7b61eb51970e5e94bf72a100edf52c5a6dde817c51e497f5e5a4b68457e",
+    "summarize.py": "af6e78e35f670eea891725ece7332ce96065a50aeb4ad4e29ffe554bf1474076"
+  },
+  "test_evaluated": false,
+  "next_experiments": [
+    "E1",
+    "E2",
+    "E3"
+  ]
+}
