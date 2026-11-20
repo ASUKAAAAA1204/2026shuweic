@@ -1,0 +1,18 @@
+{
+  "admitted": false,
+  "improvement": -0.09474460997498595,
+  "by_source": [
+    {
+      "dataset": "EgoDemo",
+      "relative_improvement": -0.09164663498645531
+    },
+    {
+      "dataset": "EgoPro",
+      "relative_improvement": -0.10559853834687627
+    },
+    {
+      "dataset": "EgoStandard",
+      "relative_improvement": -0.08698865659162625
+    }
+  ]
+}
