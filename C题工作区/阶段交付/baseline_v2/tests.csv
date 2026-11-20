@@ -1,0 +1,33 @@
+﻿name,passed
+early completion retains reservation,True
+overrun extends occupancy,True
+same-zone changeover .5,True
+unreleased,True
+unknown job,True
+reserve below .2,True
+NaN reserve,True
+infinite reserve,True
+boolean reserve,True
+budget excess,True
+planned horizon,True
+zero wait,True
+negative wait,True
+wait cross H,True
+NaN wait,True
+unknown action,True
+review K,True
+review budget,True
+review horizon,True
+censor and clipped overrun,True
+completion exactly H,True
+budget equality,True
+repeat rejected,True
+review .2 .6 1 and max two,True
+predecessor execution required,True
+review ignores predecessor,True
+movement fee and time,True
+201st action invalid,True
+unfinished denominator and tardiness H,True
+invalid retains consumed resources,True
+1000 randomized legal traces independent metrics,True
+worker denied private source open,True

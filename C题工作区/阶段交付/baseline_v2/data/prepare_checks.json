@@ -1,0 +1,15 @@
+{
+  "records": 69,
+  "unique_uuid": 69,
+  "prefixes_verified": 1029,
+  "windows": 2129,
+  "window_counts": {
+    "train": 1527,
+    "validation": 212,
+    "test": 390
+  },
+  "environment_overlap": 0,
+  "video_count": 184,
+  "video_failures": 0,
+  "state_avoids_unverified_joint_order_and_orientation": true
+}

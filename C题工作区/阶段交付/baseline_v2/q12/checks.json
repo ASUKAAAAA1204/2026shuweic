@@ -1,0 +1,10 @@
+{
+  "open_loop_rows": 10434,
+  "replay_rows": 7632,
+  "quality_examples": 17724,
+  "quality_train": 15488,
+  "test_evaluated": false,
+  "request_limit_pass": true,
+  "nonfinite_metrics": 0,
+  "state": "21-point centroid"
+}

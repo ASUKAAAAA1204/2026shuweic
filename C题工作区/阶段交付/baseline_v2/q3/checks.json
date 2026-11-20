@@ -1,0 +1,8 @@
+{
+  "trials": 5400,
+  "expected": 5400,
+  "invalid_actions": 0,
+  "independent_metric_max_error": 1.1368683772161603e-13,
+  "hidden_future_invariance_checks": 58644,
+  "test_evaluated": false
+}

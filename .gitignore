@@ -1,0 +1,20 @@
+# Large source data and local runtimes
+/2026*/
+/往年论文参考/
+*.rar
+*.zip
+**/__pycache__/
+*.pyc
+/C题工作区/工具依赖/
+/C题工作区/运行依赖314/
+/C题工作区/数据集/
+/C题工作区/Restocking_Problem_and_Data_EN/
+/C题工作区/处理结果/v1/records/
+/C题工作区/处理结果/v1/private/
+/C题工作区/处理结果/v1/metadata_private.json
+/C题工作区/阶段交付/*_reproduced/
+*.jsonl
+/C题工作区/中文题面/*.png
+/C题工作区/中文题面/图片/
+/论文分析成果/*.txt
+/赛题分析报告/*.txt

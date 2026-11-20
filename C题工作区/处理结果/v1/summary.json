@@ -1,0 +1,55 @@
+{
+  "records": 69,
+  "samples_left": 66070,
+  "channels": 345,
+  "segments": 349,
+  "eligible": 343,
+  "private_prefixes": 1029,
+  "videos": 184,
+  "video_failures": [],
+  "video_index_mismatch": [],
+  "empty_eligible_prefixes": [],
+  "split_counts": {
+    "train": 55,
+    "validation": 7,
+    "test": 7
+  },
+  "sources": {
+    "EgoDemo": 31,
+    "EgoPro": 14,
+    "EgoStandard": 24
+  },
+  "quality_totals": {
+    "samples": 132140,
+    "nonfinite_frames": 0,
+    "nonunit_quaternion_frames": 0,
+    "quality_unknown": 0,
+    "bad_frames": 1599,
+    "reference_candidates": 130541,
+    "velocity_valid": 130143
+  },
+  "dependencies": {
+    "python": "3.14.3",
+    "numpy": "2.5.5",
+    "pyarrow": "26.0.1",
+    "opencv": "5.1.0"
+  },
+  "checks": {
+    "all_array_roundtrip": true,
+    "all_internal_uuid_and_environment_match": true,
+    "all_segments_match": true,
+    "environment_disjoint": true,
+    "all_prefix_timestamps_causal": true,
+    "all_1029_prefixes_source_rechecked": true
+  },
+  "limits": [
+    "video metadata plus first/last decode only",
+    "world unit and coordinate directions unconfirmed",
+    "Demo quaternion order follows declared metadata, not independently physically calibrated",
+    "CSV quality is global hand flag, conservatively shared by both hands; exact timestamp matching only",
+    "no interpolation, denoising, quaternion repair or resampling",
+    "missing organizer final test seeds and data dictionary remain unresolved"
+  ],
+  "artificial_mask_candidates": 6430,
+  "prefix_source_rechecks": 1029
+}

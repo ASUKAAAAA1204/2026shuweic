@@ -1,0 +1,32 @@
+{
+  "records": 69,
+  "unique_uuid": 69,
+  "missing_official_uuid": [],
+  "duplicates": [],
+  "official_split_record_counts": {
+    "train": 55,
+    "validation": 7,
+    "test": 7
+  },
+  "official_environment_counts": {
+    "train": 16,
+    "validation": 4,
+    "test": 4
+  },
+  "source_counts": {
+    "EgoDemo": 31,
+    "EgoPro": 14,
+    "EgoStandard": 24
+  },
+  "timestamps_by_source": {
+    "EgoDemo": 16414,
+    "EgoPro": 17642,
+    "EgoStandard": 32014
+  },
+  "segments_raw": 349,
+  "segments_index": 349,
+  "eligible": 343,
+  "segment_mismatches": 0,
+  "issues": [],
+  "environment_cross_split": []
+}

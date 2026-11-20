@@ -1,0 +1,20 @@
+﻿dataset,split,side,reason,rows
+EgoDemo,train,left,occlusion,96
+EgoDemo,train,right,occlusion,63
+EgoPro,test,both,right:occlusion,168
+EgoPro,train,both,left:near edge,9
+EgoPro,train,both,left:occlusion,66
+EgoPro,train,both,right:near edge,23
+EgoPro,train,both,right:occlusion,66
+EgoPro,validation,both,left:near edge,13
+EgoPro,validation,both,left:occlusion,38
+EgoPro,validation,both,right:near edge,11
+EgoPro,validation,both,right:occlusion,46
+EgoStandard,test,both,left:near edge,5
+EgoStandard,test,both,left:occlusion,32
+EgoStandard,test,both,right:near edge,2
+EgoStandard,test,both,right:occlusion,43
+EgoStandard,train,both,left:occlusion,105
+EgoStandard,train,both,right:occlusion,163
+EgoStandard,validation,both,left:occlusion,30
+EgoStandard,validation,both,right:occlusion,21

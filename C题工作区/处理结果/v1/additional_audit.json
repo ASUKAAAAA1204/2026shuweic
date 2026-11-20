@@ -1,0 +1,33 @@
+{
+  "cross_split_operator": [
+    {
+      "field": "operator_id",
+      "value": "5d11fd0b-8448-4d3f-a101-69427fcc0ca1",
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "field": "operator_id",
+      "value": "bb853a77-b435-4c65-8c19-e96ca13bfff9",
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "field": "operator_id",
+      "value": "2a5fd91d-3c73-4c69-a5de-0fff846d4b75",
+      "splits": [
+        "test",
+        "train"
+      ]
+    }
+  ],
+  "segment_end_after_last_sample": 2,
+  "segment_start_before_first_sample": 0,
+  "nonpositive_segments": 0,
+  "overlapping_segments": 0,
+  "maximum_channel_nearest_error_s": 0.0
+}

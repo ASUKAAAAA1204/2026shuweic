@@ -1,0 +1,33 @@
+﻿path,mode,passed
+data/protocol.json,sha256 identical,True
+data/windows.csv,sha256 identical,True
+data/records.csv,sha256 identical,True
+data/sample_usage.csv,sha256 identical,True
+data/input_hashes.csv,sha256 identical,True
+audit/source_hashes.csv,sha256 identical,True
+models/duration.json,sha256 identical,True
+models/frozen_selection.json,sha256 identical,True
+q12/prediction_radius_train.json,sha256 identical,True
+q12/reliability_model.json,sha256 identical,True
+q12/reliability_metrics.csv,sha256 identical,True
+q12/reliability_predictions.csv,sha256 identical,True
+q12/reliability_calibration.csv,sha256 identical,True
+q12/open_loop_windows.csv,sha256 identical,True
+q12/summary.csv,sha256 identical,True
+q3/trials.csv,sha256 identical,True
+q3/summary.csv,sha256 identical,True
+q3/paired_differences.csv,sha256 identical,True
+q3/paired_summary.csv,sha256 identical,True
+q12/replay_windows.csv,all fields identical except runtime,True
+q3/family_density_0.5.jsonl,all actions and observations identical,True
+q3/family_density_0.8.jsonl,all actions and observations identical,True
+q3/family_density_0.9.jsonl,all actions and observations identical,True
+q3/family_edf_0.5.jsonl,all actions and observations identical,True
+q3/family_edf_0.8.jsonl,all actions and observations identical,True
+q3/family_edf_0.9.jsonl,all actions and observations identical,True
+q3/ridge_edf_0.5.jsonl,all actions and observations identical,True
+q3/ridge_edf_0.8.jsonl,all actions and observations identical,True
+q3/ridge_edf_0.9.jsonl,all actions and observations identical,True
+q3/ridge_review_edf_0.5.jsonl,all actions and observations identical,True
+q3/ridge_review_edf_0.8.jsonl,all actions and observations identical,True
+q3/ridge_review_edf_0.9.jsonl,all actions and observations identical,True

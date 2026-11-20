@@ -1,0 +1,185 @@
+﻿episode_uuid,path,opened,frames_reported,fps_reported,first_decoded,last_decoded,frame_index_rows,frame_index_count_matches
+1e3b4ce1-a1d2-4f23-9c21-448a039474b7,数据集\EgoDemo\E001\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,1619,30.0,True,True,,not supplied separately (Demo)
+1e3b4ce1-a1d2-4f23-9c21-448a039474b7,数据集\EgoDemo\E001\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,1619,30.0,True,True,,not supplied separately (Demo)
+1e3b4ce1-a1d2-4f23-9c21-448a039474b7,数据集\EgoDemo\E001\videos\observation.images.head_right\chunk-000\file-000.mp4,True,1619,30.0,True,True,,not supplied separately (Demo)
+1e3b4ce1-a1d2-4f23-9c21-448a039474b7,数据集\EgoDemo\E001\videos\observation.images.head_left\chunk-000\file-000.mp4,True,1619,30.0,True,True,,not supplied separately (Demo)
+6ec5523a-32da-4d82-9cc5-c1351c34c95f,数据集\EgoDemo\E002\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,1686,30.0,True,True,,not supplied separately (Demo)
+6ec5523a-32da-4d82-9cc5-c1351c34c95f,数据集\EgoDemo\E002\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,1686,30.0,True,True,,not supplied separately (Demo)
+6ec5523a-32da-4d82-9cc5-c1351c34c95f,数据集\EgoDemo\E002\videos\observation.images.head_right\chunk-000\file-000.mp4,True,1686,30.0,True,True,,not supplied separately (Demo)
+6ec5523a-32da-4d82-9cc5-c1351c34c95f,数据集\EgoDemo\E002\videos\observation.images.head_left\chunk-000\file-000.mp4,True,1686,30.0,True,True,,not supplied separately (Demo)
+52e6f31b-78f3-4f35-aad0-cd7040d66416,数据集\EgoDemo\E003\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,289,30.0,True,True,,not supplied separately (Demo)
+52e6f31b-78f3-4f35-aad0-cd7040d66416,数据集\EgoDemo\E003\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,289,30.0,True,True,,not supplied separately (Demo)
+52e6f31b-78f3-4f35-aad0-cd7040d66416,数据集\EgoDemo\E003\videos\observation.images.head_right\chunk-000\file-000.mp4,True,289,30.0,True,True,,not supplied separately (Demo)
+52e6f31b-78f3-4f35-aad0-cd7040d66416,数据集\EgoDemo\E003\videos\observation.images.head_left\chunk-000\file-000.mp4,True,289,30.0,True,True,,not supplied separately (Demo)
+af60c499-38a4-4344-a206-775b368a84ab,数据集\EgoDemo\E004\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,316,29.999,True,True,,not supplied separately (Demo)
+af60c499-38a4-4344-a206-775b368a84ab,数据集\EgoDemo\E004\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,316,29.999,True,True,,not supplied separately (Demo)
+af60c499-38a4-4344-a206-775b368a84ab,数据集\EgoDemo\E004\videos\observation.images.head_right\chunk-000\file-000.mp4,True,316,29.999,True,True,,not supplied separately (Demo)
+af60c499-38a4-4344-a206-775b368a84ab,数据集\EgoDemo\E004\videos\observation.images.head_left\chunk-000\file-000.mp4,True,316,29.999,True,True,,not supplied separately (Demo)
+08f1a932-5d51-40cb-8bf5-18d008259415,数据集\EgoDemo\E005\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,331,30.003,True,True,,not supplied separately (Demo)
+08f1a932-5d51-40cb-8bf5-18d008259415,数据集\EgoDemo\E005\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,331,30.003,True,True,,not supplied separately (Demo)
+08f1a932-5d51-40cb-8bf5-18d008259415,数据集\EgoDemo\E005\videos\observation.images.head_right\chunk-000\file-000.mp4,True,331,30.003,True,True,,not supplied separately (Demo)
+08f1a932-5d51-40cb-8bf5-18d008259415,数据集\EgoDemo\E005\videos\observation.images.head_left\chunk-000\file-000.mp4,True,331,30.003,True,True,,not supplied separately (Demo)
+85484a04-5053-40a8-a87d-697789a90c0d,数据集\EgoDemo\E006\videos\observation.images.head_right\chunk-000\file-000.mp4,True,348,25.0,True,True,,not supplied separately (Demo)
+85484a04-5053-40a8-a87d-697789a90c0d,数据集\EgoDemo\E006\videos\observation.images.head_left\chunk-000\file-000.mp4,True,348,25.0,True,True,,not supplied separately (Demo)
+968e0745-70d1-45f4-b43b-120e1a4cbbf6,数据集\EgoDemo\E007\videos\observation.images.head_right\chunk-000\file-000.mp4,True,1766,30.0,True,True,,not supplied separately (Demo)
+968e0745-70d1-45f4-b43b-120e1a4cbbf6,数据集\EgoDemo\E007\videos\observation.images.head_left\chunk-000\file-000.mp4,True,1766,30.0,True,True,,not supplied separately (Demo)
+97e9328b-c756-4ebe-9885-7ebfdf59e382,数据集\EgoDemo\E008\videos\observation.images.head_right\chunk-000\file-000.mp4,True,564,30.0,True,True,,not supplied separately (Demo)
+97e9328b-c756-4ebe-9885-7ebfdf59e382,数据集\EgoDemo\E008\videos\observation.images.head_left\chunk-000\file-000.mp4,True,564,30.0,True,True,,not supplied separately (Demo)
+9f8a657c-0665-474c-b924-4853f1ae8ee7,数据集\EgoDemo\E009\videos\observation.images.head_right\chunk-000\file-000.mp4,True,325,30.0,True,True,,not supplied separately (Demo)
+9f8a657c-0665-474c-b924-4853f1ae8ee7,数据集\EgoDemo\E009\videos\observation.images.head_left\chunk-000\file-000.mp4,True,325,30.0,True,True,,not supplied separately (Demo)
+cd1706f6-43ef-451b-bb69-a36d0c9524f7,数据集\EgoDemo\E010\videos\observation.images.head_right\chunk-000\file-000.mp4,True,383,30.0,True,True,,not supplied separately (Demo)
+cd1706f6-43ef-451b-bb69-a36d0c9524f7,数据集\EgoDemo\E010\videos\observation.images.head_left\chunk-000\file-000.mp4,True,383,30.0,True,True,,not supplied separately (Demo)
+86dc5712-9423-4ae7-851d-fd58157a4ddb,数据集\EgoDemo\E011\videos\observation.images.head_right\chunk-000\file-000.mp4,True,339,30.0,True,True,,not supplied separately (Demo)
+86dc5712-9423-4ae7-851d-fd58157a4ddb,数据集\EgoDemo\E011\videos\observation.images.head_left\chunk-000\file-000.mp4,True,339,30.0,True,True,,not supplied separately (Demo)
+a485d700-d79c-4dcb-9a6f-bf11039efeda,数据集\EgoDemo\E012\videos\observation.images.head_right\chunk-000\file-000.mp4,True,220,25.0,True,True,,not supplied separately (Demo)
+a485d700-d79c-4dcb-9a6f-bf11039efeda,数据集\EgoDemo\E012\videos\observation.images.head_left\chunk-000\file-000.mp4,True,220,25.0,True,True,,not supplied separately (Demo)
+24ce2782-4673-434e-920e-634bafe6d8df,数据集\EgoDemo\E013\videos\observation.images.head_right\chunk-000\file-000.mp4,True,685,30.0,True,True,,not supplied separately (Demo)
+24ce2782-4673-434e-920e-634bafe6d8df,数据集\EgoDemo\E013\videos\observation.images.head_left\chunk-000\file-000.mp4,True,685,30.0,True,True,,not supplied separately (Demo)
+1096a614-6027-4ae2-9fb2-abc9399d17a5,数据集\EgoDemo\E014\videos\observation.images.head_right\chunk-000\file-000.mp4,True,235,30.0,True,True,,not supplied separately (Demo)
+1096a614-6027-4ae2-9fb2-abc9399d17a5,数据集\EgoDemo\E014\videos\observation.images.head_left\chunk-000\file-000.mp4,True,235,30.0,True,True,,not supplied separately (Demo)
+f8f67408-39c6-47a4-b652-8c77edc4a407,数据集\EgoDemo\E015\videos\observation.images.head_right\chunk-000\file-000.mp4,True,606,30.0,True,True,,not supplied separately (Demo)
+f8f67408-39c6-47a4-b652-8c77edc4a407,数据集\EgoDemo\E015\videos\observation.images.head_left\chunk-000\file-000.mp4,True,606,30.0,True,True,,not supplied separately (Demo)
+893ecfc5-e7d7-4760-bb0b-6370379a052e,数据集\EgoDemo\E016\videos\observation.images.head_right\chunk-000\file-000.mp4,True,214,30.0,True,True,,not supplied separately (Demo)
+893ecfc5-e7d7-4760-bb0b-6370379a052e,数据集\EgoDemo\E016\videos\observation.images.head_left\chunk-000\file-000.mp4,True,214,30.0,True,True,,not supplied separately (Demo)
+21cab582-4ee0-439d-a5d6-d5db9bcb4e4e,数据集\EgoDemo\E017\videos\observation.images.head_right\chunk-000\file-000.mp4,True,239,30.0,True,True,,not supplied separately (Demo)
+21cab582-4ee0-439d-a5d6-d5db9bcb4e4e,数据集\EgoDemo\E017\videos\observation.images.head_left\chunk-000\file-000.mp4,True,239,30.0,True,True,,not supplied separately (Demo)
+6f98461d-229f-4519-8949-b2d017ee5aed,数据集\EgoDemo\E018\videos\observation.images.head_right\chunk-000\file-000.mp4,True,257,30.0,True,True,,not supplied separately (Demo)
+6f98461d-229f-4519-8949-b2d017ee5aed,数据集\EgoDemo\E018\videos\observation.images.head_left\chunk-000\file-000.mp4,True,257,30.0,True,True,,not supplied separately (Demo)
+ff465fb3-2207-4ce2-a17a-ef6a5a74f7fc,数据集\EgoDemo\E019\videos\observation.images.head_right\chunk-000\file-000.mp4,True,391,30.0,True,True,,not supplied separately (Demo)
+ff465fb3-2207-4ce2-a17a-ef6a5a74f7fc,数据集\EgoDemo\E019\videos\observation.images.head_left\chunk-000\file-000.mp4,True,391,30.0,True,True,,not supplied separately (Demo)
+e1f63796-8907-468d-8de9-50fa93e427f9,数据集\EgoDemo\E020\videos\observation.images.head_right\chunk-000\file-000.mp4,True,195,30.0,True,True,,not supplied separately (Demo)
+e1f63796-8907-468d-8de9-50fa93e427f9,数据集\EgoDemo\E020\videos\observation.images.head_left\chunk-000\file-000.mp4,True,195,30.0,True,True,,not supplied separately (Demo)
+b71b0c3b-cb37-454f-b530-63f8daf35392,数据集\EgoDemo\E021\videos\observation.images.head_right\chunk-000\file-000.mp4,True,249,30.0,True,True,,not supplied separately (Demo)
+b71b0c3b-cb37-454f-b530-63f8daf35392,数据集\EgoDemo\E021\videos\observation.images.head_left\chunk-000\file-000.mp4,True,249,30.0,True,True,,not supplied separately (Demo)
+f615c5c8-5a1d-4075-91b2-1082efe17de9,数据集\EgoDemo\E022\videos\observation.images.head_right\chunk-000\file-000.mp4,True,239,30.0,True,True,,not supplied separately (Demo)
+f615c5c8-5a1d-4075-91b2-1082efe17de9,数据集\EgoDemo\E022\videos\observation.images.head_left\chunk-000\file-000.mp4,True,239,30.0,True,True,,not supplied separately (Demo)
+2915d2d9-fc74-4358-9741-72ac79ab816f,数据集\EgoDemo\E023\videos\observation.images.head_right\chunk-000\file-000.mp4,True,679,30.0,True,True,,not supplied separately (Demo)
+2915d2d9-fc74-4358-9741-72ac79ab816f,数据集\EgoDemo\E023\videos\observation.images.head_left\chunk-000\file-000.mp4,True,679,30.0,True,True,,not supplied separately (Demo)
+36141a13-aadf-49a3-a08b-83128cffb593,数据集\EgoDemo\E024\videos\observation.images.head_right\chunk-000\file-000.mp4,True,305,30.0,True,True,,not supplied separately (Demo)
+36141a13-aadf-49a3-a08b-83128cffb593,数据集\EgoDemo\E024\videos\observation.images.head_left\chunk-000\file-000.mp4,True,305,30.0,True,True,,not supplied separately (Demo)
+b76d4a5c-4f60-4042-a3ea-5f059f52c321,数据集\EgoDemo\E025\videos\observation.images.head_right\chunk-000\file-000.mp4,True,179,30.0,True,True,,not supplied separately (Demo)
+b76d4a5c-4f60-4042-a3ea-5f059f52c321,数据集\EgoDemo\E025\videos\observation.images.head_left\chunk-000\file-000.mp4,True,179,30.0,True,True,,not supplied separately (Demo)
+6fc6bf4f-a97d-4a59-8bbb-befa93d53a8c,数据集\EgoDemo\E026\videos\observation.images.head_right\chunk-000\file-000.mp4,True,791,30.0,True,True,,not supplied separately (Demo)
+6fc6bf4f-a97d-4a59-8bbb-befa93d53a8c,数据集\EgoDemo\E026\videos\observation.images.head_left\chunk-000\file-000.mp4,True,791,30.0,True,True,,not supplied separately (Demo)
+31eb209c-51c1-4fa0-a5de-e4839dec6d1a,数据集\EgoDemo\E027\videos\observation.images.head_right\chunk-000\file-000.mp4,True,1661,30.0,True,True,,not supplied separately (Demo)
+31eb209c-51c1-4fa0-a5de-e4839dec6d1a,数据集\EgoDemo\E027\videos\observation.images.head_left\chunk-000\file-000.mp4,True,1661,30.0,True,True,,not supplied separately (Demo)
+d539b696-53fa-4282-a6b3-2ecf77be4cc5,数据集\EgoDemo\E028\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,338,30.0,True,True,,not supplied separately (Demo)
+d539b696-53fa-4282-a6b3-2ecf77be4cc5,数据集\EgoDemo\E028\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,338,30.0,True,True,,not supplied separately (Demo)
+d539b696-53fa-4282-a6b3-2ecf77be4cc5,数据集\EgoDemo\E028\videos\observation.images.head_right\chunk-000\file-000.mp4,True,338,30.0,True,True,,not supplied separately (Demo)
+d539b696-53fa-4282-a6b3-2ecf77be4cc5,数据集\EgoDemo\E028\videos\observation.images.head_left\chunk-000\file-000.mp4,True,338,30.0,True,True,,not supplied separately (Demo)
+79e59cee-27ef-4793-9115-cab4968448ec,数据集\EgoDemo\E029\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,286,29.999,True,True,,not supplied separately (Demo)
+79e59cee-27ef-4793-9115-cab4968448ec,数据集\EgoDemo\E029\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,286,29.999,True,True,,not supplied separately (Demo)
+79e59cee-27ef-4793-9115-cab4968448ec,数据集\EgoDemo\E029\videos\observation.images.head_right\chunk-000\file-000.mp4,True,286,29.999,True,True,,not supplied separately (Demo)
+79e59cee-27ef-4793-9115-cab4968448ec,数据集\EgoDemo\E029\videos\observation.images.head_left\chunk-000\file-000.mp4,True,286,29.999,True,True,,not supplied separately (Demo)
+524cf2bd-b986-470e-81b7-3ec0afb3426e,数据集\EgoDemo\E030\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,298,29.999,True,True,,not supplied separately (Demo)
+524cf2bd-b986-470e-81b7-3ec0afb3426e,数据集\EgoDemo\E030\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,298,29.999,True,True,,not supplied separately (Demo)
+524cf2bd-b986-470e-81b7-3ec0afb3426e,数据集\EgoDemo\E030\videos\observation.images.head_right\chunk-000\file-000.mp4,True,298,29.999,True,True,,not supplied separately (Demo)
+524cf2bd-b986-470e-81b7-3ec0afb3426e,数据集\EgoDemo\E030\videos\observation.images.head_left\chunk-000\file-000.mp4,True,298,29.999,True,True,,not supplied separately (Demo)
+afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,数据集\EgoDemo\E031\videos\observation.images.right_wrist\chunk-000\file-000.mp4,True,381,29.999,True,True,,not supplied separately (Demo)
+afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,数据集\EgoDemo\E031\videos\observation.images.left_wrist\chunk-000\file-000.mp4,True,381,29.999,True,True,,not supplied separately (Demo)
+afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,数据集\EgoDemo\E031\videos\observation.images.head_right\chunk-000\file-000.mp4,True,381,29.999,True,True,,not supplied separately (Demo)
+afbfe6fc-f73d-42b5-a92a-47f9268e5f1d,数据集\EgoDemo\E031\videos\observation.images.head_left\chunk-000\file-000.mp4,True,381,29.999,True,True,,not supplied separately (Demo)
+33286224-adbe-4615-8bec-283d0fb99a45,数据集\EgoPro\291aff24-8b62-4a5e-b470-85114bdf86dc\videos\head_left.mp4,True,2458,30.00030000300003,True,True,2458,True
+33286224-adbe-4615-8bec-283d0fb99a45,数据集\EgoPro\291aff24-8b62-4a5e-b470-85114bdf86dc\videos\head_right.mp4,True,2458,30.00030000300003,True,True,2458,True
+33286224-adbe-4615-8bec-283d0fb99a45,数据集\EgoPro\291aff24-8b62-4a5e-b470-85114bdf86dc\videos\left_wrist.mp4,True,2458,30.00030000300003,True,True,2458,True
+33286224-adbe-4615-8bec-283d0fb99a45,数据集\EgoPro\291aff24-8b62-4a5e-b470-85114bdf86dc\videos\right_wrist.mp4,True,2458,30.00030000300003,True,True,2458,True
+1a0ac173-f104-4cd0-8959-8c61da6bae1b,数据集\EgoPro\2bb0222e-a5e8-4f0b-b49a-81aa87411149\videos\head_left.mp4,True,181,30.012910526041754,True,True,181,True
+1a0ac173-f104-4cd0-8959-8c61da6bae1b,数据集\EgoPro\2bb0222e-a5e8-4f0b-b49a-81aa87411149\videos\head_right.mp4,True,181,30.012910526041754,True,True,181,True
+1a0ac173-f104-4cd0-8959-8c61da6bae1b,数据集\EgoPro\2bb0222e-a5e8-4f0b-b49a-81aa87411149\videos\left_wrist.mp4,True,181,30.012910526041754,True,True,181,True
+1a0ac173-f104-4cd0-8959-8c61da6bae1b,数据集\EgoPro\2bb0222e-a5e8-4f0b-b49a-81aa87411149\videos\right_wrist.mp4,True,181,30.012910526041754,True,True,181,True
+3da72d6d-367e-438d-bb3b-b611675f1b7a,数据集\EgoPro\347600c2-2623-4180-aff6-538097e87ab7\videos\head_left.mp4,True,1704,30.00120004800192,True,True,1704,True
+3da72d6d-367e-438d-bb3b-b611675f1b7a,数据集\EgoPro\347600c2-2623-4180-aff6-538097e87ab7\videos\head_right.mp4,True,1704,30.00120004800192,True,True,1704,True
+3da72d6d-367e-438d-bb3b-b611675f1b7a,数据集\EgoPro\347600c2-2623-4180-aff6-538097e87ab7\videos\left_wrist.mp4,True,1704,30.00120004800192,True,True,1704,True
+3da72d6d-367e-438d-bb3b-b611675f1b7a,数据集\EgoPro\347600c2-2623-4180-aff6-538097e87ab7\videos\right_wrist.mp4,True,1704,30.00120004800192,True,True,1704,True
+8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,数据集\EgoPro\3a3e6211-f2ef-44e0-aee9-bc98b8754234\videos\head_left.mp4,True,1503,30.00030000300003,True,True,1503,True
+8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,数据集\EgoPro\3a3e6211-f2ef-44e0-aee9-bc98b8754234\videos\head_right.mp4,True,1503,30.00030000300003,True,True,1503,True
+8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,数据集\EgoPro\3a3e6211-f2ef-44e0-aee9-bc98b8754234\videos\left_wrist.mp4,True,1503,30.00030000300003,True,True,1503,True
+8d4f5d58-6f64-401c-9e1d-91d7eafe04a0,数据集\EgoPro\3a3e6211-f2ef-44e0-aee9-bc98b8754234\videos\right_wrist.mp4,True,1503,30.00030000300003,True,True,1503,True
+3cd0ae33-561c-491a-b903-24cfffcb59e4,数据集\EgoPro\478f3e70-4066-408b-93cf-831625320004\videos\head_left.mp4,True,1150,30.00660145231951,True,True,1150,True
+3cd0ae33-561c-491a-b903-24cfffcb59e4,数据集\EgoPro\478f3e70-4066-408b-93cf-831625320004\videos\head_right.mp4,True,1150,30.00660145231951,True,True,1150,True
+3cd0ae33-561c-491a-b903-24cfffcb59e4,数据集\EgoPro\478f3e70-4066-408b-93cf-831625320004\videos\left_wrist.mp4,True,1150,30.00660145231951,True,True,1150,True
+3cd0ae33-561c-491a-b903-24cfffcb59e4,数据集\EgoPro\478f3e70-4066-408b-93cf-831625320004\videos\right_wrist.mp4,True,1150,30.00660145231951,True,True,1150,True
+6cc274d0-beda-4be1-974b-e20c6d20cf4b,数据集\EgoPro\7d112e74-5837-42af-93e9-8321fbd1237e\videos\head_left.mp4,True,1004,30.008402352658745,True,True,1004,True
+6cc274d0-beda-4be1-974b-e20c6d20cf4b,数据集\EgoPro\7d112e74-5837-42af-93e9-8321fbd1237e\videos\head_right.mp4,True,1004,30.008402352658745,True,True,1004,True
+6cc274d0-beda-4be1-974b-e20c6d20cf4b,数据集\EgoPro\7d112e74-5837-42af-93e9-8321fbd1237e\videos\left_wrist.mp4,True,1004,30.008402352658745,True,True,1004,True
+6cc274d0-beda-4be1-974b-e20c6d20cf4b,数据集\EgoPro\7d112e74-5837-42af-93e9-8321fbd1237e\videos\right_wrist.mp4,True,1004,30.008402352658745,True,True,1004,True
+3f45e623-4332-4dc2-a466-656864ae43dd,数据集\EgoPro\83cee2e9-2153-4ac1-a042-f5500cecbb3f\videos\head_left.mp4,True,1650,30.00030000300003,True,True,1650,True
+3f45e623-4332-4dc2-a466-656864ae43dd,数据集\EgoPro\83cee2e9-2153-4ac1-a042-f5500cecbb3f\videos\head_right.mp4,True,1650,30.00030000300003,True,True,1650,True
+3f45e623-4332-4dc2-a466-656864ae43dd,数据集\EgoPro\83cee2e9-2153-4ac1-a042-f5500cecbb3f\videos\left_wrist.mp4,True,1650,30.00030000300003,True,True,1650,True
+3f45e623-4332-4dc2-a466-656864ae43dd,数据集\EgoPro\83cee2e9-2153-4ac1-a042-f5500cecbb3f\videos\right_wrist.mp4,True,1650,30.00030000300003,True,True,1650,True
+c91705a7-1eb7-4b26-a543-124d90053f12,数据集\EgoPro\a3a85c3e-79cd-4d76-a91c-a7405f4647c9\videos\head_left.mp4,True,1374,30.00030000300003,True,True,1374,True
+c91705a7-1eb7-4b26-a543-124d90053f12,数据集\EgoPro\a3a85c3e-79cd-4d76-a91c-a7405f4647c9\videos\head_right.mp4,True,1374,30.00030000300003,True,True,1374,True
+c91705a7-1eb7-4b26-a543-124d90053f12,数据集\EgoPro\a3a85c3e-79cd-4d76-a91c-a7405f4647c9\videos\left_wrist.mp4,True,1374,30.00030000300003,True,True,1374,True
+c91705a7-1eb7-4b26-a543-124d90053f12,数据集\EgoPro\a3a85c3e-79cd-4d76-a91c-a7405f4647c9\videos\right_wrist.mp4,True,1374,30.00030000300003,True,True,1374,True
+a80b2d35-d1ea-4bee-9dc0-59de311785d4,数据集\EgoPro\c6b52545-fbce-479d-8393-17bb8c5d0311\videos\head_left.mp4,True,995,29.654231658857718,True,True,995,True
+a80b2d35-d1ea-4bee-9dc0-59de311785d4,数据集\EgoPro\c6b52545-fbce-479d-8393-17bb8c5d0311\videos\head_right.mp4,True,995,29.654231658857718,True,True,995,True
+a80b2d35-d1ea-4bee-9dc0-59de311785d4,数据集\EgoPro\c6b52545-fbce-479d-8393-17bb8c5d0311\videos\left_wrist.mp4,True,995,29.654231658857718,True,True,995,True
+a80b2d35-d1ea-4bee-9dc0-59de311785d4,数据集\EgoPro\c6b52545-fbce-479d-8393-17bb8c5d0311\videos\right_wrist.mp4,True,995,29.654231658857718,True,True,995,True
+f4c848a2-f864-4aef-b235-87e13cad3ae3,数据集\EgoPro\cc9d0407-3b74-4f82-92dc-a25c06eaf044\videos\head_left.mp4,True,1022,30.00030000300003,True,True,1022,True
+f4c848a2-f864-4aef-b235-87e13cad3ae3,数据集\EgoPro\cc9d0407-3b74-4f82-92dc-a25c06eaf044\videos\head_right.mp4,True,1022,30.00030000300003,True,True,1022,True
+f4c848a2-f864-4aef-b235-87e13cad3ae3,数据集\EgoPro\cc9d0407-3b74-4f82-92dc-a25c06eaf044\videos\left_wrist.mp4,True,1022,30.00030000300003,True,True,1022,True
+f4c848a2-f864-4aef-b235-87e13cad3ae3,数据集\EgoPro\cc9d0407-3b74-4f82-92dc-a25c06eaf044\videos\right_wrist.mp4,True,1022,30.00030000300003,True,True,1022,True
+0469c73b-fa42-4a7c-aec4-40029b0c6b7f,数据集\EgoPro\d58db8d6-2869-4d26-9217-9e0a0bfe4923\videos\head_left.mp4,True,1487,29.99940001199976,True,True,1487,True
+0469c73b-fa42-4a7c-aec4-40029b0c6b7f,数据集\EgoPro\d58db8d6-2869-4d26-9217-9e0a0bfe4923\videos\head_right.mp4,True,1487,29.99940001199976,True,True,1487,True
+0469c73b-fa42-4a7c-aec4-40029b0c6b7f,数据集\EgoPro\d58db8d6-2869-4d26-9217-9e0a0bfe4923\videos\left_wrist.mp4,True,1487,29.99940001199976,True,True,1487,True
+0469c73b-fa42-4a7c-aec4-40029b0c6b7f,数据集\EgoPro\d58db8d6-2869-4d26-9217-9e0a0bfe4923\videos\right_wrist.mp4,True,1487,29.99940001199976,True,True,1487,True
+df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,数据集\EgoPro\e1b42dfc-841c-400e-9beb-10bd19f17a22\videos\head_left.mp4,True,1482,30.00030000300003,True,True,1482,True
+df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,数据集\EgoPro\e1b42dfc-841c-400e-9beb-10bd19f17a22\videos\head_right.mp4,True,1482,30.00030000300003,True,True,1482,True
+df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,数据集\EgoPro\e1b42dfc-841c-400e-9beb-10bd19f17a22\videos\left_wrist.mp4,True,1482,30.00030000300003,True,True,1482,True
+df5c4c1f-545a-4efe-9fcf-1ce4ae3a4ee5,数据集\EgoPro\e1b42dfc-841c-400e-9beb-10bd19f17a22\videos\right_wrist.mp4,True,1482,30.00030000300003,True,True,1482,True
+733980b8-22ef-484e-9a20-39ff998d01a0,数据集\EgoPro\efac6caf-deab-461b-b839-96423abff9b9\videos\head_left.mp4,True,1442,29.99940001199976,True,True,1442,True
+733980b8-22ef-484e-9a20-39ff998d01a0,数据集\EgoPro\efac6caf-deab-461b-b839-96423abff9b9\videos\head_right.mp4,True,1442,29.99940001199976,True,True,1442,True
+733980b8-22ef-484e-9a20-39ff998d01a0,数据集\EgoPro\efac6caf-deab-461b-b839-96423abff9b9\videos\left_wrist.mp4,True,1442,29.99940001199976,True,True,1442,True
+733980b8-22ef-484e-9a20-39ff998d01a0,数据集\EgoPro\efac6caf-deab-461b-b839-96423abff9b9\videos\right_wrist.mp4,True,1442,29.99940001199976,True,True,1442,True
+75733965-f12b-487c-afc6-9301a617caa3,数据集\EgoPro\fdbb7805-04f7-46c0-ae1e-1b454accd7a8\videos\head_left.mp4,True,190,30.00030000300003,True,True,190,True
+75733965-f12b-487c-afc6-9301a617caa3,数据集\EgoPro\fdbb7805-04f7-46c0-ae1e-1b454accd7a8\videos\head_right.mp4,True,190,30.00030000300003,True,True,190,True
+75733965-f12b-487c-afc6-9301a617caa3,数据集\EgoPro\fdbb7805-04f7-46c0-ae1e-1b454accd7a8\videos\left_wrist.mp4,True,190,30.00030000300003,True,True,190,True
+75733965-f12b-487c-afc6-9301a617caa3,数据集\EgoPro\fdbb7805-04f7-46c0-ae1e-1b454accd7a8\videos\right_wrist.mp4,True,190,30.00030000300003,True,True,190,True
+3fab4ba6-f91a-4f16-a622-940e721e579e,数据集\EgoStandard\01e98c50-1164-448f-a7ff-b722d7a1c19b\videos\head_left.mp4,True,528,30.00030000300003,True,True,528,True
+3fab4ba6-f91a-4f16-a622-940e721e579e,数据集\EgoStandard\01e98c50-1164-448f-a7ff-b722d7a1c19b\videos\head_right.mp4,True,528,30.00030000300003,True,True,528,True
+b46b05b7-8ae6-47f7-b24d-ffde79cc1bbf,数据集\EgoStandard\03a51a05-58f0-4937-8f05-e0b697c7c5fd\videos\head_left.mp4,True,242,30.00030000300003,True,True,242,True
+b46b05b7-8ae6-47f7-b24d-ffde79cc1bbf,数据集\EgoStandard\03a51a05-58f0-4937-8f05-e0b697c7c5fd\videos\head_right.mp4,True,242,30.00030000300003,True,True,242,True
+90c4897a-336c-4026-b015-28951adf0047,数据集\EgoStandard\045c1e70-ab63-404a-94ef-735e68c8fd6a\videos\head_left.mp4,True,334,30.00030000300003,True,True,334,True
+90c4897a-336c-4026-b015-28951adf0047,数据集\EgoStandard\045c1e70-ab63-404a-94ef-735e68c8fd6a\videos\head_right.mp4,True,334,30.00030000300003,True,True,334,True
+3a260141-6612-4ae3-985d-ee91e4dab986,数据集\EgoStandard\06a855ba-c079-46f7-b2a4-3a0ad1c72e90\videos\head_left.mp4,True,385,30.00030000300003,True,True,385,True
+3a260141-6612-4ae3-985d-ee91e4dab986,数据集\EgoStandard\06a855ba-c079-46f7-b2a4-3a0ad1c72e90\videos\head_right.mp4,True,385,30.00030000300003,True,True,385,True
+157d3f97-601d-4407-8f10-e0734b35efb9,数据集\EgoStandard\0793b27b-acf5-40f2-8b19-cda2f3d868d1\videos\head_left.mp4,True,318,30.00030000300003,True,True,318,True
+157d3f97-601d-4407-8f10-e0734b35efb9,数据集\EgoStandard\0793b27b-acf5-40f2-8b19-cda2f3d868d1\videos\head_right.mp4,True,318,30.00030000300003,True,True,318,True
+9a4fe4c1-c6e3-4a7a-8e2c-ec7901abe2c0,数据集\EgoStandard\09101133-d656-4ce4-921b-3cc6f5a5bcb1\videos\head_left.mp4,True,220,30.00030000300003,True,True,220,True
+9a4fe4c1-c6e3-4a7a-8e2c-ec7901abe2c0,数据集\EgoStandard\09101133-d656-4ce4-921b-3cc6f5a5bcb1\videos\head_right.mp4,True,220,30.00030000300003,True,True,220,True
+349e9a2e-eeaa-48d2-9893-db716410425e,数据集\EgoStandard\0fd872a6-6e35-436d-a317-12fc025d5b38\videos\head_left.mp4,True,325,25.0,True,True,325,True
+349e9a2e-eeaa-48d2-9893-db716410425e,数据集\EgoStandard\0fd872a6-6e35-436d-a317-12fc025d5b38\videos\head_right.mp4,True,325,25.0,True,True,325,True
+028b3d0d-11a6-4d3f-bd9b-8915ba281b3e,数据集\EgoStandard\11b6fab6-0b4a-45b7-9180-61d2dde0ec92\videos\head_left.mp4,True,533,30.00030000300003,True,True,533,True
+028b3d0d-11a6-4d3f-bd9b-8915ba281b3e,数据集\EgoStandard\11b6fab6-0b4a-45b7-9180-61d2dde0ec92\videos\head_right.mp4,True,533,30.00030000300003,True,True,533,True
+54b5eb6e-b47a-403c-810e-bf8082c2ce31,数据集\EgoStandard\16827d3f-6d3c-40e5-aeea-451e008e1247\videos\head_left.mp4,True,325,30.00030000300003,True,True,325,True
+54b5eb6e-b47a-403c-810e-bf8082c2ce31,数据集\EgoStandard\16827d3f-6d3c-40e5-aeea-451e008e1247\videos\head_right.mp4,True,325,30.00030000300003,True,True,325,True
+40861671-d69c-41ee-9918-7527bdb8777f,数据集\EgoStandard\1a4aed15-de7a-4444-a87c-87d6195d7388\videos\head_left.mp4,True,353,30.00030000300003,True,True,353,True
+40861671-d69c-41ee-9918-7527bdb8777f,数据集\EgoStandard\1a4aed15-de7a-4444-a87c-87d6195d7388\videos\head_right.mp4,True,353,30.00030000300003,True,True,353,True
+491ff057-af89-4d0e-adea-2b3004b95d0d,数据集\EgoStandard\1d855c6c-e844-41b8-9339-d344dd71c7f1\videos\head_left.mp4,True,213,30.00030000300003,True,True,213,True
+491ff057-af89-4d0e-adea-2b3004b95d0d,数据集\EgoStandard\1d855c6c-e844-41b8-9339-d344dd71c7f1\videos\head_right.mp4,True,213,30.00030000300003,True,True,213,True
+51561b02-2c99-495d-bdfb-d74a5f68f0c5,数据集\EgoStandard\1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8\videos\head_left.mp4,True,3180,30.00030000300003,True,True,3180,True
+51561b02-2c99-495d-bdfb-d74a5f68f0c5,数据集\EgoStandard\1edd4d05-8bdd-4d3c-ae0f-fbc25447ffe8\videos\head_right.mp4,True,3180,30.00030000300003,True,True,3180,True
+ec1f4754-8cec-4ae1-8695-dc90cb465344,数据集\EgoStandard\1f88d4ce-f51e-440e-a072-e6986fae9da4\videos\head_left.mp4,True,267,30.00030000300003,True,True,267,True
+ec1f4754-8cec-4ae1-8695-dc90cb465344,数据集\EgoStandard\1f88d4ce-f51e-440e-a072-e6986fae9da4\videos\head_right.mp4,True,267,30.00030000300003,True,True,267,True
+8b40cbcf-0808-4641-8c9e-a8e882fda95e,数据集\EgoStandard\25702370-2103-4de3-ab02-59288316ec2b\videos\head_left.mp4,True,311,30.00030000300003,True,True,311,True
+8b40cbcf-0808-4641-8c9e-a8e882fda95e,数据集\EgoStandard\25702370-2103-4de3-ab02-59288316ec2b\videos\head_right.mp4,True,311,30.00030000300003,True,True,311,True
+07648562-93fd-434a-ac35-5713f5375b1d,数据集\EgoStandard\2af40d05-034e-4d51-84dc-c4124c06d40d\videos\head_left.mp4,True,327,30.00030000300003,True,True,327,True
+07648562-93fd-434a-ac35-5713f5375b1d,数据集\EgoStandard\2af40d05-034e-4d51-84dc-c4124c06d40d\videos\head_right.mp4,True,327,30.00030000300003,True,True,327,True
+bd808e2d-fdc2-4b78-8fef-fe7a2b1de958,数据集\EgoStandard\2f290382-a060-4352-99cd-883e46698bc5\videos\head_left.mp4,True,4012,30.00030000300003,True,True,4012,True
+bd808e2d-fdc2-4b78-8fef-fe7a2b1de958,数据集\EgoStandard\2f290382-a060-4352-99cd-883e46698bc5\videos\head_right.mp4,True,4012,30.00030000300003,True,True,4012,True
+8ec22d0a-cf07-4b8c-b173-c53cbb5ee02c,数据集\EgoStandard\36de3405-6829-4882-a8ab-0ff472768480\videos\head_left.mp4,True,3637,30.00030000300003,True,True,3637,True
+8ec22d0a-cf07-4b8c-b173-c53cbb5ee02c,数据集\EgoStandard\36de3405-6829-4882-a8ab-0ff472768480\videos\head_right.mp4,True,3637,30.00030000300003,True,True,3637,True
+24f6fdd7-ea84-43ae-ad73-cf2c123ad61e,数据集\EgoStandard\39d35af4-d31f-4f8a-a55d-9251b1c6a87e\videos\head_left.mp4,True,242,30.00030000300003,True,True,242,True
+24f6fdd7-ea84-43ae-ad73-cf2c123ad61e,数据集\EgoStandard\39d35af4-d31f-4f8a-a55d-9251b1c6a87e\videos\head_right.mp4,True,242,30.00030000300003,True,True,242,True
+8d4b17e2-ac7c-4d06-8e94-b495eb842a0e,数据集\EgoStandard\3c5b6818-d151-418a-ac00-c461bbebefc8\videos\head_left.mp4,True,3945,30.00030000300003,True,True,3945,True
+8d4b17e2-ac7c-4d06-8e94-b495eb842a0e,数据集\EgoStandard\3c5b6818-d151-418a-ac00-c461bbebefc8\videos\head_right.mp4,True,3945,30.00030000300003,True,True,3945,True
+550f7ffa-f7cd-4d6a-ab0a-81610ead2dc7,数据集\EgoStandard\443485f0-29be-4389-a40d-3f50d1ed38d2\videos\head_left.mp4,True,5220,30.00030000300003,True,True,5220,True
+550f7ffa-f7cd-4d6a-ab0a-81610ead2dc7,数据集\EgoStandard\443485f0-29be-4389-a40d-3f50d1ed38d2\videos\head_right.mp4,True,5220,30.00030000300003,True,True,5220,True
+eac65645-5b2d-4f2b-91a8-3a0f690339de,数据集\EgoStandard\4a4d93ed-066f-4460-acbb-5c9034e24862\videos\head_left.mp4,True,4428,30.00030000300003,True,True,4428,True
+eac65645-5b2d-4f2b-91a8-3a0f690339de,数据集\EgoStandard\4a4d93ed-066f-4460-acbb-5c9034e24862\videos\head_right.mp4,True,4428,30.00030000300003,True,True,4428,True
+01480728-a6b7-4171-9a96-777e6210b672,数据集\EgoStandard\4b0fb52d-29ea-4014-a1e7-fc440037790f\videos\head_left.mp4,True,494,30.00030000300003,True,True,494,True
+01480728-a6b7-4171-9a96-777e6210b672,数据集\EgoStandard\4b0fb52d-29ea-4014-a1e7-fc440037790f\videos\head_right.mp4,True,494,30.00030000300003,True,True,494,True
+52dcf38e-ec4c-424e-91dd-8e1c63ba9e9b,数据集\EgoStandard\7962fc83-dd18-4ddd-bcc6-9e23c007c7a2\videos\head_left.mp4,True,536,30.00030000300003,True,True,536,True
+52dcf38e-ec4c-424e-91dd-8e1c63ba9e9b,数据集\EgoStandard\7962fc83-dd18-4ddd-bcc6-9e23c007c7a2\videos\head_right.mp4,True,536,30.00030000300003,True,True,536,True
+b02f85bd-fc26-4c2a-96e6-cb97f653eb22,数据集\EgoStandard\bca969eb-9f5d-4842-b1c8-d60faaf03243\videos\head_left.mp4,True,1639,30.00030000300003,True,True,1639,True
+b02f85bd-fc26-4c2a-96e6-cb97f653eb22,数据集\EgoStandard\bca969eb-9f5d-4842-b1c8-d60faaf03243\videos\head_right.mp4,True,1639,30.00030000300003,True,True,1639,True

@@ -1,0 +1,97 @@
+{
+  "selected": {
+    "method": "family_density",
+    "quantile": 0.5,
+    "on_time": 0.8046296296296295,
+    "completion": 0.9489583333333333,
+    "cost": 28.718367300308653
+  },
+  "ranking": [
+    {
+      "method": "family_density",
+      "quantile": 0.5,
+      "on_time": 0.8046296296296295,
+      "completion": 0.9489583333333333,
+      "cost": 28.718367300308653
+    },
+    {
+      "method": "ridge_edf",
+      "quantile": 0.5,
+      "on_time": 0.7361111111111112,
+      "completion": 0.9174768518518518,
+      "cost": 28.538766706994654
+    },
+    {
+      "method": "family_edf",
+      "quantile": 0.5,
+      "on_time": 0.7260416666666667,
+      "completion": 0.9118055555555555,
+      "cost": 28.45706260238026
+    },
+    {
+      "method": "family_density",
+      "quantile": 0.8,
+      "on_time": 0.6590277777777778,
+      "completion": 0.8158564814814814,
+      "cost": 27.964932136782657
+    },
+    {
+      "method": "ridge_review_edf",
+      "quantile": 0.5,
+      "on_time": 0.6321759259259259,
+      "completion": 0.8570601851851851,
+      "cost": 31.941425583718946
+    },
+    {
+      "method": "family_density",
+      "quantile": 0.9,
+      "on_time": 0.6224537037037037,
+      "completion": 0.6987268518518519,
+      "cost": 25.182116324798535
+    },
+    {
+      "method": "ridge_edf",
+      "quantile": 0.8,
+      "on_time": 0.5400462962962963,
+      "completion": 0.7740740740740739,
+      "cost": 27.926555078732854
+    },
+    {
+      "method": "ridge_review_edf",
+      "quantile": 0.8,
+      "on_time": 0.4993055555555556,
+      "completion": 0.7466435185185184,
+      "cost": 32.53627936119278
+    },
+    {
+      "method": "family_edf",
+      "quantile": 0.8,
+      "on_time": 0.4842592592592593,
+      "completion": 0.708912037037037,
+      "cost": 26.492545325052557
+    },
+    {
+      "method": "ridge_edf",
+      "quantile": 0.9,
+      "on_time": 0.4358796296296296,
+      "completion": 0.6847222222222222,
+      "cost": 25.90412126544657
+    },
+    {
+      "method": "ridge_review_edf",
+      "quantile": 0.9,
+      "on_time": 0.3472222222222222,
+      "completion": 0.6076388888888888,
+      "cost": 29.03542197266505
+    },
+    {
+      "method": "family_edf",
+      "quantile": 0.9,
+      "on_time": 0.3074074074074074,
+      "completion": 0.5138888888888888,
+      "cost": 21.81946946653016
+    }
+  ],
+  "selection_data": "validation nominal, equal case/trial mean; exploratory selection, not unbiased test performance",
+  "model_sha256": "ed0fb7e3ca1b70750191cab379d2676e1d5dd7cb4aa299316f836507e93b2669"
+}

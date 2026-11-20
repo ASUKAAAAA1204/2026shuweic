@@ -1,0 +1,88 @@
+{
+  "dimensions": [
+    "K",
+    "M",
+    "D",
+    "E",
+    "C",
+    "V",
+    "U",
+    "L"
+  ],
+  "weights_percent": [
+    20,
+    15,
+    10,
+    15,
+    10,
+    15,
+    10,
+    5
+  ],
+  "scores": {
+    "A": [
+      5,
+      5,
+      2,
+      4,
+      5,
+      4,
+      4,
+      5
+    ],
+    "B": [
+      3,
+      4,
+      1,
+      4,
+      3,
+      3,
+      2,
+      4
+    ],
+    "C": [
+      4,
+      4,
+      5,
+      5,
+      4,
+      5,
+      4,
+      5
+    ],
+    "D": [
+      5,
+      5,
+      1,
+      3,
+      3,
+      5,
+      5,
+      4
+    ]
+  },
+  "formula": "sum(weight_percent * score) / 5",
+  "alternative_weights": [
+    [
+      20,
+      25,
+      5,
+      10,
+      5,
+      15,
+      15,
+      5
+    ],
+    [
+      10,
+      10,
+      20,
+      25,
+      15,
+      10,
+      5,
+      5
+    ]
+  ],
+  "note": "Decision rubric; not empirical probabilities or confidence intervals"
+}

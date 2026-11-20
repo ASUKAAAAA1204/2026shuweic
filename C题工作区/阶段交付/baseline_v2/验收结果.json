@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "required": 18,
+  "passed": 18,
+  "blockers": [],
+  "checks": [
+    {
+      "name": "all records unique",
+      "passed": true,
+      "evidence": "data/prepare_checks.json"
+    },
+    {
+      "name": "all raw numerical channels checked",
+      "passed": true,
+      "evidence": "audit/raw_numeric_recheck.csv"
+    },
+    {
+      "name": "all 1029 prefixes source exact",
+      "passed": true,
+      "evidence": "data/prepare_checks.json"
+    },
+    {
+      "name": "environment disjoint",
+      "passed": true,
+      "evidence": "data/split_overlaps.csv"
+    },
+    {
+      "name": "all windows qualified and separated",
+      "passed": true,
+      "evidence": "extra_checks.json"
+    },
+    {
+      "name": "all videos fully decoded",
+      "passed": true,
+      "evidence": "data/full_video_decode.csv"
+    },
+    {
+      "name": "nine visual records saved",
+      "passed": true,
+      "evidence": "audit/九条记录核对.html"
+    },
+    {
+      "name": "no orientation or unit dependent model",
+      "passed": true,
+      "evidence": "data/protocol.json"
+    },
+    {
+      "name": "boundary and privacy tests",
+      "passed": true,
+      "evidence": "tests.csv"
+    },
+    {
+      "name": "all 5400 paired trials complete",
+      "passed": true,
+      "evidence": "q3/trials.csv"
+    },
+    {
+      "name": "no invalid policy actions",
+      "passed": true,
+      "evidence": "q3/checks.json"
+    },
+    {
+      "name": "independent metrics agree",
+      "passed": true,
+      "evidence": "q3/checks.json"
+    },
+    {
+      "name": "q3 future noninterference",
+      "passed": true,
+      "evidence": "q3/checks.json"
+    },
+    {
+      "name": "q2 future noninterference",
+      "passed": true,
+      "evidence": "q2_future_invariance.csv"
+    },
+    {
+      "name": "q2 budgets and finite results",
+      "passed": true,
+      "evidence": "q12/checks.json"
+    },
+    {
+      "name": "no test performance used",
+      "passed": true,
+      "evidence": "q12/checks.json, q3/checks.json"
+    },
+    {
+      "name": "independent reproduction",
+      "passed": true,
+      "evidence": "reproduction.csv"
+    },
+    {
+      "name": "report and frozen model exist",
+      "passed": true,
+      "evidence": "delivery files"
+    }
+  ],
+  "scope": "data closure and reproducible three-problem baseline; not final competition solution"
+}
