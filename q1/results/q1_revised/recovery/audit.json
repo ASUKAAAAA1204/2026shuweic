@@ -1,0 +1,8 @@
+{
+  "unmasked_max_error": 0.0,
+  "causal_checked_hand_streams": 124,
+  "duration_pool": 156,
+  "seed": 20261121,
+  "synthetic_rows": 83472,
+  "natural_events": 210
+}

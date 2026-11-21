@@ -1,0 +1,14 @@
+{
+  "simple_window_horizon_model_rows": 15651,
+  "max_independent_ade_fde_difference": 2.220446049250313e-16,
+  "input_hashes_verified": 79,
+  "reliability_max_probability_differences": {
+    "State": 0.0,
+    "State3": 0.0,
+    "Motion": 0.0
+  },
+  "test_performance_rows": 0,
+  "recovery_candidate_event_points": 420,
+  "max_recovery_error_replay_difference": 7.997075224253081e-16,
+  "max_mlp_dev_window_difference": 1.1102230246251565e-16
+}

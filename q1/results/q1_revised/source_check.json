@@ -1,0 +1,18 @@
+{
+  "verified_source_hashes": 805,
+  "hand_timestamps": 132140,
+  "eligible": 130541,
+  "bad": 1599,
+  "unknown": 0,
+  "gaps": 0,
+  "records": 69,
+  "channels": 345,
+  "aligned": 345,
+  "duplicates": 0,
+  "reversed": 0,
+  "natural_intervals": {
+    "test": 54,
+    "train": 158,
+    "validation": 52
+  }
+}

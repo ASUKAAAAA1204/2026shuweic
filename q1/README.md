@@ -8,6 +8,14 @@
 | 观测可靠性 | 三状态查表，估计未来 0.2 秒内出现源质量坏标记的概率。持续未标坏、刚恢复、当前标坏的训练平滑概率分别为 0.60%、19.13%、88.46%。 | 二状态为基线，三状态加运动提升树为扩展对照。树的训练留一 Brier 再降低 0.083%，开发集报警精确率为 3.02%。[状态参数，取 held=development](results/q1_reliability/state3_rates.csv) · [候选结果](reports/第一问_可靠性最终候选_实验结果.md) |
 | 位置不确定性 | 按距最后观测的时间，用训练残差校准 90% 误差球。 | [阻尼参数与半径](results/q1/motion_model.json) · [覆盖率](results/q1/motion_summary.csv) |
 
+## 正式窗口 A–F 实验
+
+恒速外推为主基线，末值保持为补充基线。在 1,527 个训练窗和 212 个开发窗上，固定阻尼相对恒速的归一化 ADE 分别降低 21.55% 和 26.34%。低频残差 MLP 相对阻尼的训练改善为 0.73%，开发改善为 3.17%，保留为扩展对照。
+
+[本轮结果报告](reports/第一问_统一预处理与缺帧恢复_实验结果.md) · [批准的实验设计](reports/第一问_统一预处理与缺帧恢复_实验设计.md) · [预处理依据](references/当前推荐的数据预处理主方案.md) · [逐窗结果与校验](results/q1_revised/) · [代码](code/q1_revised/)
+
+在 q1 目录执行 `python -B code/q1_revised/verify_delivery.py` 可用仓内数据核对已发布结果。全量重跑 A–F 时，先将环境变量 `Q1_FULL_V1` 指向原完整 v1 数组目录（含 records、原始四元数和五通道时钟），`Q1_ARCHIVES` 指向含三份官方源 ZIP 的目录，再执行 `python -B code/q1_revised/run_all.py`。原实验输入哈希见 [inputs.csv](results/q1_revised/inputs.csv)，本次发布的对应文件哈希见 [inputs_checkout.csv](results/q1_revised/inputs_checkout.csv)。重跑会更新结果和本机计时。
+
 ## 实验索引
 
 | 内容 | 归档 |

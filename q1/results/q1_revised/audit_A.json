@@ -1,0 +1,16 @@
+{
+  "windows": 1739,
+  "keys_checked": 5217,
+  "max_position_delta": 0.0,
+  "old_score_delta": {
+    "ade": 9.974659986866641e-17,
+    "fde": 9.974659986866641e-17
+  },
+  "mask_diff": 0,
+  "gap_diff": 0,
+  "structural_counts": {
+    "train": 1527,
+    "test": 390,
+    "validation": 212
+  }
+}
