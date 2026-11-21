@@ -1,0 +1,11 @@
+{
+  "selected_method": "density_minimum",
+  "primary_objective": "weighted_on_time_rate",
+  "review": false,
+  "reserve": 0.2,
+  "duration_model_sha256": "c40c5928ff879aff5fc00d6b4866a1c020687edcfac6e253bbc91fe2320db17d",
+  "selection_basis": "fixed training 2x2 comparison; chain not admitted; prefix review screen failed",
+  "validation_not_yet_run_in_this_round": true,
+  "validation_historically_viewed": true,
+  "test_not_run": true
+}

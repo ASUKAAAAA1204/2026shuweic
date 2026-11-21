@@ -1,0 +1,10 @@
+split,family_id,units,records,environments
+test,A,20,4,2
+test,L,9,1,1
+test,P,33,2,2
+train,A,112,29,9
+train,L,10,3,2
+train,P,124,23,9
+validation,A,13,2,2
+validation,L,7,2,1
+validation,P,15,3,2

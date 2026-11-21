@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "independently_reconstructed_validation_trials": 1800,
+  "maximum_score_difference": 1.1368683772161603e-13,
+  "source_assignments_reconstructed": true,
+  "geometry_fees_predecessors_horizon_reconstructed": true,
+  "boundary_cases": [
+    "invalid_reserve",
+    "invalid_wait",
+    "invalid_reserve"
+  ],
+  "review_delay_cost_checked": true,
+  "prefix_quality_perturbation_checks": 20,
+  "test_performance_evaluated": false
+}

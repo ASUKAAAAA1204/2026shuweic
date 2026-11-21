@@ -1,0 +1,13 @@
+{
+  "training_units": 246,
+  "environments": 16,
+  "ridge": 100,
+  "hyperparameter_search": false,
+  "nested_residual_calibration": true,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "late_minus_early_mae": -0.10202308790587183,
+  "environments_improved": 13,
+  "review_research_enabled": false,
+  "decision_scope": "necessary information screen, not proof of decision value; if false skip new review policy"
+}

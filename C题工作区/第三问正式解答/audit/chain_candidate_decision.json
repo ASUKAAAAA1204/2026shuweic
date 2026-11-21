@@ -1,0 +1,14 @@
+{
+  "mean_difference": 0.001388888888888889,
+  "case_differences": {
+    "S1": 0.0,
+    "S2": 0.004166666666666667,
+    "S3": 0.0
+  },
+  "conditional_seed_interval": [
+    -0.0004629629629629638,
+    0.004166666666666667
+  ],
+  "admitted": false,
+  "scope": "paired trial resampling conditional on only two full-family training environments; not cross-environment confirmation"
+}

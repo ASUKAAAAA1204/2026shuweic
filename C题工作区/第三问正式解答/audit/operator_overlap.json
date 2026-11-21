@@ -1,0 +1,9 @@
+{
+  "global_environment_disjoint": true,
+  "operator_overlap_counts": {
+    "train__validation": 0,
+    "train__test": 3,
+    "validation__test": 0
+  },
+  "unseen_operator_generalization_claim": false
+}
