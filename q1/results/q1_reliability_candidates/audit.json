@@ -1,0 +1,11 @@
+{
+  "anchor_sha256": "09182f679bb1bbb8e74ede818283c9737ab8630618c8cf428170478d5dcaaf05",
+  "total": 17724,
+  "train_envs": 16,
+  "dev_envs": 4,
+  "test_records_used": 0,
+  "max_independent_brier_error": 1.6653345369377348e-16,
+  "qualified": [
+    "Motion"
+  ]
+}

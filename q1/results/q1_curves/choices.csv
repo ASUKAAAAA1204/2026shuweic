@@ -1,0 +1,81 @@
+env,model,order,inner_nade,selected
+home_x_apartment_0342,F,"(1, 1)",0.4170286630179201,False
+home_x_apartment_0342,F,"(2, 2)",0.3956104420396305,False
+home_x_apartment_0342,F,"(2, 3)",0.3939963162283344,True
+home_x_apartment_0342,C,2,0.3816226840108683,True
+home_x_apartment_0342,C,3,0.38229670707081925,False
+home_x_apartment_0701,F,"(1, 1)",0.4847097674562075,False
+home_x_apartment_0701,F,"(2, 2)",0.44805044160125956,False
+home_x_apartment_0701,F,"(2, 3)",0.444883561250686,True
+home_x_apartment_0701,C,2,0.4239168595671025,False
+home_x_apartment_0701,C,3,0.4237165790112292,True
+logistics_x_courier_station_0021,F,"(1, 1)",0.365348126586256,False
+logistics_x_courier_station_0021,F,"(2, 2)",0.35313102478007097,False
+logistics_x_courier_station_0021,F,"(2, 3)",0.3517306994188323,True
+logistics_x_courier_station_0021,C,2,0.33888857028187863,False
+logistics_x_courier_station_0021,C,3,0.3385717052364001,True
+office_x_corporate_office_0086,F,"(1, 1)",0.4874362811358486,False
+office_x_corporate_office_0086,F,"(2, 2)",0.4521859543184923,False
+office_x_corporate_office_0086,F,"(2, 3)",0.4488095869801149,True
+office_x_corporate_office_0086,C,2,0.421590572830193,False
+office_x_corporate_office_0086,C,3,0.4194712735664899,True
+retail_x_convenience_0014,F,"(1, 1)",0.41408195154854166,False
+retail_x_convenience_0014,F,"(2, 2)",0.39493167626402054,False
+retail_x_convenience_0014,F,"(2, 3)",0.39342198605370604,True
+retail_x_convenience_0014,C,2,0.38089297596393196,True
+retail_x_convenience_0014,C,3,0.38144368911112836,False
+retail_x_supermarket_0037,F,"(1, 1)",0.4110062565598831,False
+retail_x_supermarket_0037,F,"(2, 2)",0.3904647783397783,False
+retail_x_supermarket_0037,F,"(2, 3)",0.3892462111106682,True
+retail_x_supermarket_0037,C,2,0.3763771104499462,True
+retail_x_supermarket_0037,C,3,0.3771035052455978,False
+retail_x_supermarket_0049,F,"(1, 1)",0.40611545157007667,False
+retail_x_supermarket_0049,F,"(2, 2)",0.3872494069840155,False
+retail_x_supermarket_0049,F,"(2, 3)",0.38595438002478527,True
+retail_x_supermarket_0049,C,2,0.3734065675022158,True
+retail_x_supermarket_0049,C,3,0.3740815032924636,False
+retail_x_supermarket_0054,F,"(1, 1)",0.4067713054813383,False
+retail_x_supermarket_0054,F,"(2, 2)",0.38877933747289095,False
+retail_x_supermarket_0054,F,"(2, 3)",0.3875907471911537,True
+retail_x_supermarket_0054,C,2,0.37592301280104906,True
+retail_x_supermarket_0054,C,3,0.3767218853237136,False
+retail_x_supermarket_0058,F,"(1, 1)",0.41083239907619457,False
+retail_x_supermarket_0058,F,"(2, 2)",0.392036488971212,False
+retail_x_supermarket_0058,F,"(2, 3)",0.39058306622240035,True
+retail_x_supermarket_0058,C,2,0.3787444870187126,True
+retail_x_supermarket_0058,C,3,0.3791175017447115,False
+retail_x_supermarket_0059,F,"(1, 1)",0.4074919542525859,False
+retail_x_supermarket_0059,F,"(2, 2)",0.3875000382119047,False
+retail_x_supermarket_0059,F,"(2, 3)",0.38605863810205227,True
+retail_x_supermarket_0059,C,2,0.3749905782102621,True
+retail_x_supermarket_0059,C,3,0.37510094356275664,False
+retail_x_supermarket_0066,F,"(1, 1)",0.401755778677826,False
+retail_x_supermarket_0066,F,"(2, 2)",0.3825976761987911,False
+retail_x_supermarket_0066,F,"(2, 3)",0.3811636701221601,True
+retail_x_supermarket_0066,C,2,0.37204450004929884,True
+retail_x_supermarket_0066,C,3,0.3723860894769027,False
+retail_x_supermarket_0071,F,"(1, 1)",0.3998905806293129,False
+retail_x_supermarket_0071,F,"(2, 2)",0.3788155037483622,False
+retail_x_supermarket_0071,F,"(2, 3)",0.37703910496217247,True
+retail_x_supermarket_0071,C,2,0.36465702704236075,True
+retail_x_supermarket_0071,C,3,0.36570763864390576,False
+retail_x_supermarket_0087,F,"(1, 1)",0.41649566922951514,False
+retail_x_supermarket_0087,F,"(2, 2)",0.3977520265443477,False
+retail_x_supermarket_0087,F,"(2, 3)",0.39616026684123656,True
+retail_x_supermarket_0087,C,2,0.37998970596400294,True
+retail_x_supermarket_0087,C,3,0.38039769086878805,False
+retail_x_supermarket_0121,F,"(1, 1)",0.3953100568690591,False
+retail_x_supermarket_0121,F,"(2, 2)",0.3746755855825588,False
+retail_x_supermarket_0121,F,"(2, 3)",0.37324968330986513,True
+retail_x_supermarket_0121,C,2,0.36421570511875956,True
+retail_x_supermarket_0121,C,3,0.36459865326056007,False
+retail_x_supermarket_0124,F,"(1, 1)",0.38282680526645346,False
+retail_x_supermarket_0124,F,"(2, 2)",0.3638713088156929,False
+retail_x_supermarket_0124,F,"(2, 3)",0.36249469707260734,True
+retail_x_supermarket_0124,C,2,0.35160372402115786,True
+retail_x_supermarket_0124,C,3,0.35279119157367916,False
+retail_x_supermarket_0125,F,"(1, 1)",0.40886569033535,False
+retail_x_supermarket_0125,F,"(2, 2)",0.3891669756857235,False
+retail_x_supermarket_0125,F,"(2, 3)",0.3877494729899052,True
+retail_x_supermarket_0125,C,2,0.37490462100695554,True
+retail_x_supermarket_0125,C,3,0.37556733977076856,False

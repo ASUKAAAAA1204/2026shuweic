@@ -1,0 +1,16 @@
+{
+  "development_replays": 2236,
+  "max_probability_difference": 0.0,
+  "rates": {
+    "clean_history": 0.005977796754910333,
+    "flagged": 0.8846153846153846,
+    "recent_recovery": 0.19130434782608696
+  },
+  "features": [
+    "median_speed",
+    "std_speed",
+    "last_speed",
+    "joint_spread"
+  ],
+  "sklearn": "1.9.1"
+}

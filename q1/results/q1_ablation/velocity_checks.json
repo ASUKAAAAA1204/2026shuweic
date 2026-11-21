@@ -1,0 +1,326 @@
+{
+  "tau_s": 0.2,
+  "horizons_s": [
+    0.6,
+    1.0
+  ],
+  "history_points": 6,
+  "models": {
+    "A": "last-two-sample difference",
+    "B": "OLS slope over the last three samples",
+    "C": "OLS slope over the six historical samples",
+    "D": "median of the pairwise slopes over the six historical samples"
+  },
+  "fixed_no_fitting": true,
+  "splits_used": [
+    "train",
+    "validation"
+  ],
+  "catalog": "baseline-source-review\\C题工作区\\阶段交付\\stage1_review\\corrected_results\\data\\windows.csv",
+  "catalog_windows": 1739,
+  "catalog_windows_by_split": {
+    "train": 1527,
+    "validation": 212
+  },
+  "eligible_windows": 1129,
+  "eligible_windows_by_split": {
+    "train": 977,
+    "validation": 152
+  },
+  "eligible_windows_by_dataset": {
+    "EgoDemo": 185,
+    "EgoPro": 326,
+    "EgoStandard": 618
+  },
+  "skipped_windows": {
+    "short_history": 610,
+    "ineligible": 0
+  },
+  "window_horizon_cells": 2258,
+  "paired_rows": 9032,
+  "verification": {
+    "archive": "results\\q1\\motion_windows.csv",
+    "matched_rows": 4516,
+    "matched_windows": 1129,
+    "comparisons": {
+      "damped": {
+        "ours": "A",
+        "matched_rows": 2258,
+        "matched_windows": 1129,
+        "max_abs_ade_diff": 9.974659986866641e-17,
+        "max_abs_fde_diff": 9.952975943416931e-17
+      },
+      "robust": {
+        "ours": "D",
+        "matched_rows": 2258,
+        "matched_windows": 1129,
+        "max_abs_ade_diff": 9.8879238130678e-17,
+        "max_abs_fde_diff": 1.1102230246251565e-16
+      }
+    },
+    "max_abs_ade_diff": 9.974659986866641e-17,
+    "max_abs_fde_diff": 1.1102230246251565e-16,
+    "tolerance": 1e-10,
+    "verified": true,
+    "by_group": [
+      {
+        "split": "train",
+        "dataset": "EgoDemo",
+        "horizon_s": 0.6,
+        "model": "A",
+        "rows": 161,
+        "windows": 161,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoDemo",
+        "horizon_s": 0.6,
+        "model": "D",
+        "rows": 161,
+        "windows": 161,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoDemo",
+        "horizon_s": 1.0,
+        "model": "A",
+        "rows": 161,
+        "windows": 161,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoDemo",
+        "horizon_s": 1.0,
+        "model": "D",
+        "rows": 161,
+        "windows": 161,
+        "max_abs_ade_diff": 9.887923813e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoPro",
+        "horizon_s": 0.6,
+        "model": "A",
+        "rows": 208,
+        "windows": 208,
+        "max_abs_ade_diff": 9.887923813e-17,
+        "max_abs_fde_diff": 9.36750677e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoPro",
+        "horizon_s": 0.6,
+        "model": "D",
+        "rows": 208,
+        "windows": 208,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoPro",
+        "horizon_s": 1.0,
+        "model": "A",
+        "rows": 208,
+        "windows": 208,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoPro",
+        "horizon_s": 1.0,
+        "model": "D",
+        "rows": 208,
+        "windows": 208,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.757819552e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoStandard",
+        "horizon_s": 0.6,
+        "model": "A",
+        "rows": 608,
+        "windows": 608,
+        "max_abs_ade_diff": 9.974659987e-17,
+        "max_abs_fde_diff": 9.887923813e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoStandard",
+        "horizon_s": 0.6,
+        "model": "D",
+        "rows": 608,
+        "windows": 608,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoStandard",
+        "horizon_s": 1.0,
+        "model": "A",
+        "rows": 608,
+        "windows": 608,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.952975943e-17
+      },
+      {
+        "split": "train",
+        "dataset": "EgoStandard",
+        "horizon_s": 1.0,
+        "model": "D",
+        "rows": 608,
+        "windows": 608,
+        "max_abs_ade_diff": 9.887923813e-17,
+        "max_abs_fde_diff": 1.110223025e-16
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoDemo",
+        "horizon_s": 0.6,
+        "model": "A",
+        "rows": 24,
+        "windows": 24,
+        "max_abs_ade_diff": 9.020562075e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoDemo",
+        "horizon_s": 0.6,
+        "model": "D",
+        "rows": 24,
+        "windows": 24,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 8.153200337e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoDemo",
+        "horizon_s": 1.0,
+        "model": "A",
+        "rows": 24,
+        "windows": 24,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.020562075e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoDemo",
+        "horizon_s": 1.0,
+        "model": "D",
+        "rows": 24,
+        "windows": 24,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoPro",
+        "horizon_s": 0.6,
+        "model": "A",
+        "rows": 118,
+        "windows": 118,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.627715292e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoPro",
+        "horizon_s": 0.6,
+        "model": "D",
+        "rows": 118,
+        "windows": 118,
+        "max_abs_ade_diff": 9.887923813e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoPro",
+        "horizon_s": 1.0,
+        "model": "A",
+        "rows": 118,
+        "windows": 118,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoPro",
+        "horizon_s": 1.0,
+        "model": "D",
+        "rows": 118,
+        "windows": 118,
+        "max_abs_ade_diff": 9.714451465e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoStandard",
+        "horizon_s": 0.6,
+        "model": "A",
+        "rows": 10,
+        "windows": 10,
+        "max_abs_ade_diff": 6.245004514e-17,
+        "max_abs_fde_diff": 8.326672685e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoStandard",
+        "horizon_s": 0.6,
+        "model": "D",
+        "rows": 10,
+        "windows": 10,
+        "max_abs_ade_diff": 8.326672685e-17,
+        "max_abs_fde_diff": 6.245004514e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoStandard",
+        "horizon_s": 1.0,
+        "model": "A",
+        "rows": 10,
+        "windows": 10,
+        "max_abs_ade_diff": 6.245004514e-17,
+        "max_abs_fde_diff": 9.020562075e-17
+      },
+      {
+        "split": "validation",
+        "dataset": "EgoStandard",
+        "horizon_s": 1.0,
+        "model": "D",
+        "rows": 10,
+        "windows": 10,
+        "max_abs_ade_diff": 9.020562075e-17,
+        "max_abs_fde_diff": 9.714451465e-17
+      }
+    ]
+  },
+  "aggregate_ratios": {
+    "A": {
+      "train": 1.0,
+      "validation": 1.0
+    },
+    "B": {
+      "train": 1.0174339670746433,
+      "validation": 1.0321147248560951
+    },
+    "C": {
+      "train": 1.0779623021760352,
+      "validation": 1.0937434819864915
+    },
+    "D": {
+      "train": 1.0837178448644853,
+      "validation": 1.095138107737077
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "bootstrap": {
+    "confidence_level": 0.95,
+    "method": "percentile",
+    "replicates": 2000,
+    "seed": 20240517,
+    "single_environment": "unavailable",
+    "unit": "environment"
+  },
+  "brier_aggregation": "mean squared error within record; equal weight per record within environment; equal weight per environment",
+  "current_bad": {
+    "n_future_bad": 137,
+    "n_samples": 154,
+    "probability": 0.8846153846153846
+  },
+  "current_good": {
+    "n_future_bad": 111,
+    "n_samples": 15334,
+    "probability": 0.007303077725612937
+  },
+  "fit_split": "train",
+  "formula": "(future_bad + alpha) / (state_samples + 2 * alpha)",
+  "horizon_seconds": 0.2,
+  "laplace_alpha": 1.0,
+  "p_bad_given_bad": 0.8846153846153846,
+  "p_bad_given_good": 0.007303077725612937,
+  "p_future_bad_given_current_bad": 0.8846153846153846,
+  "p_future_bad_given_current_good": 0.007303077725612937,
+  "paired_differences": {
+    "EgoDemo": {
+      "all": {
+        "bootstrap_available": true,
+        "ci95_high": -1.1041072264554676e-05,
+        "ci95_low": -1.1928576045603103e-05,
+        "logistic_minus_persistence": -1.148482415507889e-05,
+        "n_environments": 2
+      },
+      "currently_bad": {
+        "bootstrap_available": false,
+        "ci95_high": null,
+        "ci95_low": null,
+        "logistic_minus_persistence": null,
+        "n_environments": 0
+      },
+      "currently_good": {
+        "bootstrap_available": true,
+        "ci95_high": -1.1041072264554676e-05,
+        "ci95_low": -1.1928576045603103e-05,
+        "logistic_minus_persistence": -1.148482415507889e-05,
+        "n_environments": 2
+      }
+    },
+    "EgoPro": {
+      "all": {
+        "bootstrap_available": true,
+        "ci95_high": 0.000978839567594758,
+        "ci95_low": 0.00033377720416289704,
+        "logistic_minus_persistence": 0.0006563083858788276,
+        "n_environments": 2
+      },
+      "currently_bad": {
+        "bootstrap_available": true,
+        "ci95_high": 0.027796301623941894,
+        "ci95_low": 0.017091510127396015,
+        "logistic_minus_persistence": 0.022443905875668954,
+        "n_environments": 2
+      },
+      "currently_good": {
+        "bootstrap_available": true,
+        "ci95_high": 0.0005433619848974128,
+        "ci95_low": 5.670969524207599e-06,
+        "logistic_minus_persistence": 0.0002745164772108102,
+        "n_environments": 2
+      }
+    },
+    "EgoStandard": {
+      "all": {
+        "bootstrap_available": false,
+        "ci95_high": null,
+        "ci95_low": null,
+        "logistic_minus_persistence": 0.002476437345354174,
+        "n_environments": 1
+      },
+      "currently_bad": {
+        "bootstrap_available": false,
+        "ci95_high": null,
+        "ci95_low": null,
+        "logistic_minus_persistence": 0.033528669627229835,
+        "n_environments": 1
+      },
+      "currently_good": {
+        "bootstrap_available": false,
+        "ci95_high": null,
+        "ci95_low": null,
+        "logistic_minus_persistence": 0.0005830085476788288,
+        "n_environments": 1
+      }
+    }
+  },
+  "paired_metric": "brier_logistic - brier_persistence",
+  "record_key": [
+    "environment_id",
+    "episode_uuid"
+  ],
+  "subset_definitions": {
+    "all": "all validation rows",
+    "currently_bad": "validation rows with current_bad == True",
+    "currently_good": "validation rows with current_bad == False"
+  },
+  "train_counts": {
+    "n_current_bad": 154,
+    "n_current_good": 15334,
+    "n_environments": 16,
+    "n_future_bad": 248,
+    "n_records": 55,
+    "n_samples": 15488
+  },
+  "validation_counts_by_dataset": {
+    "EgoDemo": {
+      "n_environments": 2,
+      "n_records": 2,
+      "n_samples": 458
+    },
+    "EgoPro": {
+      "n_environments": 2,
+      "n_records": 4,
+      "n_samples": 1604
+    },
+    "EgoStandard": {
+      "n_environments": 1,
+      "n_records": 1,
+      "n_samples": 174
+    }
+  }
+}

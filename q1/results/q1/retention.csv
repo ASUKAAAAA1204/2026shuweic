@@ -1,0 +1,10 @@
+dataset,split,records,hand_frames,eligible,excluded,windows
+EgoDemo,test,2,1296,1296,0,20
+EgoDemo,train,27,28738,28579,159,471
+EgoDemo,validation,2,2794,2794,0,46
+EgoPro,test,2,6274,5938,336,94
+EgoPro,train,8,19304,19002,302,308
+EgoPro,validation,4,9706,9524,182,150
+EgoStandard,test,3,16912,16786,126,276
+EgoStandard,train,20,46050,45628,422,748
+EgoStandard,validation,1,1066,994,72,16

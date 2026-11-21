@@ -1,0 +1,24 @@
+{
+  "windows": 1523,
+  "records": 55,
+  "environments": 16,
+  "splits": [
+    "train"
+  ],
+  "rows": 18276,
+  "baseline_max_abs": 0.0,
+  "independent_integration_max_abs": 1.1102230246251565e-16,
+  "reference_perturbation_replays": 6092,
+  "archive_sha256": {
+    "windows.csv": "10e8a2f46ee0dd4ecd0462db4ef9ef093ea1c7e22f08e032b3acb846f8c48d77",
+    "folds.json": "7ba332eea480dde5cd36fd1a67fe11756d389e92c565bbc13e197f53349e4549",
+    "predictions.npz": "71c77e5f657c36bf7b4dbb65a7ad5cec475d33aee95dd7057cea3af170f9e357"
+  },
+  "protocol_sha256": "1986267a8b8c7dfcb029adbe61235f8fdbadbcf4cf09744472f37505facffac8",
+  "recomputed_from_saved_coordinates": {
+    "ade": 0.0,
+    "fde": 0.0,
+    "nade": 0.0,
+    "nfde": 0.0
+  }
+}

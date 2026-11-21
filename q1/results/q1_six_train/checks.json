@@ -1,0 +1,27 @@
+{
+  "windows": 1523,
+  "windows_by_source": {
+    "EgoStandard": 748,
+    "EgoDemo": 467,
+    "EgoPro": 308
+  },
+  "paired_bootstrap_accept": 5000,
+  "rejected": 184,
+  "seed": 20261120,
+  "K_vs_K0_gain": 0.002475112335124985,
+  "K_vs_K0_intervals": [
+    -0.0064691310793589755,
+    0.011137093211396097,
+    -0.009333974179385687,
+    0.013645394264624794
+  ],
+  "detached_input_checks": 120,
+  "test_validation_trajectory_reads": 0,
+  "python": "3.14.5",
+  "numpy": "2.4.4",
+  "pandas": "3.0.3",
+  "script_hashes": {
+    "data.py": "b6d77b9835d5525ab547f82667ff164ac01bdc799ab0ddf3b1b9b43d7e612fca",
+    "run.py": "949cacf8ab62692a011205b8fed0c49dbb13fcf9ceaa48f18fe794466f5d2c64"
+  }
+}

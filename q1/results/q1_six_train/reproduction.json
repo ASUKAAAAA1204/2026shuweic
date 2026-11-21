@@ -1,0 +1,11 @@
+{
+  "hashes": {
+    "windows.csv": "10e8a2f46ee0dd4ecd0462db4ef9ef093ea1c7e22f08e032b3acb846f8c48d77",
+    "metrics.csv": "87f141476c89403b7cdf9fc84d603f5328ec945882cd2e1ce84f40d9916b8ad7",
+    "environments.csv": "ec2c0820616a1b1a2a08f3c4fdb35cfd92ac4d144a57a6a559215521aaff59e3",
+    "sources.csv": "4f499755bd5423b35df9f3a2dfecb4e3e7d646141173a813eac63afdf0e8809c",
+    "folds.json": "7ba332eea480dde5cd36fd1a67fe11756d389e92c565bbc13e197f53349e4549"
+  },
+  "prediction_arrays_equal": true,
+  "nontiming_fields_equal": true
+}

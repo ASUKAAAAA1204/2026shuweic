@@ -1,0 +1,7 @@
+split,dataset,catalog,eligible,head_eligible,history_min,history_max
+train,EgoDemo,471,471,471,4,6
+train,EgoPro,308,308,0,5,6
+train,EgoStandard,748,748,0,4,6
+validation,EgoDemo,46,46,46,5,6
+validation,EgoPro,150,150,0,5,6
+validation,EgoStandard,16,16,0,5,6

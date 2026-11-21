@@ -1,0 +1,11 @@
+{
+  "baseline_max_abs_difference": {
+    "Constant": 0.0,
+    "State": 0.0,
+    "Source": 0.0,
+    "LR": 2.0816681711721685e-15
+  },
+  "anchor_archive_sha256": "3738facb49c2e64287cf4fa387d6091e70ca53bae45f6ece451414fd75aa819a",
+  "rows": 17724,
+  "test_records_read": 0
+}

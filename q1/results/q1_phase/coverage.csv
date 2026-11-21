@@ -1,0 +1,10 @@
+group,source,windows
+all,EgoDemo,467
+all,EgoPro,308
+all,EgoStandard,748
+high_change,EgoDemo,119
+high_change,EgoPro,84
+high_change,EgoStandard,197
+other,EgoDemo,348
+other,EgoPro,224
+other,EgoStandard,551

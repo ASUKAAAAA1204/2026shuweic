@@ -1,0 +1,15 @@
+{
+  "strength": 50,
+  "source_state": {
+    "EgoDemo|False": 0.003680617610487632,
+    "EgoDemo|True": 0.9085239085239085,
+    "EgoPro|False": 0.01704236798942967,
+    "EgoPro|True": 0.8823076923076922,
+    "EgoStandard|False": 0.005328029816034932,
+    "EgoStandard|True": 0.8786982248520709
+  },
+  "global_state": {
+    "False": 0.007303077725612937,
+    "True": 0.8846153846153846
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "verified_rows": 59397,
+  "max_abs_difference": {
+    "ade": 1.6653345369377348e-16,
+    "fde": 2.220446049250313e-16,
+    "nade": 3.1086244689504383e-15
+  },
+  "archived_knn_gain_ci95_max_abs_difference": 2.983724378680108e-16,
+  "rerun_metric_hash_verified": true,
+  "repeated_metrics_sha256": "197bfacfa7a890a107988c223c1266997b54a41b57687614d405dbba133b4c95",
+  "code_hashes": {
+    "code/q1_head_to_head/compare.py": "26c9e1d5da3d18e6ecb7a2d0ff4a719afb5ede3809028dfb5ddb867c76b97cbc",
+    "code/q1_head_to_head/finish.py": "e02395f7566f9acb467ed54447cbb304e3d936c948d1cf900c04cac4f66a8ead",
+    "code/q1_head_to_head/model/paired.py": "4964f51e9e7bc651ae99a83abdb8d62f55684979a549a0c4d8b2690ff4141893"
+  }
+}

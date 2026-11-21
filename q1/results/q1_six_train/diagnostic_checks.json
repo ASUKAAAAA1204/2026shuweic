@@ -1,0 +1,7 @@
+{
+  "neighbor_links_checked": 12290,
+  "blind_replays": 9138,
+  "max_blind_difference": 0.0,
+  "turn_vs_quadrature_max": 5.551115123125783e-17,
+  "same_source_distinct_env": true
+}

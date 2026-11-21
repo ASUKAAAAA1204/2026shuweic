@@ -1,0 +1,13 @@
+split,dataset,horizon_s,windows,records,environments,models,paired_rows
+train,EgoDemo,0.6,161,21,10,4,644
+train,EgoDemo,1.0,161,21,10,4,644
+train,EgoPro,0.6,208,7,3,4,832
+train,EgoPro,1.0,208,7,3,4,832
+train,EgoStandard,0.6,608,19,7,4,2432
+train,EgoStandard,1.0,608,19,7,4,2432
+validation,EgoDemo,0.6,24,2,2,4,96
+validation,EgoDemo,1.0,24,2,2,4,96
+validation,EgoPro,0.6,118,3,2,4,472
+validation,EgoPro,1.0,118,3,2,4,472
+validation,EgoStandard,0.6,10,1,1,4,40
+validation,EgoStandard,1.0,10,1,1,4,40
