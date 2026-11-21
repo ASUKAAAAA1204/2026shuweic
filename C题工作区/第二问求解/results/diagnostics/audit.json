@@ -1,0 +1,11 @@
+{
+  "evaluation_only": true,
+  "model_refitted": false,
+  "source_endpoints_never_policy_inputs": true,
+  "speed_cutoffs_training_only": {
+    "EgoDemo": 0.16538517349788623,
+    "EgoPro": 0.14401162853172866,
+    "EgoStandard": 0.280420016767521
+  },
+  "warning": "annotation thirds are post-hoc progress proxies, not verified reaching/grasping/placing labels; subgroup correlations are not causal effects"
+}

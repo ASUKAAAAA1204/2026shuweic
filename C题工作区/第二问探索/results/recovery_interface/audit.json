@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    "uninitialized unavailable",
+    "one frame cannot imply continuous velocity",
+    "two continuous samples track",
+    "bad validity disclosed then missing",
+    "no future recovery awareness",
+    "delayed first sample retains age",
+    "continuous pair can resume tracking",
+    "empirical fit never claims guarantee",
+    "stale state refuses implicit certification",
+    "duplicate sample rejected",
+    "future sample rejected"
+  ],
+  "train_records": 55,
+  "hand_timestamps": 94092,
+  "test_reads": 0,
+  "development_reads": 0,
+  "reference_enters_predict": false,
+  "current_quality_used_only_after_predict": true,
+  "guaranteed_claims": 0
+}

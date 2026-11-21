@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "replays": 6108,
+  "held_environments": 16,
+  "train_windows": 1527,
+  "development_reads": 0,
+  "test_reads": 0,
+  "threshold_search": false,
+  "natural_recovery_calibration_used": false,
+  "unreturned_requests": 0
+}

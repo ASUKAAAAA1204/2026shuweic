@@ -1,0 +1,10 @@
+{
+  "train_records": 55,
+  "bad_hand_events": 158,
+  "eligible_hand_events": 79,
+  "test_reads": 0,
+  "development_reads": 0,
+  "hidden_bad_coordinates_enter_prediction": false,
+  "mode": "naturally recovered zero-delay stream, pre-current-observation forecast vs post-observation state",
+  "formal_model_unchanged": true
+}

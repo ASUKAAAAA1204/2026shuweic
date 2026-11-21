@@ -1,0 +1,5 @@
+model,calibration,rows,fallback_points
+distance_return,env_mean,47037,431.0
+distance_return,pooled,47037,431.0
+secant,env_mean,47037,431.0
+secant,pooled,47037,431.0

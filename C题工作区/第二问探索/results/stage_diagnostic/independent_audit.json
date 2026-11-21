@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "independently_mapped": 1527,
+  "progress_float_boundary_cases": 0,
+  "prior_mapping_family_matches": 294,
+  "short_semantic_windows": 4,
+  "boundary_windows": 205,
+  "matched_source_environment_pairs": 17,
+  "unique_matched_global_environments": 14,
+  "offline_future_end_used_only_for_diagnosis": true,
+  "phase_controls_confounding": false
+}

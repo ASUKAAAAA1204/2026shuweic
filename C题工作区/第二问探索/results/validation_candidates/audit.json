@@ -1,0 +1,13 @@
+{
+  "validation_windows": 212,
+  "validation_environments": 4,
+  "train_record_reads": 55,
+  "validation_record_reads": 7,
+  "test_reads": 0,
+  "model_hash_before_validation": "8d91fde178ee9ee737e10cb54be7e6f1b1634a6f444b6271f756ce45fad82914",
+  "models_unchanged_after_validation": true,
+  "formal_model_changed": false,
+  "in_sample_sensitivity_candidate_not_evaluated": true,
+  "uncertainty_ranges_not_evaluated": true,
+  "scope": "previously viewed validation; not fresh independent test"
+}

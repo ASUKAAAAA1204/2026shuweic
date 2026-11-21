@@ -1,0 +1,2 @@
+{"passed": true, "sorted_quantile_groups": 492, "radius_max_difference": 0.0, "outer_nade_max_difference": 1.6653345369377348e-16, "fit_exclusions_verified": 120, "scope": "saved residual quantiles, pair exclusion metadata and outer metric agreement; independent pair refitting pending"}
+

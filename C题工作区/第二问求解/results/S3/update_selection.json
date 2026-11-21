@@ -1,0 +1,19 @@
+{
+  "selected": "secant",
+  "comparison": {
+    "reference": "secant",
+    "candidate": "decayed",
+    "metric": "nade",
+    "gain_pct": -17.859496208850857,
+    "lo95": -23.300226536207266,
+    "hi95": -11.729872722901119,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "source_gain_pct": {
+    "EgoDemo": -10.889255293608247,
+    "EgoPro": -15.806085287375083,
+    "EgoStandard": -25.374101825834707
+  },
+  "development_used": false
+}

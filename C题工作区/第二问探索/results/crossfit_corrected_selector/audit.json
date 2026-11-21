@@ -1,0 +1,28 @@
+{
+  "comparison_baseline": {
+    "reference": "baseline",
+    "candidate": "crossfit_corrected",
+    "metric": "nade",
+    "gain_pct": 2.264409996427841,
+    "lo95": -0.13309196817615107,
+    "hi95": 4.670947917004584,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "comparison_in_sample": {
+    "reference": "corrected_selector",
+    "candidate": "crossfit_corrected",
+    "metric": "nade",
+    "gain_pct": -0.21160059116580587,
+    "lo95": -0.6616719493162293,
+    "hi95": 0.17001773298038553,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "windows": 1527,
+  "training_event_provenance_groups": 240,
+  "formal_model_changed": false,
+  "development_reads": 0,
+  "test_reads": 0,
+  "scope": "cross-fitted base-generated selector training events, 14-to-15 base-fit transfer, actual online evaluation"
+}

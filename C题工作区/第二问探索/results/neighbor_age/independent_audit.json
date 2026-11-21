@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checked_groups": 984,
+  "independent_minimum_distance_order_statistic": true,
+  "radius_max_difference": 0.0,
+  "unchanged_error_rows": 188148,
+  "adequate_groups_unchanged": true,
+  "coverage_recomputed": true,
+  "scope": "neighborhood minimality, pooled quantile, point pairing and supported outputs; env_mean formula not independently recomputed here"
+}

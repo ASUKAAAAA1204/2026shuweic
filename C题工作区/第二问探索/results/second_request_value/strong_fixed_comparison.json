@@ -1,0 +1,10 @@
+{
+  "reference": "causal_selector",
+  "candidate": "adaptive_buy",
+  "metric": "utility",
+  "gain_pct": -0.22955664822768007,
+  "lo95": -1.9047020008746895,
+  "hi95": 1.688607605883724,
+  "bootstrap_valid": 1933,
+  "global_envs": 16
+}

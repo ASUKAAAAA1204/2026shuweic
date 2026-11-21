@@ -1,0 +1,70 @@
+from pathlib import Path
+import sys,json
+import numpy as np,pandas as pd
+from request_value import weights,BASE,OLD
+sys.path.insert(0,str(OLD/'code'))
+from engine import FixedPolicy
+from end_guard import safe_replay
+from update_calibration_experiment import hierarchical,paired_ci
+import s0_audit_replay as s0
+
+FIT_SYSTEMS=[]
+
+def make_stage(d,stage,c1):
+ t,x=d['t'],d['x'];q=d['samples'];a=d['arrivals'];hist=d['hist'];ht=d['ht']
+ v0=(hist[-1]-hist[-2])/(ht[-1]-ht[-2]);gap1=t[q[0]]-ht[-1];sec1=(x[q[0]]-hist[-1])/gap1;old1=v0*np.exp(-gap1/.2)
+ if stage==0:sec=sec1;old=old1;lo=a[0];hi=a[1];last=x[q[0]];sample=t[q[0]]
+ else:
+  v1=c1[0]*sec1+c1[1]*old1;gap=t[q[1]]-t[q[0]];sec=(x[q[1]]-x[q[0]])/gap;old=v1*np.exp(-gap/.2);lo=a[1];hi=len(t);last=x[q[1]];sample=t[q[1]]
+ factor=-.2*np.expm1(-(t[lo:hi]-sample)/.2)
+ X=factor[:,None,None]*np.stack([sec,old],axis=-1)[None,:,:]
+ return lo,hi,last,X,x[lo:hi]-last
+
+def fit_coeff(data,frame,scale,stage,c1):
+ w=weights(frame);gram=np.zeros((2,2));rhs=np.zeros(2)
+ for weight,r in zip(w,frame.itertuples()):
+  d=data[r.window_id];_,_,_,X,y=make_stage(d,stage,c1);s=scale[r.dataset];X=X.reshape(-1,2)/s;y=y.reshape(-1)/s
+  z=weight/len(d['t']);gram+=z*(X.T@X);rhs+=z*(X.T@y)
+ coefficient=np.linalg.solve(gram+.001*np.eye(2),rhs+.001*np.array([1.,0.]))
+ FIT_SYSTEMS.append(dict(stage=stage,gram=gram.tolist(),rhs=rhs.tolist(),coefficient=coefficient.tolist()))
+ return coefficient
+
+def predictions(d,c1,c2):
+ ht,h=d['ht'],d['hist'];v=(h[-1]-h[-2])/(ht[-1]-ht[-2]);factor=-.2*np.expm1(-(d['t']-ht[-1])/.2);pred=h[-1]+factor[:,None]*v
+ for stage,c in [(0,c1),(1,c2)]:
+  lo,hi,last,X,_=make_stage(d,stage,c1);pred[lo:hi]=last+X@c
+ return pred
+
+def main():
+ out=BASE/'results/return_loss_diagnostic';out.mkdir(exist_ok=True)
+ frame=pd.read_csv(s0.Q1.parent/'C题工作区/阶段交付/stage1_review/corrected_results/data/windows.csv').query("split=='train'");sc=json.loads((OLD/'results/S0/fold_scales.json').read_text());cache={};data={};maxdiff=0.
+ for w in frame.itertuples():
+  key=(w.episode_uuid,w.side)
+  if key not in cache:
+   with np.load(s0.DATA/'records'/f'{w.episode_uuid}.npz',allow_pickle=False) as z:cache[key]=(z[w.side+'__t_s'],z[w.side+'__position'].mean(axis=1))
+  t,x=cache[key];i,j=w.start_index,w.end_index_exclusive;r=safe_replay(t[i:j],x[i:j],t[i-2:i],x[i-2:i],FixedPolicy(),delay=.1,budget=2,window_end=float(t[i]+1));ret=[a for a in r['actions'] if a['event']=='return'];assert len(ret)==2
+  tt=t[i:j];d=dict(t=tt,x=x[i:j],ht=t[i-2:i],hist=x[i-2:i],samples=[int(np.argmin(abs(tt-a['sample_time']))) for a in ret],arrivals=[int(np.argmin(abs(tt-a['processed_at']))) for a in ret]);data[w.window_id]=d
+  delta=float(np.max(abs(predictions(d,[1.,0.],[1.,0.])-np.array([p['prediction'] for p in r['points']]))));maxdiff=max(maxdiff,delta);assert delta<1e-12
+ rows=[];folds=[];stage_rows=[]
+ for held in sorted(frame.environment_id.unique()):
+  fit=frame[frame.environment_id!=held];ev=frame[frame.environment_id==held];c1=fit_coeff(data,fit,sc[held],0,np.array([1.,0.]));c2=fit_coeff(data,fit,sc[held],1,c1);folds.append(dict(held=held,first_a=c1[0],first_b=c1[1],second_a=c2[0],second_b=c2[1],fit_environments=sorted(fit.environment_id.unique())))
+  for w in ev.itertuples():
+   d=data[w.window_id];scale=sc[held][w.dataset]
+   for method,a,b in [('secant',[1.,0.],[1.,0.]),('learned_return',c1,c2)]:
+    pred=predictions(d,a,b);e=np.linalg.norm(pred-d['x'],axis=1)/scale
+    rows.append(dict(**{k:getattr(w,k) for k in ['window_id','dataset','environment_id','episode_uuid','side']},method=method,nade=e.mean(),nmse=float((e*e).mean()),nfde=e[-1],exceed05=float((e>.05).mean()),requests=2,waiting_s=.2))
+    for stage in [0,1]:
+     lo,hi,last,X,y=make_stage(d,stage,np.array([1.,0.]));vectors=X[:,:,0];den=(vectors*vectors).sum(axis=1);ratio=np.divide((y*vectors).sum(axis=1),den,out=np.zeros(len(y)),where=den>1e-20)
+     classes=np.where(den<=1e-20,'zero_secant',np.where(ratio<0,'opposes_secant',np.where(ratio<=1,'smaller_projection','larger_projection')))
+     for k in range(lo,hi):stage_rows.append(dict(window_id=w.window_id,dataset=w.dataset,environment_id=held,episode_uuid=w.episode_uuid,side=w.side,method=method,stage=stage+1,future_class=classes[k-lo],nade=e[k],nmse=e[k]*e[k]))
+ diag=pd.DataFrame(stage_rows);diag.to_csv(out/'posthoc_points.csv.gz',index=False)
+ for factors,name in [(['stage'],'stage_summary.csv'),(['stage','future_class'],'future_class_summary.csv')]:
+  z=diag.groupby(factors+['method','window_id','dataset','environment_id','episode_uuid','side'],as_index=False)[['nade','nmse']].mean()
+  hierarchical(z,factors+['method'],['nade','nmse']).to_csv(out/name,index=False)
+ diag.groupby(['dataset','stage','future_class','method']).size().to_csv(out/'future_class_counts.csv')
+ (out/'fit_systems.json').write_text(json.dumps(FIT_SYSTEMS,indent=2),encoding='utf8')
+ m=pd.DataFrame(rows);m.to_csv(out/'windows.csv.gz',index=False);(out/'folds.json').write_text(json.dumps(folds,indent=2),encoding='utf8');metrics=['nade','nmse','nfde','exceed05','requests','waiting_s'];summary=hierarchical(m,['method'],metrics);summary.to_csv(out/'summary.csv',index=False)
+ env=m.groupby(['method','dataset','environment_id','episode_uuid','side'],as_index=False)[metrics].mean().groupby(['method','dataset','environment_id','episode_uuid'],as_index=False)[metrics].mean().groupby(['method','dataset','environment_id'],as_index=False)[metrics].mean();env.to_csv(out/'environments.csv',index=False);src=env.groupby(['method','dataset'],as_index=False)[metrics].mean();src.to_csv(out/'sources.csv',index=False);ci=paired_ci(env,'secant','learned_return');sg=src.pivot(index='dataset',columns='method',values='nade');gains=100*(1-sg.learned_return/sg.secant)
+ audit=dict(passed=True,reconstructed_baseline_max_difference=maxdiff,train_windows=len(frame),held_environments=len(folds),development_reads=0,test_reads=0,admitted=bool(ci['gain_pct']>=3 and ci['lo95']>0 and gains.min()>=-5),comparison=ci,source_gains=gains.to_dict(),regularization=.001)
+ (out/'audit.json').write_text(json.dumps(audit,indent=2),encoding='utf8');print(summary.to_string(index=False));print(json.dumps(audit))
+if __name__=='__main__':main()

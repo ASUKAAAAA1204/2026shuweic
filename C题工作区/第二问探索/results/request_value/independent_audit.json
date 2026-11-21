@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "folds": 16,
+  "independent_augmented_least_squares_max_difference": 1.97758476261356e-16,
+  "history_rows": 1527,
+  "full_six_frame_fraction": 0.9816633922724296,
+  "future_feature_perturbation_invariant": true,
+  "held_env_excluded": true,
+  "source_weight_balance_verified": true,
+  "scope": "feature causality and independently solved fold predictions; not second raw replay engine"
+}

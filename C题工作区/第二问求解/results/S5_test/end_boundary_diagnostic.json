@@ -1,0 +1,6 @@
+{
+  "requests": 20740,
+  "returns_processed_before_last_score": 20624,
+  "paid_requests_without_processed_return_before_last_score": 116,
+  "explanation": "nominal mask endpoint may be after last original scoring timestamp; queries due in that gap are paid but cannot improve scored frames; waiting includes their full in-flight delay"
+}

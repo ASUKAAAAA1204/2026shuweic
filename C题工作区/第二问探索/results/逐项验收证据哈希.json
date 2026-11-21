@@ -1,0 +1,42 @@
+[
+  {
+    "path": "results/distance_aligned_return/audit.json",
+    "sha256": "490a52826eeac9e99696c476c6c7cd9b4d8d6669429ffda61b8055378111758f"
+  },
+  {
+    "path": "results/distance_nested_calibration/summary.csv",
+    "sha256": "86c1279c8d3ec5a82e9505ca969fcbea390466126fcc50e54ba326f9592f1e13"
+  },
+  {
+    "path": "results/end_guard/audit.json",
+    "sha256": "697bb528123b6f7dc81204637a94dbb51ee5112bd342188a2ea1d2a1a8acdad4"
+  },
+  {
+    "path": "results/resource_curve_safe/finite_pareto.csv",
+    "sha256": "a77d2c71fc385b4a6fdbc98534eeb49322516ff2ae77cf17ca0579a9bda18425"
+  },
+  {
+    "path": "校准覆盖环境级不确定性.md",
+    "sha256": "bb7fc033fcd8ab5269b63ed9a341cee9bb2fec58ca64f1d4a8c732859299d779"
+  },
+  {
+    "path": "results/validation_matched_ranges/summary.csv",
+    "sha256": "B8A199DCBF44859C2A6C1EA5D254757778E3D8682D6E7D228772667588DB76FC"
+  },
+  {
+    "path": "results/validation_matched_ranges/independent_audit.json",
+    "sha256": "83B85FED551E93CF57F9D08D625EA5A5BCC5C8AE135F5B9F8CE1FB83A80618B0"
+  },
+  {
+    "path": "验证集预测与匹配范围联合评估.md",
+    "sha256": "47958B0C6F3894C61BA00354674200E44AC44A01FBAB39AE9B3ABB0B07B81A88"
+  },
+  {
+    "path": "返回创新量完整结果.md",
+    "sha256": "e914c3efd8b842cf4c3b4a5e2f9e85727a4d9539d829712f17708b3b9fdd9735"
+  },
+  {
+    "path": "风险输出规范与适用范围.md",
+    "sha256": "bb61a75a38cac02a3ee31cc66cb6667e15c4380380c9e65f53227cef7a1be100"
+  }
+]

@@ -1,0 +1,2 @@
+{"passed": true, "augmented_least_squares_coefficient_max_difference": 2.0729945537922845e-16, "choices_verified": 3054, "baseline_max_difference": 1.1102230246251565e-16, "scope": "independent ridge solve and saved-feature choices; raw feature causality and online integration pending"}
+

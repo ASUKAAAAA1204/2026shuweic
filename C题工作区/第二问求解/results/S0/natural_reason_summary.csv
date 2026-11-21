@@ -1,0 +1,9 @@
+dataset,side,reason,mark_rows,records
+EgoDemo,left,occlusion,96,4
+EgoDemo,right,occlusion,63,4
+EgoPro,both,left:near edge,9,1
+EgoPro,both,left:occlusion,66,3
+EgoPro,both,right:near edge,23,1
+EgoPro,both,right:occlusion,66,3
+EgoStandard,both,left:occlusion,105,4
+EgoStandard,both,right:occlusion,163,7

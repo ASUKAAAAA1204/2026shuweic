@@ -1,0 +1,35 @@
+{
+  "scope": "Python NumPy return velocity kernel only; not end-to-end latency or per-event tail",
+  "training_windows": 1527,
+  "actual_return_events": 3054,
+  "repetitions": 40,
+  "warmup_passes": 1,
+  "alternating_order": true,
+  "online_reconstruction_max_difference": 1.7763568394002505e-15,
+  "development_reads": 0,
+  "test_reads": 0,
+  "offline_fit_timed": false,
+  "formal_model_changed": false,
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "checksum": -5.460895689395215,
+  "statistics": {
+    "distance_return": {
+      "median_us": 3.165340537000655,
+      "p95_batch_mean_us": 3.288726260641781,
+      "min_us": 3.111034708578913,
+      "max_us": 3.359364767518009
+    },
+    "secant": {
+      "median_us": 0.8767026850032744,
+      "p95_batch_mean_us": 0.9495677799607072,
+      "min_us": 0.8558611656843484,
+      "max_us": 0.9991814014407334
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "unit": "shared global environment",
+  "conditional_on_all_sources": true,
+  "refit_bootstrap": false,
+  "multiple_search_corrected": false,
+  "seed": 20261123
+}

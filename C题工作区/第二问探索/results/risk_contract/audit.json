@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": [
+    "paid descriptive comparison",
+    "no absolute guarantee when too wide",
+    "cross-regime blocked",
+    "wrong mode blocked",
+    "missing calibration refused",
+    "no radius refused",
+    "uninitialized unavailable",
+    "missing never certified",
+    "recovered_single never certified",
+    "invalid numeric input rejected",
+    "invalid numeric input rejected",
+    "invalid numeric input rejected",
+    "invalid numeric input rejected"
+  ],
+  "evidence": [
+    {
+      "path": "results/environment_calibration/summary.csv",
+      "sha256": "dc352487e655b1769e3f729a7671a260a8f40d9ceeb6c61c49c167f3a53725fc"
+    },
+    {
+      "path": "results/causal_calibration/summary.csv",
+      "sha256": "fd25f26fdf7bd5e5411edf9fa4075442ad9ff8ad870f419a5407d2245e929132"
+    },
+    {
+      "path": "results/origin_reproduction/summary.csv",
+      "sha256": "f1ef39b2ca411354cff3efb3b9c74b0c1e511807f8105dc0064c3655bee16794"
+    },
+    {
+      "path": "results/resource_curve_safe/independent_audit.json",
+      "sha256": "06ab0b46b1ab874da5d8a710f4ea0be4402ed8eac99bfed0b629db2962da71dc"
+    },
+    {
+      "path": "results/stage_diagnostic/independent_audit.json",
+      "sha256": "af1e3aa01f9362afc6a1246162c3ed0a233e31bec02ad4dc3a9f71d9c57b1fa2"
+    }
+  ],
+  "formal_model_sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3",
+  "scope": "risk labeling and evidence integrity; not coverage certification",
+  "development_reads": 0,
+  "test_reads": 0
+}

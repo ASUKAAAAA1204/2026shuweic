@@ -1,0 +1,19 @@
+{
+  "windows": 1527,
+  "lambda_cost": 0.02,
+  "comparison_utility": {
+    "reference": "train_selected_fixed",
+    "candidate": "adaptive_buy",
+    "metric": "utility",
+    "gain_pct": 1.0646214084784056,
+    "lo95": 0.08263583251249099,
+    "hi95": 2.413731957853653,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "raw_skipped_second": 287,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "scope": "offline causal-feature decision simulation; live policy integration pending"
+}

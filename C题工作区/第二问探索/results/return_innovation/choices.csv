@@ -1,0 +1,9 @@
+method,choice,0
+fixed,fixed,1527
+innovation_ridge,early,218
+innovation_ridge,fixed,1104
+innovation_ridge,late,205
+oracle_diagnostic,early,567
+oracle_diagnostic,fixed,543
+oracle_diagnostic,late,417
+source_only,fixed,1527

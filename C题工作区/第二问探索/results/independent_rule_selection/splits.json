@@ -1,0 +1,483 @@
+[
+  {
+    "outer": "home_x_apartment_0342",
+    "train": [
+      "retail_x_supermarket_0049",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.4790791882273886,
+      "EgoStandard": 0.5138511800130221,
+      "EgoPro": 0.5348892074546797
+    },
+    "first": [
+      1.2625694929361926,
+      -0.5421019279569123
+    ],
+    "second": [
+      1.4433114116926322,
+      -0.5166764173577969
+    ]
+  },
+  {
+    "outer": "retail_x_convenience_0014",
+    "train": [
+      "retail_x_supermarket_0049",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.49007883609036995,
+      "EgoStandard": 0.5138511800130221,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.2407461675236375,
+      -0.6645755311406176
+    ],
+    "second": [
+      1.2729655120787748,
+      -0.8183711954863438
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0037",
+    "train": [
+      "retail_x_supermarket_0049",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0059",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.48413433268213235,
+      "EgoStandard": 0.5090677362657183,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.2450191088822153,
+      -0.609461906095843
+    ],
+    "second": [
+      1.1479606877520345,
+      -0.5279191088525707
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0049",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0059",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.49274620674021796,
+      "EgoStandard": 0.5138511800130221,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.26530791945039,
+      -0.7071895129596067
+    ],
+    "second": [
+      1.2919576561001405,
+      -0.8594296633197885
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0054",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0059",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.49274620674021796,
+      "EgoStandard": 0.5138511800130221,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.26530791945039,
+      -0.7071895129596067
+    ],
+    "second": [
+      1.2919576561001405,
+      -0.8594296633197885
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0058",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0059",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0066",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.49274620674021796,
+      "EgoStandard": 0.5138511800130221,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.26530791945039,
+      -0.7071895129596067
+    ],
+    "second": [
+      1.2919576561001405,
+      -0.8594296633197885
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0059",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0058",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0066",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.49582558727482423,
+      "EgoStandard": 0.5276692470013844,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.1483536226955033,
+      -0.6845033389644231
+    ],
+    "second": [
+      1.2271302920595093,
+      -0.9057080147475607
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0066",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0058",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0071"
+    ],
+    "scale": {
+      "EgoDemo": 0.49582558727482423,
+      "EgoStandard": 0.5276692470013844,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.1483536226955033,
+      -0.6845033389644231
+    ],
+    "second": [
+      1.2271302920595093,
+      -0.9057080147475607
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0071",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0058",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0066"
+    ],
+    "scale": {
+      "EgoDemo": 0.49582558727482423,
+      "EgoStandard": 0.5276692470013844,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.1483536226955033,
+      -0.6845033389644231
+    ],
+    "second": [
+      1.2271302920595093,
+      -0.9057080147475607
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0087",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0058",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0121"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0066"
+    ],
+    "scale": {
+      "EgoDemo": 0.49582558727482423,
+      "EgoStandard": 0.5276692470013844,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.1483536226955033,
+      -0.6845033389644231
+    ],
+    "second": [
+      1.2271302920595093,
+      -0.9057080147475607
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0121",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0058",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0087"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0124"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0066"
+    ],
+    "scale": {
+      "EgoDemo": 0.5002607200044287,
+      "EgoStandard": 0.5171920008637043,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.332107569680606,
+      -0.689235089820483
+    ],
+    "second": [
+      1.363246115914986,
+      -0.7838880524717743
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0124",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0125",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0058",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0087"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0121"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0066"
+    ],
+    "scale": {
+      "EgoDemo": 0.5002607200044287,
+      "EgoStandard": 0.5171920008637043,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.332107569680606,
+      -0.689235089820483
+    ],
+    "second": [
+      1.363246115914986,
+      -0.7838880524717743
+    ]
+  },
+  {
+    "outer": "retail_x_supermarket_0125",
+    "train": [
+      "retail_x_supermarket_0037",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0124",
+      "home_x_apartment_0342",
+      "retail_x_supermarket_0058",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0087"
+    ],
+    "calibration": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "home_x_apartment_0701",
+      "retail_x_supermarket_0121"
+    ],
+    "selection": [
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0066"
+    ],
+    "scale": {
+      "EgoDemo": 0.5063500586269635,
+      "EgoStandard": 0.5085265825602037,
+      "EgoPro": 0.3829793617014349
+    },
+    "first": [
+      1.2827316303182499,
+      -0.703393623172
+    ],
+    "second": [
+      1.2974548134884707,
+      -0.7557749201654085
+    ]
+  }
+]

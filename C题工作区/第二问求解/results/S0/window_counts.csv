@@ -1,0 +1,7 @@
+split,dataset,windows,records,environments
+train,EgoDemo,471,27,10
+train,EgoPro,308,8,3
+train,EgoStandard,748,20,7
+validation,EgoDemo,46,2,2
+validation,EgoPro,150,4,2
+validation,EgoStandard,16,1,1

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "quantiles_independently_recomputed": 1950,
+  "max_quantile_difference": 9.71445146547012e-17,
+  "outer_folds": 16,
+  "inner_results": 229050,
+  "outer_environment_in_selection_data": 0
+}

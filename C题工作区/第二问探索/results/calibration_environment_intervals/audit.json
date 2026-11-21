@@ -1,0 +1,13 @@
+{
+  "global_environments": 16,
+  "source_environment_counts": {
+    "EgoDemo": 10,
+    "EgoPro": 3,
+    "EgoStandard": 7
+  },
+  "draws": 5000,
+  "seed": 20261122,
+  "conditional_on_all_sources_present": true,
+  "scope": "fixed saved OOF environment scores, not full refit bootstrap, nominal exploratory intervals, no multiple-search correction",
+  "formal_model_changed": false
+}

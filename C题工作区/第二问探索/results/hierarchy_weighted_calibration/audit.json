@@ -1,0 +1,9 @@
+{
+  "outer_folds": 16,
+  "groups": 492,
+  "cdf_rank_checks": true,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "coverage_guarantee": false
+}

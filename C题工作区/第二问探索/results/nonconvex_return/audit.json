@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "reconstructed_baseline_max_difference": 0.0,
+  "train_windows": 1527,
+  "held_environments": 16,
+  "development_reads": 0,
+  "test_reads": 0,
+  "admitted": false,
+  "comparison": {
+    "reference": "secant",
+    "candidate": "learned_return",
+    "metric": "nade",
+    "gain_pct": 0.6561053528615912,
+    "lo95": -0.754015871800162,
+    "hi95": 1.8696027965374975,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "source_gains": {
+    "EgoDemo": -0.6742984212769976,
+    "EgoPro": -0.21119019977848819,
+    "EgoStandard": 2.4909552734183826
+  },
+  "regularization": 0.001
+}

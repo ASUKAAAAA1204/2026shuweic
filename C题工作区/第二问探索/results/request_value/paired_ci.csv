@@ -1,0 +1,4 @@
+reference,candidate,metric,gain_pct,lo95,hi95,bootstrap_valid,global_envs
+fixed,source_only,nade,0.0,0.0,0.0,1933,16
+fixed,history_ridge,nade,0.30322267601172737,-0.1490556978107671,0.6674903718117975,1933,16
+fixed,oracle_diagnostic,nade,5.511180467374121,4.936941610142869,6.225231791456949,1933,16

@@ -1,0 +1,2 @@
+{"passed": true, "cases": {"valid_buy": true, "invalid_first_no_untrained_retry": true, "zero_budget": true, "one_budget": true, "no_second_arrival_before_end": true, "exact_final_arrival": true, "caller_model_mutation_isolated": true}, "invalid_constructors_rejected": 5, "scope": "synthetic protocol boundary tests, not invalid-observation performance evidence"}
+

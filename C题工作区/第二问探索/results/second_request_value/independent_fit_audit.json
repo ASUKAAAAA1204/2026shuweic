@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "folds": 16,
+  "independent_group_count_weights": true,
+  "augmented_lstsq_coefficient_max_difference": 1.5265566588595902e-15,
+  "fair_fixed_choices_verified": true,
+  "scope": "saved causal features and replay labels, not independent extraction"
+}

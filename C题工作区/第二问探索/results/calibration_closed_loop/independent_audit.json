@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "summary_max_abs_difference": 1.1102230246251565e-16,
+  "request_return_pairs": 12216,
+  "full_common_windows": 1527,
+  "delay_verified": 0.1,
+  "scope": "saved-result independent arithmetic and action consistency; not raw trajectory reimplementation"
+}

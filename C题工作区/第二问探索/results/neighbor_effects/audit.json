@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "paired_rows": 188148,
+  "mixed_rule": "diagnostic after original experiment; not independently confirmed",
+  "post_return_mixed_exact_original": true,
+  "current_error_used_for_selection": false,
+  "development_reads": 0,
+  "test_reads": 0
+}

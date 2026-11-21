@@ -1,0 +1,3 @@
+reference,candidate,metric,gain_pct,lo95,hi95,bootstrap_valid,global_envs
+unrestricted,second_half,nade,23.915472276625337,20.677719695949364,26.696807634112147,1933,16
+unrestricted,quarter_half,nade,32.152238934349874,29.101757846165828,34.66087564276875,1933,16

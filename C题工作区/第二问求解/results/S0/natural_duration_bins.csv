@@ -1,0 +1,8 @@
+dataset,duration_bin,0
+EgoDemo,"(-0.001, 0.2]",16
+EgoDemo,"(0.2, 0.6]",10
+EgoPro,"(-0.001, 0.2]",56
+EgoPro,"(0.2, 0.6]",16
+EgoStandard,"(-0.001, 0.2]",30
+EgoStandard,"(0.2, 0.6]",28
+EgoStandard,"(0.6, 1.0]",2

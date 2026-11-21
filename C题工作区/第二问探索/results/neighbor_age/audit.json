@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 188148,
+  "support_groups": 984,
+  "unsupported": 0,
+  "adequate_age_radius_max_difference": 8.326672684688674e-17,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false
+}

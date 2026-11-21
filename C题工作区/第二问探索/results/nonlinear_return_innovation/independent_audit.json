@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "folds": 16,
+  "leaves": 64,
+  "leaf_means_max_error": 0.0,
+  "held_exclusion_verified": true,
+  "depth_and_min_leaf_verified": true,
+  "independent_routing_verified": true,
+  "scope": "saved tree nodes, weights, predictions and decisions; not independent split optimization"
+}

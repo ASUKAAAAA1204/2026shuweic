@@ -1,0 +1,8 @@
+{
+  "train_only": true,
+  "test_reads": 0,
+  "development_reads": 0,
+  "fit": "all source quantiles inherited from held-environment-excluded fits",
+  "candidate_selection": false,
+  "warning": "multiple exploratory comparisons; no promotion and no new generalization claim"
+}

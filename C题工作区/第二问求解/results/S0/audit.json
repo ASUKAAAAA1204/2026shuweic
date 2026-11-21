@@ -1,0 +1,16 @@
+{
+  "record_index": 69,
+  "numerical_records_read": 62,
+  "test_trajectory_reads": 0,
+  "development_replay_rows": 0,
+  "train_windows": 1527,
+  "development_windows": 212,
+  "train_environments": 16,
+  "qualified_windows_checked": 1739,
+  "initial_replay_rows": 27486,
+  "budget_violations": 0,
+  "natural_bad_runs": 158,
+  "elapsed_s": 3.714202600007411,
+  "status": "S0 initial diagnostics; engine not yet independently certified",
+  "scale_formula": "median distance of valid hand centroid to head position; pool both hands and training timestamps per source excluding global held environment"
+}

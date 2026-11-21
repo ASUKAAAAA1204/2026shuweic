@@ -1,0 +1,11 @@
+{
+  "train_windows": 1527,
+  "global_environments": 16,
+  "replays": 6108,
+  "point_rows": 47037,
+  "test_reads": 0,
+  "development_reads": 0,
+  "formal_model_unchanged": true,
+  "formal_model_sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3",
+  "diagnostic_derivatives": "posthoc reference derivatives; not usable hidden features; no policy fitting"
+}

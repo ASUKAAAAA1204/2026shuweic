@@ -1,0 +1,30 @@
+{
+  "windows": 1527,
+  "baseline_max_difference": 1.1102230246251565e-16,
+  "post_return_difference": 0.0,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "comparisons": {
+    "global_multiplier": {
+      "reference": "baseline",
+      "candidate": "global_multiplier",
+      "metric": "nade",
+      "gain_pct": 0.2359286884676126,
+      "lo95": -0.8156783397093048,
+      "hi95": 1.11719410664913,
+      "bootstrap_valid": 1933,
+      "global_envs": 16
+    },
+    "source_multiplier": {
+      "reference": "baseline",
+      "candidate": "source_multiplier",
+      "metric": "nade",
+      "gain_pct": -0.14254804786366648,
+      "lo95": -1.3473105528370688,
+      "hi95": 0.8706024631860665,
+      "bootstrap_valid": 1933,
+      "global_envs": 16
+    }
+  }
+}

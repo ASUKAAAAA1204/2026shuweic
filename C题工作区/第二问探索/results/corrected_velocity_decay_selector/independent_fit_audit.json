@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "folds": 16,
+  "independent_group_weights": true,
+  "augmented_lstsq_coefficient_max_difference": 2.905661822261152e-16,
+  "choices_verified": 3054,
+  "scope": "saved fold-specific event features and labels, not independent extraction; in-sample stacking unchanged"
+}

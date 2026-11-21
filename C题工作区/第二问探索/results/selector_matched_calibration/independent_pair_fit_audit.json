@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "pair_fits_recomputed": 120,
+  "independent_group_count_weights": true,
+  "augmented_lstsq": true,
+  "coefficient_max_difference": 4.3368086899420177e-16,
+  "mean_max_difference": 1.3711254354120683e-14,
+  "std_max_difference": 9.769962616701378e-15,
+  "scope": "independent fitting from saved causal event features and labels, not independent raw event extraction"
+}

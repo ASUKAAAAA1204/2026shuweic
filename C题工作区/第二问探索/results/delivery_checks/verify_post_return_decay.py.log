@@ -1,0 +1,2 @@
+{"passed": true, "independent_choice_checks": 16, "fixed_tau_summary": [{"tau": 0.1, "nade": 0.08553714429080049}, {"tau": 0.2, "nade": 0.0821966377602518}, {"tau": 0.4, "nade": 0.081641683683292}], "posthoc_oracle_gain_pct": 6.270228147343593, "oracle_not_deployable": true, "scope": "independent hierarchical score reduction and selection provenance; upstream replay not independently reimplemented"}
+

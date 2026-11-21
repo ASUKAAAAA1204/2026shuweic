@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "validation_rows": 1060,
+  "summary_max_difference": 5.551115123125783e-17,
+  "independent_ridge_coefficient_max_difference": 5.835176092316985e-16,
+  "model_hash_verified": true,
+  "scope": "saved training events independent ridge and validation aggregation; not independent raw trajectory replay or base IRLS refit"
+}

@@ -1,0 +1,14 @@
+{
+  "split": "test",
+  "records_read": 7,
+  "windows": 390,
+  "replay_rows": 17550,
+  "points": 330900,
+  "actions": 41364,
+  "budget_violations": 0,
+  "nonfinite": 0,
+  "frozen_model_sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3",
+  "elapsed_s": 25.634097500005737,
+  "model_refitted": false,
+  "protocol_sha256": "bee9538d50693c2ef9cef53c827228df2ec564ee80b684c56c52187db013c55a"
+}

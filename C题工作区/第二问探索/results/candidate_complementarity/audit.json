@@ -1,0 +1,14 @@
+{
+  "windows": 1527,
+  "shared_points": 47037,
+  "raw_window_outcomes": {
+    "both_improve": 574,
+    "only_distance": 208,
+    "only_selector": 245,
+    "neither": 500
+  },
+  "raw_gain_correlation": 0.824100642572432,
+  "window_oracle_gain_pct": 3.6521261913653347,
+  "oracle_not_deployable": true,
+  "scope": "posthoc complementarity diagnosis, not proof a causal selector or blend will improve"
+}

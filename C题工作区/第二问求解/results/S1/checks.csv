@@ -1,0 +1,17 @@
+name,passed
+analytic constant velocity exact,True
+analytic hold exact,True
+analytic damping exact,True
+zero delay visible same timestamp,True
+stale return retains sampling age,True
+budget enforced,True
+zero budget,True
+failed payload charged and cannot update,True
+late arrival rejected,True
+terminal scoring observation allowed and explicit,True
+single inflight enforced,True
+no duplicate sample requests,True
+off grid arrival processed next scoring instant,True
+public interface excludes identities and future states,True
+200 future and unrequested reference perturbations,True
+full training 27486 replays match prototype and independent scorer,True

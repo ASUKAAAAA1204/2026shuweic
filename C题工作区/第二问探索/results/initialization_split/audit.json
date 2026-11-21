@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "train_records": 55,
+  "label_rows": 94092,
+  "residual_rows": 93099,
+  "current_validity_excluded_from_label": true,
+  "future_validity_excluded_from_label": true,
+  "model_refitted": false,
+  "test_reads": 0,
+  "development_reads": 0,
+  "warning": "past-invalid marker separates early initialization but later tracking may be long after any invalid; do not call all post-invalid frames immediate recovery"
+}

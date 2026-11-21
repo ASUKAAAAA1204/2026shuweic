@@ -1,0 +1,3 @@
+reference,candidate,metric,gain_pct,lo95,hi95,bootstrap_valid,global_envs
+fixed,history_tree,nade,0.04864054187714295,-0.2714801886367302,0.2906438264010702,1933,16
+history_ridge,history_tree,nade,-0.25535643274330333,-0.6310941326331498,0.19789877678934145,1933,16

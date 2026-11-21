@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "summary_max_abs_difference": 5.551115123125783e-17,
+  "points": 236,
+  "held_environments": 16,
+  "support_groups": 31,
+  "unsupported": 0,
+  "independent_order_statistic_check": true,
+  "development_reads": 0,
+  "test_reads": 0,
+  "exploratory_not_preregistered": true
+}

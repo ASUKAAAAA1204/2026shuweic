@@ -1,0 +1,2 @@
+{"passed": true, "replayed_windows": 1527, "replayed_methods": 4, "independent_window_max_difference": 1.1102230246251565e-16, "independent_summary_max_difference": 1.1102230246251565e-16, "baseline_prior_max_difference": 9.8879238130678e-17, "six_frame_support_matches": true, "validation_reads": 0, "test_reads": 0, "scope": "independent event-loop replay and hierarchical aggregation; still same source dataset"}
+

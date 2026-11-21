@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "points": 93099,
+  "environment_blocks": 62,
+  "evaluations": 124,
+  "cross_source_fallback": false,
+  "fit_in_raw_units": true,
+  "unsupported_range_not_replaced_by_finite_max": true,
+  "formal_coverage_guarantee": false,
+  "development_reads": 0,
+  "test_reads": 0
+}

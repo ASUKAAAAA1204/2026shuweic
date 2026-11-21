@@ -1,0 +1,10 @@
+progress_third,dataset,windows,records,environments
+early,EgoDemo,178,27,10
+early,EgoPro,110,8,3
+early,EgoStandard,286,20,7
+late,EgoDemo,138,22,9
+late,EgoPro,92,8,3
+late,EgoStandard,210,17,7
+middle,EgoDemo,155,24,9
+middle,EgoPro,106,6,3
+middle,EgoStandard,252,18,7

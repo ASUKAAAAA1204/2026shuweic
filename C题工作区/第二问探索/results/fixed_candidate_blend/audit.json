@@ -1,0 +1,28 @@
+{
+  "windows": 1527,
+  "comparison_baseline": {
+    "reference": "baseline",
+    "candidate": "blend_half",
+    "metric": "nade",
+    "gain_pct": 1.8013678416233136,
+    "lo95": 0.442886944028541,
+    "hi95": 3.0485644007623547,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "comparison_selector": {
+    "reference": "selector",
+    "candidate": "blend_half",
+    "metric": "nade",
+    "gain_pct": -0.12051315601089296,
+    "lo95": -0.8374639548537943,
+    "hi95": 0.3932554399782462,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "weight": 0.5,
+  "weight_search": false,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false
+}

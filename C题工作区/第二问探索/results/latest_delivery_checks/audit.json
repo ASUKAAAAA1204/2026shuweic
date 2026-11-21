@@ -1,0 +1,66 @@
+{
+  "execution_checks_passed": true,
+  "check_mode": "latest_additions_only",
+  "checks": [
+    {
+      "script": "verify_validation_candidates.py",
+      "exit_code": 0,
+      "elapsed_s": 0.9634260000020731
+    },
+    {
+      "script": "verify_validation_matched_ranges.py",
+      "exit_code": 0,
+      "elapsed_s": 5.819264699995983
+    },
+    {
+      "script": "verify_initial_history_candidates.py",
+      "exit_code": 0,
+      "elapsed_s": 1.9872070999990683
+    },
+    {
+      "script": "verify_initial_speed_ranges.py",
+      "exit_code": 0,
+      "elapsed_s": 10.574924699991243
+    },
+    {
+      "script": "verify_initial_speed_validation.py",
+      "exit_code": 0,
+      "elapsed_s": 1.9158356000261847
+    },
+    {
+      "script": "verify_return_speed_ranges.py",
+      "exit_code": 0,
+      "elapsed_s": 11.011383400007617
+    },
+    {
+      "script": "verify_frozen_speed_range.py",
+      "exit_code": 0,
+      "elapsed_s": 3.87376420001965
+    }
+  ],
+  "formal_model_sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3",
+  "formal_model_unchanged": true,
+  "quality_gates": {
+    "prediction_registered_gate": false,
+    "calibration_engineering_numeric_gate": false,
+    "formal_reliability_established": false,
+    "adaptive_advantage_established": false,
+    "new_independent_generalization_established": false,
+    "training_calibration_engineering_numeric_gate": true,
+    "validation_calibration_engineering_numeric_gate": false
+  },
+  "objective_complete": false,
+  "research_candidates": {
+    "selector_gain_pct": 1.9195676660581085,
+    "purchase_preference_weight": 0.02,
+    "purchase_utility_gain_pct": 1.0646214084784056,
+    "purchase_local_error_cost_disclosed": true
+  },
+  "validation_conditional_baseline": {
+    "coverage": 0.8469249437092179,
+    "minimum_source_coverage": 0.8208560794044666,
+    "width": 0.352162137483773,
+    "pinball": 0.0170638617741096
+  },
+  "scope": "current code and saved training/previously-viewed validation evidence; no new test evaluation, no raw double-nested refit; latest mode does not rerun older checks"
+}

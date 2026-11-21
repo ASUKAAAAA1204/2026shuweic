@@ -1,0 +1,32 @@
+[
+  {
+    "path": "C题工作区/第二问求解/frozen_model.json",
+    "bytes": 14452,
+    "sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3"
+  },
+  {
+    "path": "C题工作区/第二问探索/results/distance_aligned_return/summary.csv",
+    "bytes": 236,
+    "sha256": "dce11292f2cdd540be5b97dddbc78facdf897143c46b701ae66e028e7e9ed308"
+  },
+  {
+    "path": "C题工作区/第二问探索/results/distance_nested_calibration/summary.csv",
+    "bytes": 749,
+    "sha256": "86c1279c8d3ec5a82e9505ca969fcbea390466126fcc50e54ba326f9592f1e13"
+  },
+  {
+    "path": "C题工作区/第二问探索/results/independent_rule_selection/summary.csv",
+    "bytes": 174,
+    "sha256": "4937b483591fde7dfc57bc1f812cddff9d1ad2ea5c2f5446b881b49d457d6a91"
+  },
+  {
+    "path": "C题工作区/第二问探索/results/independent_rule_selection/support_audit.json",
+    "bytes": 149,
+    "sha256": "5a7b377a413b2256e7bf820da387600e108eba21d884d65556d0d31431daf93d"
+  },
+  {
+    "path": "C题工作区/第二问探索/results/resource_curve_safe/finite_pareto.csv",
+    "bytes": 4103,
+    "sha256": "a77d2c71fc385b4a6fdbc98534eeb49322516ff2ae77cf17ca0579a9bda18425"
+  }
+]

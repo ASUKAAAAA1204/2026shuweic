@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "distance20_exact_previous": true,
+  "max_window_nade_20_to_100_difference": 2.2131732002605986e-09,
+  "source_environment_units": 20,
+  "units_improved": 14,
+  "units_worse_over_5pct": 0,
+  "worst_unit_gain": -2.311634979972399,
+  "stage_full_contributions_reconcile": true
+}

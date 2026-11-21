@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "train_windows": 1527,
+  "replays": 4581,
+  "global_environments": 16,
+  "future_features": 0,
+  "development_reads": 0,
+  "test_reads": 0,
+  "oracle_policy_legal": false,
+  "ridge": 0.1
+}

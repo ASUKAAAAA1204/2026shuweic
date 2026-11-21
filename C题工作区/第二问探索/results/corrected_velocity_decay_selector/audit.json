@@ -1,0 +1,27 @@
+{
+  "comparison_baseline": {
+    "reference": "baseline",
+    "candidate": "corrected_selector",
+    "metric": "nade",
+    "gain_pct": 2.470782397434179,
+    "lo95": 0.06494574075932572,
+    "hi95": 4.782657128825197,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "comparison_selector": {
+    "reference": "causal_selector",
+    "candidate": "corrected_selector",
+    "metric": "nade",
+    "gain_pct": 0.5620027545344852,
+    "lo95": -0.1734731052175631,
+    "hi95": 1.2289858176646218,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "windows": 1527,
+  "formal_model_changed": false,
+  "development_reads": 0,
+  "test_reads": 0,
+  "scope": "outer excluded two-stage fit; selector trained on in-sample corrected-velocity labels, online integration unverified"
+}

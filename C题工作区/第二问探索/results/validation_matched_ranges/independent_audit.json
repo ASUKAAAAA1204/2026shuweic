@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "train_points": 141111,
+  "validation_points": 19608,
+  "range_rows": 540,
+  "max_scalar_quantile_difference": 0.0,
+  "max_recomputed_hierarchical_summary_difference": 1.1102230246251565e-16,
+  "max_point_error_difference": 1.6653345369377348e-16,
+  "model_hash_verified": true,
+  "range_hash_verified": true,
+  "scope": "independent order-statistic and aggregation check; not raw trajectory replay"
+}

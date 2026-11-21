@@ -1,0 +1,23 @@
+{
+  "admitted": false,
+  "comparison": {
+    "reference": "secant",
+    "candidate": "fusion_nested",
+    "metric": "nade",
+    "gain_pct": 0.0,
+    "lo95": 0.0,
+    "hi95": 0.0,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "source_gain_pct": {
+    "EgoDemo": 0.0,
+    "EgoPro": 0.0,
+    "EgoStandard": 0.0
+  },
+  "train_windows": 1527,
+  "replays": 7635,
+  "test_reads": 0,
+  "development_reads": 0,
+  "formal_model_sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3"
+}

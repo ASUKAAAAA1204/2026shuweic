@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "window_results": 17550,
+  "point_results": 330900,
+  "action_rows": 41364,
+  "max_independent_score_error": 7.105427357601002e-15,
+  "requests": 20740,
+  "returns": 20624,
+  "early_returns": 0,
+  "budget_violations": 0,
+  "frozen_code_hashes_valid": true,
+  "source_model_unchanged": true
+}

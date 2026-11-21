@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "train_windows": 1527,
+  "matched_unique": 1527,
+  "unmatched": 0,
+  "ambiguous": 0,
+  "train_segments": 252,
+  "train_records": 55,
+  "semantic_interpretation": "offline annotated interval progression, not physical reach/grasp/place labels",
+  "development_reads": 0,
+  "test_reads": 0,
+  "policy_changed": false
+}

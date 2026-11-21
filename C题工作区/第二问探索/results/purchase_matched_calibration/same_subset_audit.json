@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "paired_points": 2670,
+  "paired_windows": 287,
+  "global_environments": 13,
+  "source_environment_counts": {
+    "EgoDemo": 10,
+    "EgoPro": 3,
+    "EgoStandard": 1
+  },
+  "scope": "same selected windows and nominal relative >=0.7 samples; own matched ranges for each strategy, posthoc subset not subgroup coverage guarantee"
+}

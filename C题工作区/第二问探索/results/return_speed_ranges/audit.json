@@ -1,0 +1,9 @@
+{
+  "train_windows": 1527,
+  "raw_points": 28114,
+  "rows": 56228,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "formal_changed": false,
+  "information_boundary": "speed available only at processed return; sample age retains delay"
+}

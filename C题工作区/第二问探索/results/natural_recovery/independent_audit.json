@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "all_bad_coordinates_replaced": true,
+  "perturbation_scale": 1000000.0,
+  "window_rows_unchanged": 621,
+  "point_rows_unchanged": 11181,
+  "test_reads": 0,
+  "development_reads": 0
+}

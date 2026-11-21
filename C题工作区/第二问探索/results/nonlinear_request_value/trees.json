@@ -1,0 +1,1330 @@
+[
+  {
+    "held": "home_x_apartment_0342",
+    "fit_environments": [
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1455,
+    "tree": {
+      "mean": [
+        -0.004538032920116648,
+        -0.002301143461407973
+      ],
+      "count": 1455,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7481206847539061,
+      "left": {
+        "mean": [
+          -0.004355754324537201,
+          4.107009561224488e-06
+        ],
+        "count": 1018,
+        "weight": 0.7210670227515321,
+        "feature": 4,
+        "threshold": 0.23680715824479928,
+        "left": {
+          "mean": [
+            -0.010094172145565867,
+            0.0007134439311830428
+          ],
+          "count": 102,
+          "weight": 0.08314682127861554
+        },
+        "right": {
+          "mean": [
+            -0.0036078062271334456,
+            -8.834830085571125e-05
+          ],
+          "count": 916,
+          "weight": 0.6379202014729166
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005009239607552258,
+          -0.008260424827833275
+        ],
+        "count": 437,
+        "weight": 0.2789329772484679,
+        "feature": 0,
+        "threshold": 1.5772103290421242,
+        "left": {
+          "mean": [
+            -0.0036624760357835246,
+            -0.007136370709270902
+          ],
+          "count": 349,
+          "weight": 0.22577828263173688
+        },
+        "right": {
+          "mean": [
+            -0.01072971206134787,
+            -0.013034923304478845
+          ],
+          "count": 88,
+          "weight": 0.05315469461673097
+        }
+      }
+    }
+  },
+  {
+    "held": "home_x_apartment_0701",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1437,
+    "tree": {
+      "mean": [
+        -0.004555934377588494,
+        -0.0018846161441468867
+      ],
+      "count": 1437,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.714424844058724,
+      "left": {
+        "mean": [
+          -0.004526341677593516,
+          0.0002602763339234205
+        ],
+        "count": 1006,
+        "weight": 0.7386625178724283,
+        "feature": 3,
+        "threshold": 5.574837577919138,
+        "left": {
+          "mean": [
+            -0.0033543107078288412,
+            0.00014506222789859282
+          ],
+          "count": 805,
+          "weight": 0.5728243651925478
+        },
+        "right": {
+          "mean": [
+            -0.008574673653031106,
+            0.0006582393242148933
+          ],
+          "count": 201,
+          "weight": 0.1658381526798805
+        }
+      },
+      "right": {
+        "mean": [
+          -0.004639577252353276,
+          -0.007947090097437859
+        ],
+        "count": 431,
+        "weight": 0.2613374821275717,
+        "feature": 0,
+        "threshold": 1.5592621101905828,
+        "left": {
+          "mean": [
+            -0.00351297854648908,
+            -0.006305907902881616
+          ],
+          "count": 345,
+          "weight": 0.20930943911955008
+        },
+        "right": {
+          "mean": [
+            -0.00917189731676332,
+            -0.014549585689720588
+          ],
+          "count": 86,
+          "weight": 0.052028043008021586
+        }
+      }
+    }
+  },
+  {
+    "held": "logistics_x_courier_station_0021",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1336,
+    "tree": {
+      "mean": [
+        -0.004563203269650366,
+        -0.002578640036749248
+      ],
+      "count": 1336,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7891464125532932,
+      "left": {
+        "mean": [
+          -0.004377500772772146,
+          -0.0002486299754879598
+        ],
+        "count": 935,
+        "weight": 0.7216261554009379,
+        "feature": 3,
+        "threshold": 7.962370547445966,
+        "left": {
+          "mean": [
+            -0.0033090911600717992,
+            -0.00026541651098403875
+          ],
+          "count": 841,
+          "weight": 0.623224756033635
+        },
+        "right": {
+          "mean": [
+            -0.011144267551501786,
+            -0.00014231253938989244
+          ],
+          "count": 94,
+          "weight": 0.09840139936730279
+        }
+      },
+      "right": {
+        "mean": [
+          -0.0050445982766547035,
+          -0.008618705348830483
+        ],
+        "count": 401,
+        "weight": 0.2783738445990621,
+        "feature": 0,
+        "threshold": 1.410434304531153,
+        "left": {
+          "mean": [
+            -0.003046087206094327,
+            -0.007636835207143793
+          ],
+          "count": 281,
+          "weight": 0.19787766602914877
+        },
+        "right": {
+          "mean": [
+            -0.009957386848753583,
+            -0.011032362437060099
+          ],
+          "count": 120,
+          "weight": 0.08049617856991337
+        }
+      }
+    }
+  },
+  {
+    "held": "office_x_corporate_office_0086",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1391,
+    "tree": {
+      "mean": [
+        -0.00427476617627201,
+        -0.0020259693469307856
+      ],
+      "count": 1391,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7396630669059095,
+      "left": {
+        "mean": [
+          -0.004102624201163999,
+          7.772771514978268e-05
+        ],
+        "count": 973,
+        "weight": 0.7299359877324774,
+        "feature": 4,
+        "threshold": 0.7108111219225385,
+        "left": {
+          "mean": [
+            -0.007914245670108058,
+            0.0008456878407454143
+          ],
+          "count": 195,
+          "weight": 0.15236143211275305
+        },
+        "right": {
+          "mean": [
+            -0.0030971365112554606,
+            -0.0001248565285686648
+          ],
+          "count": 778,
+          "weight": 0.5775745556197242
+        }
+      },
+      "right": {
+        "mean": [
+          -0.004740035952780482,
+          -0.0077118961018757485
+        ],
+        "count": 418,
+        "weight": 0.27006401226752286,
+        "feature": 1,
+        "threshold": 0.8862333560118737,
+        "left": {
+          "mean": [
+            -0.007521886220114429,
+            -0.00380644301730815
+          ],
+          "count": 126,
+          "weight": 0.09793975225647535
+        },
+        "right": {
+          "mean": [
+            -0.0031571462080123057,
+            -0.009934122692870462
+          ],
+          "count": 292,
+          "weight": 0.17212426001104747
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_convenience_0014",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1471,
+    "tree": {
+      "mean": [
+        -0.004476714921366722,
+        -0.002290009938296373
+      ],
+      "count": 1471,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7367716350328151,
+      "left": {
+        "mean": [
+          -0.004264919542024483,
+          -1.8790195463273335e-05
+        ],
+        "count": 1030,
+        "weight": 0.720229280247123,
+        "feature": 4,
+        "threshold": 0.19746283563263003,
+        "left": {
+          "mean": [
+            -0.01048627363425661,
+            0.0006084689504974392
+          ],
+          "count": 103,
+          "weight": 0.08192572939072602
+        },
+        "right": {
+          "mean": [
+            -0.0034664139233102345,
+            -9.929838467965545e-05
+          ],
+          "count": 927,
+          "weight": 0.6383035508563969
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005021951512808706,
+          -0.008136936886579772
+        ],
+        "count": 441,
+        "weight": 0.27977071975287704,
+        "feature": 0,
+        "threshold": 1.5749307127726648,
+        "left": {
+          "mean": [
+            -0.003928828332571438,
+            -0.006774387790002129
+          ],
+          "count": 353,
+          "weight": 0.23242256427601854
+        },
+        "right": {
+          "mean": [
+            -0.01038787316406452,
+            -0.01482541612698713
+          ],
+          "count": 88,
+          "weight": 0.0473481554768585
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0037",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1485,
+    "tree": {
+      "mean": [
+        -0.004196527635583811,
+        -0.0025201634938949806
+      ],
+      "count": 1485,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7313423850837625,
+      "left": {
+        "mean": [
+          -0.003939484510830863,
+          -0.00015219731598791793
+        ],
+        "count": 1039,
+        "weight": 0.7156632749934699,
+        "feature": 4,
+        "threshold": 0.9471461561978096,
+        "left": {
+          "mean": [
+            -0.00531093720500731,
+            0.0007836391796668744
+          ],
+          "count": 520,
+          "weight": 0.3612341674683994
+        },
+        "right": {
+          "mean": [
+            -0.0025416998433622925,
+            -0.001106001928015983
+          ],
+          "count": 519,
+          "weight": 0.3544291075250704
+        }
+      },
+      "right": {
+        "mean": [
+          -0.004843494095758878,
+          -0.008480232246588877
+        ],
+        "count": 446,
+        "weight": 0.2843367250065302,
+        "feature": 0,
+        "threshold": 1.3498762502405375,
+        "left": {
+          "mean": [
+            -0.003356654194536472,
+            -0.006517026583619196
+          ],
+          "count": 312,
+          "weight": 0.20823601988799673
+        },
+        "right": {
+          "mean": [
+            -0.008911966559436638,
+            -0.013852194738153446
+          ],
+          "count": 134,
+          "weight": 0.07610070511853342
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0049",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1505,
+    "tree": {
+      "mean": [
+        -0.004633741272616807,
+        -0.002271041703032548
+      ],
+      "count": 1505,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7305025708906788,
+      "left": {
+        "mean": [
+          -0.004424372213405094,
+          -6.054774277911499e-06
+        ],
+        "count": 1053,
+        "weight": 0.7155973628851758,
+        "feature": 4,
+        "threshold": 0.24029695574676058,
+        "left": {
+          "mean": [
+            -0.010568902032201977,
+            0.0008766928722493424
+          ],
+          "count": 106,
+          "weight": 0.08171604037628992
+        },
+        "right": {
+          "mean": [
+            -0.0036322576188642817,
+            -0.00011985311438389418
+          ],
+          "count": 947,
+          "weight": 0.633881322508886
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005160543513839212,
+          -0.00797006998782242
+        ],
+        "count": 452,
+        "weight": 0.28440263711482416,
+        "feature": 0,
+        "threshold": 1.5617965115249337,
+        "left": {
+          "mean": [
+            -0.0041298353358258915,
+            -0.006551743462628782
+          ],
+          "count": 361,
+          "weight": 0.23596519801443544
+        },
+        "right": {
+          "mean": [
+            -0.010181685503116229,
+            -0.01487951246831386
+          ],
+          "count": 91,
+          "weight": 0.048437439100388696
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0054",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1325,
+    "tree": {
+      "mean": [
+        -0.004287232704869399,
+        -0.002514914434903102
+      ],
+      "count": 1325,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7250905814565344,
+      "left": {
+        "mean": [
+          -0.003994752973756496,
+          -0.00021901069621911942
+        ],
+        "count": 927,
+        "weight": 0.7166936254159275,
+        "feature": 4,
+        "threshold": 0.731352126140788,
+        "left": {
+          "mean": [
+            -0.0079187186078818,
+            0.0008204995416099799
+          ],
+          "count": 186,
+          "weight": 0.16433876679075904
+        },
+        "right": {
+          "mean": [
+            -0.0028272794498581996,
+            -0.0005282898269873535
+          ],
+          "count": 741,
+          "weight": 0.5523548586251685
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005027132607085581,
+          -0.008322971442088833
+        ],
+        "count": 398,
+        "weight": 0.28330637458407254,
+        "feature": 0,
+        "threshold": 1.5803118859987388,
+        "left": {
+          "mean": [
+            -0.003555923853942278,
+            -0.00708642842619266
+          ],
+          "count": 318,
+          "weight": 0.22875295109295662
+        },
+        "right": {
+          "mean": [
+            -0.011196192629691255,
+            -0.013508033092448812
+          ],
+          "count": 80,
+          "weight": 0.054553423491115895
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0058",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1469,
+    "tree": {
+      "mean": [
+        -0.0047420086424673265,
+        -0.002438829820113701
+      ],
+      "count": 1469,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7516564704076408,
+      "left": {
+        "mean": [
+          -0.004617574963545409,
+          -1.190844496628943e-05
+        ],
+        "count": 1028,
+        "weight": 0.7055979544033445,
+        "feature": 4,
+        "threshold": 0.26546157642289947,
+        "left": {
+          "mean": [
+            -0.011538539445176207,
+            0.000765774586759238
+          ],
+          "count": 103,
+          "weight": 0.07828465852626776
+        },
+        "right": {
+          "mean": [
+            -0.0037538831771958604,
+            -0.00010895827792923588
+          ],
+          "count": 925,
+          "weight": 0.6273132958770768
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005040240773049978,
+          -0.00825546996719975
+        ],
+        "count": 441,
+        "weight": 0.2944020455966555,
+        "feature": 0,
+        "threshold": 1.5755360116675021,
+        "left": {
+          "mean": [
+            -0.0040133258005098,
+            -0.0068044726303257835
+          ],
+          "count": 353,
+          "weight": 0.2431777727663112
+        },
+        "right": {
+          "mean": [
+            -0.009915329906472885,
+            -0.01514381178592128
+          ],
+          "count": 88,
+          "weight": 0.051224272830344225
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0059",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1361,
+    "tree": {
+      "mean": [
+        -0.00451340062815703,
+        -0.0021934123198146787
+      ],
+      "count": 1361,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7426553298258602,
+      "left": {
+        "mean": [
+          -0.004275000390983186,
+          8.178040852195122e-05
+        ],
+        "count": 952,
+        "weight": 0.7210581019953528,
+        "feature": 4,
+        "threshold": 0.710267044212285,
+        "left": {
+          "mean": [
+            -0.008527271143072696,
+            0.0008335748774891392
+          ],
+          "count": 191,
+          "weight": 0.157529129562411
+        },
+        "right": {
+          "mean": [
+            -0.003086318809363051,
+            -0.00012837653832487475
+          ],
+          "count": 761,
+          "weight": 0.5635289724329418
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005129659511320403,
+          -0.008074730838485939
+        ],
+        "count": 409,
+        "weight": 0.2789418980046471,
+        "feature": 0,
+        "threshold": 1.5692023396722425,
+        "left": {
+          "mean": [
+            -0.004048590970607662,
+            -0.006614277320110475
+          ],
+          "count": 327,
+          "weight": 0.229813103432136
+        },
+        "right": {
+          "mean": [
+            -0.010186647343524544,
+            -0.014906393581215675
+          ],
+          "count": 82,
+          "weight": 0.04912879457251107
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0066",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1521,
+    "tree": {
+      "mean": [
+        -0.004384441557811469,
+        -0.0022008411362623398
+      ],
+      "count": 1521,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7259670128587227,
+      "left": {
+        "mean": [
+          -0.004321507896635232,
+          3.0951299687124565e-05
+        ],
+        "count": 1065,
+        "weight": 0.7332347451184416,
+        "feature": 4,
+        "threshold": 0.23426631705978693,
+        "left": {
+          "mean": [
+            -0.010414855074688653,
+            0.000953469144753802
+          ],
+          "count": 107,
+          "weight": 0.08372803019315779
+        },
+        "right": {
+          "mean": [
+            -0.0035360133901463572,
+            -8.797064555304906e-05
+          ],
+          "count": 958,
+          "weight": 0.6495067149252839
+        }
+      },
+      "right": {
+        "mean": [
+          -0.004557421907266718,
+          -0.008335177328796994
+        ],
+        "count": 456,
+        "weight": 0.26676525488155833,
+        "feature": 0,
+        "threshold": 1.5592621101905828,
+        "left": {
+          "mean": [
+            -0.003309002930546628,
+            -0.006883041536385728
+          ],
+          "count": 365,
+          "weight": 0.21832781578116964
+        },
+        "right": {
+          "mean": [
+            -0.010184568871047293,
+            -0.014880561264510988
+          ],
+          "count": 91,
+          "weight": 0.048437439100388696
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0071",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1397,
+    "tree": {
+      "mean": [
+        -0.004387721054740196,
+        -0.002032553620903874
+      ],
+      "count": 1397,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.67884741988908,
+      "left": {
+        "mean": [
+          -0.004486187043188603,
+          0.0002363275518628927
+        ],
+        "count": 978,
+        "weight": 0.7113867111151948,
+        "feature": 4,
+        "threshold": 0.2270186634923554,
+        "left": {
+          "mean": [
+            -0.010609066013961518,
+            0.0013307769547126662
+          ],
+          "count": 98,
+          "weight": 0.07922247418612911
+        },
+        "right": {
+          "mean": [
+            -0.003718871221016776,
+            9.917175515650705e-05
+          ],
+          "count": 880,
+          "weight": 0.6321642369290656
+        }
+      },
+      "right": {
+        "mean": [
+          -0.004145017761521502,
+          -0.007624991590903093
+        ],
+        "count": 419,
+        "weight": 0.28861328888480525,
+        "feature": 0,
+        "threshold": 1.4368358752762416,
+        "left": {
+          "mean": [
+            -0.0029440587963807203,
+            -0.006874403792374042
+          ],
+          "count": 335,
+          "weight": 0.2281961586096059
+        },
+        "right": {
+          "mean": [
+            -0.00868105284370067,
+            -0.010459969875098068
+          ],
+          "count": 84,
+          "weight": 0.06041713027519939
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0087",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1381,
+    "tree": {
+      "mean": [
+        -0.00440623774751018,
+        -0.0019242892772098916
+      ],
+      "count": 1381,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.6447618013040117,
+      "left": {
+        "mean": [
+          -0.004500180736498145,
+          0.00023466274837767126
+        ],
+        "count": 966,
+        "weight": 0.6994118046235968,
+        "feature": 4,
+        "threshold": 0.21177481625279249,
+        "left": {
+          "mean": [
+            -0.011038439713608553,
+            0.0009897349627798662
+          ],
+          "count": 97,
+          "weight": 0.07689331572795041
+        },
+        "right": {
+          "mean": [
+            -0.0036925767523499236,
+            0.0001413964322519777
+          ],
+          "count": 869,
+          "weight": 0.6225184888956463
+        }
+      },
+      "right": {
+        "mean": [
+          -0.004187650203253706,
+          -0.006947761773929583
+        ],
+        "count": 415,
+        "weight": 0.3005881953764034,
+        "feature": 0,
+        "threshold": 1.5273507324342148,
+        "left": {
+          "mean": [
+            -0.00267482078797228,
+            -0.0057702322974800355
+          ],
+          "count": 332,
+          "weight": 0.24450791926682527
+        },
+        "right": {
+          "mean": [
+            -0.010783530220202007,
+            -0.012081746521070644
+          ],
+          "count": 83,
+          "weight": 0.0560802761095781
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0121",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1471,
+    "tree": {
+      "mean": [
+        -0.004532513559732445,
+        -0.0021812303940846422
+      ],
+      "count": 1471,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7254356822924032,
+      "left": {
+        "mean": [
+          -0.004324097870621354,
+          3.6761424006681595e-05
+        ],
+        "count": 1030,
+        "weight": 0.721784663889244,
+        "feature": 4,
+        "threshold": 0.23007883173810173,
+        "left": {
+          "mean": [
+            -0.010598370446243406,
+            0.0011334842572864768
+          ],
+          "count": 103,
+          "weight": 0.08164222666157112
+        },
+        "right": {
+          "mean": [
+            -0.003523892238303267,
+            -0.00010311196812042769
+          ],
+          "count": 927,
+          "weight": 0.6401424372276728
+        }
+      },
+      "right": {
+        "mean": [
+          -0.0050732143356753195,
+          -0.007935451212065821
+        ],
+        "count": 441,
+        "weight": 0.27821533611075605,
+        "feature": 0,
+        "threshold": 1.5749307127726648,
+        "left": {
+          "mean": [
+            -0.003983028772595586,
+            -0.006522323237479168
+          ],
+          "count": 353,
+          "weight": 0.23086718063389755
+        },
+        "right": {
+          "mean": [
+            -0.010388903295069061,
+            -0.01482579082681939
+          ],
+          "count": 88,
+          "weight": 0.0473481554768585
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0124",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "fit_windows": 1395,
+    "tree": {
+      "mean": [
+        -0.004609305828632809,
+        -0.002301751986684116
+      ],
+      "count": 1395,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7678349470284811,
+      "left": {
+        "mean": [
+          -0.004443713941191321,
+          4.720163586810963e-05
+        ],
+        "count": 976,
+        "weight": 0.7213249380775395,
+        "feature": 3,
+        "threshold": 7.890095209157591,
+        "left": {
+          "mean": [
+            -0.0035329377758870147,
+            2.6935170639407825e-05
+          ],
+          "count": 878,
+          "weight": 0.6310273123948276
+        },
+        "right": {
+          "mean": [
+            -0.010808495201384324,
+            0.00018882986793201823
+          ],
+          "count": 98,
+          "weight": 0.09029762568271184
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005037925300826908,
+          -0.008381803838636124
+        ],
+        "count": 419,
+        "weight": 0.2786750619224606,
+        "feature": 0,
+        "threshold": 1.5702611653429672,
+        "left": {
+          "mean": [
+            -0.004011491817027916,
+            -0.006950513168278595
+          ],
+          "count": 335,
+          "weight": 0.22932909494883588
+        },
+        "right": {
+          "mean": [
+            -0.00980814415155117,
+            -0.015033544886030042
+          ],
+          "count": 84,
+          "weight": 0.04934596697362473
+        }
+      }
+    }
+  },
+  {
+    "held": "retail_x_supermarket_0125",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124"
+    ],
+    "fit_windows": 1505,
+    "tree": {
+      "mean": [
+        -0.004660911260128639,
+        -0.002077302872770156
+      ],
+      "count": 1505,
+      "weight": 1.0,
+      "feature": 0,
+      "threshold": 0.7254009075977583,
+      "left": {
+        "mean": [
+          -0.00436210527598857,
+          0.00010496594130160853
+        ],
+        "count": 1053,
+        "weight": 0.7247272644985112,
+        "feature": 4,
+        "threshold": 0.6889739552662254,
+        "left": {
+          "mean": [
+            -0.00841675676806332,
+            0.0003949090028126891
+          ],
+          "count": 211,
+          "weight": 0.15392845933195487
+        },
+        "right": {
+          "mean": [
+            -0.003268679270794052,
+            2.677641401384903e-05
+          ],
+          "count": 842,
+          "weight": 0.5707988051665562
+        }
+      },
+      "right": {
+        "mean": [
+          -0.005447595938896783,
+          -0.007822694639017524
+        ],
+        "count": 452,
+        "weight": 0.2752727355014888,
+        "feature": 0,
+        "threshold": 1.5626041969410853,
+        "left": {
+          "mean": [
+            -0.004187157513508207,
+            -0.006559169849544427
+          ],
+          "count": 361,
+          "weight": 0.22102875726122762
+        },
+        "right": {
+          "mean": [
+            -0.010583523424413618,
+            -0.012971198178876014
+          ],
+          "count": 91,
+          "weight": 0.05424397824026117
+        }
+      }
+    }
+  }
+]

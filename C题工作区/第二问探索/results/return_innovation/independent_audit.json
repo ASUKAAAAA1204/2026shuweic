@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "folds": 16,
+  "independent_augmented_least_squares_max_difference": 1.9255430583342559e-16,
+  "history_rows": 1527,
+  "decision_before_all_second_requests": true,
+  "arrival_before_decision": true,
+  "feature_api_receives_only_initial_pair_and_return": true,
+  "held_env_excluded": true,
+  "source_weight_balance_verified": true,
+  "scope": "feature causality and independently solved fold predictions; not second raw replay engine"
+}

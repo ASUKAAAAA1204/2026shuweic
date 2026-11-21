@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "systems": 32,
+  "held_exclusion_verified": true,
+  "eigenbasis_coefficient_max_difference": 6.661338147750939e-16,
+  "baseline_matches_previous_windows": 1527,
+  "scope": "saved sufficient-statistic equations and baseline comparison; not independent raw-data refit"
+}

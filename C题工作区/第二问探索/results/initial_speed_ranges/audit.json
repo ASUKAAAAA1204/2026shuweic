@@ -1,0 +1,10 @@
+{
+  "train_windows": 1527,
+  "training_records": 55,
+  "training_environments": 16,
+  "point_rows": 37846,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "scope": "fixed three speed strata; before first return only; exploratory environment holdout"
+}

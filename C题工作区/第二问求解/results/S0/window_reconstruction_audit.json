@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "exact_window_id_match": true,
+  "reconstructed_windows": 1739,
+  "test_trajectory_reads": 0,
+  "exclusion_accounting": "first failing criterion; spacing exclusions are not independent quality failures",
+  "timing": "post-freeze read-only audit; no window or policy changes"
+}

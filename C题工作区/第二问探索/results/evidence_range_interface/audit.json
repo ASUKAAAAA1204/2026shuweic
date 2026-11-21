@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "outputs": 93099,
+  "true_recovery_outputs": 128,
+  "rejected_incompatible_inputs": 4,
+  "guaranteed_claims": 0,
+  "unscorable_or_uninitialized_not_in_residuals": 993,
+  "omitted_993_not_declared_covered": true,
+  "held_identifier_used_by_replay_evaluator_only": true,
+  "interface_receives_reference": false,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_predictor_changed": false
+}

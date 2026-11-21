@@ -1,0 +1,16 @@
+{
+  "links_total": 14,
+  "existing_relative_links": 0,
+  "calculations": {
+    "damped_vs_hold_gain_pct": 16.934634235719848,
+    "damped_vs_cv_gain_pct": 26.386295364130874,
+    "review_vs_no_review_gain_pct": 54.670784162346976,
+    "train_width_growth_pct": 23.848333386393293,
+    "dev_width_growth_pct": 22.31103978272275,
+    "voi_train_ade_increase_pct": 1.7153284671532987,
+    "voi_dev_ade_increase_pct": 1.134751773049647,
+    "threshold_dev_ade_increase_pct": 23.04418985270049,
+    "threshold_dev_width_growth_pct": 38.96839344994001,
+    "voi_dev_cost_reduction_pct": 0.8499999999999952
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "folds": 16,
+  "independent_group_weights": true,
+  "augmented_lstsq_coefficient_max_difference": 2.6194324487249787e-16,
+  "training_provenance_groups": 240,
+  "choices_not_independently_replayed": true,
+  "scope": "independent fit from saved cross-fit events and exclusion metadata; not independent raw event generation or online replay"
+}

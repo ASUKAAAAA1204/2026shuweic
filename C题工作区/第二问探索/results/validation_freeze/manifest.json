@@ -1,0 +1,36 @@
+{
+  "candidates": [
+    {
+      "path": "code/causal_decay_selector.py",
+      "sha256": "e275aae6dbcd0fecb536c0c0d5b856dca9201a2a802fe99adde04f19ae58ff3d"
+    },
+    {
+      "path": "code/corrected_velocity_decay_selector.py",
+      "sha256": "5ecf753ec49bc9acadedef8e771c07bd3cff6d82078f8520d2328aea555abb92"
+    },
+    {
+      "path": "code/crossfit_corrected_selector.py",
+      "sha256": "155e17792a908fda2d1b57fc7ddc5813e54589e7ff6985eadf8f1be5c6d4175e"
+    },
+    {
+      "path": "code/second_request_value.py",
+      "sha256": "223743e560119775c503758b52648d262693725082b7f03656f5f37185d2e374"
+    },
+    {
+      "path": "code/online_decay_selector.py",
+      "sha256": "c4c374307d5da1e46c41daf0153c7111c6d640c4159b617e666f6feb98327bb0"
+    },
+    {
+      "path": "code/online_corrected_selector.py",
+      "sha256": "60a5c1e89ea274e99822adb827bd687c9382dfa562d0dff36de39b6fbeab3263"
+    },
+    {
+      "path": "code/online_second_purchase.py",
+      "sha256": "f1c07f2fbbe91804d44e5ffb8ae8119f71659090eedfc318c7840132256656f6"
+    }
+  ],
+  "validation_windows": 212,
+  "validation_environments": 4,
+  "test_reads_planned": false,
+  "parameters_changed": false
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "folds": 16,
+  "repetitions": 3,
+  "preparation_s": 0.6591944000101648,
+  "fit_total_s": 12.558811700029764,
+  "median_two_stage_fit_s": 0.26139050000347197,
+  "p95_two_stage_fit_s": 0.28560432500671595,
+  "coefficient_max_difference": 2.220446049250313e-16,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "scope": "training window prepared-array construction and both 20-step IRLS stages; no final all-training deployment fit, no double-nested calibration fit",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

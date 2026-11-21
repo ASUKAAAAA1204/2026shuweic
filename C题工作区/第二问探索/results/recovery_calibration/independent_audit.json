@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "point_rows": 1076,
+  "first_phase_rows": 158,
+  "support_groups": 44,
+  "max_pinball_difference": 1.6653345369377348e-16,
+  "missing_or_infinite_radius": 0,
+  "phase_split_valid": true,
+  "scope": "independent scoring and phase/support checks; no independent raw reread",
+  "development_reads": 0,
+  "test_reads": 0
+}

@@ -1,0 +1,2 @@
+{"passed": true, "windows": 1527, "points": 47037, "radius_max_difference": 0.0, "invalid_rejections": 4, "missing_evidence_returns_none": true, "guarantee_claims": 0, "development_reads": 0, "test_reads": 0, "formal_model_changed": false, "scope": "causal joint output with externally prepared fold evidence; not deployment calibration or formal reliability guarantee"}
+

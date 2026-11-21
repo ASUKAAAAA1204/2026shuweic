@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "raw_points": 28114,
+  "support_cells": 1240,
+  "quantile_max_difference": 2.220446049250313e-16,
+  "summary_max_difference": 5.551115123125783e-17,
+  "scope": "saved event timing and residual arithmetic; not independent raw replay"
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "systems": 32,
+  "irls_objectives_monotonic": true,
+  "fixed_iterations": 20,
+  "held_exclusion_verified": true,
+  "eigenbasis_coefficient_max_difference": 7.771561172376096e-16,
+  "baseline_matches_previous_windows": 1527,
+  "scope": "saved sufficient-statistic equations and baseline comparison; not independent raw-data refit"
+}

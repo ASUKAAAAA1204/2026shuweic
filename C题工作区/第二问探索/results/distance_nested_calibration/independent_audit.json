@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "pair_fits": 120,
+  "no_excluded_env_in_fit": true,
+  "outer_not_in_calibration_points": true,
+  "independent_order_statistic_radius_max_difference": 9.71445146547012e-17,
+  "summary_max_difference": 5.551115123125783e-17,
+  "scope": "saved fit provenance, calibration quantiles, coverage and aggregation; not independent training refit"
+}

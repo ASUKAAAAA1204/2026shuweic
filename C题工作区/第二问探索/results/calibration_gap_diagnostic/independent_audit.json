@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checked_rows": 188148,
+  "original_coverage_unchanged": true,
+  "phase_order_verified": true,
+  "return_age_includes_delay": true,
+  "summary_max_difference": 9.71445146547012e-17,
+  "scope": "saved point consistency, phase order and independent hierarchical arithmetic"
+}

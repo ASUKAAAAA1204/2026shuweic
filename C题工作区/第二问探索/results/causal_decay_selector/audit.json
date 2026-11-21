@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "comparison": {
+    "reference": "baseline",
+    "candidate": "causal_selector",
+    "metric": "nade",
+    "gain_pct": 1.9195676660581085,
+    "lo95": 0.10763170662795984,
+    "hi95": 3.7962303768319106,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "windows": 1527,
+  "return_events": 3054,
+  "formal_model_changed": false,
+  "development_reads": 0,
+  "test_reads": 0,
+  "scope": "offline causal feature selection simulation; integrated runtime check pending"
+}

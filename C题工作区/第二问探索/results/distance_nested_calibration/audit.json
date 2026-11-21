@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "pair_fits": 120,
+  "directed_inner_folds": 240,
+  "outer_environments": 16,
+  "inner_points": 1411110,
+  "outer_rows": 188148,
+  "test_reads": 0,
+  "development_reads": 0,
+  "formal_model_changed": false,
+  "coverage_guarantee": false,
+  "elapsed_s": 72.16804640000919
+}

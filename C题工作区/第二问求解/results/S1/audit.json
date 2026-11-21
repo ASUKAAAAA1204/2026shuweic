@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": 16,
+  "future_perturbation_tests": 200,
+  "real_training_replays": 27486,
+  "max_metric_difference": 2.275957200481571e-14,
+  "test_trajectory_reads": 0,
+  "development_replays": 0,
+  "source_sha256": {
+    "engine.py": "3583bd8881f80e0c771406b6455d26f798e3a85ce9efccf96b1d1b5cf2508358",
+    "s0_audit_replay.py": "6a5faccf78950e37f7a0320f31627186dea0fff5d0fe7bb3a9cdfb1e08d2e81f",
+    "verify_engine.py": "f88164b4917c2a87ccbe46fdc57feb3f0d49edae08c73e445b136eb55ff692be"
+  }
+}

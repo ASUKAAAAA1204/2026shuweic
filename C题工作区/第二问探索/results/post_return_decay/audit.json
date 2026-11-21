@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "windows": 1527,
+  "candidate_replays": 4581,
+  "original_baseline_max_difference": 1.1102230246251565e-16,
+  "comparison": {
+    "reference": "baseline",
+    "candidate": "train_selected",
+    "metric": "nade",
+    "gain_pct": -0.17932962572031474,
+    "lo95": -1.7842004323701643,
+    "hi95": 1.3178237171971743,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "choices": {
+    "0.4": 15,
+    "0.2": 1
+  }
+}

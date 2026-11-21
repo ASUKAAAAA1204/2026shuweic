@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "windows": 1527,
+  "online_choices_verified": 3054,
+  "visible_feature_max_difference": 2.220446049250313e-16,
+  "metric_max_difference": 2.220446049250313e-16,
+  "hidden_future_mutation_windows": 17,
+  "first_return_decision_unchanged": true,
+  "pre_second_return_predictions_unchanged": true,
+  "direct_comparison_to_distance": {
+    "reference": "distance_return",
+    "candidate": "corrected_selector",
+    "metric": "nade",
+    "gain_pct": 1.2206561015183914,
+    "lo95": -0.3599762112800708,
+    "hi95": 3.1006830644151875,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false
+}

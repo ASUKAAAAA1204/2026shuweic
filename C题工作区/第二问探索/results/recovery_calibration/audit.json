@@ -1,0 +1,10 @@
+{
+  "held_envs": 10,
+  "hand_events": 79,
+  "records": 14,
+  "uncalibratable_groups": 0,
+  "development_reads": 0,
+  "test_reads": 0,
+  "model_promoted": false,
+  "interpretation": "exploratory natural zero-delay recovered stream, not paid single-point return"
+}

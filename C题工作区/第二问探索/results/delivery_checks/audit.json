@@ -1,0 +1,102 @@
+{
+  "execution_checks_passed": true,
+  "checks": [
+    {
+      "script": "candidate_replay_integration.py",
+      "exit_code": 0,
+      "elapsed_s": 2.3781417999998666
+    },
+    {
+      "script": "verify_paid_joint_output.py",
+      "exit_code": 0,
+      "elapsed_s": 10.040938299993286
+    },
+    {
+      "script": "verify_paid_range_boundaries.py",
+      "exit_code": 0,
+      "elapsed_s": 0.9150514999928419
+    },
+    {
+      "script": "verify_evidence_range_interface.py",
+      "exit_code": 0,
+      "elapsed_s": 1.754859500011662
+    },
+    {
+      "script": "verify_independent_rule_selection.py",
+      "exit_code": 0,
+      "elapsed_s": 1.1290743999998085
+    },
+    {
+      "script": "verify_hierarchy_weights.py",
+      "exit_code": 0,
+      "elapsed_s": 4.989104699983727
+    },
+    {
+      "script": "verify_post_return_decay.py",
+      "exit_code": 0,
+      "elapsed_s": 1.0755638999980874
+    },
+    {
+      "script": "verify_causal_decay_fit.py",
+      "exit_code": 0,
+      "elapsed_s": 2.2812220999912824
+    },
+    {
+      "script": "verify_online_decay_selector.py",
+      "exit_code": 0,
+      "elapsed_s": 6.50838990000193
+    },
+    {
+      "script": "verify_selector_calibration.py",
+      "exit_code": 0,
+      "elapsed_s": 2.8554759999969974
+    },
+    {
+      "script": "verify_selector_pair_fits.py",
+      "exit_code": 0,
+      "elapsed_s": 1.6445292000134941
+    },
+    {
+      "script": "verify_second_purchase_fit.py",
+      "exit_code": 0,
+      "elapsed_s": 1.193901900027413
+    },
+    {
+      "script": "verify_second_purchase_online.py",
+      "exit_code": 0,
+      "elapsed_s": 2.115217400016263
+    },
+    {
+      "script": "verify_purchase_boundaries.py",
+      "exit_code": 0,
+      "elapsed_s": 0.8983883000037167
+    },
+    {
+      "script": "verify_purchase_calibration.py",
+      "exit_code": 0,
+      "elapsed_s": 3.263156999979401
+    },
+    {
+      "script": "verify_purchase_pair_fits.py",
+      "exit_code": 0,
+      "elapsed_s": 2.834579299989855
+    }
+  ],
+  "formal_model_sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3",
+  "formal_model_unchanged": true,
+  "quality_gates": {
+    "prediction_registered_gate": false,
+    "calibration_engineering_numeric_gate": true,
+    "formal_reliability_established": false,
+    "adaptive_advantage_established": false,
+    "new_independent_generalization_established": false
+  },
+  "objective_complete": false,
+  "research_candidates": {
+    "selector_gain_pct": 1.9195676660581085,
+    "purchase_preference_weight": 0.02,
+    "purchase_utility_gain_pct": 1.0646214084784056,
+    "purchase_local_error_cost_disclosed": true
+  },
+  "scope": "current code and saved training evidence; no new test evaluation, no raw double-nested refit"
+}

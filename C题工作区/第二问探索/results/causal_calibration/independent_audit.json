@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "scoring_max_error": 1.8041124150158794e-16,
+  "summary_max_error": 4.85722573273506e-17,
+  "point_rows": 186198,
+  "test_reads": 0,
+  "development_reads": 0,
+  "scope": "saved residual score and hierarchy checks; not independent raw replay"
+}

@@ -1,0 +1,17 @@
+outer,choice,supported,reason
+home_x_apartment_0342,neighbor,True,disjoint inner score
+home_x_apartment_0701,all_age,False,cannot supply all sources in three disjoint groups
+logistics_x_courier_station_0021,all_age,False,cannot supply all sources in three disjoint groups
+office_x_corporate_office_0086,all_age,False,cannot supply all sources in three disjoint groups
+retail_x_convenience_0014,neighbor,True,disjoint inner score
+retail_x_supermarket_0037,neighbor,True,disjoint inner score
+retail_x_supermarket_0049,neighbor,True,disjoint inner score
+retail_x_supermarket_0054,neighbor,True,disjoint inner score
+retail_x_supermarket_0058,neighbor,True,disjoint inner score
+retail_x_supermarket_0059,neighbor,True,disjoint inner score
+retail_x_supermarket_0066,neighbor,True,disjoint inner score
+retail_x_supermarket_0071,neighbor,True,disjoint inner score
+retail_x_supermarket_0087,neighbor,True,disjoint inner score
+retail_x_supermarket_0121,neighbor,True,disjoint inner score
+retail_x_supermarket_0124,neighbor,True,disjoint inner score
+retail_x_supermarket_0125,neighbor,True,disjoint inner score

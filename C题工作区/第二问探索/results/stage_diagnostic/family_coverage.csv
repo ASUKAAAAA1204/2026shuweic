@@ -1,0 +1,9 @@
+family,dataset,windows,records,environments
+A,EgoDemo,349,21,8
+A,EgoPro,110,2,2
+A,EgoStandard,50,6,2
+L,EgoPro,96,2,1
+L,EgoStandard,16,1,1
+P,EgoDemo,122,6,3
+P,EgoPro,102,4,2
+P,EgoStandard,682,13,6

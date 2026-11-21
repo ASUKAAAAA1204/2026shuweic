@@ -1,0 +1,6 @@
+mode,origin,nade,exceed05
+missing,after_observed_invalid,0.1146808153338037,0.5753607503607503
+recovered_single,after_observed_invalid,0.0277349219637137,0.11669372294372293
+recovered_single,before_any_invalid,0.023512541902234008,0.04543650793650794
+tracking,after_observed_invalid,0.00819417225518537,0.008066042312005818
+tracking,before_any_invalid,0.006008554868869426,0.0034080964873923858

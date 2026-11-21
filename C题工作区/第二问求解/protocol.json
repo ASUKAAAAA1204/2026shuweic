@@ -1,0 +1,41 @@
+{
+  "version": "q2-20261121-v1",
+  "q1_commit": "bf380c4",
+  "state": "per-hand centroid of 21 points",
+  "motion": "tau=0.2 damped; continuous last-two initial velocity",
+  "durations_s": [
+    0.2,
+    0.6,
+    1.0
+  ],
+  "delays_s": [
+    0,
+    0.1,
+    0.2
+  ],
+  "primary_duration_s": 1.0,
+  "primary_delay_s": 0.1,
+  "request_limit": 2,
+  "request_cost": 1,
+  "concurrent_requests": 1,
+  "request_payload": "single timestamp centroid and validity; failed payload charged and disclosed at due time",
+  "request_sample": "original scoring timestamp",
+  "known_clock": "original timestamp grid and fixed mask endpoint known equally to policies",
+  "arrival": "exact request time + delay; process before first scoring timestamp at/after due; zero delay before scoring",
+  "terminal": "allow return on last scoring point; report terminal benefit separately",
+  "missing_information": "hide trajectories, derivatives and quality flags except returned payload validity",
+  "main_reference": "qualified continuous windows; ideal qualified returns; natural bad intervals descriptive only",
+  "scale": "source median valid hand-centroid to head distance, both hands and training timestamps pooled; exclude global held env for OOF",
+  "metrics": "frame-mean ADE primary, FDE, within-window P95 (not global P95), tolerance rate, pointwise coverage, diameter, cost, pending and no-request waiting, compute",
+  "hierarchy": [
+    "window",
+    "hand",
+    "record",
+    "global_environment",
+    "source"
+  ],
+  "bootstrap_repeats": 2000,
+  "seed": 20261121,
+  "test_use": "index only until freeze; final evaluation separate",
+  "official_conventions": "missing_observation_experiments.md not found locally; numeric resource choices participant defined"
+}

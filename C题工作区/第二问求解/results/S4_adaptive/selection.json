@@ -1,0 +1,31 @@
+{
+  "selected": "fixed",
+  "fixed_schedule": [
+    0.3,
+    0.6
+  ],
+  "adaptive_best_family": "budget",
+  "adaptive_best_parameter": 0.0,
+  "adaptive_promoted": false,
+  "primary_comparison": {
+    "reference": "fixed_03_06",
+    "candidate": "adaptive_nested",
+    "metric": "nade",
+    "gain_pct": -12.156538833646247,
+    "lo95": -15.110036767083407,
+    "hi95": -9.377624292506477,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "source_gain_pct": {
+    "EgoDemo": -9.000610481320614,
+    "EgoPro": -12.228253548056411,
+    "EgoStandard": -14.715119402412459
+  },
+  "cost_gain_pct": 0.0,
+  "cost_tradeoff_qualifies": false,
+  "development_used": false,
+  "test_trajectory_reads": 0,
+  "elapsed_s": 153.51271040001302,
+  "inner_calibration_excludes_outer_and_inner": true
+}

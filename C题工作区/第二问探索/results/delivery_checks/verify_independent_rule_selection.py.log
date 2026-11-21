@@ -1,0 +1,2 @@
+{"passed": true, "disjoint_splits": 13, "rank_choices_verified": true, "unsupported_defaults_verified": 3, "all_windows_retained": 1527, "summary_max_difference": 8.673617379884035e-17, "scope": "split provenance, saved inner ranking, defaults and aggregation; not independent residual refit"}
+

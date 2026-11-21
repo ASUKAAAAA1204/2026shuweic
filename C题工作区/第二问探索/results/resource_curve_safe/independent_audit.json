@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "paired_old_new": 41229,
+  "prediction_error_metric_max_difference": 0.0,
+  "summary_recompute_max_difference": 4.440892098500626e-16,
+  "removed_requests_unweighted": 221,
+  "development_reads": 0,
+  "test_reads": 0,
+  "frontier_scope": "finite observed policies; NADE and mean paid requests only; not theoretical optimum",
+  "utility": "mean NADE + lambda * mean requests, lambda>=0"
+}

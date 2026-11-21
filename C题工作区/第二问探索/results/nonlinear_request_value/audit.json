@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "folds": 16,
+  "train_windows": 1527,
+  "new_raw_replays": 0,
+  "development_reads": 0,
+  "test_reads": 0,
+  "max_depth": 2,
+  "min_leaf": 60,
+  "hyperparameter_search": false
+}

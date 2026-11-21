@@ -1,0 +1,10 @@
+{
+  "train_windows": 1527,
+  "train_global_envs": 16,
+  "update_replays": 4581,
+  "calibration_folds": 16,
+  "held_environment_in_fit": 0,
+  "test_trajectory_reads": 0,
+  "development_replays": 0,
+  "elapsed_s": 11.066854300006526
+}

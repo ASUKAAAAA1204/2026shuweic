@@ -1,0 +1,7 @@
+boundary,dataset,windows,records,environments
+crosses_end,EgoDemo,91,22,9
+crosses_end,EgoPro,34,7,2
+crosses_end,EgoStandard,80,16,6
+internal,EgoDemo,380,27,10
+internal,EgoPro,274,7,3
+internal,EgoStandard,668,20,7

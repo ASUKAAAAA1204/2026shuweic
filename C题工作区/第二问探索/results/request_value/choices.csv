@@ -1,0 +1,9 @@
+method,choice,0
+fixed,fixed,1527
+history_ridge,early,1
+history_ridge,fixed,996
+history_ridge,late,530
+oracle_diagnostic,early,483
+oracle_diagnostic,fixed,530
+oracle_diagnostic,late,514
+source_only,fixed,1527

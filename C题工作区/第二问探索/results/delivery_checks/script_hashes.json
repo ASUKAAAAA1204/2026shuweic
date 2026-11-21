@@ -1,0 +1,66 @@
+[
+  {
+    "path": "code/candidate_replay_integration.py",
+    "sha256": "bf0a37f8bb620e1df3e46179e061e575dfd69b6df49d2838620c0af37136a514"
+  },
+  {
+    "path": "code/verify_paid_joint_output.py",
+    "sha256": "21ac0a2b1e684e3072928d54970991efa1a4ed992d83a0645ee3910d387d1cfe"
+  },
+  {
+    "path": "code/verify_paid_range_boundaries.py",
+    "sha256": "52e25e0dd48445a591953da4b618179492af581c15d5aab9e386174b3756c2dd"
+  },
+  {
+    "path": "code/verify_evidence_range_interface.py",
+    "sha256": "6e8d30f817a1755c42ecbb44d8849a0da0a3e90774a9f4c705b448ef503cbc7a"
+  },
+  {
+    "path": "code/verify_independent_rule_selection.py",
+    "sha256": "fcc35c13e8c8bdb6d537b2eb5f981481b5ef4c6991f80321bfe7299eb11878c1"
+  },
+  {
+    "path": "code/verify_hierarchy_weights.py",
+    "sha256": "45ab9111dbcf321526dffe47648619ca59d9f96e2c55fe135a51c8883e9a5bf9"
+  },
+  {
+    "path": "code/verify_post_return_decay.py",
+    "sha256": "b1a25589fef96536d01bea3a3a4be24bc21b0951538787140d8ef6b58a7d9d9c"
+  },
+  {
+    "path": "code/verify_causal_decay_fit.py",
+    "sha256": "d1f4a3818a43512f14b48cbed4a088147677996d26c48c002872ee2480ec8c21"
+  },
+  {
+    "path": "code/verify_online_decay_selector.py",
+    "sha256": "7c3d744da15e8f4cd7d126b3f973df47b017ca3b21b577d74a87c0d1077fcc9b"
+  },
+  {
+    "path": "code/verify_selector_calibration.py",
+    "sha256": "1d829cb5637cc1b0dd897cc3025283b3333f05afa0858cc120383254d72e2a30"
+  },
+  {
+    "path": "code/verify_selector_pair_fits.py",
+    "sha256": "72b1ebe540d4b2c230c9b772512fe74ddb70c8ca2716dd5294ec571b5556f59b"
+  },
+  {
+    "path": "code/verify_second_purchase_fit.py",
+    "sha256": "3d6aaae9ef6de042b96486e2163330da28ee1baa6c2b96a7fe4fc1162a5dd83d"
+  },
+  {
+    "path": "code/verify_second_purchase_online.py",
+    "sha256": "b6be7f19f4c0c6c9d172bc0e6e849ab6f2003ebc0dc5e5422b1d489550859459"
+  },
+  {
+    "path": "code/verify_purchase_boundaries.py",
+    "sha256": "8d527ae6e3c72c011d2be74f49b85882483f9242661d03b3e70fea5bc3cd3c3a"
+  },
+  {
+    "path": "code/verify_purchase_calibration.py",
+    "sha256": "9f71f371f2ec646d4479d5c4af603f64f8c0fbffa3fc5a2e38a637c5296177c6"
+  },
+  {
+    "path": "code/verify_purchase_pair_fits.py",
+    "sha256": "f0357cbcaa582c67ea655c71d48fb79e3ec40f08b8b6d479418fd8fde312aadd"
+  }
+]

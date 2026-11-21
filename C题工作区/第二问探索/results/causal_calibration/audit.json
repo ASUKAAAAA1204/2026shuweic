@@ -1,0 +1,12 @@
+{
+  "train_records": 55,
+  "train_envs": 16,
+  "qualified_prediction_points": 93099,
+  "all_hand_timestamps": 94092,
+  "unqualified_or_uninitialized": 993,
+  "test_reads": 0,
+  "development_reads": 0,
+  "mode_is_causal": true,
+  "unsupported_groups": 0,
+  "formal_model_replaced": false
+}

@@ -1,0 +1,3 @@
+reference,candidate,metric,gain_pct,lo95,hi95,bootstrap_valid,global_envs,calibration
+secant_pooled,distance_return_pooled,pinball,4.5081312096804105,2.942379686052903,6.100540435242708,1933,16,pooled
+secant_env_mean,distance_return_env_mean,pinball,4.507263313198029,3.443052088300657,5.88588483928119,1933,16,env_mean

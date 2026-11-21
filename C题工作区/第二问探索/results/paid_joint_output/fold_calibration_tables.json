@@ -1,0 +1,2986 @@
+{
+  "home_x_apartment_0342": {
+    "EgoDemo|0|1": {
+      "radius": 0.0046294165260221,
+      "points": 299,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0084210680638055,
+      "points": 395,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0167562315958164,
+      "points": 298,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.0236351722583838,
+      "points": 446,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0350956380147588,
+      "points": 330,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0411879661597734,
+      "points": 394,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0506910613384384,
+      "points": 289,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0637717489576065,
+      "points": 626,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0770316163146037,
+      "points": 328,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0882973372904883,
+      "points": 392,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.1050983001839006,
+      "points": 293,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1072562117305782,
+      "points": 467,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1268534239843309,
+      "points": 298,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1299321477745453,
+      "points": 389,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0393169318975909,
+      "points": 805,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0496280423119834,
+      "points": 720,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0637963885326376,
+      "points": 830,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0766402752687858,
+      "points": 569,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0889704481721022,
+      "points": 1063,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.0988639087495288,
+      "points": 688,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1213403259974494,
+      "points": 843,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1291946014943932,
+      "points": 607,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1288741242984497,
+      "points": 714,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1642374456578792,
+      "points": 129,
+      "environments": 9,
+      "age_fallback": false
+    }
+  },
+  "home_x_apartment_0701": {
+    "EgoPro|0|1": {
+      "radius": 0.0613990765851757,
+      "points": 2646,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|0|2": {
+      "radius": 0.0079945311934882,
+      "points": 188,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|3": {
+      "radius": 0.014838996698214,
+      "points": 232,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|4": {
+      "radius": 0.0249884556950019,
+      "points": 234,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|5": {
+      "radius": 0.0333534054402907,
+      "points": 188,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|6": {
+      "radius": 0.0462538792706538,
+      "points": 264,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|7": {
+      "radius": 0.0591652932928523,
+      "points": 202,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|8": {
+      "radius": 0.0588101544358571,
+      "points": 188,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|9": {
+      "radius": 0.067872703712848,
+      "points": 272,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|10": {
+      "radius": 0.110172117819621,
+      "points": 194,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|11": {
+      "radius": 0.0867033816461001,
+      "points": 188,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|12": {
+      "radius": 0.096078053343765,
+      "points": 316,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|13": {
+      "radius": 0.0613990765851757,
+      "points": 2646,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|0|14": {
+      "radius": 0.0613990765851757,
+      "points": 2646,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|0|15": {
+      "radius": 0.0613990765851757,
+      "points": 2646,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|1|3": {
+      "radius": 0.0289301855808052,
+      "points": 228,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|4": {
+      "radius": 0.0347043117160747,
+      "points": 562,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|5": {
+      "radius": 0.0414163578291029,
+      "points": 334,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|6": {
+      "radius": 0.0588133359935672,
+      "points": 392,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|7": {
+      "radius": 0.0609475665727097,
+      "points": 582,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|8": {
+      "radius": 0.071069967846104,
+      "points": 334,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|9": {
+      "radius": 0.0915583628761531,
+      "points": 398,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|10": {
+      "radius": 0.0913016424051388,
+      "points": 576,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|11": {
+      "radius": 0.098666961837396,
+      "points": 334,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|12": {
+      "radius": 0.1410552432594777,
+      "points": 270,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|13": {
+      "radius": 0.0887120812694511,
+      "points": 102,
+      "environments": 2,
+      "age_fallback": false
+    }
+  },
+  "logistics_x_courier_station_0021": {
+    "EgoDemo|0|1": {
+      "radius": 0.005136152911547,
+      "points": 235,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0084840160468482,
+      "points": 345,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0167562315958164,
+      "points": 272,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.0237771734991593,
+      "points": 418,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0361953378847288,
+      "points": 306,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0427574199221002,
+      "points": 368,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0513900552774552,
+      "points": 263,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0660150622712056,
+      "points": 532,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.078711468879899,
+      "points": 306,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0898744907921549,
+      "points": 352,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.103859498463696,
+      "points": 283,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1100529452142144,
+      "points": 424,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1288656532413202,
+      "points": 286,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1355414456005452,
+      "points": 318,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|15": {
+      "radius": 0.0769287258283204,
+      "points": 4715,
+      "environments": 9,
+      "age_fallback": true
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0415471649269098,
+      "points": 728,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0518213828763918,
+      "points": 661,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0660760224799096,
+      "points": 745,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0767787794586452,
+      "points": 530,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0925239505392977,
+      "points": 926,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.1042281094369143,
+      "points": 629,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.125848880078143,
+      "points": 777,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.13042403436922,
+      "points": 582,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1407257062679818,
+      "points": 618,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1644242392754278,
+      "points": 121,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoPro|0|1": {
+      "radius": 0.0853097978116015,
+      "points": 2740,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|0|2": {
+      "radius": 0.0100336022862989,
+      "points": 190,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|3": {
+      "radius": 0.0226316537724951,
+      "points": 228,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|4": {
+      "radius": 0.0331716086437595,
+      "points": 260,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|5": {
+      "radius": 0.0445557533154737,
+      "points": 190,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|6": {
+      "radius": 0.0603208598354565,
+      "points": 278,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|7": {
+      "radius": 0.075541077817204,
+      "points": 210,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|8": {
+      "radius": 0.0839232951188989,
+      "points": 190,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|9": {
+      "radius": 0.0874751490620205,
+      "points": 254,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|10": {
+      "radius": 0.1172009417043841,
+      "points": 234,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|11": {
+      "radius": 0.12608859793797,
+      "points": 190,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|12": {
+      "radius": 0.1361669162377977,
+      "points": 284,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|13": {
+      "radius": 0.1596145643124268,
+      "points": 118,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|14": {
+      "radius": 0.0853097978116015,
+      "points": 2740,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|1|3": {
+      "radius": 0.0339508758089382,
+      "points": 164,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|4": {
+      "radius": 0.0398400167869642,
+      "points": 552,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|5": {
+      "radius": 0.0540781031611559,
+      "points": 346,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|6": {
+      "radius": 0.0681876198187288,
+      "points": 466,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|7": {
+      "radius": 0.0723414382459242,
+      "points": 544,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|8": {
+      "radius": 0.0835902397247797,
+      "points": 346,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|9": {
+      "radius": 0.1036395130892519,
+      "points": 458,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|10": {
+      "radius": 0.1188097258376759,
+      "points": 552,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|11": {
+      "radius": 0.1284648946759287,
+      "points": 346,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|12": {
+      "radius": 0.1504783562264641,
+      "points": 352,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|13": {
+      "radius": 0.0918930123970305,
+      "points": 4220,
+      "environments": 2,
+      "age_fallback": true
+    }
+  },
+  "office_x_corporate_office_0086": {
+    "EgoPro|0|1": {
+      "radius": 0.0709849323108153,
+      "points": 2082,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|0|2": {
+      "radius": 0.0081532578915302,
+      "points": 150,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|3": {
+      "radius": 0.019035433137986,
+      "points": 196,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|4": {
+      "radius": 0.0263820227673127,
+      "points": 170,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|5": {
+      "radius": 0.038080157780686,
+      "points": 150,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|6": {
+      "radius": 0.0492818151093073,
+      "points": 206,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|7": {
+      "radius": 0.0581294611024363,
+      "points": 160,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|8": {
+      "radius": 0.0620198929104221,
+      "points": 150,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|9": {
+      "radius": 0.0735685182040699,
+      "points": 210,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|10": {
+      "radius": 0.0956787047830985,
+      "points": 156,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|11": {
+      "radius": 0.0922149780455013,
+      "points": 150,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|12": {
+      "radius": 0.1068109751730171,
+      "points": 232,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|0|13": {
+      "radius": 0.0709849323108153,
+      "points": 2082,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|0|14": {
+      "radius": 0.0709849323108153,
+      "points": 2082,
+      "environments": 2,
+      "age_fallback": true
+    },
+    "EgoPro|1|3": {
+      "radius": 0.0264324635502754,
+      "points": 116,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|4": {
+      "radius": 0.0347404062447911,
+      "points": 430,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|5": {
+      "radius": 0.0469644040638629,
+      "points": 292,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|6": {
+      "radius": 0.0574561616321895,
+      "points": 314,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|7": {
+      "radius": 0.0674196110696433,
+      "points": 426,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|8": {
+      "radius": 0.0767056807028109,
+      "points": 292,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|9": {
+      "radius": 0.085671042710991,
+      "points": 308,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|10": {
+      "radius": 0.1018419662873524,
+      "points": 432,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|11": {
+      "radius": 0.1146126903394085,
+      "points": 292,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|12": {
+      "radius": 0.1278313198486154,
+      "points": 250,
+      "environments": 2,
+      "age_fallback": false
+    },
+    "EgoPro|1|13": {
+      "radius": 0.0832931598833056,
+      "points": 3204,
+      "environments": 2,
+      "age_fallback": true
+    }
+  },
+  "retail_x_convenience_0014": {
+    "EgoDemo|0|1": {
+      "radius": 0.0048072465416293,
+      "points": 277,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0084197356150247,
+      "points": 403,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0164666532023492,
+      "points": 316,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.0235067580422845,
+      "points": 458,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.033352579163608,
+      "points": 350,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0411895221950929,
+      "points": 430,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0509894211486063,
+      "points": 307,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.064007008911868,
+      "points": 618,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0764617516896246,
+      "points": 348,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0879792866296889,
+      "points": 408,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.1035020680607914,
+      "points": 323,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1084772078339414,
+      "points": 469,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1267136338584375,
+      "points": 336,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1299321477745453,
+      "points": 363,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0387869745568091,
+      "points": 837,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0479168078231946,
+      "points": 756,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0625389603547761,
+      "points": 858,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0735122466107291,
+      "points": 617,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0865036369000782,
+      "points": 1053,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.0947866461550795,
+      "points": 722,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1168640303433297,
+      "points": 897,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1231153364517325,
+      "points": 657,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1290510670647292,
+      "points": 732,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1631697932132219,
+      "points": 129,
+      "environments": 9,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0037": {
+    "EgoDemo|0|1": {
+      "radius": 0.0046944420854525,
+      "points": 309,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0081511262437036,
+      "points": 443,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0158655177236724,
+      "points": 350,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.0230046631075747,
+      "points": 494,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0332297406815652,
+      "points": 382,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0402100669412565,
+      "points": 442,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0505969071596888,
+      "points": 341,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0626459044897273,
+      "points": 674,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0761879776864933,
+      "points": 380,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0857113054225185,
+      "points": 442,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.098875308987011,
+      "points": 343,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1039423652886879,
+      "points": 517,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1212987209829725,
+      "points": 348,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1215185667496518,
+      "points": 397,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0371784205420364,
+      "points": 905,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.045662820211813,
+      "points": 822,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0587752725886741,
+      "points": 928,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0703535252507442,
+      "points": 671,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0836752206270472,
+      "points": 1161,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.0927123349972876,
+      "points": 790,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1129084775772854,
+      "points": 941,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.117453240189539,
+      "points": 709,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1217580130969441,
+      "points": 804,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1475362363131847,
+      "points": 127,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoStandard|0|1": {
+      "radius": 0.0060782455389591,
+      "points": 378,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|2": {
+      "radius": 0.0085955393890611,
+      "points": 498,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|3": {
+      "radius": 0.0190415634541525,
+      "points": 946,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|4": {
+      "radius": 0.0321647616514791,
+      "points": 740,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|5": {
+      "radius": 0.0432051876735303,
+      "points": 498,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|6": {
+      "radius": 0.0615319253363549,
+      "points": 826,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|7": {
+      "radius": 0.0767483713075437,
+      "points": 848,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|8": {
+      "radius": 0.0977484962107878,
+      "points": 498,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|9": {
+      "radius": 0.1209220877877152,
+      "points": 1018,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|10": {
+      "radius": 0.1357586784644475,
+      "points": 668,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|11": {
+      "radius": 0.1616310844939718,
+      "points": 498,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|12": {
+      "radius": 0.1851172589470953,
+      "points": 1000,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|13": {
+      "radius": 0.1850470731630075,
+      "points": 310,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|3": {
+      "radius": 0.0365022014360952,
+      "points": 780,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|4": {
+      "radius": 0.0461811687046477,
+      "points": 1622,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|5": {
+      "radius": 0.058935171077808,
+      "points": 1136,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|6": {
+      "radius": 0.0740642767058811,
+      "points": 1416,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|7": {
+      "radius": 0.0947074310813693,
+      "points": 1792,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|8": {
+      "radius": 0.1113797675944112,
+      "points": 1136,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|9": {
+      "radius": 0.1274224167031461,
+      "points": 1674,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|10": {
+      "radius": 0.1570011910452164,
+      "points": 1558,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|11": {
+      "radius": 0.1686842702518179,
+      "points": 1126,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|12": {
+      "radius": 0.1819226857481648,
+      "points": 1120,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|13": {
+      "radius": 0.1826372659618347,
+      "points": 360,
+      "environments": 6,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0049": {
+    "EgoDemo|0|1": {
+      "radius": 0.0045578735469778,
+      "points": 311,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0082265132743048,
+      "points": 437,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0158245345995904,
+      "points": 350,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.0230046631075747,
+      "points": 492,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0331935926763977,
+      "points": 384,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0402639915240431,
+      "points": 440,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0505066957241532,
+      "points": 341,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0627372350125923,
+      "points": 676,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0756616110568557,
+      "points": 382,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0857113054225185,
+      "points": 442,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.1035020680607914,
+      "points": 347,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1048820620449484,
+      "points": 513,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1267136338584375,
+      "points": 346,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1297042090083411,
+      "points": 397,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0381786871058547,
+      "points": 905,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0474092423766117,
+      "points": 824,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0624585179130036,
+      "points": 926,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0733375622980132,
+      "points": 675,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.087048240622852,
+      "points": 1155,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.095642091347316,
+      "points": 790,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1191975043232654,
+      "points": 941,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1245741802494563,
+      "points": 715,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1290704884431763,
+      "points": 800,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.16447064466936,
+      "points": 129,
+      "environments": 9,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0054": {
+    "EgoDemo|0|1": {
+      "radius": 0.0041511263335201,
+      "points": 278,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0080186386199147,
+      "points": 388,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.014735137939618,
+      "points": 304,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.0217845920867448,
+      "points": 434,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0299055204647983,
+      "points": 326,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.037953063543254,
+      "points": 394,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0487418390718938,
+      "points": 304,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0607091239143824,
+      "points": 600,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0741690217583455,
+      "points": 324,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0838987048296897,
+      "points": 384,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.098412249073611,
+      "points": 296,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1066884091504806,
+      "points": 469,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1212987209829725,
+      "points": 300,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1222945528468923,
+      "points": 341,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|15": {
+      "radius": 0.0703032537965188,
+      "points": 5148,
+      "environments": 9,
+      "age_fallback": true
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0360979934528929,
+      "points": 789,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0448195534882951,
+      "points": 711,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.058297938627962,
+      "points": 831,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0672221166073053,
+      "points": 595,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0811240489796925,
+      "points": 1027,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.0910335894157437,
+      "points": 687,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1087618459010235,
+      "points": 816,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1120381554967166,
+      "points": 610,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1207226744984889,
+      "points": 727,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1568060634844527,
+      "points": 110,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoStandard|0|1": {
+      "radius": 0.0056282811575727,
+      "points": 300,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|2": {
+      "radius": 0.007452295866275,
+      "points": 426,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|3": {
+      "radius": 0.0190415634541525,
+      "points": 840,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|4": {
+      "radius": 0.0292977303069615,
+      "points": 612,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|5": {
+      "radius": 0.0406423527332516,
+      "points": 426,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|6": {
+      "radius": 0.0607468545988317,
+      "points": 738,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|7": {
+      "radius": 0.0682877916365365,
+      "points": 714,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|8": {
+      "radius": 0.0950138971171517,
+      "points": 426,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|9": {
+      "radius": 0.1180574598723845,
+      "points": 916,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|10": {
+      "radius": 0.1097413737408705,
+      "points": 536,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|11": {
+      "radius": 0.1527579686024092,
+      "points": 426,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|12": {
+      "radius": 0.1827443485731918,
+      "points": 904,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|13": {
+      "radius": 0.1616462091425913,
+      "points": 258,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|14": {
+      "radius": 0.1005662663789463,
+      "points": 7570,
+      "environments": 6,
+      "age_fallback": true
+    },
+    "EgoStandard|1|3": {
+      "radius": 0.032188056670425,
+      "points": 666,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|4": {
+      "radius": 0.0418407986370939,
+      "points": 1420,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|5": {
+      "radius": 0.0547451779875654,
+      "points": 1026,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|6": {
+      "radius": 0.0642869750529548,
+      "points": 1168,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|7": {
+      "radius": 0.0846384617774818,
+      "points": 1562,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|8": {
+      "radius": 0.1049486311390173,
+      "points": 1026,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|9": {
+      "radius": 0.1103956986531399,
+      "points": 1386,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|10": {
+      "radius": 0.1406628089593153,
+      "points": 1344,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|11": {
+      "radius": 0.1604249033749757,
+      "points": 1016,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|12": {
+      "radius": 0.1515781415819526,
+      "points": 938,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|13": {
+      "radius": 0.1664098558014242,
+      "points": 284,
+      "environments": 6,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0058": {
+    "EgoDemo|0|1": {
+      "radius": 0.0046294165260221,
+      "points": 301,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0084052296678738,
+      "points": 447,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0158340176511056,
+      "points": 344,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.023078337169749,
+      "points": 494,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0332297406815652,
+      "points": 374,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0402639915240431,
+      "points": 442,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0505969071596888,
+      "points": 335,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0625794386019547,
+      "points": 670,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0756616110568557,
+      "points": 372,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0872774825206658,
+      "points": 438,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.1002142869137453,
+      "points": 341,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1048820620449484,
+      "points": 511,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1230383470817735,
+      "points": 346,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1264800069127505,
+      "points": 393,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0375397194518789,
+      "points": 897,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0465814390908895,
+      "points": 810,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0592299315198636,
+      "points": 924,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0716198114886557,
+      "points": 663,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0839259798469323,
+      "points": 1155,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.0955330786125768,
+      "points": 780,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1157831769702743,
+      "points": 935,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1217340087103592,
+      "points": 699,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1286002030234797,
+      "points": 800,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1638505312971472,
+      "points": 127,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoStandard|0|1": {
+      "radius": 0.006308768314274,
+      "points": 366,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|2": {
+      "radius": 0.0085955393890611,
+      "points": 484,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|3": {
+      "radius": 0.019418544732646,
+      "points": 938,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|4": {
+      "radius": 0.033005060243919,
+      "points": 726,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|5": {
+      "radius": 0.0432544626994685,
+      "points": 484,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|6": {
+      "radius": 0.0617297407652421,
+      "points": 818,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|7": {
+      "radius": 0.077541627408184,
+      "points": 834,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|8": {
+      "radius": 0.0977618636196001,
+      "points": 484,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|9": {
+      "radius": 0.1208366494590148,
+      "points": 1012,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|10": {
+      "radius": 0.1357586784644475,
+      "points": 652,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|11": {
+      "radius": 0.1616310844939718,
+      "points": 484,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|12": {
+      "radius": 0.1849830959536059,
+      "points": 992,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|13": {
+      "radius": 0.1850470731630075,
+      "points": 308,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|3": {
+      "radius": 0.0367978371858317,
+      "points": 770,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|4": {
+      "radius": 0.0459711645714198,
+      "points": 1580,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|5": {
+      "radius": 0.0580344554313316,
+      "points": 1140,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|6": {
+      "radius": 0.0746071901774778,
+      "points": 1386,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|7": {
+      "radius": 0.0949505338941347,
+      "points": 1746,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|8": {
+      "radius": 0.1095994172117591,
+      "points": 1140,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|9": {
+      "radius": 0.1280476522758806,
+      "points": 1634,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|10": {
+      "radius": 0.1570178798688733,
+      "points": 1522,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|11": {
+      "radius": 0.1656796911548379,
+      "points": 1130,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|12": {
+      "radius": 0.179693741996384,
+      "points": 1092,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|13": {
+      "radius": 0.1835501892168813,
+      "points": 352,
+      "environments": 6,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0059": {
+    "EgoStandard|0|1": {
+      "radius": 0.0062859361563691,
+      "points": 244,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|2": {
+      "radius": 0.0081048011754422,
+      "points": 472,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|3": {
+      "radius": 0.01883239008109,
+      "points": 754,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|4": {
+      "radius": 0.0331048771580025,
+      "points": 520,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|5": {
+      "radius": 0.0422674840278996,
+      "points": 472,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|6": {
+      "radius": 0.0621391454392268,
+      "points": 642,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|7": {
+      "radius": 0.0818122499321563,
+      "points": 620,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|8": {
+      "radius": 0.0969478263552121,
+      "points": 472,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|9": {
+      "radius": 0.1229270367027268,
+      "points": 850,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|10": {
+      "radius": 0.1509749768817348,
+      "points": 424,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|11": {
+      "radius": 0.1571475008027862,
+      "points": 472,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|12": {
+      "radius": 0.1894006592847934,
+      "points": 854,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|13": {
+      "radius": 0.2296744613023381,
+      "points": 168,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|14": {
+      "radius": 0.1113999756992152,
+      "points": 7024,
+      "environments": 6,
+      "age_fallback": true
+    },
+    "EgoStandard|1|3": {
+      "radius": 0.0377455535251598,
+      "points": 586,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|4": {
+      "radius": 0.0472598739623441,
+      "points": 1468,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|5": {
+      "radius": 0.0625175873703134,
+      "points": 874,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|6": {
+      "radius": 0.0796709147986785,
+      "points": 1022,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|7": {
+      "radius": 0.097028422470115,
+      "points": 1572,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|8": {
+      "radius": 0.1163526251724623,
+      "points": 874,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|9": {
+      "radius": 0.1376342807671478,
+      "points": 1232,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|10": {
+      "radius": 0.1607004760680216,
+      "points": 1386,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|11": {
+      "radius": 0.1742148407945489,
+      "points": 874,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|12": {
+      "radius": 0.193989183702954,
+      "points": 796,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|13": {
+      "radius": 0.1844786020911911,
+      "points": 274,
+      "environments": 6,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0066": {
+    "EgoDemo|0|1": {
+      "radius": 0.0046944420854525,
+      "points": 319,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0082265132743048,
+      "points": 459,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0158655177236724,
+      "points": 358,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.023078337169749,
+      "points": 516,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0331935926763977,
+      "points": 392,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0402639915240431,
+      "points": 464,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0506217996769638,
+      "points": 349,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0627372350125923,
+      "points": 700,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0761879776864933,
+      "points": 390,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0872774825206658,
+      "points": 458,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.1019766985705814,
+      "points": 357,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1063187312500422,
+      "points": 535,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1230383470817735,
+      "points": 362,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1273681704606854,
+      "points": 413,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0386224541060822,
+      "points": 937,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0478377221159745,
+      "points": 848,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0622957034601505,
+      "points": 966,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0735109666602905,
+      "points": 691,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0863307782110154,
+      "points": 1201,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.095253194698279,
+      "points": 814,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1179632757839884,
+      "points": 981,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1226531080569166,
+      "points": 733,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1280063689669248,
+      "points": 832,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1625427500285483,
+      "points": 139,
+      "environments": 9,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0071": {
+    "EgoStandard|0|1": {
+      "radius": 0.0066097011666808,
+      "points": 346,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|2": {
+      "radius": 0.0097140464774728,
+      "points": 428,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|3": {
+      "radius": 0.018945398529423,
+      "points": 772,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|4": {
+      "radius": 0.0317711943398918,
+      "points": 654,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|5": {
+      "radius": 0.0418742271550685,
+      "points": 428,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|6": {
+      "radius": 0.0581273216541463,
+      "points": 682,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|7": {
+      "radius": 0.0687970014745916,
+      "points": 732,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|8": {
+      "radius": 0.0880220057547597,
+      "points": 428,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|9": {
+      "radius": 0.1104042951917566,
+      "points": 810,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|10": {
+      "radius": 0.1229518412464781,
+      "points": 616,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|11": {
+      "radius": 0.1462692338100545,
+      "points": 428,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|12": {
+      "radius": 0.1666361591810197,
+      "points": 800,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|13": {
+      "radius": 0.1650660829141538,
+      "points": 282,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|14": {
+      "radius": 0.0963876147255618,
+      "points": 7454,
+      "environments": 6,
+      "age_fallback": true
+    },
+    "EgoStandard|1|3": {
+      "radius": 0.0372238183465655,
+      "points": 686,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|4": {
+      "radius": 0.0459983759756699,
+      "points": 1362,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|5": {
+      "radius": 0.0582787544409486,
+      "points": 908,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|6": {
+      "radius": 0.0743136618800803,
+      "points": 1264,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|7": {
+      "radius": 0.0918436025062912,
+      "points": 1512,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|8": {
+      "radius": 0.1073163565600942,
+      "points": 908,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|9": {
+      "radius": 0.1262728611981942,
+      "points": 1444,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|10": {
+      "radius": 0.1504366339198453,
+      "points": 1356,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|11": {
+      "radius": 0.1624710400068842,
+      "points": 898,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|12": {
+      "radius": 0.1781733490651721,
+      "points": 1000,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|13": {
+      "radius": 0.1850442343703766,
+      "points": 306,
+      "environments": 6,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0087": {
+    "EgoStandard|0|1": {
+      "radius": 0.0061177089917163,
+      "points": 372,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|2": {
+      "radius": 0.0105176855149892,
+      "points": 386,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|3": {
+      "radius": 0.018945398529423,
+      "points": 754,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|4": {
+      "radius": 0.0322550427847367,
+      "points": 666,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|5": {
+      "radius": 0.0451643598460964,
+      "points": 386,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|6": {
+      "radius": 0.0611810878182778,
+      "points": 666,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|7": {
+      "radius": 0.0752691964500665,
+      "points": 742,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|8": {
+      "radius": 0.0976667353786839,
+      "points": 386,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|9": {
+      "radius": 0.1123456366561562,
+      "points": 792,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|10": {
+      "radius": 0.1301710637086076,
+      "points": 628,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|11": {
+      "radius": 0.1585443288370384,
+      "points": 386,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|12": {
+      "radius": 0.1766626232813882,
+      "points": 778,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|13": {
+      "radius": 0.1785684160725021,
+      "points": 272,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|14": {
+      "radius": 0.0920337440482046,
+      "points": 7258,
+      "environments": 6,
+      "age_fallback": true
+    },
+    "EgoStandard|1|3": {
+      "radius": 0.037782592903113,
+      "points": 656,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|4": {
+      "radius": 0.0495304398755299,
+      "points": 1280,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|5": {
+      "radius": 0.0599198807099585,
+      "points": 876,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|6": {
+      "radius": 0.0759855411310427,
+      "points": 1254,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|7": {
+      "radius": 0.0969707843759996,
+      "points": 1458,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|8": {
+      "radius": 0.1096130364887529,
+      "points": 876,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|9": {
+      "radius": 0.1289524146582865,
+      "points": 1512,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|10": {
+      "radius": 0.1610504615277042,
+      "points": 1224,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|11": {
+      "radius": 0.1672201592347645,
+      "points": 866,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|12": {
+      "radius": 0.1802376465592027,
+      "points": 1004,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|13": {
+      "radius": 0.1888193895067437,
+      "points": 338,
+      "environments": 6,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0121": {
+    "EgoDemo|0|1": {
+      "radius": 0.0045578735469778,
+      "points": 285,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.0082265132743048,
+      "points": 413,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0158655177236724,
+      "points": 316,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.023078337169749,
+      "points": 454,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0322665903545019,
+      "points": 354,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.0402100669412565,
+      "points": 416,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0487418390718938,
+      "points": 307,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0613902274000968,
+      "points": 618,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0730125982917451,
+      "points": 352,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0818434240844204,
+      "points": 418,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.0972634002043008,
+      "points": 319,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1009640602637374,
+      "points": 469,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1212987209829725,
+      "points": 326,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1195250755844203,
+      "points": 363,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|15": {
+      "radius": 0.0689027552904696,
+      "points": 5415,
+      "environments": 9,
+      "age_fallback": true
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0388216556552928,
+      "points": 833,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0485468395467042,
+      "points": 764,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0627339558510005,
+      "points": 868,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0736536917009974,
+      "points": 623,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0867703196692549,
+      "points": 1039,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.0950213671483506,
+      "points": 726,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1167504244643616,
+      "points": 883,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1230975999042485,
+      "points": 660,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1252692467061671,
+      "points": 733,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1642426085602242,
+      "points": 129,
+      "environments": 9,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0124": {
+    "EgoStandard|0|1": {
+      "radius": 0.0062859361563691,
+      "points": 382,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|2": {
+      "radius": 0.0105213888049482,
+      "points": 390,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|3": {
+      "radius": 0.0202101911462249,
+      "points": 768,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|4": {
+      "radius": 0.0334179446256084,
+      "points": 690,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|5": {
+      "radius": 0.0469712449516899,
+      "points": 390,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|6": {
+      "radius": 0.0644919291674592,
+      "points": 680,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|7": {
+      "radius": 0.0795946789287058,
+      "points": 766,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|8": {
+      "radius": 0.1036084530008299,
+      "points": 390,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|9": {
+      "radius": 0.1262873289340668,
+      "points": 806,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|10": {
+      "radius": 0.136271284057003,
+      "points": 652,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|11": {
+      "radius": 0.1705499198385256,
+      "points": 390,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|12": {
+      "radius": 0.1954913142752571,
+      "points": 792,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|13": {
+      "radius": 0.1875415086970377,
+      "points": 286,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|0|14": {
+      "radius": 0.1128399686333063,
+      "points": 7430,
+      "environments": 6,
+      "age_fallback": true
+    },
+    "EgoStandard|1|3": {
+      "radius": 0.0370475184908428,
+      "points": 680,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|4": {
+      "radius": 0.0491202131153803,
+      "points": 1288,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|5": {
+      "radius": 0.0608395227596985,
+      "points": 904,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|6": {
+      "radius": 0.0752564145615763,
+      "points": 1298,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|7": {
+      "radius": 0.0992635688696451,
+      "points": 1470,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|8": {
+      "radius": 0.1143132669581108,
+      "points": 904,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|9": {
+      "radius": 0.128736051728984,
+      "points": 1546,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|10": {
+      "radius": 0.1644712582924854,
+      "points": 1246,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|11": {
+      "radius": 0.1728866749874214,
+      "points": 894,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|12": {
+      "radius": 0.1815320966111579,
+      "points": 1034,
+      "environments": 6,
+      "age_fallback": false
+    },
+    "EgoStandard|1|13": {
+      "radius": 0.1847291287064195,
+      "points": 342,
+      "environments": 6,
+      "age_fallback": false
+    }
+  },
+  "retail_x_supermarket_0125": {
+    "EgoDemo|0|1": {
+      "radius": 0.0046944420854525,
+      "points": 311,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|2": {
+      "radius": 0.008191099109692,
+      "points": 437,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|3": {
+      "radius": 0.0158655177236724,
+      "points": 350,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|4": {
+      "radius": 0.0230046631075747,
+      "points": 492,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|5": {
+      "radius": 0.0329785597908981,
+      "points": 384,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|6": {
+      "radius": 0.038651095244146,
+      "points": 440,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|7": {
+      "radius": 0.0497764955158161,
+      "points": 341,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|8": {
+      "radius": 0.0610192612250462,
+      "points": 676,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|9": {
+      "radius": 0.0741690217583455,
+      "points": 382,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|10": {
+      "radius": 0.0819187945154723,
+      "points": 442,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|11": {
+      "radius": 0.098875308987011,
+      "points": 347,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|12": {
+      "radius": 0.1008252340003243,
+      "points": 513,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|13": {
+      "radius": 0.1173963119454371,
+      "points": 346,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|0|14": {
+      "radius": 0.1183177965293293,
+      "points": 397,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|4": {
+      "radius": 0.0380346712695586,
+      "points": 905,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|5": {
+      "radius": 0.0484425597639898,
+      "points": 824,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|6": {
+      "radius": 0.0598448111581765,
+      "points": 926,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|7": {
+      "radius": 0.0726498703239529,
+      "points": 675,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|8": {
+      "radius": 0.0838956099685367,
+      "points": 1155,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|9": {
+      "radius": 0.0951259078378613,
+      "points": 790,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|10": {
+      "radius": 0.1149580570014574,
+      "points": 941,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|11": {
+      "radius": 0.1217110222494279,
+      "points": 715,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|12": {
+      "radius": 0.1266874356583598,
+      "points": 800,
+      "environments": 9,
+      "age_fallback": false
+    },
+    "EgoDemo|1|13": {
+      "radius": 0.1513477658051872,
+      "points": 129,
+      "environments": 9,
+      "age_fallback": false
+    }
+  }
+}

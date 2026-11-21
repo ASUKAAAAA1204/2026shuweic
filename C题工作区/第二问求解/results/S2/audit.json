@@ -1,0 +1,9 @@
+{
+  "rows": 27486,
+  "windows": 1527,
+  "test_trajectory_reads": 0,
+  "development_replays": 0,
+  "radius_fit_excludes_held_global_env": true,
+  "budget_violations": 0,
+  "elapsed_s": 27.04066959998454
+}

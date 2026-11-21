@@ -1,0 +1,17 @@
+[
+  {
+    "family": "threshold",
+    "perturbation_tests": 50,
+    "passed": true
+  },
+  {
+    "family": "delay_aware",
+    "perturbation_tests": 50,
+    "passed": true
+  },
+  {
+    "family": "budget",
+    "perturbation_tests": 50,
+    "passed": true
+  }
+]

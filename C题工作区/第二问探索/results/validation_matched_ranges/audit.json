@@ -1,0 +1,16 @@
+{
+  "training_windows": 1527,
+  "validation_windows": 212,
+  "training_points": 141111,
+  "validation_points": 19608,
+  "range_cells": 540,
+  "position_metric_max_difference": 1.1796119636642288e-16,
+  "model_hash": "8d91fde178ee9ee737e10cb54be7e6f1b1634a6f444b6271f756ce45fad82914",
+  "range_hash": "8f85527d1ffee72e575f323c65ea3508697619989813cbbc55351e2ea335ef4f",
+  "model_and_ranges_unchanged": true,
+  "train_record_reads": 55,
+  "validation_record_reads": 7,
+  "test_reads": 0,
+  "coverage_guarantee": false,
+  "scope": "descriptive OOF-to-full-fit transfer; validation previously viewed; no validation calibration or tuning"
+}

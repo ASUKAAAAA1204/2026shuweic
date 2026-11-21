@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "outer_rows": 188148,
+  "base_timestamps": 47037,
+  "phase_zero_matches_before_return": true,
+  "phase_is_known_from_arrivals": true,
+  "support_merge_complete": true,
+  "model_refitted": false,
+  "calibration_refitted": false,
+  "development_reads": 0,
+  "test_reads": 0
+}

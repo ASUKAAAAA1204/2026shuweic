@@ -1,0 +1,16 @@
+dataset,mode,origin,status,points
+EgoDemo,missing,after_observed_invalid,no_finite_range,26
+EgoDemo,recovered_single,after_observed_invalid,no_finite_range,20
+EgoDemo,recovered_single,before_any_invalid,descriptive_block_range,54
+EgoDemo,tracking,after_observed_invalid,descriptive_block_range,4769
+EgoDemo,tracking,before_any_invalid,descriptive_block_range,23656
+EgoPro,missing,after_observed_invalid,no_finite_range,72
+EgoPro,recovered_single,after_observed_invalid,no_finite_range,60
+EgoPro,recovered_single,before_any_invalid,no_finite_range,16
+EgoPro,tracking,after_observed_invalid,no_finite_range,5386
+EgoPro,tracking,before_any_invalid,no_finite_range,13452
+EgoStandard,missing,after_observed_invalid,no_finite_range,58
+EgoStandard,recovered_single,after_observed_invalid,no_finite_range,48
+EgoStandard,recovered_single,before_any_invalid,no_finite_range,38
+EgoStandard,tracking,after_observed_invalid,no_finite_range,15092
+EgoStandard,tracking,before_any_invalid,no_finite_range,30352

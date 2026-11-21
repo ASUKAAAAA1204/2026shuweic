@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "support_cells": 1620,
+  "max_order_statistic_difference": 2.220446049250313e-16,
+  "summary_max_difference": 7.979727989493313e-17,
+  "scope": "independent reconstruction from saved raw errors and initial speeds; not independent trajectory extraction"
+}

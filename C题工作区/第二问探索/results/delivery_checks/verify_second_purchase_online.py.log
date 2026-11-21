@@ -1,0 +1,2 @@
+{"passed": true, "windows": 1527, "decisions_verified": 1527, "metric_max_difference": 9.8879238130678e-17, "visible_feature_max_difference": 2.220446049250313e-16, "hidden_future_mutation_checks": 17, "formal_model_changed": false, "development_reads": 0, "test_reads": 0, "scope": "actual public-view policy replay for qualified windows; invalid first return not validated"}
+

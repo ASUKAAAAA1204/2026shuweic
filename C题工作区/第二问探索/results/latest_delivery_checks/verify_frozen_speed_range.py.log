@@ -1,0 +1,2 @@
+{"passed": true, "checked_points": 19608, "max_radius_difference": 2.7755575615628914e-17, "invalid_inputs_rejected": 7, "scope": "actual replay state age and returns plus visible initial history; same upstream replay implementation", "guaranteed": false}
+

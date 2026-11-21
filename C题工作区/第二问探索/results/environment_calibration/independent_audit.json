@@ -1,0 +1,16 @@
+{
+  "support_groups_checked": 1440,
+  "independent_summary_max_error": 5.551115123125783e-17,
+  "bootstrap_valid": 9595,
+  "env_mean_gain_ci95": [
+    0.7114761649202496,
+    17.517280118094266
+  ],
+  "env_mean_gain_bonferroni_3_ci": [
+    -1.9210020284123153,
+    19.086632987577854
+  ],
+  "formal_model_replaced": false,
+  "test_reads": 0,
+  "development_reads": 0
+}

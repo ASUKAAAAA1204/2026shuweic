@@ -1,0 +1,11 @@
+{
+  "pair_fits": 120,
+  "inner_points": 705555,
+  "outer_points": 47037,
+  "raw_skipped_windows": 287,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "coverage_guarantee": false,
+  "elapsed_s": 27.529851800005417
+}

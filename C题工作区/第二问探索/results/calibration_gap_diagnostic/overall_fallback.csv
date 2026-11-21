@@ -1,0 +1,5 @@
+model,calibration,age_fallback
+distance_return,env_mean,0.013813324017217675
+distance_return,pooled,0.013813324017217675
+secant,env_mean,0.013813324017217675
+secant,pooled,0.013813324017217675

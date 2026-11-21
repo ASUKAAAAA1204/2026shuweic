@@ -1,0 +1,26 @@
+{
+  "primary_reference_schedule": [
+    0.3,
+    0.6
+  ],
+  "training_best_schedule": [
+    0.3,
+    0.6
+  ],
+  "tuned_fixed_promoted": false,
+  "paired": {
+    "reference": "fixed_03_06",
+    "candidate": "tuned_fixed",
+    "metric": "nade",
+    "gain_pct": 0.0,
+    "lo95": 0.0,
+    "hi95": 0.0,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "parameter_combinations": 6,
+  "nested_outer_envs": 16,
+  "development_replays": 0,
+  "test_trajectory_reads": 0,
+  "elapsed_s": 6.608976699993946
+}

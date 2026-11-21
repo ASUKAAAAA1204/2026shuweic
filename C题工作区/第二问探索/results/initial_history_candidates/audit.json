@@ -1,0 +1,11 @@
+{
+  "windows": 1527,
+  "records": 55,
+  "six_history_windows": 1499,
+  "baseline_max_difference": 9.8879238130678e-17,
+  "post_return_prediction_max_difference": 0.0,
+  "fallback_prediction_max_difference": 0.0,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false
+}

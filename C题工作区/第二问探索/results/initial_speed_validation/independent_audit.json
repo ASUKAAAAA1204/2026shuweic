@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "quantile_max_difference": 9.020562075079397e-17,
+  "summary_max_difference": 8.326672684688674e-17,
+  "rows": 58824,
+  "scope": "independent saved-error quantiles, paired invariants and arithmetic; not fresh data"
+}

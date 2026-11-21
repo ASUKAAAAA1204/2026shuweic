@@ -1,0 +1,18 @@
+{
+  "registered_before_S4": true,
+  "q1_commit": "bf380c4",
+  "primary_duration_s": 1.0,
+  "primary_delay_s": 0.1,
+  "update": "secant",
+  "calibration_for_primary_policy_comparison": "open_radius (S3 separate did not pass frozen CI gate)",
+  "selection": "nested global environment holdout; outer environment never enters inner calibration, scales or selection",
+  "fixed_schedules_s": [[0.15,0.45],[0.2,0.5],[0.25,0.55],[0.3,0.6],[0.35,0.7],[0.4,0.75]],
+  "threshold_tolerance_fractions": [0.02,0.05,0.1],
+  "delay_aware_tolerance_fractions": [0.02,0.05,0.1],
+  "budget_lookahead_cost_weights": [0.0,0.002,0.01,0.03],
+  "budget_lookahead_definition": "compare mean predicted radius over remainder with hypothetical request-return reset age; use causal visible velocity only if explicitly registered; reserve budget by comparing now with one later candidate, no hidden reference",
+  "promotion": "ADE gain>=3% and 95% paired global-env lower bound>0 at nonincreased cost, or cost gain>=15% and ADE degradation<=3%; primary choice remains ADE objective",
+  "development": "one frozen confirmation after all train selection",
+  "test": "sealed until combined freeze and preregistered final evaluation",
+  "no_parameter_expansion_after_development": true
+}

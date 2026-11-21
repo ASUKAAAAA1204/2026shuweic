@@ -1,0 +1,5 @@
+model,calibration,scope,reference,candidate,metric,gain_pct,lo95,hi95,bootstrap_valid,global_envs
+distance_return,pooled,after_return,all_age,neighbor,pinball,-0.11788362255495954,-0.20544842830753307,0.0,1933,16
+distance_return,pooled,after_return,all_age,prior_only_diagnostic,pinball,0.0,0.0,0.0,1933,16
+distance_return,pooled,all,all_age,neighbor,pinball,1.211058630092654,0.18780930690000863,2.1751859426392386,1933,16
+distance_return,pooled,all,all_age,prior_only_diagnostic,pinball,1.2873003386564719,0.315540670285096,2.1751859426392453,1933,16

@@ -1,0 +1,6 @@
+mode,origin,points,records,environments
+missing,after_observed_invalid,156,15,10
+recovered_single,after_observed_invalid,128,15,10
+recovered_single,before_any_invalid,108,54,16
+tracking,after_observed_invalid,25247,15,10
+tracking,before_any_invalid,67460,53,16

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "replays": 6108,
+  "paired_actions": 12216,
+  "previous_control_max_difference": 0.0,
+  "summary_max_difference": 5.551115123125783e-17,
+  "budget_and_delay_verified": true,
+  "gates_verified": true,
+  "identical_second_request_times_between_gated_methods": true,
+  "scope": "independent saved-table arithmetic and action checks"
+}

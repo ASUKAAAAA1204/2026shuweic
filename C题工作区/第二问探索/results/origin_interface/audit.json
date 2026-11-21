@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "origin changes only after invalid receipt",
+    "four rejected inputs leave state unchanged",
+    "arrival boundary enforced"
+  ],
+  "train_records": 55,
+  "hand_timestamps": 94092,
+  "matched_origin_labels": 93099,
+  "max_prediction_difference": 0.0,
+  "development_reads": 0,
+  "test_reads": 0
+}

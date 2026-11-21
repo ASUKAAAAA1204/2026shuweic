@@ -1,0 +1,726 @@
+{
+  "engineering_delivery_passed": true,
+  "check_count": 177,
+  "manifest_files": 140,
+  "manifest_sha256": "d5c77f785bba0d5d07ae4818470dd9436eca130289d95547789e411bf85c09d5",
+  "performance_targets": {
+    "adaptive_ade_gain_3pct": false,
+    "cost_saving_15pct_at_3pct_ade_degradation": false,
+    "nominal_90pct_coverage_guarantee": false,
+    "tolerance_5pct_reliable_operation": false
+  },
+  "selection": "fixed damping tau .2 + secant update + requests at .3/.6",
+  "final_test_used": true,
+  "test_used_for_refitting": false,
+  "claim": "finite candidate study delivered; performance improvement targets not achieved; no global optimality claim",
+  "checks": [
+    {
+      "name": "all source files compile",
+      "passed": true
+    },
+    {
+      "name": "Q1 retained",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash adaptive_policy_experiment.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash engine.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash finalize_s0.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash fixed_schedule_experiment.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash freeze_and_evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash policies.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash s0_audit_replay.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash update_calibration_experiment.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash verify_engine.py",
+      "passed": true
+    },
+    {
+      "name": "frozen inference/source hash verify_policies.py",
+      "passed": true
+    },
+    {
+      "name": "protocol hash",
+      "passed": true
+    },
+    {
+      "name": "S0 input/window audit",
+      "passed": true
+    },
+    {
+      "name": "S1 causal engine checks",
+      "passed": true
+    },
+    {
+      "name": "all adaptive policies noninterfering",
+      "passed": true
+    },
+    {
+      "name": "S2 full train conditions",
+      "passed": true
+    },
+    {
+      "name": "S3 independent quantiles and nesting",
+      "passed": true
+    },
+    {
+      "name": "S4 fixed candidates",
+      "passed": true
+    },
+    {
+      "name": "S4 selection before development",
+      "passed": true
+    },
+    {
+      "name": "S5 validation independent audit",
+      "passed": true
+    },
+    {
+      "name": "S5 validation unchanged frozen model",
+      "passed": true
+    },
+    {
+      "name": "S5 test independent audit",
+      "passed": true
+    },
+    {
+      "name": "S5 test unchanged frozen model",
+      "passed": true
+    },
+    {
+      "name": "stage and history evaluation only",
+      "passed": true
+    },
+    {
+      "name": "required deliverable 第二问完整解答与实验报告.md",
+      "passed": true
+    },
+    {
+      "name": "required deliverable 执行计划与量化目标.md",
+      "passed": true
+    },
+    {
+      "name": "required deliverable README.md",
+      "passed": true
+    },
+    {
+      "name": "required deliverable paired_final_comparisons.csv",
+      "passed": true
+    },
+    {
+      "name": "required deliverable runtime_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "required deliverable empirical_prediction_duration.csv",
+      "passed": true
+    },
+    {
+      "name": "required deliverable results/S0/natural_reason_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "required deliverable results/S0/natural_duration_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "required deliverable results/S5_test/worst_fixed_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "required deliverable results/S5_test/points.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "required deliverable results/S5_test/actions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "required deliverable results/diagnostics/phase_task_history_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest code/adaptive_policy_experiment.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/audit_window_exclusions.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/build_report.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/complete_s2.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/context_diagnostics.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/engine.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/finalize_s0.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/fixed_schedule_experiment.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/freeze_and_evaluate.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/policies.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/s0_audit_replay.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/update_calibration_experiment.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/verify_delivery.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/verify_engine.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/verify_evaluation.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/verify_policies.py",
+      "passed": true
+    },
+    {
+      "name": "manifest code/verify_training_artifacts.py",
+      "passed": true
+    },
+    {
+      "name": "manifest empirical_prediction_duration.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest frozen_model.json",
+      "passed": true
+    },
+    {
+      "name": "manifest paired_final_comparisons.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest protocol.json",
+      "passed": true
+    },
+    {
+      "name": "manifest README.md",
+      "passed": true
+    },
+    {
+      "name": "manifest requirements.txt",
+      "passed": true
+    },
+    {
+      "name": "manifest results/diagnostics/audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/diagnostics/phase_task_history_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/diagnostics/window_context_private_evaluation_only.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/fold_scales.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/input_hashes.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/natural_duration_bins.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/natural_duration_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/natural_reason_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/retention.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/train_initial_replay.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/train_initial_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/train_natural_bad_runs.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/window_counts.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/window_exclusion_reasons.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/window_exclusion_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S0/window_reconstruction_audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S1/adaptive_policy_checks.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S1/audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S1/checks.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S1/sample_trace.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S2/audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S2/summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S2/windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/actions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/calibration_environments.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/calibration_folds.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/calibration_points.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/calibration_selection.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/calibration_sources.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/calibration_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/calibration_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/fold_calibrators.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/independent_audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/residual_points.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/update_environments.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/update_selection.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/update_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S3/update_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/all_candidate_oof_windows.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/full_train_ranking.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_home_x_apartment_0342.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_home_x_apartment_0701.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_logistics_x_courier_station_0021.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_office_x_corporate_office_0086.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_convenience_0014.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0037.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0049.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0054.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0058.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0059.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0066.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0071.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0087.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0121.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0124.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/inner_retail_x_supermarket_0125.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/nested_selections.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_home_x_apartment_0342.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_home_x_apartment_0701.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_logistics_x_courier_station_0021.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_office_x_corporate_office_0086.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_convenience_0014.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0037.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0049.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0054.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0058.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0059.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0066.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0071.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0087.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0121.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0124.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/outer_retail_x_supermarket_0125.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/primary_environments.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/primary_oof_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/primary_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive/selection.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_adaptive_run.log",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_fixed/all_candidate_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_fixed/full_train_ranking.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_fixed/inner_selections.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_fixed/nested_oof_environments.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_fixed/nested_oof_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_fixed/nested_oof_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S4_fixed/selection.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/actions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/end_boundary_diagnostic.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/environments.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/independent_audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/input_hashes.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/points.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/sources.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_test/worst_fixed_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/actions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/end_boundary_diagnostic.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/environments.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/independent_audit.json",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/input_hashes.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/points.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/sources.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest results/S5_validation/worst_fixed_windows.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest runtime_summary.csv",
+      "passed": true
+    },
+    {
+      "name": "manifest S4前瞻定义补充.md",
+      "passed": true
+    },
+    {
+      "name": "manifest S4实验注册.json",
+      "passed": true
+    },
+    {
+      "name": "manifest 执行计划与量化目标.md",
+      "passed": true
+    },
+    {
+      "name": "manifest 执行进度.md",
+      "passed": true
+    },
+    {
+      "name": "manifest 第二问完整解答与实验报告.md",
+      "passed": true
+    },
+    {
+      "name": "manifest 阶段历史补充.md",
+      "passed": true
+    },
+    {
+      "name": "manifest 阶段实验报告.md",
+      "passed": true
+    }
+  ]
+}

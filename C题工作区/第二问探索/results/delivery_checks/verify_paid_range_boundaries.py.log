@@ -1,0 +1,2 @@
+{"passed": true, "invalid_tables_rejected": 7, "external_mutation_isolated": true, "internal_evidence_immutable": true, "age_one_second_accepted": true, "age_over_one_second_abstained": true, "return_state_mismatch_abstained": true}
+

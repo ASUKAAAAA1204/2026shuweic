@@ -1,0 +1,12 @@
+{
+  "training_windows": 1527,
+  "validation_windows": 212,
+  "range_cells": 270,
+  "validation_records": 7,
+  "test_reads": 0,
+  "model_hash": "8d91fde178ee9ee737e10cb54be7e6f1b1634a6f444b6271f756ce45fad82914",
+  "range_hash": "3e91285e0c29e2fe3df98c205c5b57b7bc25306f3a7b3a642a86c426c7fd401d",
+  "unchanged_predictions": true,
+  "unchanged_after_return_ranges": true,
+  "scope": "descriptive previously viewed validation; control corrects fold-normalization transfer separately from speed effect"
+}

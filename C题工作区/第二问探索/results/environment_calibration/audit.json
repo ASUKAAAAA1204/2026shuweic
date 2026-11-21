@@ -1,0 +1,10 @@
+{
+  "train_only": true,
+  "held_global_env_excluded": true,
+  "development_reads": 0,
+  "test_reads": 0,
+  "formal_model_changed": false,
+  "candidates": 4,
+  "promotion": false,
+  "notes": "exploratory fixed grid, not independent confirmation"
+}

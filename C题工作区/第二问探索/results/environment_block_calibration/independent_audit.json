@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checked_blocks": 124,
+  "independent_integer_rank": true,
+  "radius_max_difference": 0.0,
+  "finite_90_blocks": 20,
+  "total_90_blocks": 62,
+  "all_missing_and_true_recovery_90_abstain": true,
+  "warning": "rank feasibility under specified construction, not a proof that no other bounded or parametric method can work"
+}

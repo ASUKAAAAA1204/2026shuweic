@@ -1,0 +1,20 @@
+{
+  "selected": "open_radius",
+  "separate_admitted": false,
+  "pinball_gain_pct": 10.308071253726736,
+  "width_growth_pct": 24.01386366171634,
+  "coverage": 0.8847290999353582,
+  "min_source_coverage": 0.8733600374598491,
+  "pinball_interval": {
+    "reference": "open_radius",
+    "candidate": "separate",
+    "metric": "pinball",
+    "gain_pct": 10.308071253726748,
+    "lo95": -1.3684563836770325,
+    "hi95": 18.029078172780082,
+    "bootstrap_valid": 1933,
+    "global_envs": 16
+  },
+  "development_used": false,
+  "notes": "candidate may remain exploratory if coverage constraint fails; empirical not guaranteed coverage"
+}
