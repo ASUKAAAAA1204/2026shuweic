@@ -1,0 +1,10 @@
+split,dataset,records,environments,samples,qualified,scored,windows,unqualified,qualified_outside
+test,EgoDemo,2,1,1296,1296,616,20,0,680
+test,EgoPro,2,1,6274,5938,2868,94,336,3070
+test,EgoStandard,3,3,16912,16786,8556,276,126,8230
+train,EgoDemo,27,10,28738,28579,14407,471,159,14172
+train,EgoPro,8,3,19304,19002,9502,308,302,9500
+train,EgoStandard,20,7,46050,45628,23128,748,422,22500
+validation,EgoDemo,2,2,2794,2794,1422,46,0,1372
+validation,EgoPro,4,2,9706,9524,4618,150,182,4906
+validation,EgoStandard,1,1,1066,994,496,16,72,498
