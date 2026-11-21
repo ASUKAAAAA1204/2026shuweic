@@ -1,5 +1,9 @@
 # 第一问模型、实验与复现
 
+[第一问论文图 v5（正文 3 张、附录 2 张）](figures/q1_redblue_refined/第一问论文图_红蓝精修审核稿_v5.pdf) · [绘图入口](figures/q1_redblue_refined/build_review.py)
+
+在 `q1` 目录下安装 `requirements.txt` 中的依赖，使用装有 Microsoft YaHei 字体的环境运行 `python -B figures/q1_redblue_refined/build_review.py`。脚本从仓内实验结果及关键点记录重绘，输出同名 v5 PDF。时间窗图和逐窗散点图复用已归档的矢量底稿，可通过 `python -B figures/q1_redblue_review/build_review.py` 重新生成底稿。
+
 [第一问主报告](reports/问题一优化结果.md) · [Word 稿](reports/问题一_优化稿.docx) · [实验总表](reports/数维杯C题对比试验汇总.md) · [实验设计与优化路线](reports/第一问实验方案与优化路线_待审核.md)
 
 | 任务 | 最终选型 | 基线与扩展证据 |
