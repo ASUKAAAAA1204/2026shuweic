@@ -1,0 +1,186 @@
+{
+  "schema": "q2-continuous-fixed-research-v1",
+  "state": "per-hand centroid of all 21 points",
+  "motion": "last-two velocity, damped tau=.2, secant return update",
+  "protocol": {
+    "request_times": [
+      0.3,
+      0.6
+    ],
+    "delay_s": 0.1,
+    "budget": 2,
+    "maximum_window_span_s": 1.0,
+    "observation_protocol": "fixed_paid"
+  },
+  "scale": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "prior_models": {
+    "EgoDemo": {
+      "mu": [
+        0.25340042200941504,
+        0.0811098486897892,
+        0.32825028398042777,
+        0.083568487882167
+      ],
+      "sd": [
+        0.129992595232335,
+        0.06750627460219963,
+        0.22964606729521897,
+        0.07892700275625444
+      ],
+      "coefficient": [
+        0.1158272968006906,
+        0.016627537347522942,
+        0.041706811452032436,
+        0.00026711336051795287,
+        0.032677722653816924
+      ],
+      "training_points": 6161,
+      "training_windows": 471,
+      "speed_minimum": 0.0161712802330466,
+      "speed_maximum": 2.5266610178954916,
+      "iterations": 23,
+      "gradient_max": 3.82274199147284e-07
+    },
+    "EgoPro": {
+      "mu": [
+        0.24149259060882156,
+        0.07190501696125659,
+        0.354678657409245,
+        0.0850173711724294
+      ],
+      "sd": [
+        0.11656048061971012,
+        0.05765941320846264,
+        0.3218182783129716,
+        0.09427707350886774
+      ],
+      "coefficient": [
+        0.11905931822143004,
+        -0.004233348605065047,
+        0.02596527266674912,
+        -0.008361383441798926,
+        0.11130144728725923
+      ],
+      "training_points": 3734,
+      "training_windows": 308,
+      "speed_minimum": 0.01041470783598953,
+      "speed_maximum": 3.906872557202907,
+      "iterations": 23,
+      "gradient_max": 2.982525920240398e-08
+    },
+    "EgoStandard": {
+      "mu": [
+        0.2376310736966483,
+        0.07015556540146718,
+        0.4771793486175791,
+        0.11393039463943111
+      ],
+      "sd": [
+        0.11699161600408052,
+        0.056908758377892645,
+        0.2965933990697116,
+        0.09661590975718311
+      ],
+      "coefficient": [
+        0.1446903054850514,
+        -0.016752466911545416,
+        0.05767809790649816,
+        -0.011435441922288217,
+        0.09221034447787492
+      ],
+      "training_points": 9028,
+      "training_windows": 748,
+      "speed_minimum": 0.009687901786277495,
+      "speed_maximum": 2.3010015688150744,
+      "iterations": 24,
+      "gradient_max": 2.0740829548173658e-07
+    }
+  },
+  "return_models": {
+    "EgoDemo": {
+      "mu": [
+        0.2669698439647556,
+        0.07881760853747288,
+        0.29122163662638256,
+        0.07781626363810805
+      ],
+      "sd": [
+        0.08686029559533784,
+        0.047222541747700915,
+        0.2157045984818569,
+        0.06584012434245769
+      ],
+      "coefficient": [
+        0.17669266068717804,
+        0.05115426294995915,
+        0.0057039397783449075,
+        0.01054631853357802,
+        0.022584061478092443
+      ],
+      "training_points": 8246,
+      "training_windows": 471,
+      "gradient_max": 3.705611909098213e-08
+    },
+    "EgoPro": {
+      "mu": [
+        0.25626444752658684,
+        0.07410617968870564,
+        0.3168075474190308,
+        0.08195849797544823
+      ],
+      "sd": [
+        0.09184069154029117,
+        0.04806567590118909,
+        0.2909371106342953,
+        0.08543375176867166
+      ],
+      "coefficient": [
+        0.16392523619836558,
+        0.026318545575806894,
+        0.015342107657528905,
+        -0.0016130853036449904,
+        0.07336543236178258
+      ],
+      "training_points": 5768,
+      "training_windows": 308,
+      "gradient_max": 7.929502362000236e-08
+    },
+    "EgoStandard": {
+      "mu": [
+        0.2571347517730522,
+        0.07479275019700284,
+        0.4350625625992193,
+        0.11130933391665572
+      ],
+      "sd": [
+        0.09313683281934096,
+        0.048887128738029424,
+        0.314583298903835,
+        0.09410119736773155
+      ],
+      "coefficient": [
+        0.20714429481577004,
+        0.035835086709669214,
+        0.024260867363955697,
+        -0.012095896700577362,
+        0.06491028426493757
+      ],
+      "training_points": 14100,
+      "training_windows": 748,
+      "gradient_max": 5.283961211647488e-07
+    }
+  },
+  "guaranteed": false,
+  "formal_promotion": false,
+  "risk_scope": "descriptive pointwise source-normalized ranges; not simultaneous trajectory coverage or natural recovery",
+  "evaluation_scope": "training exploration and previously viewed validation; no new independent test",
+  "provenance": {
+    "results\\continuous_initial_validation\\full_training_ranges.json": "996f3ea54312ccc66903a422b81446fb335de40d0588a0149a90ad893eb4b075",
+    "results\\continuous_joint_validation\\full_return_ranges.json": "463f3bf766e8062faa776bcfc67eca03bb455ba9acb585668ef86a1fd8921c0a",
+    "results\\validation_candidates\\full_train_models.json": "8d91fde178ee9ee737e10cb54be7e6f1b1634a6f444b6271f756ce45fad82914"
+  }
+}

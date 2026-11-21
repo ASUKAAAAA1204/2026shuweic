@@ -1,0 +1,740 @@
+[
+  {
+    "held": "home_x_apartment_0342",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.2536074624024389,
+      0.08153140004653629,
+      0.3327679351748164,
+      0.08484592789496387
+    ],
+    "sd": [
+      0.13120463048357325,
+      0.06820200003820358,
+      0.23550868061077654,
+      0.0811128884677301
+    ],
+    "coefficient": [
+      0.1211566106525676,
+      0.01810372184124643,
+      0.043968578400585566,
+      -6.711390028028373e-05,
+      0.03347187097649817
+    ],
+    "success": true,
+    "iterations": 27,
+    "objective": 0.009967630641003776,
+    "gradient_max": 2.6099696804799254e-08,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "home_x_apartment_0701",
+    "dataset": "EgoPro",
+    "fit_environments": [
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086"
+    ],
+    "mu": [
+      0.24033761652809124,
+      0.07125808348030649,
+      0.31041361734937245,
+      0.07340792967983131
+    ],
+    "sd": [
+      0.11617191382559261,
+      0.057062748831047436,
+      0.331556798619384,
+      0.09321083362060338
+    ],
+    "coefficient": [
+      0.11093437105724933,
+      -0.013567065425900329,
+      0.033575463650957114,
+      -0.010119284773458007,
+      0.12564873843456076
+    ],
+    "success": true,
+    "iterations": 26,
+    "objective": 0.009368328448839915,
+    "gradient_max": 2.4164686349582916e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "logistics_x_courier_station_0021",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.2544927536231885,
+      0.08156144691881824,
+      0.333775251381394,
+      0.08529257379658092
+    ],
+    "sd": [
+      0.12959508197498754,
+      0.06751693451218228,
+      0.2360727596134365,
+      0.08091112437638158
+    ],
+    "coefficient": [
+      0.11885805997679816,
+      0.01495516948014909,
+      0.04799284148725482,
+      0.000879696608640777,
+      0.029894536882476855
+    ],
+    "success": true,
+    "iterations": 24,
+    "objective": 0.009693966301605673,
+    "gradient_max": 4.539516615450226e-09,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+  },
+  {
+    "held": "logistics_x_courier_station_0021",
+    "dataset": "EgoPro",
+    "fit_environments": [
+      "home_x_apartment_0701",
+      "office_x_corporate_office_0086"
+    ],
+    "mu": [
+      0.24055961070559614,
+      0.071574209245743,
+      0.37604651735228395,
+      0.08985947600313803
+    ],
+    "sd": [
+      0.11706956454567634,
+      0.05782645817052773,
+      0.33021871702980715,
+      0.09723006326971328
+    ],
+    "coefficient": [
+      0.1293664753599029,
+      -0.0019013158705502202,
+      0.03343676799281258,
+      -0.0071650749516400545,
+      0.10382909425188727
+    ],
+    "success": true,
+    "iterations": 20,
+    "objective": 0.010629641199910176,
+    "gradient_max": 8.34222420145808e-08,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "office_x_corporate_office_0086",
+    "dataset": "EgoPro",
+    "fit_environments": [
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021"
+    ],
+    "mu": [
+      0.24418828049952068,
+      0.07316255737005038,
+      0.351692694801966,
+      0.08583192690977012
+    ],
+    "sd": [
+      0.11633847616647776,
+      0.058171778769742,
+      0.26295590895842946,
+      0.08195552906609416
+    ],
+    "coefficient": [
+      0.10144911935285435,
+      0.005531367498403872,
+      0.01504216527990162,
+      -0.004708881417061065,
+      0.07349266245592395
+    ],
+    "success": true,
+    "iterations": 23,
+    "objective": 0.008824573082585321,
+    "gradient_max": 2.0513980015590521e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_convenience_0014",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.254010464758388,
+      0.08134810710988087,
+      0.33095931201753903,
+      0.08449918435680004
+    ],
+    "sd": [
+      0.12971812095119276,
+      0.0674979914680339,
+      0.23257517669159447,
+      0.07998219580469824
+    ],
+    "coefficient": [
+      0.11956819292550244,
+      0.01938431528524666,
+      0.040460021331916736,
+      5.7870777452200565e-05,
+      0.032608945012872044
+    ],
+    "success": true,
+    "iterations": 25,
+    "objective": 0.009619298115926142,
+    "gradient_max": 6.16196427400256e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0037",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.25319934139556344,
+      0.08100493953330122,
+      0.3291796796333183,
+      0.08368183507317384
+    ],
+    "sd": [
+      0.12998089494288648,
+      0.06747320152095022,
+      0.22579384588806567,
+      0.07793418434750614
+    ],
+    "coefficient": [
+      0.11458394953094253,
+      0.016993329110937976,
+      0.03698693608892638,
+      -0.0005078542460852025,
+      0.03657407288780731
+    ],
+    "success": true,
+    "iterations": 22,
+    "objective": 0.009529498532426815,
+    "gradient_max": 1.548313228421444e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0037",
+    "dataset": "EgoStandard",
+    "fit_environments": [
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    "mu": [
+      0.23803671673494234,
+      0.07034744348353962,
+      0.47968375048919565,
+      0.1147014233038758
+    ],
+    "sd": [
+      0.11698702906556352,
+      0.057000075149652774,
+      0.29726815084135155,
+      0.09697162748118267
+    ],
+    "coefficient": [
+      0.14614596206817235,
+      -0.01668707575753106,
+      0.058082646088842206,
+      -0.0117640825867873,
+      0.09317173079037358
+    ],
+    "success": true,
+    "iterations": 25,
+    "objective": 0.010915085917882027,
+    "gradient_max": 4.320497489976158e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0049",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.2532810635759365,
+      0.08101926026930484,
+      0.32706167870416764,
+      0.08324557017904942
+    ],
+    "sd": [
+      0.12987672271484146,
+      0.0674152445302752,
+      0.2299387867317389,
+      0.07888039889631815
+    ],
+    "coefficient": [
+      0.11600777500106607,
+      0.0132341209930108,
+      0.04765715926284849,
+      0.0003619228837090917,
+      0.031368373061225
+    ],
+    "success": true,
+    "iterations": 22,
+    "objective": 0.00945192099210373,
+    "gradient_max": 8.815052812394418e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0054",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.2527065527065533,
+      0.08072649572649745,
+      0.33381605898392797,
+      0.08473276497424068
+    ],
+    "sd": [
+      0.12986875661861877,
+      0.06726426656662916,
+      0.22466137902554384,
+      0.07786146428885096
+    ],
+    "coefficient": [
+      0.11511427003059942,
+      0.010562129448996288,
+      0.04960798845700592,
+      -0.0013407625051407503,
+      0.032647153944900954
+    ],
+    "success": true,
+    "iterations": 24,
+    "objective": 0.008875018443603203,
+    "gradient_max": 2.0072805919391112e-08,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0054",
+    "dataset": "EgoStandard",
+    "fit_environments": [
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    "mu": [
+      0.23887274328489724,
+      0.07065198884485696,
+      0.4852881074360092,
+      0.11651644961015645
+    ],
+    "sd": [
+      0.11658388122036338,
+      0.0569272886473232,
+      0.2913400457251412,
+      0.096283632851275
+    ],
+    "coefficient": [
+      0.1408614236689116,
+      -0.013410772371796624,
+      0.049512453455243514,
+      -0.013015144888062704,
+      0.0911321793627086
+    ],
+    "success": true,
+    "iterations": 24,
+    "objective": 0.009840059470200401,
+    "gradient_max": 6.754711673100723e-08,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0058",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.25314308635608346,
+      0.08097912249536998,
+      0.33509585657490154,
+      0.0852518639311902
+    ],
+    "sd": [
+      0.12999115479710444,
+      0.06749310572809784,
+      0.22999901678845838,
+      0.07949197872901449
+    ],
+    "coefficient": [
+      0.11606100756532874,
+      0.0161477571801743,
+      0.04382979334833675,
+      0.0001664950185396615,
+      0.030758984838154518
+    ],
+    "success": true,
+    "iterations": 21,
+    "objective": 0.009268645307520827,
+    "gradient_max": 1.8849091677403933e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0058",
+    "dataset": "EgoStandard",
+    "fit_environments": [
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    "mu": [
+      0.2383850069412307,
+      0.07050979484806602,
+      0.48876342640411535,
+      0.11688049356161029
+    ],
+    "sd": [
+      0.11697172014505998,
+      0.057067911015938534,
+      0.29562295867964333,
+      0.09713561145591942
+    ],
+    "coefficient": [
+      0.14777411085202857,
+      -0.017073316733832347,
+      0.05934229002776388,
+      -0.011304915215549747,
+      0.09192086070947479
+    ],
+    "success": true,
+    "iterations": 20,
+    "objective": 0.010903979771204143,
+    "gradient_max": 3.6187583085584344e-08,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0059",
+    "dataset": "EgoStandard",
+    "fit_environments": [
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    "mu": [
+      0.23828777524677291,
+      0.07027145026575687,
+      0.4987850388940601,
+      0.11944046008746098
+    ],
+    "sd": [
+      0.11614812281607932,
+      0.056551464484921043,
+      0.3071007682628455,
+      0.10019536661571024
+    ],
+    "coefficient": [
+      0.15153589894420627,
+      -0.023923357234569596,
+      0.07108512054207561,
+      -0.012410851882903239,
+      0.09365874643351244
+    ],
+    "success": true,
+    "iterations": 23,
+    "objective": 0.011208191551304543,
+    "gradient_max": 1.0429823062317457e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0066",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.2533684152825751,
+      0.08109338741800723,
+      0.3256176435429668,
+      0.08286399418466332
+    ],
+    "sd": [
+      0.12999166725295247,
+      0.06750955315509671,
+      0.22790866701579035,
+      0.07826142192016386
+    ],
+    "coefficient": [
+      0.1164639491429837,
+      0.015931712006403455,
+      0.04241674438683495,
+      -7.361747479268562e-05,
+      0.03388946798712452
+    ],
+    "success": true,
+    "iterations": 23,
+    "objective": 0.00945362770123672,
+    "gradient_max": 1.0447871012344285e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0071",
+    "dataset": "EgoStandard",
+    "fit_environments": [
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    "mu": [
+      0.23705393077542408,
+      0.06994693378648503,
+      0.4453731762381125,
+      0.10601430294932292
+    ],
+    "sd": [
+      0.11727048942680808,
+      0.05695663880255648,
+      0.28198862290289195,
+      0.09116690100708301
+    ],
+    "coefficient": [
+      0.13311868458344095,
+      -0.007348931461926563,
+      0.047309205109506106,
+      -0.008112379967966578,
+      0.07854387065993845
+    ],
+    "success": true,
+    "iterations": 22,
+    "objective": 0.010344676793064172,
+    "gradient_max": 2.5444508393852416e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0087",
+    "dataset": "EgoStandard",
+    "fit_environments": [
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0124"
+    ],
+    "mu": [
+      0.23615321025075928,
+      0.06955206515416133,
+      0.43276594270539526,
+      0.10255807782386199
+    ],
+    "sd": [
+      0.11740411595178864,
+      0.05682670318826892,
+      0.28904663946214215,
+      0.09175514306660813
+    ],
+    "coefficient": [
+      0.13849302399137708,
+      -0.01900403841845188,
+      0.05471221185512002,
+      -0.011318060155855273,
+      0.09820368570786592
+    ],
+    "success": true,
+    "iterations": 23,
+    "objective": 0.010889114290761625,
+    "gradient_max": 1.303864933782058e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0121",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0125"
+    ],
+    "mu": [
+      0.2530871037242231,
+      0.08090284190007346,
+      0.31445579830462034,
+      0.07992422844420434
+    ],
+    "sd": [
+      0.12980662474833946,
+      0.06729493085559612,
+      0.22649998092570292,
+      0.07710428709309773
+    ],
+    "coefficient": [
+      0.10885383480677233,
+      0.015372537413570307,
+      0.033683522014862695,
+      0.000784653264235241,
+      0.03840724978711128
+    ],
+    "success": true,
+    "iterations": 23,
+    "objective": 0.00881545323351402,
+    "gradient_max": 3.1338629663102794e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0124",
+    "dataset": "EgoStandard",
+    "fit_environments": [
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087"
+    ],
+    "mu": [
+      0.23641094661283252,
+      0.06970001495439111,
+      0.5067391711273002,
+      0.12065257010302569
+    ],
+    "sd": [
+      0.11751544271292622,
+      0.05695578389543016,
+      0.30556486906793257,
+      0.10075194804839364
+    ],
+    "coefficient": [
+      0.15340453979577967,
+      -0.01708492931914649,
+      0.06235970251214807,
+      -0.011768441670258421,
+      0.09400953254586007
+    ],
+    "success": true,
+    "iterations": 22,
+    "objective": 0.011336735895524561,
+    "gradient_max": 2.1209304748310686e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  {
+    "held": "retail_x_supermarket_0125",
+    "dataset": "EgoDemo",
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121"
+    ],
+    "mu": [
+      0.2532810635759337,
+      0.08101926026930484,
+      0.32009922475968433,
+      0.08146985130393226
+    ],
+    "sd": [
+      0.1298767227148377,
+      0.06741524453027527,
+      0.22600801119837752,
+      0.07740582713823084
+    ],
+    "coefficient": [
+      0.11197817304891311,
+      0.015726231831710843,
+      0.03907050272500128,
+      0.0001938634359631759,
+      0.03375729875586617
+    ],
+    "success": true,
+    "iterations": 22,
+    "objective": 0.009426874033175906,
+    "gradient_max": 1.7924724086314038e-07,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  }
+]

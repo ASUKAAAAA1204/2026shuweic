@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "windows": 2129,
+  "points": 65613,
+  "requests": 4258,
+  "independent_scoring_max_absolute_difference": 3.3306690738754696e-16,
+  "scope": "saved predictions independently rescored; request delay and budget checked"
+}
