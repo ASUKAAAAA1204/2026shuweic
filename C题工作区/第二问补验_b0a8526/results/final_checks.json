@@ -1,0 +1,29 @@
+{
+  "roster_rows_matched": 69,
+  "frozen_replay": [
+    {
+      "split": "validation",
+      "windows": 212,
+      "methods": 7,
+      "points": 45752,
+      "method_windows": 1484,
+      "requests": 1696,
+      "returns": 1696,
+      "max_coordinate_difference": 0.0,
+      "max_main_metric_difference": 1.1102230246251565e-16
+    },
+    {
+      "split": "test",
+      "windows": 390,
+      "methods": 7,
+      "points": 84280,
+      "method_windows": 2730,
+      "requests": 3120,
+      "returns": 3120,
+      "max_coordinate_difference": 0.0,
+      "max_main_metric_difference": 1.1102230246251565e-16
+    }
+  ],
+  "coordinate_tolerance": 1e-10,
+  "main_metric_tolerance": 1e-10
+}

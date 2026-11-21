@@ -1,0 +1,10 @@
+first,second,field,shared
+train,validation,environment_id,0
+train,validation,scene_id,0
+train,validation,operator_id,0
+train,test,environment_id,0
+train,test,scene_id,0
+train,test,operator_id,3
+validation,test,environment_id,0
+validation,test,scene_id,0
+validation,test,operator_id,0

@@ -1,0 +1,17 @@
+{
+  "q2_commit": "b0a8526a0db5dbad9a3ec376238830153a2f9855",
+  "q1_inputs_commit": "bf380c4a1ec61deeb1ccb4206ad6098619f37157",
+  "model_sha256": "baf3ce889dc51d62b331a8d30aeee34242109397b1e27a1562df391e908a1af3",
+  "records_hash_matched": 69,
+  "windows": 2129,
+  "replay_variants": 12774,
+  "max_absolute_nade_diff": {
+    "train_schedules": 2.220446049250313e-16,
+    "validation_fixed": 5.551115123125783e-17,
+    "test_fixed": 5.551115123125783e-17
+  },
+  "duration_method": "frozen no-request damped, 1 s, ceil(age*30)",
+  "recovery_bad_coordinates_nan_check": true,
+  "model_refitted": false,
+  "evaluation": "descriptive reanalysis of previously scored splits"
+}
