@@ -1,0 +1,17 @@
+{
+  "windows": 2129,
+  "replays": 25548,
+  "methods": 4,
+  "horizons": [
+    0.2,
+    0.6,
+    1.0
+  ],
+  "maximum_adopted_nade_difference": 9.8879238130678e-17,
+  "delay_s": 0.1,
+  "budget_cap": 2,
+  "cost_per_request": 1,
+  "all_comparators_share_windows": true,
+  "uncertainty": "no range coverage transferred to truncated horizons",
+  "evaluation": "previously viewed descriptive comparisons"
+}

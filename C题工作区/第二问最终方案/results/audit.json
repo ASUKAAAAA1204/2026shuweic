@@ -88,16 +88,21 @@
     "b02f85bd-fc26-4c2a-96e6-cb97f653eb22.npz": "3c4f961b3f5e139c0a6ffaff330e7bf275f826979bc377950bc6a425c16518ae"
   },
   "artifact_sha256": {
+    "code\\audit_subgroups.py": "1bcc5eb6433a5a7e0211f1dc6879d3c1b5280ec4ce7a48f377dac2cd03ebe2a7",
     "code\\candidate_replay_engine.py": "7484d4c7944c9f0698d62de9a8ff04c7b015fde2a066bd1f93770b5b5f4c2ebf",
     "code\\continuous_range_state.py": "5bd0e0b63bca1d9a1c10ecdf60255a35c6b759eff347324319fb22d8267494bb",
+    "code\\natural_quality_analysis.py": "7b8cbafaf8534eb8e701e8f935b1adc48ba027317029f1f6d4dcbeebcccbe8ad",
+    "code\\run_all.py": "ba072b2cd8812386b47d41c9c04d74ae47b265cf86a304d9ad0c9d0dc120d350",
     "code\\run_complete.py": "93cfe0e094dfc1d11c60aae39b3a5e1e57ceb834b2397d2058653e146c06d79e",
+    "code\\run_required_baselines.py": "0a767ea884f13fc5ebc01231b105660ecf135bbed89549c36f46a85798161207",
+    "code\\tolerance_horizons.py": "bdc77cb316941177bf0e6f83ec442f7b9277f610260156936097b91b42e7bf25",
     "code\\verify_outputs.py": "a8a9a5830ea28d63b77ce8a9ebeb16fbc200237389f3d7fbbfa9103692e3182f",
     "model\\fold_scales.json": "14768bdbfb91bf88597c8bec5a1835bea64357c01d2731df7cd5212fbd511542",
     "model\\model.json": "b0424f422bdf56e0e32db0bb66d889d43b8f45ec04f90407412be9e5ea6ba3d3",
     "model\\oof_prior.json": "165fe9f8dde5e94b60f347ee4f488b3af71987ecb5ce850cc0300dda0c7146c5",
     "model\\oof_return.json": "a4efb39dd2a40473a672b63835f91b73e7b693ec87e6b11b9b55e5db5780faa2"
   },
-  "elapsed_s": 3.5267527103424072,
+  "elapsed_s": 3.6655213832855225,
   "training": "environment-held-out existing frozen fits; fresh raw replay",
   "evaluation": "validation and test previously viewed; descriptive reproduction",
   "guaranteed": false,

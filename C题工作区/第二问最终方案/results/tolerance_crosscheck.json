@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "paired_split_horizon_checks": 9,
+  "maximum_nade_difference": 8.326672684688674e-17,
+  "point_success_complement_max_difference": 1.1102230246251565e-16
+}

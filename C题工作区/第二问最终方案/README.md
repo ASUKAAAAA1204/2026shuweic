@@ -35,8 +35,29 @@
 依赖 Python、numpy、pandas。数据不随 Git 上传，传入包含 records/ 的官方解压目录，以及既有 windows.csv：
 
 ```powershell
+python code/run_all.py --data-root "官方数据/v1/v1" --windows "窗口清单/windows.csv"
+```
+
+也可以分别执行：
+
+```powershell
 python code/run_complete.py --data-root "官方数据/v1/v1" --windows "窗口清单/windows.csv"
 python code/verify_outputs.py
+python code/run_required_baselines.py --data-root "官方数据/v1/v1" --windows "窗口清单/windows.csv"
+python code/tolerance_horizons.py
+python code/audit_subgroups.py
+python code/natural_quality_analysis.py --data-root "官方数据/v1/v1"
 ```
 
 从本目录执行。run_complete.py 使用脚本所在目录定位参数和输出，不依赖探索目录。model/model.json 为完整训练参数；oof_prior.json、oof_return.json、fold_scales.json 为训练留一环境所需参数。results/ 包含逐点评分、逐窗口指标、全部请求/返回日志、来源/环境汇总及输入哈希。代码名 candidate_replay_engine.py 是既有接口名，仅包含当前方案使用的回放引擎，并非候选试验集合。
+
+## 完整题意补充材料
+
+- [原题对齐与多时长基线](第二问原题对齐与基线补充.md)：25548次统一条件回放，区分付费观测收益与同成本模型改进。
+- [容差与持续时长](第二问容差与持续时长.md)：区分平均误差、逐点达标和整段达标，报告离散网格经验边界。
+- [分阶段失败边界](第二问分阶段失败边界.md)：来源、环境与返回阶段的覆盖和支持量。
+- [自然缺失与恢复](第二问自然缺失与恢复分析.md)：全部原始双手流的标坏片段、截断与恢复支持，不计算坏段内部真误差。
+
+这些补充仅评价同一采用方案。基线属于原题要求的比较对象，不是新增待选优化方案。自然质量标记的存在和密度不代表独立物理真值完整；Demo验证/测试没有标坏事件，不能解释为现实中无自然遮挡。
+
+统一运行入口在所有步骤成功后生成 results/complete_delivery_manifest.json，登记最终文件哈希与仍未解决事项。它证明交付流程运行成功，不等于全部研究目标已经达到。
