@@ -1,0 +1,17 @@
+{
+  "windows": 2129,
+  "replays": 6387,
+  "budget_grid": [
+    0,
+    1,
+    2
+  ],
+  "delay": 0.1,
+  "request_schedule": [
+    0.3,
+    0.6
+  ],
+  "maximum_current_scheme_difference": 9.8879238130678e-17,
+  "model_selection": false,
+  "global_optimum_claim": false
+}
