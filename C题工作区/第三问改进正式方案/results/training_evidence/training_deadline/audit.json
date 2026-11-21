@@ -1,0 +1,14 @@
+{
+  "trials": 720,
+  "invalid_actions": 0,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "environment_folds": 2,
+  "skipped": 42,
+  "methods": [
+    "density",
+    "fast_feedback",
+    "deadline_fixed",
+    "deadline_feedback"
+  ]
+}

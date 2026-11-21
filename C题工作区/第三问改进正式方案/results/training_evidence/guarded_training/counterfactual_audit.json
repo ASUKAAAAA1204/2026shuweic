@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "individual_counterfactuals": 448,
+  "maximum_error": 0.0,
+  "cases": 3,
+  "scenarios": 64,
+  "first_actions": [
+    "density",
+    "edf",
+    "wait"
+  ],
+  "validation_reads": 0,
+  "test_reads": 0
+}

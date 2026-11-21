@@ -1,0 +1,12 @@
+{
+  "trials": 3600,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "invalid_actions": 0,
+  "decisions": {
+    "density": 10209,
+    "frozen": 10279,
+    "guard_prior": 10151,
+    "guard_robust": 10177
+  }
+}

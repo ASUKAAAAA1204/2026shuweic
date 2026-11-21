@@ -1,0 +1,6 @@
+{
+  "synthetic_exhaustive_matches": 8,
+  "real_S1_exhaustive_matches": 3,
+  "training_only": true,
+  "oracle_not_deployable": true
+}

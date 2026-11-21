@@ -1,0 +1,10 @@
+{
+  "mae": 4.033333333333333,
+  "coverage80": 0.7767857142857143,
+  "width": 11.4525,
+  "pinball90": 1.193952380952381,
+  "unique_units": 35,
+  "environments": 4,
+  "nominal_coverage": 0.8,
+  "coverage_guaranteed": false
+}

@@ -1,0 +1,13 @@
+{
+  "trials": 4500,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "invalid_actions": 0,
+  "decisions": {
+    "density": 10209,
+    "frozen": 10279,
+    "shrink": 10178,
+    "recovery": 10303,
+    "combined": 10170
+  }
+}

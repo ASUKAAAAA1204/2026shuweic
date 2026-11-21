@@ -1,0 +1,9 @@
+{
+  "trials": 1800,
+  "held_out_groups": 2,
+  "environments": 16,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "invalid_actions": 0,
+  "partition_uses_duration": false
+}

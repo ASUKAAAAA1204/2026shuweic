@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "trials": 1260,
+  "historical_metrics_max_difference": 5.684341886080802e-14,
+  "validation_reads": 0,
+  "test_reads": 0
+}

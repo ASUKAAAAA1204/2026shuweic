@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "trials": 360,
+  "jobs": 4320,
+  "methods": [
+    "density",
+    "frozen"
+  ],
+  "mapping": [
+    1,
+    0.5
+  ],
+  "training_only": true,
+  "source_identity_only_used_after_replay": true,
+  "environment_effect_not_causal": true
+}

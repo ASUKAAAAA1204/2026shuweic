@@ -1,0 +1,19 @@
+{
+  "selected": "pressure_gated",
+  "original_prevalidation_policy_hash": "e928a461923a4392f152857b19865f1addf149f1ffd88b8928a41e6c8200c9db",
+  "hashes": {
+    "audit_delivery.py": "48f47577a3b1256650cbc7ce86c298526c6d1e32e4dac2ca9c209ca5bb32ed78",
+    "baseline.py": "ae0287c6c87720e4248ac7817471a30c3b7d04026b6117317c44f273f9bee62b",
+    "deadline_policy.py": "e928a461923a4392f152857b19865f1addf149f1ffd88b8928a41e6c8200c9db",
+    "duration_audit.py": "e08e491876f040949e68f2004712fa224aaa7863506f1e53d916c3d454414574",
+    "engine.py": "c060ffa549a8badc5620e1a906f997eaecf438dcdb3b26fecb931c942825c100",
+    "run.py": "1a77c44ae0a3c992f459eb59181c3e344d998a84ab143723c8aa34ad3d9ee211",
+    "run_all.py": "09ebc84e5a7bb126b74c9018a811862f3f996c2cf134a12fc4b08140c9e2792f",
+    "support.py": "dbf098ba27aece99667a89b1274fff1d20f85f60d07ef24448e0c057693c9d42",
+    "verify.py": "b21e9faf4276b95795e576ff205836cce08ae3245f14cc09e0fad68b29ed5476"
+  },
+  "model_hash": "b7f9faae005eace13a7499901be2e5365b8c7b0c4ae5cfb7344a0240ddae52ad",
+  "validation_historically_viewed": true,
+  "test_performance_evaluated": false,
+  "repackaged_code_freeze_is_not_new_model_selection": true
+}

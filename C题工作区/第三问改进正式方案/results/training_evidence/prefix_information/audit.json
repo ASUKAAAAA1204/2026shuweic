@@ -1,0 +1,11 @@
+{
+  "units": 246,
+  "environments": 16,
+  "features": 23,
+  "bad_coordinate_perturbations": 246,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "distribution_gate_passed": false,
+  "crps_nonworse_environments": 8,
+  "fixed_k": "ceil(sqrt(n)), minimum3"
+}

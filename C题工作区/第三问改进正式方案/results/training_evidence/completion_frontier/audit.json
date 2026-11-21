@@ -1,0 +1,7 @@
+{
+  "training_only": true,
+  "trial_count": 6,
+  "oracle_not_deployable": true,
+  "completion_constraint_matches_baseline": true,
+  "timeout_not_infeasibility": true
+}

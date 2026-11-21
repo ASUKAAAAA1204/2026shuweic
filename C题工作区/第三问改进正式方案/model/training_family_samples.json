@@ -1,0 +1,986 @@
+[
+  {
+    "family_id": "A",
+    "duration_s": 13.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 12.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 20.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 8.799999999999997
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 8.6
+  },
+  {
+    "family_id": "A",
+    "duration_s": 7.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.399999999999999
+  },
+  {
+    "family_id": "A",
+    "duration_s": 8.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 8.600000000000001
+  },
+  {
+    "family_id": "A",
+    "duration_s": 7.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.4000000000000004
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.1999999999999997
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.8
+  },
+  {
+    "family_id": "A",
+    "duration_s": 7.6
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.8
+  },
+  {
+    "family_id": "A",
+    "duration_s": 5.6000000000000005
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 8.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 23.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 17.799999999999997
+  },
+  {
+    "family_id": "P",
+    "duration_s": 5.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 5.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.600000000000001
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.8
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.000000000000001
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 6.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.5999999999999996
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.1999999999999997
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.6
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.5999999999999996
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.6
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 5.6
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.8000000000000007
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.3999999999999995
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.8
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.2
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.0000000000000004
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.3999999999999995
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.799999999999999
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.7999999999999998
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 15.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.399999999999999
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0000000000000004
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.5999999999999996
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.7999999999999998
+  },
+  {
+    "family_id": "A",
+    "duration_s": 7.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 11.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 37.2
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 7.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.1999999999999993
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.8
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.6000000000000005
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.8
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.6000000000000005
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.8
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.000000000000001
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.5000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.3999999999999997
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.2000000000000002
+  },
+  {
+    "family_id": "L",
+    "duration_s": 11.0
+  },
+  {
+    "family_id": "L",
+    "duration_s": 38.0
+  },
+  {
+    "family_id": "L",
+    "duration_s": 8.4
+  },
+  {
+    "family_id": "L",
+    "duration_s": 35.6
+  },
+  {
+    "family_id": "L",
+    "duration_s": 1.6000000000000014
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 5.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 5.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 5.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 5.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 8.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 7.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 9.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.800000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.8
+  },
+  {
+    "family_id": "P",
+    "duration_s": 17.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 11.999999999999996
+  },
+  {
+    "family_id": "P",
+    "duration_s": 9.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 5.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 11.799999999999995
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.6
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.6
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.8000000000000007
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.4
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0000000000000004
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 1.5999999999999996
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.2
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "A",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 11.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 33.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 19.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 60.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 8.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.1999999999999993
+  },
+  {
+    "family_id": "P",
+    "duration_s": 7.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 24.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 125.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 7.800000000000011
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 47.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.399999999999999
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.8000000000000007
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.0000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 11.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 11.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 12.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 11.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 9.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 10.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 9.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 9.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 12.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 4.0
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.4000000000000057
+  },
+  {
+    "family_id": "L",
+    "duration_s": 3.4
+  },
+  {
+    "family_id": "L",
+    "duration_s": 3.6
+  },
+  {
+    "family_id": "L",
+    "duration_s": 3.4000000000000004
+  },
+  {
+    "family_id": "L",
+    "duration_s": 3.6
+  },
+  {
+    "family_id": "L",
+    "duration_s": 3.3999999999999986
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.8
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.8
+  },
+  {
+    "family_id": "P",
+    "duration_s": 1.4000000000000004
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.8
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.8
+  },
+  {
+    "family_id": "P",
+    "duration_s": 3.6
+  },
+  {
+    "family_id": "P",
+    "duration_s": 2.6000000000000014
+  }
+]

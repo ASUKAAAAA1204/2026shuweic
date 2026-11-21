@@ -1,0 +1,16 @@
+{
+  "methods": [
+    "no_gate",
+    "no_feedback",
+    "no_delay",
+    "no_child",
+    "no_space",
+    "deterministic_gate"
+  ],
+  "role": "diagnostic ablation only; frozen candidate unchanged",
+  "mapping": [
+    1,
+    0.5
+  ],
+  "candidate_hash": "e928a461923a4392f152857b19865f1addf149f1ffd88b8928a41e6c8200c9db"
+}

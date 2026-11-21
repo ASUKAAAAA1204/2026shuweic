@@ -1,0 +1,22 @@
+{
+  "selected": "pressure_gated",
+  "training_basis": "grouped_nominal and grouped_stress; nominal gain .81pp, per-case max decline .07pp",
+  "prior_failed_candidates_preserved": true,
+  "validation_historically_viewed": true,
+  "new_validation_not_yet_run": true,
+  "test_performance_read": false,
+  "hashes": {
+    "deadline_policy.py": "e928a461923a4392f152857b19865f1addf149f1ffd88b8928a41e6c8200c9db",
+    "planner.py": "036ad42976e053d31c3526632f24dbfba8d61044d88c6d16e736c795a752b7d3",
+    "scenario_planner.py": "9c433cdda5f235b519340172df2bf275c6e5fe9da3a3e95933ace39308e87542",
+    "rollout.py": "bd42b59e9599e2cb4d23a5dd70097045d66853a808ab0710d3fd0fcc4b47d45f",
+    "run_grouped.py": "3b2820701e2ff3b57f726e3f9f2584acc491abc7647fb212b2b3d16345cdaa2d"
+  },
+  "constants": {
+    "scenarios": 64,
+    "congestion_probability": 0.1,
+    "feedback": "empirical completed durations; no censored completion",
+    "reserve": 0.2,
+    "review": false
+  }
+}
