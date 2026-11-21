@@ -1,0 +1,3 @@
+﻿model,reference,relative_improvement,ci95_low,ci95_high,environments,wins,ties,losses,bootstrap_valid,bootstrap_rejected_missing_source
+rotation,current,0.010103139049783334,0.006949481625548395,0.012541331907488412,4,3,0,1,5000,3067
+translation,current,-0.032746108309468634,-0.07202151541454413,-0.009380562951851922,4,1,0,3,5000,3027

@@ -1,0 +1,18 @@
+{
+  "calibrate_development.py": "49ad7afec50c686e854910e99913b5626f7e6a70edd3c2b09586261d5c8f0824",
+  "compare_development.py": "f57c0c2369b75c3bc3074232f9ac7afff1172f384dad84e53a5863310a1dccd0",
+  "compare_formal_training.py": "8d16cb31707c2c4baff10adf35353d50d1fa4a43bc944b77c20bc47bea9e018f",
+  "evaluate_nested_ranges.py": "aab8f01cd578c64e8bf8882e23ad369fb7657384fe1373108fccfec654f806b1",
+  "export_oof.py": "ae49e8b3be68b0c906a0e50279b644d53c6720b0da52b26446094d7f0778495f",
+  "nested_calibration_predictions.py": "50ed47b7ee1b55f0f99ace9c454ac0427b47cbe1a86bbdb2a78e5046eff3ad42",
+  "paired_positions.py": "9b399953c7dca26572c31ef6eb5ee8ae0dbf8fd9bc3e47b219eb1c301e350855",
+  "rotation_state.py": "0f64656af44c40694399e910a7943e23c0c0b27f0d19f4d152eb9fe796e58330",
+  "screen_request_value.py": "db04f707ac568ebaac16e45db376f4e09fc29e940ece8027885594bc2226c409",
+  "sensitivity_positions.py": "d1bcccdd7a9473d3fe9162dc29b8c0cb30e45a7de23a84ebeefc5d05a89bb0ff",
+  "train_fusion.py": "c66aeb80e4682a905eb8c85f60f811e0df2ed6eaf14f39635a85aa244d81d23d",
+  "train_request_timing.py": "401ba9917fc2762e309beca36d95d9440e200d49e5536dd19cc4166e97f64301",
+  "verify_positions.py": "78a25be24c1934ebadf4a521fb95dac8c2da26df89ce0e54c1d4d961f28e0bbd",
+  "第二问调优执行计划.md": "74319884a03772d251053ce036706cd5c5b92b4020f6bd296c48d6883799495a",
+  "观测收益检验注册.md": "345d1e6483061e5443783214779cb5a2f444f6acf3932294390a845900823333",
+  "观测收益筛查结果.md": "acaf8be55b07ec1d5055e20d5243748bfc47a45ab032e3b895e5dad92fa4df38"
+}

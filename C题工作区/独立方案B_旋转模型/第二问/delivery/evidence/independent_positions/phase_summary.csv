@@ -1,0 +1,13 @@
+split,method,phase,nade
+train,baseline,0,0.0669805373757375
+train,baseline,1,0.09085089108791894
+train,baseline,2,0.0938547735060466
+train,rotation_switch,0,0.0595730134238714
+train,rotation_switch,1,0.09085089108791894
+train,rotation_switch,2,0.0938547735060466
+validation,baseline,0,0.08595192843709136
+validation,baseline,1,0.09608044771585815
+validation,baseline,2,0.09647312967873777
+validation,rotation_switch,0,0.07874981363729615
+validation,rotation_switch,1,0.09608044771585815
+validation,rotation_switch,2,0.09647312967873777

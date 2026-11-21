@@ -1,0 +1,3 @@
+split,gain,ci_low,ci_high,valid_bootstraps,environments,scope
+train,0.036568307950676227,0.022910814453524164,0.049796747617543574,9593,16,paired environment bootstrap conditional on available environments
+validation,0.03165823914823662,0.02818956715301235,0.036855437142634506,6191,4,paired environment bootstrap conditional on available environments

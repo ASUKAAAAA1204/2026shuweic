@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "checks": {
+    "train": {
+      "nade_gain": 0.03656830795067656,
+      "nfde_ratio": 1.0,
+      "coverage_delta": 0.0035277850188154547,
+      "width_ratio": 0.9724523166684118,
+      "pinball_ratio": 0.976730829977192
+    },
+    "validation": {
+      "nade_gain": 0.031658239148237066,
+      "nfde_ratio": 1.0,
+      "coverage_delta": -0.008498387637382088,
+      "width_ratio": 0.944039659240011,
+      "pinball_ratio": 0.9909871685209024
+    }
+  },
+  "source_nade_gains": [
+    {
+      "split": "train",
+      "dataset": "EgoDemo",
+      "nade_gain": 0.032510067013273
+    },
+    {
+      "split": "train",
+      "dataset": "EgoPro",
+      "nade_gain": 0.0338422536553111
+    },
+    {
+      "split": "train",
+      "dataset": "EgoStandard",
+      "nade_gain": 0.042233107970182
+    },
+    {
+      "split": "validation",
+      "dataset": "EgoDemo",
+      "nade_gain": 0.0102824279345486
+    },
+    {
+      "split": "validation",
+      "dataset": "EgoPro",
+      "nade_gain": 0.0194456413823054
+    },
+    {
+      "split": "validation",
+      "dataset": "EgoStandard",
+      "nade_gain": 0.0624889494918599
+    }
+  ],
+  "windows": 1739,
+  "raw_records": 62,
+  "original_first_question_model_unchanged": true,
+  "original_formal_solutions_not_replaced": true,
+  "cost_strategy_stopped_at_registered_failed_gate": true,
+  "test_reads": 0
+}

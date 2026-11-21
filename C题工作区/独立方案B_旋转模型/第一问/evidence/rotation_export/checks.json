@@ -1,0 +1,12 @@
+{
+  "windows": 1533,
+  "input_dimensions": 112,
+  "past_feature_reference_difference": 0.0,
+  "future_deletion_difference": 0.0,
+  "reload_prediction_difference": 0.0,
+  "optimizer_fits": 39,
+  "all_success": true,
+  "model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+  "validation_opened": false,
+  "test_opened": false
+}

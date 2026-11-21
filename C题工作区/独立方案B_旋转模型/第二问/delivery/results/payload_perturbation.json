@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "window_timing_cases": 1739,
+  "max_prearrival_prediction_difference": 0,
+  "postarrival_payload_effect_observed": true,
+  "request_schedule_unchanged": true,
+  "scope": "runtime state and disclosure invariant on actual window clocks; synthetic initial-history values",
+  "test_reads": 0
+}

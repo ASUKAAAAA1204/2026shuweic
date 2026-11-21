@@ -1,0 +1,10 @@
+{
+  "windows": 214,
+  "rows": 1926,
+  "future_deletion_prediction_difference": 0.0,
+  "independent_integral_difference": 5.551115123125783e-17,
+  "rotation_mean_seconds_per_window": 0.006650084112585897,
+  "timing": "includes runtime construction/import overhead, not optimized deployment latency",
+  "test_opened": false,
+  "validation_used_for_fit_or_selection": false
+}

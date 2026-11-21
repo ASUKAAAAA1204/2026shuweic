@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "windows": 1739,
+  "request_return_pairs": 3478,
+  "max_independent_metric_difference": 2.8449465006019636e-14,
+  "arrival_first_scoring_frame_checked": true,
+  "test_reads": 0
+}

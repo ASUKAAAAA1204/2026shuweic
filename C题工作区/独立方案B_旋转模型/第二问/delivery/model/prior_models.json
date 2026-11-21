@@ -1,0 +1,97 @@
+{
+  "EgoDemo": {
+    "mu": [
+      0.2534004220094157,
+      0.08110984868978928,
+      0.3282502839804284,
+      0.08356848788216692
+    ],
+    "sd": [
+      0.12999259523233436,
+      0.0675062746021996,
+      0.2296460672952188,
+      0.0789270027562546
+    ],
+    "coefficient": [
+      0.10526519131928523,
+      0.01950095610522446,
+      0.034692107983868126,
+      0.0017720508526550788,
+      0.024205469999409583
+    ],
+    "points": 6161,
+    "fit_environments": [
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ],
+    "optimizer_success": true
+  },
+  "EgoPro": {
+    "mu": [
+      0.24149259060882025,
+      0.07190501696125644,
+      0.3546786574092441,
+      0.08501737117242963
+    ],
+    "sd": [
+      0.11656048061970987,
+      0.05765941320846241,
+      0.3218182783129717,
+      0.09427707350886758
+    ],
+    "coefficient": [
+      0.10310206161042286,
+      0.0034124306623658372,
+      0.022437329005367088,
+      0.0013303700815719423,
+      0.07374476141262383
+    ],
+    "points": 3734,
+    "fit_environments": [
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086"
+    ],
+    "optimizer_success": true
+  },
+  "EgoStandard": {
+    "mu": [
+      0.2376310736966465,
+      0.0701555654014668,
+      0.47717934861757455,
+      0.11393039463943123
+    ],
+    "sd": [
+      0.11699161600407812,
+      0.05690875837789338,
+      0.2965933990697117,
+      0.09661590975718343
+    ],
+    "coefficient": [
+      0.12125566959979922,
+      0.0037078694051901145,
+      0.03566835974310535,
+      -0.006546005124636568,
+      0.061105704803975695
+    ],
+    "points": 9028,
+    "fit_environments": [
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    "optimizer_success": true
+  }
+}

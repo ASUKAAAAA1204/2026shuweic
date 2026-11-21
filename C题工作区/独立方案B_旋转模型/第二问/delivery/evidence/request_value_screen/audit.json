@@ -1,0 +1,11 @@
+{
+  "windows": 1527,
+  "replays": 3054,
+  "positive": 1387,
+  "nonpositive": 140,
+  "balanced_accuracy": 0.5014084869708518,
+  "passed": false,
+  "validation_reads": 0,
+  "test_reads": 0,
+  "screen_only_not_nested_policy_validation": true
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "causal_truncated_history_predictions": 1739,
+  "max_prediction_difference": 1.7728873924482969e-15,
+  "max_independent_metric_difference": 4.440892098500626e-16,
+  "test_reads": 0
+}

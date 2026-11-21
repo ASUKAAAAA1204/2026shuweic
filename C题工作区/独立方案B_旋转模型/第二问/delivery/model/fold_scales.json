@@ -1,0 +1,87 @@
+{
+  "development": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "home_x_apartment_0342": {
+    "EgoDemo": 0.4787826120757799,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "home_x_apartment_0701": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.421327646798271,
+    "EgoStandard": 0.5059971919329374
+  },
+  "logistics_x_courier_station_0021": {
+    "EgoDemo": 0.5081355226546249,
+    "EgoPro": 0.4932044545132518,
+    "EgoStandard": 0.5059971919329374
+  },
+  "office_x_corporate_office_0086": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.47562079580572314,
+    "EgoStandard": 0.5059971919329374
+  },
+  "retail_x_convenience_0014": {
+    "EgoDemo": 0.4858743451461915,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "retail_x_supermarket_0037": {
+    "EgoDemo": 0.4821553162901263,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5048745309146441
+  },
+  "retail_x_supermarket_0049": {
+    "EgoDemo": 0.48805702328099027,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "retail_x_supermarket_0054": {
+    "EgoDemo": 0.47323313968774516,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5026731859742082
+  },
+  "retail_x_supermarket_0058": {
+    "EgoDemo": 0.4823174163824722,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059623179009742
+  },
+  "retail_x_supermarket_0059": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5053356797513309
+  },
+  "retail_x_supermarket_0066": {
+    "EgoDemo": 0.4839834890954297,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "retail_x_supermarket_0071": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5121056090378833
+  },
+  "retail_x_supermarket_0087": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5023657849372396
+  },
+  "retail_x_supermarket_0121": {
+    "EgoDemo": 0.48445671322085093,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  },
+  "retail_x_supermarket_0124": {
+    "EgoDemo": 0.4848109541801673,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5096533743644297
+  },
+  "retail_x_supermarket_0125": {
+    "EgoDemo": 0.48629543927830615,
+    "EgoPro": 0.4498946990278116,
+    "EgoStandard": 0.5059971919329374
+  }
+}

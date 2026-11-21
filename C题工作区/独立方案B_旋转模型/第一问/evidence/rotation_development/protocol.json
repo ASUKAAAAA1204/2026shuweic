@@ -1,0 +1,8 @@
+{
+  "new_model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+  "old_model_sha256": "b05702f5c1721b2b789c76d506cc93c732e9ce082063ea9e06e90e87a22b7fc6",
+  "selection": false,
+  "scope": "historically reused development, exploratory migration",
+  "test_opened": false,
+  "script_sha256": "fae40540f1a4388507a4c1e93a7cc583d155d04580d13fc837260a91ea63915a"
+}

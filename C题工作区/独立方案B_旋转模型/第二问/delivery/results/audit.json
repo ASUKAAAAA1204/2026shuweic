@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "windows": 1739,
+  "maximum_regression_difference": 1.6653345369377348e-16,
+  "raw_input_replayed": true,
+  "pure_inference": true,
+  "test_reads": 0
+}

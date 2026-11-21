@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "original_windows": 214,
+  "formal_windows": 212,
+  "exact_anchor_intersection": 88,
+  "original_only": 126,
+  "formal_only": 124,
+  "maximum_prediction_difference": 0,
+  "test_reads": 0
+}
