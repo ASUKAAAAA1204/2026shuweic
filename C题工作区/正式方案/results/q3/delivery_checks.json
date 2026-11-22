@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "matched_research_trials": 900,
+  "maximum_repackaged_metric_difference": 0.0,
+  "nominal_gain": 0.03518518518518513,
+  "per_case_gain": {
+    "S1": 0.006249999999999978,
+    "S2": 0.051388888888888706,
+    "S3": 0.04791666666666672
+  },
+  "adopted_policy_matches_original_freeze": true,
+  "failed_policy_implementations_excluded": true,
+  "official_final_test_evaluated": false
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "trials": 900,
+  "decisions": 10569,
+  "feedback_samples": 9645,
+  "maximum_metric_error": 5.684341886080802e-14,
+  "source_assignment_from_official_index": true,
+  "feedback_reconstructed_before_each_action": true,
+  "simulator_imported": false,
+  "test_performance_read": false
+}

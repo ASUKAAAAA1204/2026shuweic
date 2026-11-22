@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "method": "B_K64",
+  "source_commit": "fe7f243d13ffb6f03b3f5f5a25098ba877366adc",
+  "cases": 3,
+  "mappings": 5,
+  "seeds": 30,
+  "episodes": 450,
+  "decisions": 5334,
+  "invalid_actions": 0,
+  "independent_max_diff": 5.684341886080802e-14,
+  "reference_max_diff": 5.684341886080802e-14
+}

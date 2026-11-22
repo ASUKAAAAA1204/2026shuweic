@@ -1,4 +1,4 @@
-# 2026 数维杯 C 题：当前采用方案
+# 2026 数维杯 C 题最终版
 
 当前组合：第一问冻结旋转残差模型；第二问旋转起步、首次有效返回后阻尼割线更新；第三问B_K64联合场景前瞻。
 
@@ -6,6 +6,23 @@
 - [第一问](C题工作区/独立方案B_旋转模型/第一问/README.md)
 - [第二问](C题工作区/独立方案B_旋转模型/第二问/delivery/README.md)
 - [第三问B最终方案](C题工作区/第三问B最终方案/README.md)
+
+## 论文图与统一回放
+
+最终版本为 `v1.0.0-final`。总技术路线图说明三问的数据来源与联系，求解流程图展示再观测更新、可行动作筛选及完工反馈。
+
+| 论文图件 | 矢量 PDF | 可编辑源图 | 高清预览 |
+|---|---|---|---|
+| 总技术路线图 | [PDF](figures/fig_roadmap.pdf) | [DrawIO](figures/fig_roadmap.drawio) | [PNG](figures/fig_roadmap.png) |
+| 三问求解流程图 | [PDF](figures/fig_three_problem_flow.pdf) | [DrawIO](figures/fig_three_problem_flow.drawio) | [PNG](figures/fig_three_problem_flow.png) |
+
+第一、二问在 390 个测试窗的 NADE 分别为 0.112023 和 0.093538。第三问在 30 个官方验证种子上的名义加权按时率为 90.9606%，加权完成率为 95.2778%。[三问解答与版本对照](C题工作区/正式方案/三问解答与版本对照.md) · [统一入口](C题工作区/正式方案/code/run_all.py) · [逐指标比较](C题工作区/正式方案/results/comparison.csv) · [回放核验](C题工作区/正式方案/results/q3/b_k64/verification.json)
+
+在仓库根目录执行以下命令可复现第三问的 450 个官方实例。全量重跑时去掉 `--q3-only`，用 `--processed` 指定已恢复的赛事 v1 预处理数据目录。
+
+```powershell
+python -B -X utf8 "C题工作区/正式方案/code/run_all.py" --q3-only --output tmp/final_replay
+```
 
 历史E验收推荐不代表当前主方法。以下为早期基线说明，按历史资料阅读。
 
