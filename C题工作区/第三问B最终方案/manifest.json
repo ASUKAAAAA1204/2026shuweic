@@ -1,0 +1,23 @@
+{
+  "primary": "B_K64",
+  "secondary": [
+    "C_repaired",
+    "E_env_s40_fb3"
+  ],
+  "original_C": "rejected: duration-dependent free skipping before observation",
+  "formal_baseline_preserved": true,
+  "files": {
+    "code/b_policy.py": "7861bc48686ab3b6b1ab463157f68782fda10ab94690b59e1d9c846e68387734",
+    "code/baseline.py": "ae0287c6c87720e4248ac7817471a30c3b7d04026b6117317c44f273f9bee62b",
+    "code/c_policy.py": "0a6e04f85089f0b84bcf79392f00177a9d0152544c6898a23600518a2a31cc0c",
+    "code/deadline_policy.py": "e928a461923a4392f152857b19865f1addf149f1ffd88b8928a41e6c8200c9db",
+    "code/e_policy.py": "f95c59a0bcf736431591889729fb6a5e808480a00ec9aac1cb522801f4a11ede",
+    "code/engine.py": "c060ffa549a8badc5620e1a906f997eaecf438dcdb3b26fecb931c942825c100",
+    "code/independent.py": "c46136d8ce06fa30e00358bfc7573680ae5e18ba3d789b738fe3132583bfc09c",
+    "code/policy.py": "8105a085b69d5f8db48e40f26987194b2500a3e42df7be61cb2dcddfe05f3802",
+    "code/run_all.py": "ee4c4ddbd275f52377d0ddec1f98c92ec3419d224f1fda2448de01c930a29086",
+    "model/priors.json": "48d635785cdd54ece3957d927740defa9fbd9172141e6678e16fd56ed42f4f5e",
+    "data/expected_metrics.csv": "f910b1a420a2ffab6a52245f7b9149c1f109ae48accc609f38ec3729094152b4",
+    "data/protocol.json": "a0116915fb1f3deb96ad30458334ac7705674fadd41cac24016b33c7e200e3d8"
+  }
+}

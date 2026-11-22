@@ -1,0 +1,11 @@
+{
+  "episodes": 900,
+  "reference_max_absolute_diff": 5.684341886080802e-14,
+  "invalid_actions": 0,
+  "independent_max_absolute_diff": 1.1368683772161603e-13,
+  "seconds": 22.84142030000004,
+  "methods": [
+    "baseline",
+    "B_K64"
+  ]
+}
