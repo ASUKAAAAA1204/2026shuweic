@@ -1,0 +1,8 @@
+{
+  "trials": 900,
+  "test_performance_reads": 0,
+  "invalid_actions": 0,
+  "independent_metrics_max_error": 1.1368683772161603e-13,
+  "future_duration_invariance_checks": 5271,
+  "code_frozen": true
+}

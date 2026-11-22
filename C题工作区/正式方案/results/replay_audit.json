@@ -1,0 +1,7 @@
+{
+  "windows": 2129,
+  "points": 65613,
+  "request_return_pairs": 4258,
+  "original_q2_max_window_difference": 3.3306690738754696e-16,
+  "training_folds": 16
+}

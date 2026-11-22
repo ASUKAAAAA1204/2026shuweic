@@ -1,0 +1,7 @@
+split,phase,norm_error,events,scored
+test,pre_first,0.18276107763432023,54,54
+test,pre_second,0.03147275316741997,54,42
+train,pre_first,0.11456517684713956,158,156
+train,pre_second,0.02790030695132507,158,128
+validation,pre_first,0.26916625989775866,52,50
+validation,pre_second,0.03720140721152311,52,44

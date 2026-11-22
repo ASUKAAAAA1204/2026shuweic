@@ -1,0 +1,5 @@
+split,phase,covered,scorable,with_radius
+test,pre_first,0.8875,54,38
+test,pre_second,0.85,42,42
+validation,pre_first,0.47159090909090906,50,42
+validation,pre_second,0.75,44,44
