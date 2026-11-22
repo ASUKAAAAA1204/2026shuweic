@@ -1,0 +1,17 @@
+{
+  "commit": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+  "K": 64,
+  "internal_seed": 20261122,
+  "trials": 360,
+  "per_cell": 90,
+  "source_units": {
+    "A/logistics_x_courier_station_0022": 7,
+    "A/retail_x_supermarket_0147": 6,
+    "L/logistics_x_courier_station_0022": 7,
+    "P/hospitality_x_restaurant_0004": 3,
+    "P/retail_x_supermarket_0074": 12
+  },
+  "verified_durations": true,
+  "invalid_actions": 0,
+  "independent_max_diff": 5.684341886080802e-14
+}

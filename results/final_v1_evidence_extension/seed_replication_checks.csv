@@ -1,0 +1,3 @@
+alpha,mean_rate_pct,sample_sd_pp,first_match_pct,mean_pass,sd_pass,first_pass
+1.0,-0.0625,0.09166987632372914,1.05263157894737,True,True,True
+1.5,0.0422453703703809,0.25747828980311827,-9.473684210526315,True,True,True

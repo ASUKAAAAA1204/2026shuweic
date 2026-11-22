@@ -1,0 +1,11 @@
+{
+  "tag": "v1.0.0-final",
+  "commit": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+  "K": 64,
+  "internal_seed": 20261122,
+  "new_external_seeds": 600,
+  "gap_pp": 0.27777777777777146,
+  "pass_5pp": true,
+  "invalid_actions": 0,
+  "max_score_rebuild_diff": 2.842170943040401e-14
+}

@@ -1,0 +1,3 @@
+comparison,nominal,stress,n_paired,tail_n,nominal_tail_cutoff,nominal_tail_mean,stress_tail_mean,tail_change_mean,overlap_count,overlap_rate,stress_tail_n
+q1_horizon_1.0,history=full,history=0.30s,212,22,0.2975672142789818,0.4108252492870594,0.4264812048062368,0.01565595551917751,21,0.9545454545454546,22
+q2_delay,delay=0.1,delay=0.2,212,22,0.15484303767932384,0.19149455002560464,0.2354219391606527,0.04392738913504806,18,0.8181818181818182,22

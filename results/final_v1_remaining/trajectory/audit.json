@@ -1,0 +1,153 @@
+{
+  "protocol": {
+    "kind": "pre-fixed protocol replay without selection",
+    "windows": {
+      "test": 390,
+      "validation": 212
+    },
+    "q1": {
+      "horizon_s": 1.0,
+      "conditions": {
+        "nominal": "full visible history",
+        "stress": "0.30 s visible history"
+      },
+      "history": "frozen run_q1_q3.history_since crops every clocked channel",
+      "predictor": "frozen AdoptedModel.predict_position (model B)",
+      "position_channels": 3
+    },
+    "q2": {
+      "window": "full official one-second window",
+      "conditions": {
+        "nominal": "delay 0.1 s",
+        "stress": "delay 0.2 s"
+      },
+      "fixed_requests_s": [
+        0.3,
+        0.6
+      ],
+      "budget": 2,
+      "state_radius": "frozen run_q2.range_state; prior/return radii unchanged"
+    }
+  },
+  "inputs": {
+    "source_space": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区",
+    "protocol_windows": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\阶段交付\\stage1_review\\corrected_results\\data\\windows.csv",
+    "records": "D:\\shuweicup\\C_Problem_Data\\v1\\v1\\records",
+    "episodes": 14,
+    "frozen_results": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\正式方案\\results",
+    "sensitivity_references": "D:\\shuweicup\\results\\final_v1_sensitivity"
+  },
+  "integrity": {
+    "expected_commit": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+    "expected_model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+    "before": {
+      "head": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+      "model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第一问\\model\\model_parameters.npz",
+      "model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "delivery_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第二问\\delivery\\model\\rotation_full.npz",
+      "delivery_model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "range_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\正式方案\\results\\q1_range_model.csv",
+      "range_model_sha256": "e79da3ace488b1669f848b3a7b37b602214fdec426d49334b05f3d44a9955ff9"
+    },
+    "after": {
+      "head": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+      "model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第一问\\model\\model_parameters.npz",
+      "model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "delivery_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第二问\\delivery\\model\\rotation_full.npz",
+      "delivery_model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "range_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\正式方案\\results\\q1_range_model.csv",
+      "range_model_sha256": "e79da3ace488b1669f848b3a7b37b602214fdec426d49334b05f3d44a9955ff9"
+    },
+    "head_verified_before": true,
+    "head_verified_after": true,
+    "model_verified_before": true,
+    "model_verified_after": true,
+    "snapshot_unchanged": true
+  },
+  "output": {
+    "file": "D:\\shuweicup\\results\\final_v1_remaining\\trajectory\\windows.csv.gz",
+    "rows": 2408,
+    "columns": [
+      "question",
+      "split",
+      "window_id",
+      "side",
+      "episode_uuid",
+      "environment_id",
+      "dataset",
+      "condition",
+      "nade",
+      "coverage",
+      "norm_diameter",
+      "points"
+    ]
+  },
+  "checks": {
+    "q1_nominal_per_window_nade": {
+      "source": "正式方案/results/q1_windows.csv.gz model=B horizon=1.0",
+      "windows": 602,
+      "by_split": {
+        "validation": 212,
+        "test": 390
+      },
+      "max_abs_difference": 2.220446049250313e-16
+    },
+    "q2_nominal_per_window": {
+      "source": "正式方案/results/q2_windows.csv.gz model=B",
+      "windows": 602,
+      "by_split": {
+        "validation": 212,
+        "test": 390
+      },
+      "max_abs_nade_difference": 9.71445146547012e-17,
+      "max_abs_coverage_difference": 1.1102230246251565e-16,
+      "max_abs_width_difference": 8.326672684688674e-17
+    },
+    "q1_nominal_range_hierarchy": {
+      "source": "正式方案/results/q1_range_summary.csv model=B horizon=1.0",
+      "splits": {
+        "validation": {
+          "windows": 212,
+          "observed_coverage": 0.8406313351305745,
+          "expected_coverage": 0.8406313351305745,
+          "coverage_difference": 0.0,
+          "observed_norm_diameter": 0.6895004992722568,
+          "expected_norm_diameter": 0.6895004992722568,
+          "norm_diameter_difference": 0.0,
+          "points": 6326,
+          "expected_points": 6326
+        },
+        "test": {
+          "windows": 390,
+          "observed_coverage": 0.8727376404995275,
+          "expected_coverage": 0.8727376404995275,
+          "coverage_difference": 0.0,
+          "observed_norm_diameter": 0.709566434974624,
+          "expected_norm_diameter": 0.709566434974624,
+          "norm_diameter_difference": 0.0,
+          "points": 11642,
+          "expected_points": 11642
+        }
+      }
+    },
+    "validation_stress_q1": {
+      "source": "final_v1_sensitivity/q1_history_windows.csv.gz history=0.30s horizon=1.0",
+      "windows": 212,
+      "max_abs_differences": {
+        "nade": 9.71445146547012e-17,
+        "coverage": 1.1102230246251565e-16
+      },
+      "points_equal": true
+    },
+    "validation_stress_q2": {
+      "source": "final_v1_sensitivity/q2/per_window.csv.gz delay=0.2",
+      "windows": 212,
+      "max_abs_differences": {
+        "nade": 9.71445146547012e-17,
+        "coverage": 1.1102230246251565e-16,
+        "norm_diameter": 5.551115123125783e-17
+      },
+      "points_equal": true
+    }
+  }
+}

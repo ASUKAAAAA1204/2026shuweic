@@ -1,0 +1,597 @@
+{
+  "protocol": {
+    "kind": "pre-specified Q2 2x2 factorial replay; no selection",
+    "question": 2,
+    "model": "B",
+    "frozen_commit": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+    "tag": {
+      "name": "v1.0.0-final",
+      "resolved": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+      "locked": true
+    },
+    "windows": {
+      "validation": 212,
+      "test": 390,
+      "total": 602,
+      "environments": 8,
+      "environments_by_split": {
+        "validation": 4,
+        "test": 4
+      },
+      "dataset_environment_branches": 10,
+      "environment_identity": "environment_id; two of the eight environments carry two dataset branches, which the official hierarchy averages with equal dataset weight"
+    },
+    "mask": {
+      "kind": "fixed official one-second [start, end) window",
+      "window_span_s": {
+        "min": 0.9999999999999964,
+        "max": 1.0000000000000036
+      },
+      "scored_frames": {
+        "30": 86,
+        "31": 516
+      },
+      "note": "No age re-masking; this is exactly the frozen Q2 replay window.  The last frame can sit on the one-second boundary."
+    },
+    "history_factor": {
+      "full": "history_since(raw, anchor, inf)",
+      "short": "history_since(raw, anchor, 0.30)",
+      "channels": "all clocked input channels, each cropped on its own __t_s clock",
+      "entry_point": "initial forecast only",
+      "initial_forecast": "predict_model(weights, cropped history, side, anchor, ages, dataset) + observed anchor position",
+      "replay_history": "two observed pre-anchor positions t[start-2:start], x[start-2:start]"
+    },
+    "delay_factor": {
+      "nominal_s": 0.1,
+      "stress_s": 0.2
+    },
+    "requests_s": [
+      0.3,
+      0.6
+    ],
+    "budget": 2,
+    "state_radius": "frozen run_q2.range_state; official prior/return radii unchanged",
+    "hierarchy": [
+      "window",
+      "hand",
+      "episode",
+      "environment",
+      "dataset"
+    ],
+    "effects": {
+      "cell": "full/short history at delay 0.1/0.2",
+      "history_main": "average over delays of short minus full",
+      "delay_main": "average over histories of 0.2 minus 0.1",
+      "did": "additive interaction = (short 0.2 - short 0.1) - (full 0.2 - full 0.1)",
+      "short_delay": "short 0.2 - short 0.1",
+      "full_delay": "full 0.2 - full 0.1"
+    }
+  },
+  "inputs": {
+    "workspace": "D:\\shuweicup",
+    "source_space": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区",
+    "protocol_windows": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\阶段交付\\stage1_review\\corrected_results\\data\\windows.csv",
+    "records": "D:\\shuweicup\\C_Problem_Data\\v1\\v1\\records",
+    "episodes": 14,
+    "model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第一问\\model\\model_parameters.npz",
+    "delivery_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第二问\\delivery\\model\\rotation_full.npz",
+    "range_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\正式方案\\results\\q1_range_model.csv",
+    "prior_windows": {
+      "path": "D:\\shuweicup\\results\\final_v1_remaining\\trajectory\\windows.csv.gz",
+      "sha256": "3454f9bd3396d4b1bb2d1e516038e4e222e27aacb1815874466e98f7e5d01e0a"
+    },
+    "prior_q2_per_window": {
+      "path": "D:\\shuweicup\\results\\final_v1_sensitivity\\q2\\per_window.csv.gz",
+      "sha256": "b383c10d3ba3fc9e32c24414143f6bb31b47cdac715147e304744a21bb403ef3"
+    },
+    "prior_environment_results": {
+      "path": "D:\\shuweicup\\results\\final_v1_remaining\\environment_results.csv",
+      "sha256": "1e4b67afb7cb5e6d3955824bba1d815d0ab317eefa22334e0d883bcf7fec3463"
+    },
+    "source_sha256": {
+      "results/final_v1_remaining/trajectory/replay.py": "67a87cbbdacf8c4b3304f8fde047e4fd2914bc13f53bbaed05934963a98b585f",
+      "results/final_v1_sensitivity/q2/run_q2.py": "6f0d5a8d2346c343c0ede47b393ae8b56210e1d11fa3fb2e7d09bb03ea5b6c40",
+      "results/final_v1_sensitivity/run_q1_q3.py": "7f42f64fcb59c21884df3ba2f955ab4f42ce48ae06dbbec7ddfcca4e59a5b135",
+      "正式方案/code/adopted.py": "4803771b25cbcc4010df021b62b743bad1231cbf3c0c4bd932b6db76c470db29",
+      "第二问/delivery/code/replay_engine.py": "7484d4c7944c9f0698d62de9a8ff04c7b015fde2a066bd1f93770b5b5f4c2ebf",
+      "第二问/delivery/code/rotation_inference.py": "ad8c38570c19bc73159b80bbd50b09900347ed4ef560191ba32867e277bafaff",
+      "第二问/delivery/code/run_complete.py": "8da994121c2491b021e4d2c95b1865bd595b7d94f32f5629b417124c08190373"
+    },
+    "credentials_used": false,
+    "model_or_source_edits": false
+  },
+  "integrity": {
+    "expected_commit": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+    "expected_model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+    "before": {
+      "head": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+      "model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第一问\\model\\model_parameters.npz",
+      "model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "delivery_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第二问\\delivery\\model\\rotation_full.npz",
+      "delivery_model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "range_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\正式方案\\results\\q1_range_model.csv",
+      "range_model_sha256": "e79da3ace488b1669f848b3a7b37b602214fdec426d49334b05f3d44a9955ff9"
+    },
+    "after": {
+      "head": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+      "model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第一问\\model\\model_parameters.npz",
+      "model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "delivery_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\独立方案B_旋转模型\\第二问\\delivery\\model\\rotation_full.npz",
+      "delivery_model_sha256": "8f34fa90c6484f53a53deed01374d1e373aacee8c1328a9e7ad7c2bdbd4d6237",
+      "range_model_path": "D:\\shuweicup\\tmp\\final_v1_20261122\\C题工作区\\正式方案\\results\\q1_range_model.csv",
+      "range_model_sha256": "e79da3ace488b1669f848b3a7b37b602214fdec426d49334b05f3d44a9955ff9"
+    },
+    "snapshot_unchanged": true,
+    "head_verified": true,
+    "tag_verified": true,
+    "model_verified": true,
+    "source_hashes_unchanged": true,
+    "prior_files_unchanged": true
+  },
+  "checks": {
+    "window_counts": {
+      "validation": 212,
+      "test": 390,
+      "total": 602,
+      "unique": true
+    },
+    "rows": {
+      "per_window": 2408,
+      "expected": 2408,
+      "scenarios": {
+        "full_d01": 602,
+        "full_d02": 602,
+        "short_d01": 602,
+        "short_d02": 602
+      },
+      "unique_window_history_delay": true,
+      "finite_metrics": true,
+      "points_positive": true,
+      "requests_equal_budget": true,
+      "returns_equal_budget": true,
+      "waiting_equals_delay_times_budget": true,
+      "scenario_alignment_across_selections": true
+    },
+    "full_history_equivalence": {
+      "full_history_since_equals_frozen_past_only": {
+        "windows": 602,
+        "array_mismatches": 0,
+        "comparison": "all keys, np.array_equal(equal_nan=True)"
+      },
+      "max_initial_forecast_difference_vs_official": 0.0,
+      "crop_assertions": 1204
+    },
+    "prior_regressions": {
+      "full_history_vs_final_v1_remaining": {
+        "full_d0.1_vs_nominal": {
+          "source": "results/final_v1_remaining/trajectory/windows.csv.gz question=q2 model=B",
+          "windows": 602,
+          "by_split": {
+            "validation": 212,
+            "test": 390
+          },
+          "max_abs_differences": {
+            "nade": 9.71445146547012e-17,
+            "coverage": 1.1102230246251565e-16,
+            "norm_diameter": 8.326672684688674e-17
+          },
+          "max_abs_difference": 1.1102230246251565e-16,
+          "points_equal": true,
+          "nade_difference_below_1e-10": true
+        },
+        "full_d0.2_vs_stress": {
+          "source": "results/final_v1_remaining/trajectory/windows.csv.gz question=q2 model=B",
+          "windows": 602,
+          "by_split": {
+            "validation": 212,
+            "test": 390
+          },
+          "max_abs_differences": {
+            "nade": 9.71445146547012e-17,
+            "coverage": 1.1102230246251565e-16,
+            "norm_diameter": 5.551115123125783e-17
+          },
+          "max_abs_difference": 1.1102230246251565e-16,
+          "points_equal": true,
+          "nade_difference_below_1e-10": true
+        }
+      },
+      "full_history_validation_vs_sensitivity_q2": {
+        "full_d0.1": {
+          "source": "results/final_v1_sensitivity/q2/per_window.csv.gz split=validation",
+          "windows": 212,
+          "by_split": {
+            "validation": 212,
+            "test": 0
+          },
+          "max_abs_differences": {
+            "nade": 9.71445146547012e-17,
+            "coverage": 1.1102230246251565e-16,
+            "norm_diameter": 8.326672684688674e-17
+          },
+          "max_abs_difference": 1.1102230246251565e-16,
+          "points_equal": true
+        },
+        "full_d0.2": {
+          "source": "results/final_v1_sensitivity/q2/per_window.csv.gz split=validation",
+          "windows": 212,
+          "by_split": {
+            "validation": 212,
+            "test": 0
+          },
+          "max_abs_differences": {
+            "nade": 9.71445146547012e-17,
+            "coverage": 1.1102230246251565e-16,
+            "norm_diameter": 5.551115123125783e-17
+          },
+          "max_abs_difference": 1.1102230246251565e-16,
+          "points_equal": true
+        }
+      },
+      "full_history_environment_level_vs_final_v1_remaining": {
+        "source": "results/final_v1_remaining/environment_results.csv question=q2 scope=environment",
+        "environments": 8,
+        "max_abs_differences": {
+          "nade_nominal": 1.249000902703301e-16,
+          "nade_stress": 1.3877787807814457e-16,
+          "coverage_nominal": 0.0,
+          "coverage_stress": 0.0,
+          "diameter_nominal": 1.1102230246251565e-16,
+          "diameter_stress": 5.551115123125783e-17
+        },
+        "max_abs_difference": 1.3877787807814457e-16,
+        "windows_equal": true,
+        "episodes_equal": true,
+        "sources_equal": true
+      }
+    },
+    "no_future_leak": {
+      "replay_history_observations_checked": 602,
+      "replay_history_rule": "only t[start-2:start] and x[start-2:start], both at or before the anchor, enter the engine",
+      "future_perturbation": {
+        "windows": 8,
+        "environments": 8,
+        "history_scenarios": 16,
+        "channels_touched_per_window": "all clocked channels after anchor",
+        "max_initial_difference": {
+          "full": 0.0,
+          "short": 0.0
+        },
+        "unchanged": true
+      },
+      "outcome_blind_selection": true
+    },
+    "nonoverlap_sensitivity": {
+      "rule": "within (episode_uuid, side), sort by (start_index, end_index_exclusive, window_id); keep a window when start_index >= end of the last kept window",
+      "uses_outcomes": false,
+      "selected_windows": 602,
+      "excluded_windows": 0,
+      "disjoint_adjacent_pairs_checked": 574,
+      "selected_by_split": {
+        "validation": 212,
+        "test": 390
+      },
+      "recomputed_selection_identical": true,
+      "summary_repeated": true,
+      "summary_equals_all_windows": true
+    },
+    "direction": {
+      "did": {
+        "by_environment": [
+          {
+            "split": "test",
+            "environment_id": "logistics_x_courier_station_0011",
+            "sources": "EgoPro|EgoStandard",
+            "all": 0.0002873846359591748,
+            "nonoverlap": 0.0002873846359591748,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "test",
+            "environment_id": "logistics_x_courier_station_0041",
+            "sources": "EgoStandard",
+            "all": 0.0012302779570939372,
+            "nonoverlap": 0.0012302779570939372,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "test",
+            "environment_id": "retail_x_supermarket_0078",
+            "sources": "EgoDemo",
+            "all": 0.00013483022236490932,
+            "nonoverlap": 0.00013483022236490932,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "test",
+            "environment_id": "retail_x_supermarket_0159",
+            "sources": "EgoStandard",
+            "all": 0.0011379401873001498,
+            "nonoverlap": 0.0011379401873001498,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "hospitality_x_restaurant_0004",
+            "sources": "EgoPro",
+            "all": 0.0010156251491921005,
+            "nonoverlap": 0.0010156251491921005,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "logistics_x_courier_station_0022",
+            "sources": "EgoPro",
+            "all": 1.0506897605320662e-05,
+            "nonoverlap": 1.0506897605320662e-05,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "retail_x_supermarket_0074",
+            "sources": "EgoDemo|EgoStandard",
+            "all": 0.0006497495573026498,
+            "nonoverlap": 0.0006497495573026498,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "retail_x_supermarket_0147",
+            "sources": "EgoDemo",
+            "all": -0.0008281214866616127,
+            "nonoverlap": -0.0008281214866616127,
+            "sign_all": -1,
+            "sign_nonoverlap": -1,
+            "same_sign": true
+          }
+        ],
+        "sign_counts": {
+          "all": {
+            "positive": 7,
+            "negative": 1,
+            "zero": 0
+          },
+          "nonoverlap": {
+            "positive": 7,
+            "negative": 1,
+            "zero": 0
+          }
+        },
+        "pairwise_sign_agreement_all8": true,
+        "same_sign_across_all8": {
+          "all": false,
+          "nonoverlap": false
+        },
+        "replicated": false,
+        "overall": {
+          "all": {
+            "value": 0.0004201539822106892,
+            "sign": 1
+          },
+          "nonoverlap": {
+            "value": 0.0004201539822106892,
+            "sign": 1
+          }
+        }
+      },
+      "short_delay": {
+        "by_environment": [
+          {
+            "split": "test",
+            "environment_id": "logistics_x_courier_station_0011",
+            "sources": "EgoPro|EgoStandard",
+            "all": 0.034214126829580194,
+            "nonoverlap": 0.034214126829580194,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "test",
+            "environment_id": "logistics_x_courier_station_0041",
+            "sources": "EgoStandard",
+            "all": 0.03665631123304397,
+            "nonoverlap": 0.03665631123304397,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "test",
+            "environment_id": "retail_x_supermarket_0078",
+            "sources": "EgoDemo",
+            "all": 0.012187843628228607,
+            "nonoverlap": 0.012187843628228607,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "test",
+            "environment_id": "retail_x_supermarket_0159",
+            "sources": "EgoStandard",
+            "all": 0.031079674249087016,
+            "nonoverlap": 0.031079674249087016,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "hospitality_x_restaurant_0004",
+            "sources": "EgoPro",
+            "all": 0.025010289363859663,
+            "nonoverlap": 0.025010289363859663,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "logistics_x_courier_station_0022",
+            "sources": "EgoPro",
+            "all": 0.016042144319675128,
+            "nonoverlap": 0.016042144319675128,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "retail_x_supermarket_0074",
+            "sources": "EgoDemo|EgoStandard",
+            "all": 0.023336316565935107,
+            "nonoverlap": 0.023336316565935107,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          },
+          {
+            "split": "validation",
+            "environment_id": "retail_x_supermarket_0147",
+            "sources": "EgoDemo",
+            "all": 0.02094453633135994,
+            "nonoverlap": 0.02094453633135994,
+            "sign_all": 1,
+            "sign_nonoverlap": 1,
+            "same_sign": true
+          }
+        ],
+        "sign_counts": {
+          "all": {
+            "positive": 8,
+            "negative": 0,
+            "zero": 0
+          },
+          "nonoverlap": {
+            "positive": 8,
+            "negative": 0,
+            "zero": 0
+          }
+        },
+        "pairwise_sign_agreement_all8": true,
+        "same_sign_across_all8": {
+          "all": true,
+          "nonoverlap": true
+        },
+        "replicated": true,
+        "overall": {
+          "all": {
+            "value": 0.02489159412356699,
+            "sign": 1
+          },
+          "nonoverlap": {
+            "value": 0.02489159412356699,
+            "sign": 1
+          }
+        }
+      }
+    },
+    "direction_conclusion": {
+      "did": "not replicated: environment signs are not uniform under both selections",
+      "short_delay": "replicated: same non-zero sign in all eight environments under both selections"
+    }
+  },
+  "output": {
+    "directory": "D:\\shuweicup\\results\\final_v1_evidence_extension\\trajectory",
+    "files": [
+      "D:\\shuweicup\\results\\final_v1_evidence_extension\\trajectory\\per_window.csv.gz",
+      "D:\\shuweicup\\results\\final_v1_evidence_extension\\trajectory\\summary.csv",
+      "D:\\shuweicup\\results\\final_v1_evidence_extension\\trajectory\\audit.json"
+    ],
+    "outside_directory_writes": false,
+    "per_window": {
+      "file": "D:\\shuweicup\\results\\final_v1_evidence_extension\\trajectory\\per_window.csv.gz",
+      "rows": 2408,
+      "columns": [
+        "split",
+        "dataset",
+        "environment_id",
+        "episode_uuid",
+        "side",
+        "window_id",
+        "anchor_s",
+        "anchor_index",
+        "start_index",
+        "end_index_exclusive",
+        "interval",
+        "interval_s",
+        "interval_start_s",
+        "interval_end_s",
+        "history_start",
+        "window_s",
+        "history",
+        "history_span_s",
+        "delay",
+        "scenario",
+        "points",
+        "nade",
+        "nfde",
+        "coverage",
+        "norm_diameter",
+        "returns",
+        "successful_returns",
+        "requests",
+        "waiting_s",
+        "nonoverlap_selected"
+      ],
+      "compression": "gzip"
+    },
+    "summary": {
+      "file": "D:\\shuweicup\\results\\final_v1_evidence_extension\\trajectory\\summary.csv",
+      "rows": 66,
+      "columns": [
+        "selection",
+        "scope",
+        "split",
+        "dataset",
+        "environment_id",
+        "sources",
+        "metric",
+        "metric_role",
+        "n_windows",
+        "n_hands",
+        "n_episodes",
+        "n_environments",
+        "n_datasets",
+        "n_points",
+        "full_d01",
+        "full_d02",
+        "short_d01",
+        "short_d02",
+        "history_main",
+        "delay_main",
+        "did",
+        "full_delay",
+        "short_delay",
+        "history_d01",
+        "history_d02",
+        "sign_did",
+        "sign_short_delay"
+      ],
+      "selections": [
+        "all",
+        "nonoverlap"
+      ],
+      "scopes": [
+        "overall",
+        "split",
+        "environment"
+      ]
+    }
+  }
+}

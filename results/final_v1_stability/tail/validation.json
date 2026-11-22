@@ -1,0 +1,325 @@
+{
+  "protocol": {
+    "tag": "v1.0.0-final",
+    "models": [
+      "B",
+      "B_K64"
+    ],
+    "model_actions": "none; read-only archived and frozen-model CSVs",
+    "aggregation": "empirical equal-window; one window is one observation; no hierarchical pooling",
+    "quantiles": "linear empirical quantiles (Hyndman-Fan type 7)",
+    "worst_decile": "ceil(0.1*n) largest NADE values; arithmetic mean reported",
+    "paired_tail": "baseline worst decile selected under nominal; same window IDs scored under stress; change = stress - nominal",
+    "overlap_rate": "|baseline worst-decile IDs intersect stress worst-decile IDs| / tail_n; overlap_count is the intersection size",
+    "tie_break": "Q1/Q2 value descending then window_id ascending; Q3 worst3 value ascending then trial_id ascending",
+    "q3_ties": "cutoff tie count includes the selected worst 3; excluded counts equal-valued trials outside the selected worst 3",
+    "q3": {
+      "method": "B_K64",
+      "seeds": 30,
+      "cases": 3,
+      "mappings": 5,
+      "trials_per_case_mapping": 30,
+      "baseline_metric": "weighted_on_time_rate",
+      "low_p10": "linear 10th percentile of weighted_on_time_rate",
+      "worst3": "mean of 3 lowest weighted_on_time_rate trials",
+      "scenario_pooling": "none; each case x mapping reported separately"
+    },
+    "descriptive_only": true,
+    "secrets_read": false
+  },
+  "inputs": [
+    {
+      "key": "q1_dev",
+      "path": "results/final_v1_sensitivity/q1_history_windows.csv.gz",
+      "bytes": 48853,
+      "sha256": "73870d27730ae8f78ef8a4cb68738f39ab98ba74f7318e0c82932cad7f10efd6",
+      "rows": 1908
+    },
+    {
+      "key": "q2_dev",
+      "path": "results/final_v1_sensitivity/q2/per_window.csv.gz",
+      "bytes": 22338,
+      "sha256": "b383c10d3ba3fc9e32c24414143f6bb31b47cdac715147e304744a21bb403ef3",
+      "rows": 636
+    },
+    {
+      "key": "q1_arch",
+      "path": "tmp/final_v1_20261122/C题工作区/正式方案/results/q1_windows.csv.gz",
+      "bytes": 326755,
+      "sha256": "30785d46d09877f3f8a7473ac15e71f2f68a054dbb101764c6dbc409662cf3d9",
+      "rows": 12774
+    },
+    {
+      "key": "q2_arch",
+      "path": "tmp/final_v1_20261122/C题工作区/正式方案/results/q2_windows.csv.gz",
+      "bytes": 196706,
+      "sha256": "f265ef0d1cf8b7aabfa1b4eb4b5a93eb2dc528a94ba16ba2edafa9ad78bf59d8",
+      "rows": 4258
+    },
+    {
+      "key": "q3_arch",
+      "path": "tmp/final_v1_20261122/C题工作区/正式方案/results/q3/b_k64/trials.csv.gz",
+      "bytes": 11557,
+      "sha256": "2705b10dd4843593e9e2111b49e61a2a73135c331aa79ad69edbf68d5f78d11c",
+      "rows": 450
+    }
+  ],
+  "checks": {
+    "no_forbidden_or_secret_paths": {
+      "passed": true,
+      "hits": []
+    },
+    "outputs_cwd_only": {
+      "passed": true,
+      "directory": "D:\\shuweicup\\results\\final_v1_stability\\tail",
+      "files": [
+        "q1_summary.csv",
+        "q2_summary.csv",
+        "q3_summary.csv",
+        "q3_worst3.csv",
+        "paired_tail.csv",
+        "validation.json"
+      ]
+    },
+    "q1_development_cardinality": {
+      "passed": true,
+      "expected_rows": 1908,
+      "expected_per_group": 212,
+      "groups": {
+        "full|0.2": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "full|0.6": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "full|1.0": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.75s|0.2": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.75s|0.6": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.75s|1.0": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.30s|0.2": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.30s|0.6": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.30s|1.0": {
+          "rows": 212,
+          "unique_window_ids": 212
+        }
+      }
+    },
+    "q1_nominal_development_vs_archived_B_validation": {
+      "passed": true,
+      "matched_by": [
+        "window_id",
+        "horizon"
+      ],
+      "nominal_rows": 636,
+      "archived_B_rows": 636,
+      "common_keys": 636,
+      "missing_from_archive": 0,
+      "extra_in_archive": 0,
+      "max_abs_nade_diff": 1.6653345369377348e-16,
+      "tolerance": 1e-12
+    },
+    "q1_archived_final_test_B": {
+      "passed": true,
+      "expected_rows": 1170,
+      "expected_ids_per_horizon": 390,
+      "horizons": {
+        "0.2": {
+          "rows": 390,
+          "unique_ids": 390
+        },
+        "0.6": {
+          "rows": 390,
+          "unique_ids": 390
+        },
+        "1.0": {
+          "rows": 390,
+          "unique_ids": 390
+        }
+      },
+      "duplicate_window_horizon_rows": 0
+    },
+    "q2_development_cardinality": {
+      "passed": true,
+      "expected_rows": 636,
+      "expected_per_delay": 212,
+      "delays": {
+        "0.0": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.1": {
+          "rows": 212,
+          "unique_window_ids": 212
+        },
+        "0.2": {
+          "rows": 212,
+          "unique_window_ids": 212
+        }
+      },
+      "environments": {
+        "hospitality_x_restaurant_0004": {
+          "0.0": 34,
+          "0.1": 34,
+          "0.2": 34
+        },
+        "logistics_x_courier_station_0022": {
+          "0.0": 116,
+          "0.1": 116,
+          "0.2": 116
+        },
+        "retail_x_supermarket_0074": {
+          "0.0": 42,
+          "0.1": 42,
+          "0.2": 42
+        },
+        "retail_x_supermarket_0147": {
+          "0.0": 20,
+          "0.1": 20,
+          "0.2": 20
+        }
+      }
+    },
+    "q2_nominal_development_vs_archived_B_validation": {
+      "passed": true,
+      "matched_by": [
+        "window_id"
+      ],
+      "nominal_rows": 212,
+      "archived_B_rows": 212,
+      "common_keys": 212,
+      "missing_from_archive": 0,
+      "extra_in_archive": 0,
+      "max_abs_nade_diff": 0.0,
+      "tolerance": 1e-12
+    },
+    "q1_q2_development_window_ids_equal": {
+      "passed": true,
+      "q1_development_ids": 212,
+      "q2_development_ids": 212,
+      "common_ids": 212
+    },
+    "q2_archived_final_test_B": {
+      "passed": true,
+      "expected_rows": 390,
+      "unique_ids": 390,
+      "duplicate_ids": 0
+    },
+    "q1_q2_test_window_ids_equal": {
+      "passed": true,
+      "q1_test_ids": 390,
+      "q2_test_ids": 390,
+      "common_ids": 390
+    },
+    "q3_B_K64_official_seed_cardinality": {
+      "passed": true,
+      "cases": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "mappings": [
+        [
+          "0.75",
+          "0.5"
+        ],
+        [
+          "1.0",
+          "0.0"
+        ],
+        [
+          "1.0",
+          "0.5"
+        ],
+        [
+          "1.0",
+          "1.0"
+        ],
+        [
+          "1.5",
+          "0.5"
+        ]
+      ],
+      "seeds": [
+        "2026111700",
+        "2026111701",
+        "2026111702",
+        "2026111703",
+        "2026111704",
+        "2026111705",
+        "2026111706",
+        "2026111707",
+        "2026111708",
+        "2026111709",
+        "2026111710",
+        "2026111711",
+        "2026111712",
+        "2026111713",
+        "2026111714",
+        "2026111715",
+        "2026111716",
+        "2026111717",
+        "2026111718",
+        "2026111719",
+        "2026111720",
+        "2026111721",
+        "2026111722",
+        "2026111723",
+        "2026111724",
+        "2026111725",
+        "2026111726",
+        "2026111727",
+        "2026111728",
+        "2026111729"
+      ],
+      "rows": 450,
+      "unique_trial_ids": 450,
+      "trials_per_case_mapping": 30,
+      "valid_protocol_all": true
+    },
+    "paired_tail_sample_sizes": {
+      "passed": true,
+      "comparisons": {
+        "q1_horizon_1.0": {
+          "n_paired": 212,
+          "tail_n": 22,
+          "overlap_count": 21
+        },
+        "q2_delay": {
+          "n_paired": 212,
+          "tail_n": 22,
+          "overlap_count": 18
+        }
+      }
+    }
+  },
+  "outputs": [
+    "q1_summary.csv",
+    "q2_summary.csv",
+    "q3_summary.csv",
+    "q3_worst3.csv",
+    "paired_tail.csv",
+    "validation.json"
+  ],
+  "failures": [],
+  "passed": true
+}

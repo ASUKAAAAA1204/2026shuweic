@@ -1,0 +1,5 @@
+a,p,source_A,source_P,source_L,S1,S2,S3,overall
+0,0,logistics_x_courier_station_0022,hospitality_x_restaurant_0004,logistics_x_courier_station_0022,0.8708333333333333,0.625,0.60625,0.7006944444444444
+0,1,logistics_x_courier_station_0022,retail_x_supermarket_0074,logistics_x_courier_station_0022,0.9875,0.8847222222222223,0.8552083333333333,0.9091435185185185
+1,0,retail_x_supermarket_0147,hospitality_x_restaurant_0004,logistics_x_courier_station_0022,0.9583333333333334,0.8208333333333333,0.7072916666666667,0.8288194444444444
+1,1,retail_x_supermarket_0147,retail_x_supermarket_0074,logistics_x_courier_station_0022,1.0,0.9625,0.9458333333333333,0.9694444444444444
