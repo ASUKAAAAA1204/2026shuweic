@@ -1,0 +1,13 @@
+{
+  "kind": "motion_roll",
+  "cap": 0.96,
+  "scale": 1,
+  "mix": 0.1,
+  "prior_count": 5,
+  "completion_weight": 0.5,
+  "stratified": true,
+  "scenarios": 64,
+  "steps": 75,
+  "bandwidth": 0.35,
+  "motion_weight": 0.85
+}

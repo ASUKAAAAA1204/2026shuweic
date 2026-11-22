@@ -1,0 +1,68 @@
+{
+  "case": "S3",
+  "attempt": 4,
+  "level": 2,
+  "passed": false,
+  "conditions": {
+    "official_floor": false,
+    "official_delta": false,
+    "extra_gain": false,
+    "official_completion": true,
+    "extra_completion": false
+  },
+  "previous": {
+    "kind": "stochastic",
+    "cap": 0.98,
+    "scale": 1.0,
+    "mix": 0.05,
+    "hist": 3,
+    "width": 36,
+    "cw": 0.8,
+    "margin": 2,
+    "scenarios": 16,
+    "optimism": 0.5,
+    "bandwidth": 0.45,
+    "motion_weight": 0.0
+  },
+  "candidate": {
+    "kind": "beam",
+    "cap": 0.9,
+    "scale": 1.0,
+    "mix": 0.35,
+    "quantile": 0.65,
+    "hist": 8,
+    "width": 36,
+    "cw": 0.4,
+    "margin": 5
+  },
+  "means": {
+    "previous": {
+      "official": {
+        "weighted_on_time_rate": 0.8479166666666667,
+        "weighted_completion_rate": 0.9291666666666667,
+        "weighted_tardiness_s": 145.3053872744991,
+        "cost": 33.00627578507093
+      },
+      "gate": {
+        "weighted_on_time_rate": 0.8329861111111111,
+        "weighted_completion_rate": 0.9138888888888889,
+        "weighted_tardiness_s": 159.08199370722707,
+        "cost": 32.49091837377338
+      }
+    },
+    "nominee": {
+      "official": {
+        "weighted_on_time_rate": 0.8145833333333333,
+        "weighted_completion_rate": 0.9,
+        "weighted_tardiness_s": 190.85973358191393,
+        "cost": 32.6992863980489
+      },
+      "gate": {
+        "weighted_on_time_rate": 0.8076388888888889,
+        "weighted_completion_rate": 0.8930555555555556,
+        "weighted_tardiness_s": 193.0767093185434,
+        "cost": 32.28062690546768
+      }
+    }
+  }
+}

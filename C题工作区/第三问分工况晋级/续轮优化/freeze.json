@@ -1,0 +1,31 @@
+{
+  "levels": {
+    "S1": 0,
+    "S2": 1,
+    "S3": 2
+  },
+  "files": {
+    "policy.py": "8095b0b02fb065ac7107fe3845a2ddd0bd664314820d853ad67531d5694db4b8",
+    "release.py": "97d58ca088d725d5036e4314137da3060d4c29c27a1aa031784b2bde74e38fd2",
+    "motion.py": "a52a150747fab2b025de63ef10433d6d0d9349bd921f57b31d5592d1390c3019",
+    "stochastic.cpp": "4daea3a563b1510681b749c11f4107cc4ce1ee953f89de7efaf0cad4a5995696",
+    "../rolling.cpp": "87458bed05e0aa24778e8607014e04e0f1427302713b3f8d3199d021abf309da",
+    "../rolling.py": "211c6fe45133e17df6bbf8d33665e78f2cb9c941243fbe863c86fca7e9e89770",
+    "../dispatch.py": "3f0cb4bd5c1d01ebf034ec8d2ca97ef0052946a13d0461bbad4f73d334254cec",
+    "../final_solution.py": "072d7cbb89340955fbdf8f2f33d872ecca4adc5303fdcd0bc76514ade3c4c99f",
+    "../search.py": "4c09ce8e9e8b0b9e5cfd5b1945150e9a8e28cd59e27060ee58ae4442197c6eba",
+    "../../\u7b2c\u4e09\u95ee\u6539\u8fdb\u6b63\u5f0f\u65b9\u6848/model/training_family_samples.json": "b9f5ee6fff5d5744d2e7486aece569a866e870572d336336a8c894d064fa42be",
+    "../../../\u8d5b\u9898\u5206\u6790\u62a5\u544a/tasks.csv": "37a866e34c417ee3189678b184474f15d8cedcc905b1b323938af5d22ec29b57",
+    "../../../\u8d5b\u9898\u5206\u6790\u62a5\u544a/service_zones.csv": "ad95228f91aca8a91ba8c7e5912d521770699a8e661e3b5e02c1dff982d9f47b",
+    "../../../\u8d5b\u9898\u5206\u6790\u62a5\u544a/common_conditions.json": "a9e012fc46fe20a95ca9892dbd4436e8c30797e82fbf4b8751cd7ac3f8620df8",
+    "../results/frozen_S1.json": "c5b3e33e83c4eedd3eaee70b79739cdf27cc3ea3fad7c54c9dede1c5efa23968",
+    "../results/frozen_S2.json": "792cab4bf922d0577a0b19c3a79691ae9d4df38d7ea70e5f49890ec97777fe7b",
+    "../results/frozen_S3.json": "c7b6773f5e21592b53b2a340e13ba5adb1985897dbe7d876a248afd00e9532d2",
+    "../results/round_1/S1.json": "4cac4fcf234b5be1069a39fb9f441600b3c1bf9afe70a20d30ad780d59becfe5",
+    "../results/round_1/S2.json": "ee4f23953d57bb95c41c57581fd93c004cb0bde9902128cf834304849b5169da",
+    "../results/round_4/S3.json": "247a43329cfe2baf23af8e25d147b895d2091d25dd8f02ca0cda5ba760ad7537",
+    "results/S2_promotion_1.json": "fd254e884c31ccd785e2c4ed488f47e100e604059e6030806812d4fb25c0ce49",
+    "results/S3_promotion_1.json": "4d5efc01afd9dbc0d54a73c888942ee70c8e97b035f9075190d1f08dc3c4238f",
+    "results/S3_promotion_2.json": "787186af954e13490421b727db738900a97d7c281d8cf272a0bb4cb8dc25a9fb"
+  }
+}

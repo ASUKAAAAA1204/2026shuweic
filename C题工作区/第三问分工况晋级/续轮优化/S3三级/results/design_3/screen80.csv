@@ -1,0 +1,5 @@
+id,model,weighted_on_time_rate,weighted_completion_rate,weighted_tardiness_s,cost
+0,"{""kind"": ""recourse"", ""motion"": 0, ""hist"": 5, ""cw"": 0.3, ""urgency"": 1, ""travel"": 1}",0.809765625,0.9078125,154.98494341415093,32.59474459103211
+1,"{""kind"": ""recourse"", ""motion"": 0, ""hist"": 4, ""cw"": 0.8, ""urgency"": 1, ""travel"": 1}",0.820703125,0.913671875,147.57392035339336,32.63715365317432
+2,"{""kind"": ""recourse"", ""motion"": 0.3, ""hist"": 6, ""cw"": 0.6, ""urgency"": 0.65, ""travel"": 1}",0.816796875,0.908984375,156.6652749489411,32.53205748551565
+3,"{""kind"": ""recourse"", ""motion"": 0, ""hist"": 6, ""cw"": 1.05, ""urgency"": 1.4, ""travel"": 0.7}",0.81875,0.918359375,143.80643300068238,32.51099338799539

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "levels": {
+    "S1": 0,
+    "S2": 1,
+    "S3": 2
+  },
+  "attempts_per_optimized_case": 5,
+  "holdout_seeds": 480,
+  "official_seeds": 30,
+  "action_logs": 1530,
+  "all_attempts_recalculated": true,
+  "official_versions_match_archives": true,
+  "source_draw_checked": true,
+  "illegal_actions": 0
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "robust",
+  "cap": 0.8,
+  "scale": 1,
+  "mix": 0.5,
+  "prior_count": 4,
+  "completion_weight": 0.25,
+  "stratified": true,
+  "scenarios": 48,
+  "steps": 60
+}

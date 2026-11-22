@@ -1,0 +1,11 @@
+{
+  "case": "S3",
+  "round": 2,
+  "passed": false,
+  "official_on": 0.8302083333333333,
+  "official_done": 0.9270833333333334,
+  "extra_on_gain": -0.004427083333333304,
+  "official_on_gain": 0.017708333333333326,
+  "model_sha256": "ea588794519087a8915d9fe5b217a3ec0a93c8a27c93c3f9fdc9cd24fb5ee63b",
+  "dispatch_sha256": "056819a415f15474bcd767857daf17902491612c22af6e507354f961094c9e75"
+}

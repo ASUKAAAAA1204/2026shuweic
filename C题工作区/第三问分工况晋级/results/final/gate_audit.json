@@ -1,0 +1,530 @@
+{
+  "status": "pass",
+  "overall_pass": true,
+  "trials": "gate_trials.csv",
+  "bootstrap": {
+    "method": "paired percentile bootstrap over seeds",
+    "samples": 2000,
+    "rng_seed": 20261122,
+    "ci": 0.95
+  },
+  "counts": {
+    "rows": 900,
+    "official": 180,
+    "extra": 720,
+    "official_seeds": 30,
+    "extra_seeds": 120,
+    "cases": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "methods": [
+      "old",
+      "new"
+    ]
+  },
+  "case_order": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "case_limits": {
+    "S1": {
+      "max_cost": 32.0,
+      "max_observations": 4
+    },
+    "S2": {
+      "max_cost": 34.0,
+      "max_observations": 6
+    },
+    "S3": {
+      "max_cost": 40.0,
+      "max_observations": 8
+    }
+  },
+  "cases": {
+    "S1": {
+      "official": {
+        "means": {
+          "old": {
+            "on_time_rate": 0.933333,
+            "completion_rate": 1.0,
+            "tardiness_s": 15.078267,
+            "cost": 18.411574,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          },
+          "new": {
+            "on_time_rate": 0.96875,
+            "completion_rate": 1.0,
+            "tardiness_s": 5.787472,
+            "cost": 18.277284,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          }
+        },
+        "change_new_minus_old": {
+          "on_time_rate": 0.035417,
+          "completion_rate": 0.0,
+          "tardiness_s": -9.290795,
+          "cost": -0.13429,
+          "observations": 0.0,
+          "invalid_actions": 0.0
+        },
+        "paired": {
+          "paired_seeds": 30,
+          "mean_delta": {
+            "on_time_rate": 0.035417,
+            "completion_rate": 0.0,
+            "tardiness_s": -9.290794,
+            "cost": -0.134289
+          },
+          "bootstrap_ci95": {
+            "on_time_rate": [
+              0.01875,
+              0.052083
+            ],
+            "completion_rate": [
+              0.0,
+              0.0
+            ],
+            "tardiness_s": [
+              -13.661892,
+              -5.274278
+            ],
+            "cost": [
+              -0.196303,
+              -0.070042
+            ]
+          }
+        },
+        "max_cost": 18.53727,
+        "max_observations": 0,
+        "illegal_actions": 0,
+        "rows": 60
+      },
+      "extra": {
+        "means": {
+          "old": {
+            "on_time_rate": 0.921875,
+            "completion_rate": 0.999479,
+            "tardiness_s": 24.805487,
+            "cost": 18.347978,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          },
+          "new": {
+            "on_time_rate": 0.949479,
+            "completion_rate": 1.0,
+            "tardiness_s": 10.157785,
+            "cost": 18.301917,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          }
+        },
+        "change_new_minus_old": {
+          "on_time_rate": 0.027604,
+          "completion_rate": 0.000521,
+          "tardiness_s": -14.647702,
+          "cost": -0.046061,
+          "observations": 0.0,
+          "invalid_actions": 0.0
+        },
+        "paired": {
+          "paired_seeds": 120,
+          "mean_delta": {
+            "on_time_rate": 0.027604,
+            "completion_rate": 0.000521,
+            "tardiness_s": -14.647702,
+            "cost": -0.046061
+          },
+          "bootstrap_ci95": {
+            "on_time_rate": [
+              0.019792,
+              0.034896
+            ],
+            "completion_rate": [
+              0.0,
+              0.001563
+            ],
+            "tardiness_s": [
+              -17.584634,
+              -11.925044
+            ],
+            "cost": [
+              -0.085356,
+              -0.006185
+            ]
+          }
+        },
+        "max_cost": 18.702955,
+        "max_observations": 0,
+        "illegal_actions": 0,
+        "rows": 240
+      }
+    },
+    "S2": {
+      "official": {
+        "means": {
+          "old": {
+            "on_time_rate": 0.806944,
+            "completion_rate": 0.922222,
+            "tardiness_s": 164.952816,
+            "cost": 25.432973,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          },
+          "new": {
+            "on_time_rate": 0.870833,
+            "completion_rate": 0.955556,
+            "tardiness_s": 120.648422,
+            "cost": 25.50968,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          }
+        },
+        "change_new_minus_old": {
+          "on_time_rate": 0.063889,
+          "completion_rate": 0.033334,
+          "tardiness_s": -44.304394,
+          "cost": 0.076707,
+          "observations": 0.0,
+          "invalid_actions": 0.0
+        },
+        "paired": {
+          "paired_seeds": 30,
+          "mean_delta": {
+            "on_time_rate": 0.063889,
+            "completion_rate": 0.033333,
+            "tardiness_s": -44.304394,
+            "cost": 0.076707
+          },
+          "bootstrap_ci95": {
+            "on_time_rate": [
+              0.045833,
+              0.080556
+            ],
+            "completion_rate": [
+              0.016632,
+              0.051389
+            ],
+            "tardiness_s": [
+              -61.018801,
+              -27.540994
+            ],
+            "cost": [
+              -0.219578,
+              0.415648
+            ]
+          }
+        },
+        "max_cost": 26.854214,
+        "max_observations": 0,
+        "illegal_actions": 0,
+        "rows": 60
+      },
+      "extra": {
+        "means": {
+          "old": {
+            "on_time_rate": 0.790972,
+            "completion_rate": 0.902083,
+            "tardiness_s": 183.057622,
+            "cost": 24.779541,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          },
+          "new": {
+            "on_time_rate": 0.851389,
+            "completion_rate": 0.926389,
+            "tardiness_s": 116.862142,
+            "cost": 24.803993,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          }
+        },
+        "change_new_minus_old": {
+          "on_time_rate": 0.060417,
+          "completion_rate": 0.024306,
+          "tardiness_s": -66.19548,
+          "cost": 0.024452,
+          "observations": 0.0,
+          "invalid_actions": 0.0
+        },
+        "paired": {
+          "paired_seeds": 120,
+          "mean_delta": {
+            "on_time_rate": 0.060417,
+            "completion_rate": 0.024306,
+            "tardiness_s": -66.19548,
+            "cost": 0.024453
+          },
+          "bootstrap_ci95": {
+            "on_time_rate": [
+              0.046519,
+              0.073958
+            ],
+            "completion_rate": [
+              0.015972,
+              0.032639
+            ],
+            "tardiness_s": [
+              -75.561718,
+              -56.523486
+            ],
+            "cost": [
+              -0.166207,
+              0.232447
+            ]
+          }
+        },
+        "max_cost": 27.38427,
+        "max_observations": 0,
+        "illegal_actions": 0,
+        "rows": 240
+      }
+    },
+    "S3": {
+      "official": {
+        "means": {
+          "old": {
+            "on_time_rate": 0.8125,
+            "completion_rate": 0.9,
+            "tardiness_s": 205.525232,
+            "cost": 32.298721,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          },
+          "new": {
+            "on_time_rate": 0.826042,
+            "completion_rate": 0.916667,
+            "tardiness_s": 166.445821,
+            "cost": 32.64824,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          }
+        },
+        "change_new_minus_old": {
+          "on_time_rate": 0.013542,
+          "completion_rate": 0.016667,
+          "tardiness_s": -39.079411,
+          "cost": 0.349519,
+          "observations": 0.0,
+          "invalid_actions": 0.0
+        },
+        "paired": {
+          "paired_seeds": 30,
+          "mean_delta": {
+            "on_time_rate": 0.013542,
+            "completion_rate": 0.016667,
+            "tardiness_s": -39.079411,
+            "cost": 0.349519
+          },
+          "bootstrap_ci95": {
+            "on_time_rate": [
+              -0.013542,
+              0.0375
+            ],
+            "completion_rate": [
+              0.003099,
+              0.03125
+            ],
+            "tardiness_s": [
+              -67.358826,
+              -10.324821
+            ],
+            "cost": [
+              -0.204389,
+              0.881113
+            ]
+          }
+        },
+        "max_cost": 35.745798,
+        "max_observations": 0,
+        "illegal_actions": 0,
+        "rows": 60
+      },
+      "extra": {
+        "means": {
+          "old": {
+            "on_time_rate": 0.789844,
+            "completion_rate": 0.880729,
+            "tardiness_s": 234.555862,
+            "cost": 31.671507,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          },
+          "new": {
+            "on_time_rate": 0.816146,
+            "completion_rate": 0.897917,
+            "tardiness_s": 188.188216,
+            "cost": 31.924951,
+            "observations": 0.0,
+            "invalid_actions": 0.0
+          }
+        },
+        "change_new_minus_old": {
+          "on_time_rate": 0.026302,
+          "completion_rate": 0.017188,
+          "tardiness_s": -46.367646,
+          "cost": 0.253444,
+          "observations": 0.0,
+          "invalid_actions": 0.0
+        },
+        "paired": {
+          "paired_seeds": 120,
+          "mean_delta": {
+            "on_time_rate": 0.026302,
+            "completion_rate": 0.017188,
+            "tardiness_s": -46.367646,
+            "cost": 0.253444
+          },
+          "bootstrap_ci95": {
+            "on_time_rate": [
+              0.015104,
+              0.03724
+            ],
+            "completion_rate": [
+              0.008854,
+              0.025781
+            ],
+            "tardiness_s": [
+              -60.142494,
+              -32.267489
+            ],
+            "cost": [
+              -0.014458,
+              0.506072
+            ]
+          }
+        },
+        "max_cost": 35.862955,
+        "max_observations": 0,
+        "illegal_actions": 0,
+        "rows": 240
+      }
+    }
+  },
+  "gates": {
+    "official": {
+      "S1": {
+        "case": "S1",
+        "pass": true,
+        "on_time_rate": 0.96875,
+        "completion_rate": 1.0,
+        "old_completion_rate": 1.0,
+        "paired_completion_delta": 0.0,
+        "thresholds": {
+          "on_time_rate": 0.94,
+          "completion_rate": 1.0
+        },
+        "bootstrap_ci95_completion_delta": [
+          0.0,
+          0.0
+        ],
+        "failures": []
+      },
+      "S2": {
+        "case": "S2",
+        "pass": true,
+        "on_time_rate": 0.870833,
+        "completion_rate": 0.955556,
+        "old_completion_rate": 0.922222,
+        "paired_completion_delta": 0.033333,
+        "thresholds": {
+          "on_time_rate": 0.82,
+          "completion_rate": ">= paired old"
+        },
+        "bootstrap_ci95_completion_delta": [
+          0.016632,
+          0.051389
+        ],
+        "failures": []
+      },
+      "S3": {
+        "case": "S3",
+        "pass": true,
+        "on_time_rate": 0.826042,
+        "completion_rate": 0.916667,
+        "old_completion_rate": 0.9,
+        "paired_completion_delta": 0.016667,
+        "thresholds": {
+          "on_time_rate": 0.825,
+          "completion_rate": 0.9
+        },
+        "bootstrap_ci95_completion_delta": [
+          0.003099,
+          0.03125
+        ],
+        "failures": []
+      }
+    },
+    "extra": {
+      "mean_paired_on_time_delta": {
+        "pass": true,
+        "per_case_delta": {
+          "S1": 0.027604166666666652,
+          "S2": 0.060416666666666785,
+          "S3": 0.026302083333333393
+        },
+        "mean_paired_on_time_delta": 0.038108,
+        "bootstrap_ci95": [
+          0.030815,
+          0.045458
+        ],
+        "seeds": 120
+      }
+    },
+    "records": {
+      "no_illegal_actions": {
+        "pass": true,
+        "total_illegal_actions": 0,
+        "per_case": {
+          "S1": 0,
+          "S2": 0,
+          "S3": 0
+        }
+      },
+      "cost_limits": {
+        "pass": true,
+        "per_case": {
+          "S1": {
+            "max_cost": 18.702955,
+            "limit": 32.0,
+            "pass": true
+          },
+          "S2": {
+            "max_cost": 27.38427,
+            "limit": 34.0,
+            "pass": true
+          },
+          "S3": {
+            "max_cost": 35.862955,
+            "limit": 40.0,
+            "pass": true
+          }
+        }
+      },
+      "observation_limits": {
+        "pass": true,
+        "per_case": {
+          "S1": {
+            "max_observations": 0,
+            "limit": 4,
+            "pass": true
+          },
+          "S2": {
+            "max_observations": 0,
+            "limit": 6,
+            "pass": true
+          },
+          "S3": {
+            "max_observations": 0,
+            "limit": 8,
+            "pass": true
+          }
+        }
+      }
+    }
+  }
+}

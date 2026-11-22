@@ -1,0 +1,11 @@
+{
+  "case": "S2",
+  "round": 1,
+  "passed": true,
+  "official_on": 0.8708333333333333,
+  "official_done": 0.9555555555555556,
+  "extra_on_gain": 0.060416666666666674,
+  "official_on_gain": 0.063888888888889,
+  "model_sha256": "3bdd33658ed5a27d74ec4020bf230ffabda7a0da458ef818fb3d2c13163a4d4b",
+  "dispatch_sha256": "3f0cb4bd5c1d01ebf034ec8d2ca97ef0052946a13d0461bbad4f73d334254cec"
+}

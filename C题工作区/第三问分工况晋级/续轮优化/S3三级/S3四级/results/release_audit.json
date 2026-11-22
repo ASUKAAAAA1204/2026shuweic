@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "rounds": [
+    {
+      "round": 1,
+      "design": 4,
+      "passed": false
+    },
+    {
+      "round": 2,
+      "design": 5,
+      "passed": false
+    },
+    {
+      "round": 3,
+      "design": 7,
+      "passed": false
+    },
+    {
+      "round": 4,
+      "design": 8,
+      "passed": false
+    },
+    {
+      "round": 5,
+      "design": 12,
+      "passed": true
+    }
+  ],
+  "unique_new_seeds": 10240,
+  "final_paired_seeds": 2048,
+  "final_trajectories_reproduced": 2048,
+  "invalid_actions": 0,
+  "paid_reviews": 0,
+  "baseline_reproduced": true,
+  "frozen_S1_S2": true
+}

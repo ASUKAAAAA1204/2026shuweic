@@ -1,0 +1,200 @@
+"""Feedback-calibrated stochastic scheduling for the fourth nominal S3 release."""
+from functools import lru_cache
+import json
+import math
+from pathlib import Path
+import sys
+import numpy as np
+
+HERE=Path(__file__).resolve().parent
+sys.path.insert(0,str(HERE.parent))
+from published import dispatcher as previous, locked_candidate
+from bellman import FAMS, get_table
+from search import settings
+from cue_model import cues
+
+
+@lru_cache(maxsize=1)
+def cue_model():
+    return json.loads((HERE/"cue_model.json").read_bytes())
+
+
+@lru_cache(maxsize=1)
+def counts():
+    return {f:len(v) for f,v in settings("S3")[3].items()}
+
+
+def distribution(values,weights,n):
+    order=np.argsort(values)
+    cumulative=np.cumsum(weights[order])/weights.sum()
+    prob=(np.arange(n)+.5)/n
+    return values[order[np.searchsorted(cumulative,prob)]]
+
+
+class PriorTable:
+    def __init__(self,p):
+        self.template=get_table(p["cap"],p["scale"],p["cw"],p["dt"],p["mix"],p.get("tail",1.))
+        original=self.template.pools
+        sizes=counts()
+        self.pools={}
+        for f,v in original.items():
+            uncertainty=(min(sizes.values())/sizes[f])**1.5
+            family_scale=p.get("contrast",1.)**({"A":-1,"P":1,"L":0}[f])
+            self.pools[f]=np.maximum(.2,v*(p["rare"]**uncertainty)*family_scale)
+        nodes=p.get("nodes",24)
+        support=np.vstack([np.quantile(self.pools[f],(np.arange(nodes)+.5)/nodes)+.5 for f in FAMS])
+        self.args=list(self.template.args)
+        weights=self.args[9].copy()
+        parents=self.args[6]
+        dependents=np.array([sum(bool(mask&(1<<j)) for mask in parents) for j in range(len(weights))])
+        self.args[9]=np.ascontiguousarray(weights*(weights/2.)**p.get("importance",0.)+
+                                          p.get("unlock",0.)*dependents)
+        self.lib=self.template.lib
+        self.safety=None
+        if p.get("guard"):
+            from guard_api import extended
+            self.lib=extended()
+            args=self.args.copy();args[2]=1000.;args[3]=0.;args[9]=self.template.args[9]
+            self.safety=self.lib.fit_value(*args,nodes,support)
+        self.handle=self.lib.fit_value(*self.args,nodes,support)
+        if not self.handle:raise ValueError("Cannot build value function")
+
+    def __del__(self):
+        if getattr(self,"handle",None):self.lib.free_value(self.handle)
+        if getattr(self,"safety",None):self.lib.free_value(self.safety)
+
+
+@lru_cache(maxsize=2)
+def table(spec):
+    return PriorTable(json.loads(spec))
+
+
+class Policy:
+    def __init__(self,p):
+        self.p=p
+        self.prior=table(json.dumps({k:p[k] for k in ("cap","scale","cw","dt","mix","tail","rare","contrast","nodes","importance","unlock","guard") if k in p},sort_keys=True))
+        self.t=self.prior.template
+        self.history={f:[] for f in FAMS}
+        self.local=None
+        self.safety=None
+        self.last=-1
+        self.fallback=None
+        self.factors={}
+        self.pending_group=0
+        self.by_group={}
+        self.shared={}
+        self.med={f:np.median(v) for f,v in self.prior.pools.items()}
+        self.final_pools=None
+        if "late_cap" in p:
+            from policy import calibrated_prior
+            raw=calibrated_prior("S3",p["late_cap"],p["late_scale"],p["late_mix"])
+            self.final_pools={f:np.maximum(.2,v) for f,v in raw.items()}
+        self.in_endgame=False
+
+    def __del__(self):
+        if getattr(self,"local",None):self.prior.lib.free_value(self.local)
+        if getattr(self,"safety",None):self.prior.lib.free_value(self.safety)
+
+    def record_completion(self,family,start,end):
+        duration=end-start-.5
+        self.history[family].append(duration)
+        self.by_group.setdefault((family,self.pending_group),[]).append(duration)
+        self.shared.setdefault(self.pending_group,[]).append(np.clip(np.log(duration/self.med[family]),-1.3,1.3))
+        if self.fallback:self.fallback.record_completion(family,start,end)
+
+    def choose(self,o):
+        p=self.p;jobs=o["jobs"]
+        if (o["alpha"],o["beta"])!=(1.,.5) or [j["job_id"] for j in jobs]!=self.t.ids:raise ValueError("Expected nominal S3")
+        done=sum(1<<i for i,j in enumerate(jobs) if j["completed"])
+        count=done.bit_count()
+        late=self.final_pools is not None and o["time"]>=o["H"]*p["switch"]
+        entering=late and not self.in_endgame
+        self.in_endgame=late
+        if count==0 and "opening" in p:
+            key=self.t.ids[p["opening"]]
+            j=jobs[p["opening"]]
+            if not j["predecessors"] and j["release_s"]<=o["time"]:
+                self.pending_group=-1
+                return dict(type="execute",job_id=key,reserve=.2)
+        if count==1 and "pair_until" in p:
+            first=p["opening"]
+            at_same_zone=next((i for i,j in enumerate(jobs) if not j["attempted"] and j["release_s"]==0
+                               and not j["predecessors"] and j["zone_xy"]==jobs[first]["zone_xy"]),None)
+            idx=at_same_zone if o["time"]<=p["pair_until"] else p.get("urgent_opening")
+            if idx is not None and not jobs[idx]["attempted"]:
+                self.pending_group=-1
+                return dict(type="execute",job_id=jobs[idx]["job_id"],reserve=.2)
+        standardized=[np.clip(np.log(v/self.med[f]),-1.,1.) for f,past in self.history.items() for v in past]
+        pace=np.exp(sum(standardized)/(count+6)*p["adapt"])
+        supports={}
+        groups=[]
+        for j in jobs:
+            features=j["features"]
+            axis=p.get("cue",-1)
+            f=j["family"]
+            group=-1
+            if axis>=0 and features:
+                group=int(cues(features)[axis]>cue_model()[f][axis]["t"])
+            groups.append(group)
+            key=(j["family"],group)
+            if key in supports:continue
+            f=key[0];prior=(self.final_pools if late else self.prior.pools)[f]
+            hist=np.asarray(self.history[f])
+            if p.get("env_weight") and f in p.get("families","APL") and len(hist)>=p.get("min_hist",1):
+                from posterior import morph
+                response=morph(f,tuple(np.round(hist,4)),p["power"],p["bandwidth"])
+                prior=prior*response**p["env_weight"]
+            shift=np.exp(np.sum(np.clip(np.log(hist/self.med[f]),-1.,1.))/(len(hist)+p["shrink"])*p["learn"])
+            if group>=0:
+                offset=cue_model()[f][axis]["offset"][group]*p.get("train_weight",0.)
+                observed=self.by_group.get(key,[])
+                center=np.log(self.med[f])
+                residual=sum(np.clip(np.log(d)-center,-1.3,1.3) for d in observed)
+                other=self.shared.get(group,[])
+                offset+=p.get("local_weight",0.)*residual/(len(observed)+3)
+                offset+=p.get("shared_weight",0.)*sum(other)/(len(other)+5)
+                shift*=np.exp(np.clip(offset,-.8,.8))
+            v=np.r_[prior*shift,hist]
+            hist_weight=p.get("late_hist",p["hist"]) if late else p["hist"]
+            w=np.r_[np.full(len(prior),hist_weight/len(prior)),np.ones(len(hist))]
+            if group>=0:
+                local=np.asarray(self.by_group.get(key,[]))
+                v=np.r_[v,local];w=np.r_[w,np.full(len(local),p.get("group_weight",0.))]
+            if "nodes" not in p:
+                order=np.argsort(v);cumulative=np.cumsum(w[order])
+                supports[key]=v[order[np.searchsorted(cumulative,(np.arange(32)+.5)*(cumulative[-1]/32))]]+.5
+            else:supports[key]=distribution(v,w,32)+.5
+        samples=np.array([supports[(j["family"],g)] for j,g in zip(jobs,groups)])
+        if p.get("rank_weight"):
+            from rank_model import predict
+            for family in p["families"]:
+                indices=[i for i,j in enumerate(jobs) if j["family"]==family and j["features"]]
+                if len(indices)<2:continue
+                predicted=np.array([predict(family,tuple(jobs[i]["features"])) for i in indices])
+                logarithm=np.clip((predicted-predicted.mean())*p["rank_weight"],-.35,.35)
+                samples[indices]=(samples[indices]-.5)*np.exp(logarithm[:,None])+.5
+        if (count in p["refresh"] and self.last!=count) or (entering and count>=7):
+            args=list(self.prior.args);args[1]=p["local_dt"];args[2]=p["local_cw"]
+            if o["time"]>=o["H"]*p.get("end_fraction",2.):
+                args[2]=p.get("end_cw",args[2])
+            if self.local:self.prior.lib.free_value(self.local)
+            refined=p.get("integrate",16)
+            quadrature=samples if refined==32 else samples[:,1::2]
+            self.local=self.prior.lib.refit_value(*args,refined,np.ascontiguousarray(quadrature),done)
+            if p.get("guard"):
+                if self.safety:self.prior.lib.free_value(self.safety)
+                args[2]=1000.;args[3]=0.;args[9]=self.t.args[9]
+                self.safety=self.prior.lib.refit_value(*args,refined,np.ascontiguousarray(quadrature),done)
+            self.last=count
+        state=(done,self.t.locations[tuple(o["zone_xy"])],o["time"],o["B"]-o["cost"],32,samples,1. if self.local else pace)
+        if p.get("guard") and count>=p.get("guard_start",0):
+            idx=self.prior.lib.guarded_best(self.local or self.prior.handle,self.safety or self.prior.safety,
+                                            *state,p["tolerance"],p["strength"])
+        else:idx=self.prior.lib.best_job(self.local or self.prior.handle,*state,0.)
+        if idx>=0:
+            self.pending_group=groups[idx]
+            return dict(type="execute",job_id=jobs[idx]["job_id"],reserve=.2)
+        future=[j["release_s"] for j in jobs if not j["attempted"] and j["release_s"]>o["time"]+1e-12]
+        if idx==-2 and future:return dict(type="wait",duration=min(future)-o["time"])
+        # No legal immediate service or unreleased choice in the Bellman recursion.
+        return dict(type="stop")

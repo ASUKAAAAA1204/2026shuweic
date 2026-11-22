@@ -1,0 +1,57 @@
+{
+  "case": "S2",
+  "attempt": 4,
+  "level": 1,
+  "passed": false,
+  "conditions": {
+    "official_floor": false,
+    "official_delta": false,
+    "extra_gain": false,
+    "official_completion": true,
+    "extra_completion": false
+  },
+  "previous": {
+    "kind": "base"
+  },
+  "candidate": {
+    "kind": "beam",
+    "cap": 0.9,
+    "scale": 1.0,
+    "mix": 0.35,
+    "quantile": 0.65,
+    "hist": 8,
+    "width": 36,
+    "cw": 0.4,
+    "margin": 5
+  },
+  "means": {
+    "previous": {
+      "official": {
+        "weighted_on_time_rate": 0.8708333333333333,
+        "weighted_completion_rate": 0.9555555555555555,
+        "weighted_tardiness_s": 120.64842212209041,
+        "cost": 25.50968023787359
+      },
+      "gate": {
+        "weighted_on_time_rate": 0.8692129629629629,
+        "weighted_completion_rate": 0.949074074074074,
+        "weighted_tardiness_s": 110.22023807065631,
+        "cost": 25.34621307669645
+      }
+    },
+    "nominee": {
+      "official": {
+        "weighted_on_time_rate": 0.8694444444444442,
+        "weighted_completion_rate": 0.9291666666666667,
+        "weighted_tardiness_s": 111.29813943864568,
+        "cost": 25.55916606947466
+      },
+      "gate": {
+        "weighted_on_time_rate": 0.8409722222222222,
+        "weighted_completion_rate": 0.9201388888888888,
+        "weighted_tardiness_s": 120.07114798507638,
+        "cost": 25.3572010867207
+      }
+    }
+  }
+}

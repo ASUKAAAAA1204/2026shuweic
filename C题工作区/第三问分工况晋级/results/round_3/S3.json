@@ -1,0 +1,9 @@
+{
+  "case": "S3",
+  "round": 3,
+  "kind": "rolling",
+  "completion_weight": 0.25,
+  "prior_count": 2,
+  "scenarios": 24,
+  "steps": 42
+}

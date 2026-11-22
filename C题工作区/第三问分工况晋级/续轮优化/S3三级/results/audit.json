@@ -1,0 +1,25 @@
+{
+  "verified": true,
+  "rounds": [
+    {
+      "round": 1,
+      "start": 6810000,
+      "count": 640,
+      "passed": false
+    },
+    {
+      "round": 2,
+      "start": 6811000,
+      "count": 640,
+      "passed": true
+    }
+  ],
+  "unique_gate_seeds": 1280,
+  "final_actions_replayed": 640,
+  "absolute_on_time_ci95": [
+    0.844775390625,
+    0.855517578125
+  ],
+  "paid_reviews": 0,
+  "invalid_actions": 0
+}

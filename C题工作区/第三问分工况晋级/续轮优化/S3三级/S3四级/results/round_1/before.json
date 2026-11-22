@@ -1,0 +1,14 @@
+{
+  "design": 4,
+  "round": 1,
+  "candidate_hash": "bb4b8ab7d09bbc9d17ddb3b74b6dc3e4b68bc9400aee2807665eff3af45004e8",
+  "files": {
+    "fourth.py": "2c43096d9befb34e1b427e23ef7a9c9293cd719a29398231626b732e9a546967",
+    "cue_model.py": "d0433525ee00b317ae22985609d512c7a7e53fe92442e8b5e08b3cc7d3e7cc2f",
+    "cue_model.json": "427e719ceea65a6f7012afaa449c53f7f2ddf2f10f7d05a11a4ed7c5cb90ce7e",
+    "../dynamic.cpp": "39cac21f94d59ac892eefdd92f13251b3a77cfbbe0cdbd1d633f380cc52d7040",
+    "../bellman.py": "c2922aa4440e7b88ac7cf396456706c6a449f5a46d3bbb82c8a60c64bc69b7f3",
+    "../published.json": "d2f569072a1f429855cccacf542c21d4c3edd5e15fdee2802d276415638b7ee6",
+    "study.py": "c5ae1286801deda91565b3531447616c8c47ceb2347a1daae6cbe4bc591d6da8"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "stochastic",
+  "cap": 0.98,
+  "scale": 1.0,
+  "mix": 0.05,
+  "hist": 3,
+  "width": 36,
+  "cw": 0.8,
+  "margin": 2,
+  "scenarios": 16,
+  "optimism": 0.5,
+  "bandwidth": 0.45,
+  "motion_weight": 0.0
+}

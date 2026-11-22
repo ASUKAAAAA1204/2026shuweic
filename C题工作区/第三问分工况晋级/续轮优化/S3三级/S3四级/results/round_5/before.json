@@ -1,0 +1,14 @@
+{
+  "design": 12,
+  "round": 5,
+  "candidate_hash": "05dac0fbca88c1b250b7c8883005f6180f978639cc9e03f030569a5ee69c9d93",
+  "files": {
+    "fourth.py": "d0d163d58c039db599dc32b298ee2a545158388b93c07939b64bb33cb177a296",
+    "cue_model.py": "d0433525ee00b317ae22985609d512c7a7e53fe92442e8b5e08b3cc7d3e7cc2f",
+    "cue_model.json": "427e719ceea65a6f7012afaa449c53f7f2ddf2f10f7d05a11a4ed7c5cb90ce7e",
+    "../dynamic.cpp": "39cac21f94d59ac892eefdd92f13251b3a77cfbbe0cdbd1d633f380cc52d7040",
+    "../bellman.py": "c2922aa4440e7b88ac7cf396456706c6a449f5a46d3bbb82c8a60c64bc69b7f3",
+    "../published.json": "d2f569072a1f429855cccacf542c21d4c3edd5e15fdee2802d276415638b7ee6",
+    "study.py": "610b867f47836d4135ce298616187db20ffaf5e2e4281e400f03171807f018c2"
+  }
+}

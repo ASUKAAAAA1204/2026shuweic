@@ -1,0 +1,14 @@
+{
+  "case": "S3",
+  "parameters": "results/round_2/nominee.json",
+  "hashes": {
+    "adaptive.py": "5e757deec1566aac6b07bb5c0682445d412d520bbd5cebe7954e6e30a6454dee",
+    "bellman.py": "c2922aa4440e7b88ac7cf396456706c6a449f5a46d3bbb82c8a60c64bc69b7f3",
+    "dynamic.cpp": "39cac21f94d59ac892eefdd92f13251b3a77cfbbe0cdbd1d633f380cc52d7040",
+    "published.py": "0daf50e0dd291651f897aa5e490757f992b3577fb765cdfa5e3d5a3d499e6f75",
+    "kinematics.py": "76281e9eb1b66a1c94e3abe5441738afdd1e19fa4aa536556ced0dbe0fd0ed7f",
+    "results/round_2/nominee.json": "e43655657748f77ded76ead5c55e33c44228febe13bdc35f75e7b3250ad0630e",
+    "../freeze.json": "290d6450166eaac6170f3f11299ed31c34d3ed0da3a32cf1b7ea1e996f661c26",
+    "../experiment.py": "7704dce7a671daaf9ff8cc176ef028d530af4a075f47f40343b556ce60b19a59"
+  }
+}

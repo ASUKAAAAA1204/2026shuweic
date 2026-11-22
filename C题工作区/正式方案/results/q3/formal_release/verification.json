@@ -1,0 +1,1 @@
+{"passed": true, "rows": 12468, "official_seeds": 30, "promotion_seeds": 2048, "cases": ["S1", "S2", "S3"], "versions": ["tier3", "tier4"], "invalid_actions": 0, "frozen_cases": ["S1", "S2"]}

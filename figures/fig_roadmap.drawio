@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="总技术路线" id="overview">
+    <mxGraphModel page="1" pageScale="1" pageWidth="1180" pageHeight="805" grid="0" background="#FFFFFF" arrows="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="source" value="" style="rounded=0;fillColor=#F2F5F7;strokeColor=#B7C4CD;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="77" width="1112" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="无人超市补货作业的状态估计与调度决策" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=34;fontColor=#1B2D40;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="12" width="1110" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="data" value="三源作业记录与数据核查" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=22;fontColor=#1B2D40;fontStyle=1;" vertex="1" parent="source">
+          <mxGeometry x="20" y="9" width="1060" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="datasets" value="EgoDemo、EgoPro、EgoStandard 共 69 条记录" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="source">
+          <mxGeometry x="20" y="45" width="590" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="checks" value="核对时间戳、坐标约定、记录标识与质量标记" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#415567;fontStyle=0;" vertex="1" parent="source">
+          <mxGeometry x="549" y="12" width="555" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="splits" value="按环境划分：训练 16 个，开发 4 个，测试 4 个" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=18;fontColor=#415567;fontStyle=0;" vertex="1" parent="source">
+          <mxGeometry x="549" y="47" width="550" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=#97B3CA;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="231" width="640" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="q2" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=#97B3CA;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="34" y="493" width="640" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q3" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=#C8ABA1;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="231" width="436" height="542" as="geometry" />
+        </mxCell>
+        <mxCell id="q1bar" value="" style="rounded=0;fillColor=#DFEBF4;strokeColor=#DFEBF4;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q1">
+          <mxGeometry x="0" y="0" width="640" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="q1title" value="问题一　手部状态与观测可靠性" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#285985;fontStyle=1;" vertex="1" parent="q1bar">
+          <mxGeometry x="16" y="4" width="608" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q2bar" value="" style="rounded=0;fillColor=#DFEBF4;strokeColor=#DFEBF4;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q2">
+          <mxGeometry x="0" y="0" width="640" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="q2title" value="问题二　失观期间的预测与再观测" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#285985;fontStyle=1;" vertex="1" parent="q2bar">
+          <mxGeometry x="16" y="4" width="608" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q3bar" value="" style="rounded=0;fillColor=#F4E6DF;strokeColor=#F4E6DF;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q3">
+          <mxGeometry x="0" y="0" width="436" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="q3title" value="问题三　任务时长与单设备调度" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#944936;fontStyle=1;" vertex="1" parent="q3bar">
+          <mxGeometry x="16" y="4" width="404" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="motion" value="" style="rounded=0;fillColor=#F5F8FA;strokeColor=#D9E2E8;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q1">
+          <mxGeometry x="16" y="63" width="307" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="motionh" value="手部位置与不确定性" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#285985;fontStyle=1;" vertex="1" parent="motion">
+          <mxGeometry x="13" y="6" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="motionl0" value="单手 21 点质心，末两帧估速" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="motion">
+          <mxGeometry x="13" y="40" width="281" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="motionl1" value="固定阻尼外推（时间常数 0.2 秒）" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="motion">
+          <mxGeometry x="13" y="67" width="281" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="motionl2" value="按来源与观测年龄标定误差球" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="motion">
+          <mxGeometry x="13" y="94" width="281" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="quality" value="" style="rounded=0;fillColor=#F5F8FA;strokeColor=#D9E2E8;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q1">
+          <mxGeometry x="339" y="63" width="285" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="qualityh" value="观测可靠性" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#285985;fontStyle=1;" vertex="1" parent="quality">
+          <mxGeometry x="13" y="6" width="259" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qualityl0" value="持续未标坏、刚恢复、当前标坏" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="quality">
+          <mxGeometry x="13" y="40" width="259" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qualityl1" value="根据三种状态估计未来 0.2 秒内" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="quality">
+          <mxGeometry x="13" y="67" width="259" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qualityl2" value="出现源质量坏标记的概率" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="quality">
+          <mxGeometry x="13" y="94" width="259" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mask" value="在合格轨迹上遮蔽 1 秒，以隐藏质心作回放参考" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#1B2D40;fontStyle=1;" vertex="1" parent="q2">
+          <mxGeometry x="17" y="58" width="610" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="request" value="" style="rounded=0;fillColor=#F5F8FA;strokeColor=#D9E2E8;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q2">
+          <mxGeometry x="16" y="101" width="290" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="requesth" value="两次付费请求" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#285985;fontStyle=1;" vertex="1" parent="request">
+          <mxGeometry x="13" y="6" width="264" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="requestl0" value="在 0.3 秒、0.6 秒各请求一次" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="request">
+          <mxGeometry x="13" y="40" width="264" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="requestl1" value="单次成本 1，等待 0.1 秒仍预测" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="request">
+          <mxGeometry x="13" y="67" width="264" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="return" value="" style="rounded=0;fillColor=#F5F8FA;strokeColor=#D9E2E8;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q2">
+          <mxGeometry x="335" y="101" width="289" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="returnh" value="有效观测返回" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#285985;fontStyle=1;" vertex="1" parent="return">
+          <mxGeometry x="13" y="6" width="263" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="returnl0" value="用返回质心与采样时刻更新速度" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="return">
+          <mxGeometry x="13" y="40" width="263" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="returnl1" value="按新的观测年龄重新查误差半径" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="return">
+          <mxGeometry x="13" y="67" width="263" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="q2result1" value="测试回放｜390 个窗口，两次请求的归一化平均距离误差为 0.09780" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=16.4;fontColor=#285985;fontStyle=1;" vertex="1" parent="q2">
+          <mxGeometry x="17" y="215" width="610" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="q2result2" value="同一阻尼模型无请求时为 0.22945，两次请求时 5% 容差达标率为 38.75%。" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=15.8;fontColor=#415567;fontStyle=0;" vertex="1" parent="q2">
+          <mxGeometry x="17" y="245" width="606" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="duration" value="" style="rounded=0;fillColor=#FCF8F5;strokeColor=#E6D8D1;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q3">
+          <mxGeometry x="16" y="63" width="404" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="durationh" value="按任务族估计时长" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#944936;fontStyle=1;" vertex="1" parent="duration">
+          <mxGeometry x="13" y="6" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="durationl0" value="从合格标注区间提取各任务族的训练时长" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="duration">
+          <mxGeometry x="13" y="40" width="378" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="durationl1" value="按任务族建立 S3 服务时长分布" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="duration">
+          <mxGeometry x="13" y="67" width="378" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="screen" value="" style="rounded=0;fillColor=#FCF8F5;strokeColor=#E6D8D1;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q3">
+          <mxGeometry x="16" y="197" width="404" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="screenh" value="按官方条件筛选可执行任务" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#944936;fontStyle=1;" vertex="1" parent="screen">
+          <mxGeometry x="13" y="6" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="screenl0" value="检查释放时刻、前驱任务、剩余预算与总时限" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="screen">
+          <mxGeometry x="13" y="40" width="378" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="screenl1" value="将移动、准备及预留时间计入计划占用" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="screen">
+          <mxGeometry x="13" y="67" width="378" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dispatch" value="" style="rounded=0;fillColor=#FCF8F5;strokeColor=#E6D8D1;strokeWidth=1.2;container=1;collapsible=0;" vertex="1" parent="q3">
+          <mxGeometry x="16" y="331" width="404" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="dispatchh" value="按名义工况选择调度策略" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=19;fontColor=#944936;fontStyle=1;" vertex="1" parent="dispatch">
+          <mxGeometry x="13" y="6" width="378" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dispatchl0" value="S1 冻结优先级，S2 冻结 32 场景滚动调度" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="dispatch">
+          <mxGeometry x="13" y="40" width="378" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dispatchl1" value="S3 四级随机动态规划，按首项结束时刻选站" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="dispatch">
+          <mxGeometry x="13" y="67" width="378" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dispatchl2" value="后半程根据已完成任务的时长重排路线" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#1B2D40;fontStyle=0;" vertex="1" parent="dispatch">
+          <mxGeometry x="13" y="94" width="378" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="q3result1" value="30 个验证种子，三工况等权｜仓库版 → 四级" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#944936;fontStyle=1;" vertex="1" parent="q3">
+          <mxGeometry x="17" y="464" width="398" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="q3result2" value="加权按时率　85.09% → 90.68%（+5.59 个百分点）" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#415567;fontStyle=0;" vertex="1" parent="q3">
+          <mxGeometry x="17" y="490" width="404" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="q3result3" value="加权完成率　94.07% → 96.72%（+2.65 个百分点）" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#415567;fontStyle=0;" vertex="1" parent="q3">
+          <mxGeometry x="17" y="516" width="404" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sourceq1" edge="1" parent="1" source="source" target="q1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endFill=1;endSize=6;strokeWidth=1.6;strokeColor=#285985;exitX=0.15242805755395683;exitY=1;exitPerimeter=0;entryX=0.26484375;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sourceq3" edge="1" parent="1" source="source" target="q3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endFill=1;endSize=6;strokeWidth=1.6;strokeColor=#944936;exitX=0.8039568345323741;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="branch1" value="手部轨迹与质量标记" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#285985;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="219" y="181" width="420" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="branch3" value="合格任务标注区间" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#944936;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="181" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="inherited" edge="1" parent="1" source="motion" target="q2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endFill=1;endSize=6;strokeWidth=1.6;strokeColor=#285985;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.26484375;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inheritlabel" value="沿用质心、阻尼外推与误差球" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=nowrap;spacing=0;fontFamily=Microsoft YaHei;fontSize=17;fontColor=#285985;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="218" y="448" width="450" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ordering" edge="1" parent="1" source="duration" target="screen" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endFill=1;endSize=6;strokeWidth=1.6;strokeColor=#944936;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="execution" edge="1" parent="1" source="screen" target="dispatch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=block;endFill=1;endSize=6;strokeWidth=1.6;strokeColor=#944936;exitX=0.5;exitY=1;exitPerimeter=0;entryX=0.5;entryY=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="returned" edge="1" parent="q2" source="request" target="return" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;entryX=0;entryY=0.5;endArrow=block;endFill=1;endSize=6;strokeWidth=1.6;strokeColor=#285985;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

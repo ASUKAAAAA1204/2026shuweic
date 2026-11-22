@@ -1,0 +1,31 @@
+{
+  "cap": 0.76,
+  "scale": 1.5,
+  "cw": 0.65,
+  "dt": 1.25,
+  "mix": 0.35,
+  "tail": 1,
+  "hist": 5,
+  "shrink": 3,
+  "adapt": 0.1,
+  "refresh": [
+    8,
+    10,
+    12,
+    14
+  ],
+  "local_dt": 1.25,
+  "local_cw": 1.1,
+  "rare": 1,
+  "learn": 0,
+  "nodes": 16,
+  "opening": 3,
+  "pair_until": 12,
+  "urgent_opening": 4,
+  "end_fraction": 0.72,
+  "end_cw": 1.8,
+  "guard": true,
+  "tolerance": 0.08,
+  "strength": 3.5,
+  "guard_start": 10
+}
