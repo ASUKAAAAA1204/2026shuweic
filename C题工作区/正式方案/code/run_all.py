@@ -15,14 +15,15 @@ def main():
     parser.add_argument("--processed",type=Path,default=package.parent/"处理结果/v1")
     parser.add_argument("--constraints",type=Path,default=package.parents[1]/"赛题分析报告")
     parser.add_argument("--output",type=Path,default=package/"results")
-    parser.add_argument("--q3-only", action="store_true", help="Replay the nominal replacement and use frozen Q1/Q2 results.")
+    parser.add_argument("--q3-only", action="store_true", help="Replay Q3 including non-nominal mappings, using frozen Q1/Q2 results.")
     args=parser.parse_args()
     args.output.mkdir(parents=True,exist_ok=True)
     nominal = package.parent/"第三问分工况晋级"
     if not args.q3_only:
         replay_positions(args.processed,args.output)
         score_subgroups(args.processed,args.output)
-        replay_scheduling(args.processed,args.constraints,args.output)
+    replay_scheduling(args.processed,args.constraints,args.output)
+    if not args.q3_only:
         subprocess.run([sys.executable,"-B",str(nominal/"confirm.py"),"--output",
                         str(args.output/"q3/nominal_frozen"),"--constraints",str(args.constraints)],check=True)
         subprocess.run([sys.executable,"-B",str(nominal/"续轮优化/verify_release.py"),"--output",
@@ -60,7 +61,7 @@ def finish_release(package,output,conditions,frozen):
                          metric=row.metric,old=row.tier2,new=row.tier4,
                          change_pp=100*row.change_from_tier2 if row.metric.endswith("_rate") else None))
     q3 = output/"q3"
-    old_results = frozen/"q3"
+    old_results = q3
     trials = pd.read_csv(target/"trials.csv.gz").query("split=='official'").rename(columns={"version":"method"})
     tier2 = pd.read_csv(target/"official_tier2.csv").assign(method="tier2")
     official = pd.concat([trials,tier2],ignore_index=True)

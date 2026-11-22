@@ -1,12 +1,14 @@
 """Replay both nominal releases from their public entries on identical assignments."""
 import argparse
 from concurrent.futures import ProcessPoolExecutor
+import hashlib
+import json
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 
-from nominal_policy import TIER2, TIER4, dispatcher
+from nominal_policy import BACKEND, TIER2, TIER4, dispatcher
 from published import dispatcher as previous
 from run import bench as s3_bench
 from experiment import Bench, MET, OFFICIAL
@@ -15,13 +17,28 @@ KEY = ["split", "case_id", "seed", "version"]
 PROMOTION = range(7832000, 7834048)
 
 
+class TraceDigests:
+    def __init__(self):
+        self.rows = []
+
+    def write(self, line):
+        record = json.loads(line)
+        events = record["events"]
+        canonical = json.dumps(events, sort_keys=True, separators=(",", ":"), allow_nan=False)
+        self.rows.append((record["seed"], len(events), hashlib.sha256(canonical.encode()).hexdigest()))
+
+
 def replay_case(case):
     bench = s3_bench() if case == "S3" else Bench(case)
     parts = []
     for split, seeds in [("official", OFFICIAL), ("promotion", PROMOTION)]:
         for version, factory in [("tier3", previous), ("tier4", dispatcher)]:
-            scores = bench.run(None, seeds, policy_factory=lambda: factory(case))
-            parts.append(scores.reset_index().assign(case_id=case, split=split, version=version))
+            traces = TraceDigests()
+            scores = bench.run(None, seeds, log=traces, policy_factory=lambda: factory(case))
+            digests = pd.DataFrame(traces.rows, columns=["seed","event_count","events_sha256"]).set_index("seed")
+            if not scores.index.equals(digests.index):
+                raise ValueError("Replay trace keys do not match scores")
+            parts.append(scores.join(digests).reset_index().assign(case_id=case, split=split, version=version))
     return pd.concat(parts, ignore_index=True)
 
 
@@ -56,6 +73,7 @@ def summary(trials):
 
 def run(target):
     target.mkdir(parents=True, exist_ok=True)
+    print(f"Q3 nominal numerical backend: {BACKEND}", flush=True)
     with ProcessPoolExecutor(max_workers=3) as pool:
         trials = pd.concat(pool.map(replay_case, ["S1","S2","S3"]), ignore_index=True)
     if trials.duplicated(KEY).any() or len(trials) != (30 + 2048) * 3 * 2:
@@ -86,9 +104,13 @@ def run(target):
     official["tier2"] = [reference.loc[c,m] for c,m in zip(official.case_id,official.metric)]
     official["change_from_tier2"] = official.tier4 - official.tier2
     old_formal.to_csv(target/"official_tier2.csv", index=False)
+    traces = trials[KEY + ["event_count","events_sha256"]].sort_values(KEY)
+    traces.to_csv(target/"trace_digests.csv.gz", index=False, compression={"method":"gzip","mtime":0})
+    trials = trials.drop(columns=["event_count","events_sha256"])
     trials.sort_values(KEY).to_csv(target/"trials.csv.gz",index=False,compression={"method":"gzip","mtime":0})
     scores.to_csv(target/"comparison.csv",index=False)
     official.to_csv(target/"official_versions.csv",index=False)
+    (target/"backend.json").write_text(json.dumps({"backend":BACKEND,"trials":len(trials)},indent=2),encoding="utf8")
 
 
 if __name__ == "__main__":

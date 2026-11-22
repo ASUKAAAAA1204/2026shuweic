@@ -90,6 +90,9 @@ def main(out, config):
 
 
 if __name__ == "__main__":
+    import rolling
+    from numerical_backend import configure
+    configure(rolling)
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=OUT / "final")
     parser.add_argument("--constraints", type=Path, default=CFG)

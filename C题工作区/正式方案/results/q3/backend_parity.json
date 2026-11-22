@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "reference_backend": "cpp",
+  "backend": "numpy",
+  "official_seeds": 30,
+  "promotion_seeds": 2048,
+  "paired_nominal_trials": 12468,
+  "paired_nominal_events": 151401,
+  "frozen_cases": [
+    "S1",
+    "S2"
+  ],
+  "official_tier2_trials": 90,
+  "mapping_trials": 900,
+  "non_nominal_trials": 720,
+  "invalid_actions": 0,
+  "max_abs_delta": {
+    "nominal": 0.0,
+    "tier2": 0.0,
+    "mappings": 0.0
+  }
+}

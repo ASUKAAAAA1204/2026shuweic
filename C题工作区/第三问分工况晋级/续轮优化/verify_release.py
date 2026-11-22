@@ -103,6 +103,10 @@ def main(output):
 
 
 if __name__=="__main__":
+    import policy
+    import rolling
+    from numerical_backend import configure
+    configure(rolling, policy)
     p=argparse.ArgumentParser()
     p.add_argument("--output",type=Path,default=OUT/"final")
     main(p.parse_args().output)

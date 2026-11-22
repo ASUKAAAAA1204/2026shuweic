@@ -3,6 +3,12 @@ from functools import lru_cache
 import hashlib
 import json
 from fourth import HERE,Policy,previous,locked_candidate
+import bellman
+import policy
+import rolling
+from numerical_backend import configure
+
+BACKEND = configure(rolling, policy, bellman)
 
 
 def digest(path):
