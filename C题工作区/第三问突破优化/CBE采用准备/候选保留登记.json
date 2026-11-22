@@ -1,0 +1,79 @@
+{
+  "B": {
+    "directory": "D:\\CQUPT\\self_file\\competition\\2026shuwei\\C题工作区\\第三问突破优化\\parallel\\B_联合场景前瞻",
+    "candidate": "B_K64",
+    "status": "retained_candidate_not_adopted",
+    "files": {
+      "report.md": "0e551762870185282e412e4b436a0149232a04995ae03a47f9a989fca1c7fd87",
+      "code\\holdout_joint.py": "fb0c463237acec603ede0d2aa5d7cff3ad30485dd8d702b6937e330fb93aff29",
+      "code\\joint_policy.py": "2a321d4585f863de24f5ac887e7f0a36834a3976c4d5988047fd0efe2e7db3d5",
+      "code\\run_joint.py": "a707ab9788d6304fd17bab6fc67675d9b82a2134cd99a76d3967520927703c4c",
+      "code\\summarize_joint.py": "e0c263fdca74e50708a9969883ac13b29bc56a780563f24765de17334a3b6c9f",
+      "code\\v2_reference.py": "80fd0b7c5d92f547bd16b4214852e92594a22902cc13bb6a7f89b861053e4d4a",
+      "results\\summary.json": "29c2de29e18667395786f7b6912614308bd62c095be1c390da34d303004b00e1",
+      "results\\trials.csv": "851a5654f7d66e25a670b1fb8da153747ee5a7fcfb7d6fe195ac69ed909477e6",
+      "results\\holdout_environment\\summary.json": "f4b326f3f99fedb7553488d228c22c85e5dedf029a794ca8fee9848664c19429",
+      "results\\holdout_environment\\trials.csv": "e935816794f58037a26f42b3a3eba1f6bc9c99080bb010a255cd8cf237727614"
+    }
+  },
+  "C": {
+    "directory": "D:\\CQUPT\\self_file\\competition\\2026shuwei\\C题工作区\\第三问突破优化\\parallel\\C_尾部价值DP",
+    "candidate": "C_mc_t4_s256_dt10",
+    "status": "retained_candidate_not_adopted",
+    "files": {
+      "report.md": "51ddf23cbf88c1e189fda7855fe25eb70c8f185d497843bbc1ec71c588b6b2d1",
+      "code\\dp_tail_policy.py": "af55aef845f58c7da144056659e457bee2b56815ee32f2444f833bde92e6c85f",
+      "code\\finalize.py": "cfc4ae15bef950ecef518f8821c498eca553d43f95be78ed413b24f6d8755eb7",
+      "code\\holdout.py": "242fe23954cb45cd143eee2ee6fe82f05d21870d0a3bb5653dfd1c1e071d43f8",
+      "code\\run_paired.py": "a39107482579423687572da116f8246e1ba561b65d20ab4746c8569ea2c1dd89",
+      "results\\summary.json": "b81a1eb31eede21497da7209b577b072ba8185ead02fb7ae12b0f00d1011e5f7",
+      "results\\trials.csv": "43a691e913458df752fc0a31644503d775c9fdbb99e2786ea787739e36c995ce",
+      "results\\ablation_nominal\\summary.json": "f1489c3cbb8fa49234c675692df3a03fd12cb8f6a625b2d9114b3e80d4c7d589",
+      "results\\ablation_nominal\\trials.csv": "1371b0fd03bbd835cb88df59ea2f4c3b2c96efa88b431f0b4465a1792e4283af",
+      "results\\cand_k\\summary.json": "10c586bcb701b4b5cb87c437445d69892ccddcab61a64bc2f3f614238bca4185",
+      "results\\cand_k\\trials.csv": "aa35529365302bef32f743dcf74919c5168e2666d30f7116763d69ca56e8e3bf",
+      "results\\cand_k2\\summary.json": "b63aaa6bd26c60429d08b885b53fbd6be80c1d44a2cec42e4036e97c6c9a6590",
+      "results\\cand_k2\\trials.csv": "b93ad9347673976d8b23f88a436c5a2544d35ff2c821d8529afe85c6e9fd82bb",
+      "results\\cand_mc2\\summary.json": "807cebc434f62dcd3a575b4a3c55d1162a482540a1591e32040872bc7647f2b9",
+      "results\\cand_mc2\\trials.csv": "3bcf3a244484547b81970122a3fe803131f1b6e5e9f4389b421889a53ee9193e",
+      "results\\cand_nominal\\summary.json": "185da3436cb6cdc616c48287c7e4886c449b513d8355c670fed39d6f00ea988b",
+      "results\\cand_nominal\\trials.csv": "9ad7382e970805708eebdaa433f2be15aab5e66004c0b1c49b190a06d146eafc",
+      "results\\full5\\summary.json": "4029d6099c272d518dcbb7ec6163a806cdf00373a7f1036b58e1cba8bb101145",
+      "results\\full5\\trials.csv": "43a691e913458df752fc0a31644503d775c9fdbb99e2786ea787739e36c995ce",
+      "results\\holdout\\summary.json": "f94ea750b9b68c9047be7f7c67e315dc85f6e601d4a02370393a9ba88756da7a",
+      "results\\holdout\\trials.csv": "81e5ff3dc8861b88fdbaafa83a76e26de970fd637320dfbb039604f387009f1c"
+    }
+  },
+  "E": {
+    "directory": "D:\\CQUPT\\self_file\\competition\\2026shuwei\\C题工作区\\第三问突破优化\\parallel\\E_稳健分布与选参",
+    "candidate": "E_env_s40_fb3",
+    "status": "retained_candidate_not_adopted",
+    "files": {
+      "report.md": "246f605e3ad70a2e348e5927455bca3c902bcd45a9492e407de61e9d4244d260",
+      "code\\build_summary.py": "d014d73534019b8e1d0d86c0a3cec8c64d033fc896049c9db384d91470a19002",
+      "code\\common.py": "68b4817979e6f6585ef4e73810d0abdea330d817752ff48cdb0e3bad99fa58f2",
+      "code\\configs.py": "8204623c447ee6ea6cacf040b7794bbbb2922af417b9cc32573f388def1f7d39",
+      "code\\freeze_selection.py": "0f3692d7e56534d77ae3554b71cc41288ca8e318f26a7c71cb8881e820850332",
+      "code\\robust_chain_policy.py": "1551788650fabb8897e2a3a913e94458cfb24fcc41c3ebba0a8a069ae87f4058",
+      "code\\run_grouped_cv.py": "4703a9b817eea60e940cc8552c51c82d4c7e174e1c3f397fa90b8bd9107e4273",
+      "code\\run_holdout.py": "cc5b22aafc3f4d620f2e46a13332e11147c6f06fe71b657c50f13403d9f8c708",
+      "code\\run_selection_bias.py": "f4f3dadb8d18cb1caf98e20fb02d09bbda29d860ae2ac1e510259f6590fb9c93",
+      "code\\run_validation.py": "4ad06c0bed9cf920c53ce26ae48fec8dcd9ce46d40e5cbb35e8b940094d6c773",
+      "results\\selection_decision.json": "a9683060e5b957716944c4e1022c457ac46ada181a73e2afdb61291b609faf40",
+      "results\\summary.json": "728851c5b4c7d3e20fb07686d21fc3af659ffb83e0ac61646435a34df4d13aff",
+      "results\\trials.csv": "2355c5155f2471e90295ac0f0a8687ecfb057f767c417dbd6841c68227ba9e92",
+      "results\\grouped_cv\\summary.json": "ecaf716ae90fc4dd28ccfa0c7249de6c7fc514782e81dcbc99d14cbf0098fada",
+      "results\\grouped_cv\\trials.csv": "98462f3f633ac64e69f95b36545ff1583abf41de14960ec0cc096a84c8851ab3",
+      "results\\holdout\\summary.json": "b2bac138442856bf9678b0e19d99cddb1cdb28d601f4808535fd7915f43b0b44",
+      "results\\holdout\\trials.csv": "6a692e99cd4094c2d621b4963256f613c739ed911bd91aded17d062a3e61e6e9",
+      "results\\selection_bias\\summary.json": "c8ec5567204f9c88ee644217b3ab893264de35cae99f75e0039d03d74f9a9de9",
+      "results\\selection_bias\\trials.csv": "2b32f02978b9858eebca13909020e39dca92e0874a77d5ac92da3a17a0897e20",
+      "results\\validation\\summary.json": "cc901c4394e7b25d235a847a0ce2c3162662fd13ceac9a6c3ca93c2bec5f3660",
+      "results\\validation\\trials.csv": "2355c5155f2471e90295ac0f0a8687ecfb057f767c417dbd6841c68227ba9e92",
+      "results\\precheck\\echeck\\summary.json": "3ba887a229dc7b8a645f8caf4b9a753ced4da0c93df8cac09cfc94d0352262a0",
+      "results\\precheck\\echeck\\trials.csv": "256d865e4dd58b848c06bc1c489b2ee8e2ff0e04902e2de18ac43366ffda25e4",
+      "results\\precheck\\v2check\\summary.json": "9d6e862f77f95419d880f3103efb05489e2864d2573d9ecc1e55f6fa373ad337",
+      "results\\precheck\\v2check\\trials.csv": "e292f23bb4de3173b23ef384b61786f985e1dab4a440c727ed7eaf127e20de64"
+    }
+  }
+}

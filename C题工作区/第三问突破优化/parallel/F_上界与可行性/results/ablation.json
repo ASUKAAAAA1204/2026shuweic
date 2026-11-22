@@ -1,0 +1,37 @@
+{
+  "by_case_pct": {
+    "S1": {
+      "oracle_full": 99.375,
+      "oracle_no_late": 99.375,
+      "ub_elig": 100.0,
+      "ub_deadline": 100.0,
+      "ub_release": 100.0,
+      "late_unlock_gain_pp": 0.0
+    },
+    "S2": {
+      "oracle_full": 94.99999999999999,
+      "oracle_no_late": 94.99999999999999,
+      "ub_elig": 100.0,
+      "ub_deadline": 98.05555555555556,
+      "ub_release": 98.05555555555556,
+      "late_unlock_gain_pp": 0.0
+    },
+    "S3": {
+      "oracle_full": 92.8125,
+      "oracle_no_late": 92.60416666666667,
+      "ub_elig": 100.0,
+      "ub_deadline": 97.29166666666667,
+      "ub_release": 97.29166666666667,
+      "late_unlock_gain_pp": 0.2083333333333286
+    }
+  },
+  "avg3_pct": {
+    "oracle_full": 95.72916666666667,
+    "oracle_no_late": 95.65972222222221,
+    "ub_elig": 100.0,
+    "ub_deadline": 98.44907407407406,
+    "ub_release": 98.44907407407406,
+    "late_unlock_gain_pp": 0.06944444444445708
+  },
+  "notes": "per-case mean over 30 seeds, then unweighted mean over 3 cases"
+}

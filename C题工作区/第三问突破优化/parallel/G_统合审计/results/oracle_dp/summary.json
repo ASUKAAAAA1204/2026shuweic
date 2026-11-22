@@ -1,0 +1,41 @@
+{
+  "oracle_mean3": 0.9572916666666667,
+  "oracle_by_case": {
+    "S1": 0.99375,
+    "S2": 0.9499999999999998,
+    "S3": 0.928125
+  },
+  "relax_ub_mean3": 0.9844907407407406,
+  "dominance_vs_policies": {
+    "E_env_s40_fb3": {
+      "violations": 0,
+      "n": 90,
+      "max_excess_pp": 0.0
+    },
+    "A_v2": {
+      "violations": 0,
+      "n": 90,
+      "max_excess_pp": 0.0
+    },
+    "C_mc_t4_s64_dt10": {
+      "violations": 0,
+      "n": 90,
+      "max_excess_pp": 0.0
+    },
+    "B_K64": {
+      "violations": 0,
+      "n": 90,
+      "max_excess_pp": 0.0
+    },
+    "B_K128": {
+      "violations": 0,
+      "n": 90,
+      "max_excess_pp": 0.0
+    },
+    "audit_ref": {
+      "violations": 0,
+      "n": 90,
+      "max_excess_pp": 0.0
+    }
+  }
+}

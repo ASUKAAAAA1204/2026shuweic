@@ -1,0 +1,62 @@
+{
+  "folds": [
+    [
+      "office_x_corporate_office_0086",
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    [
+      "retail_x_supermarket_0054",
+      "home_x_apartment_0701",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ]
+  ],
+  "per_arm": {
+    "v2_s20": {
+      "mean_delta_pp": 0.8420138888888883,
+      "fold0_delta_pp": -1.9097222222222225,
+      "fold1_delta_pp": 3.593749999999999,
+      "passes_nonnegative": true,
+      "nominal_mean": 0.7923611111111111
+    },
+    "v2_free": {
+      "mean_delta_pp": -4.852430555555556,
+      "fold0_delta_pp": -9.305555555555555,
+      "fold1_delta_pp": -0.3993055555555556,
+      "passes_nonnegative": false,
+      "nominal_mean": 0.7354166666666667
+    },
+    "v2_paid": {
+      "mean_delta_pp": 0.6684027777777771,
+      "fold0_delta_pp": -2.1180555555555562,
+      "fold1_delta_pp": 3.4548611111111103,
+      "passes_nonnegative": true,
+      "nominal_mean": 0.790625
+    },
+    "v2_both": {
+      "mean_delta_pp": -4.947916666666667,
+      "fold0_delta_pp": -9.305555555555555,
+      "fold1_delta_pp": -0.5902777777777778,
+      "passes_nonnegative": false,
+      "nominal_mean": 0.7344618055555555
+    },
+    "v2_gated": {
+      "mean_delta_pp": 0.8420138888888883,
+      "fold0_delta_pp": -1.9097222222222225,
+      "fold1_delta_pp": 3.593749999999999,
+      "passes_nonnegative": true,
+      "nominal_mean": 0.7923611111111111
+    }
+  },
+  "_note": "Pools and prefix model refitted per fold on the other environment half; prefix features of held units are observed online only."
+}

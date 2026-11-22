@@ -1,0 +1,32 @@
+{
+  "nominal_mean_pct": {
+    "oracle_pi_analysis_only": 92.8125,
+    "pressure_gated": 85.09259259259258,
+    "v2_s20": 90.24305555555556
+  },
+  "by_case_nominal_pct": {
+    "oracle_pi_analysis_only": {
+      "S1": 98.95833333333334,
+      "S2": 91.25,
+      "S3": 88.22916666666667
+    },
+    "pressure_gated": {
+      "S1": 93.33333333333333,
+      "S2": 80.69444444444443,
+      "S3": 81.25
+    },
+    "v2_s20": {
+      "S1": 99.16666666666667,
+      "S2": 87.5,
+      "S3": 84.0625
+    }
+  },
+  "five_mapping_mean_pct": {
+    "oracle_pi_analysis_only": 91.43981481481482,
+    "pressure_gated": 83.81944444444444,
+    "v2_s20": 87.61805555555556
+  },
+  "oracle_gain_vs_v2_nominal_pp": 2.569444444444443,
+  "oracle_gain_vs_baseline_nominal_pp": 7.719907407407419,
+  "note": "analysis-only ceiling for the fixed v2_s20 decision rule; not deployable; no deployable arm reads hidden durations"
+}

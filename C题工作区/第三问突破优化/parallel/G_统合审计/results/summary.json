@@ -1,0 +1,1753 @@
+{
+  "protocol": {
+    "cases": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "seeds": 30,
+    "mappings": [
+      [
+        1.0,
+        0.5
+      ],
+      [
+        0.75,
+        0.5
+      ],
+      [
+        1.5,
+        0.5
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "hidden_sampling": "verbatim confirm_lookahead.hidden_for (random.Random(seed), jobs_for order, validation&eligible pool)",
+    "paired": "baseline and each method share the same hidden draw per (case,seed)",
+    "rescore": "engine.independent_metrics; tolerance 1e-9",
+    "bootstrap": {
+      "seed": 20261122,
+      "reps": 4000,
+      "cluster": "seed (nominal, mean over cases)"
+    },
+    "baseline_nominal_pct": 85.09259259259258
+  },
+  "oracle_dp_verified": {
+    "oracle_mean3": 0.9572916666666667,
+    "oracle_by_case": {
+      "S1": 0.99375,
+      "S2": 0.9499999999999998,
+      "S3": 0.928125
+    },
+    "relax_ub_mean3": 0.9844907407407406,
+    "dominance_vs_policies": {
+      "E_env_s40_fb3": {
+        "violations": 0,
+        "n": 90,
+        "max_excess_pp": 0.0
+      },
+      "A_v2": {
+        "violations": 0,
+        "n": 90,
+        "max_excess_pp": 0.0
+      },
+      "C_mc_t4_s64_dt10": {
+        "violations": 0,
+        "n": 90,
+        "max_excess_pp": 0.0
+      },
+      "B_K64": {
+        "violations": 0,
+        "n": 90,
+        "max_excess_pp": 0.0
+      },
+      "B_K128": {
+        "violations": 0,
+        "n": 90,
+        "max_excess_pp": 0.0
+      },
+      "audit_ref": {
+        "violations": 0,
+        "n": 90,
+        "max_excess_pp": 0.0
+      }
+    }
+  },
+  "chain_gating_probe_max_abs_diff": {
+    "A_v2": 0.0,
+    "E_env_s40_fb3": 0.0
+  },
+  "methods": {
+    "audit_ref": {
+      "nominal_pct": 89.98842592592592,
+      "by_case_pct": {
+        "S1": 98.54166666666667,
+        "S2": 87.36111111111111,
+        "S3": 84.0625
+      },
+      "five_mapping_pct": 87.12037037037035,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8998842592592592,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 4.895833333333332
+        },
+        "0.75/0.5": {
+          "mean": 0.958449074074074,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 2.731481481481479
+        },
+        "1.5/0.5": {
+          "mean": 0.7094907407407407,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 1.7013888888888884
+        },
+        "1.0/0.0": {
+          "mean": 0.9166666666666666,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.5763888888888817
+        },
+        "1.0/1.0": {
+          "mean": 0.8715277777777778,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 3.599537037037037
+        }
+      },
+      "delta_pp": 4.895833333333334,
+      "delta_cases_pp": {
+        "S1": 5.208333333333333,
+        "S2": 6.66666666666667,
+        "S3": 2.8125
+      },
+      "ci95_pp": [
+        3.541377314814815,
+        6.19212962962963
+      ],
+      "positive_seeds": 26,
+      "n_seeds": 30,
+      "cost": 25.27954686479389,
+      "completion": 0.9465277777777777,
+      "observations": 0.0,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "audit-corrected reference (clock+chain+budget), strength=40 fixed by the audit; control only",
+      "holdout_pp": {
+        "mean": 1.336805555555555,
+        "fold0": -1.6145833333333333,
+        "fold1": 4.288194444444444
+      },
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": true,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "A_d2b4": {
+      "nominal_pct": 88.75,
+      "by_case_pct": {
+        "S1": 97.08333333333333,
+        "S2": 86.25,
+        "S3": 82.91666666666667
+      },
+      "five_mapping_pct": 87.13425925925925,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8875,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 3.657407407407409
+        },
+        "0.75/0.5": {
+          "mean": 0.9625,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 3.1365740740740833
+        },
+        "1.5/0.5": {
+          "mean": 0.7143518518518519,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.187500000000009
+        },
+        "1.0/0.0": {
+          "mean": 0.9138888888888889,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.298611111111105
+        },
+        "1.0/1.0": {
+          "mean": 0.8784722222222222,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 4.293981481481479
+        }
+      },
+      "delta_pp": 3.6574074074074083,
+      "delta_cases_pp": {
+        "S1": 3.75,
+        "S2": 5.555555555555558,
+        "S3": 1.6666666666666667
+      },
+      "ci95_pp": [
+        1.6429398148148164,
+        5.474826388888892
+      ],
+      "positive_seeds": 24,
+      "n_seeds": 30,
+      "cost": 25.220670056686938,
+      "completion": 0.944560185185185,
+      "observations": 0.0,
+      "max_independent_diff": 5.684341886080803e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "A ablation; depth=2/beam=4",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "A_v2": {
+      "nominal_pct": 90.24305555555556,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 87.5,
+        "S3": 84.0625
+      },
+      "five_mapping_pct": 87.61805555555556,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9024305555555555,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.1504629629629655
+        },
+        "0.75/0.5": {
+          "mean": 0.9575231481481481,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 2.6388888888888906
+        },
+        "1.5/0.5": {
+          "mean": 0.7160879629629631,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.361111111111125
+        },
+        "1.0/0.0": {
+          "mean": 0.9170138888888889,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.6111111111111094
+        },
+        "1.0/1.0": {
+          "mean": 0.8878472222222222,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 5.231481481481481
+        }
+      },
+      "delta_pp": 5.150462962962964,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 6.805555555555558,
+        "S3": 2.8125
+      },
+      "ci95_pp": [
+        3.449074074074075,
+        6.771122685185188
+      ],
+      "positive_seeds": 25,
+      "n_seeds": 30,
+      "cost": 25.23215197547348,
+      "completion": 0.9450231481481483,
+      "observations": 0.0,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "A's declared primary; depth=1/strength=20 fixed before validation",
+      "holdout_pp": {
+        "mean": 0.8420138888888883,
+        "fold0": -1.9097222222222225,
+        "fold1": 3.593749999999999
+      },
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": true,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": true
+    },
+    "A_d3b4": {
+      "nominal_pct": 88.69212962962963,
+      "by_case_pct": {
+        "S1": 98.33333333333333,
+        "S2": 85.55555555555556,
+        "S3": 82.1875
+      },
+      "five_mapping_pct": null,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8869212962962962,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 3.599537037037037
+        },
+        "0.75/0.5": null,
+        "1.5/0.5": null,
+        "1.0/0.0": null,
+        "1.0/1.0": null
+      },
+      "delta_pp": 3.599537037037038,
+      "delta_cases_pp": {
+        "S1": 5.0,
+        "S2": 4.861111111111114,
+        "S3": 0.9375
+      },
+      "ci95_pp": [
+        2.013599537037038,
+        5.081307870370373
+      ],
+      "positive_seeds": 23,
+      "n_seeds": 30,
+      "cost": 25.146293637196074,
+      "completion": 0.9452546296296297,
+      "observations": 0.0,
+      "max_independent_diff": 2.8421709430404014e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": true,
+      "selection": "A ablation; depth=3/beam=4, nominal mapping only",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": false,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "B_K128": {
+      "nominal_pct": 91.16898148148148,
+      "by_case_pct": {
+        "S1": 98.75,
+        "S2": 89.44444444444444,
+        "S3": 85.3125
+      },
+      "five_mapping_pct": 88.45833333333334,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9116898148148148,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 6.076388888888895
+        },
+        "0.75/0.5": {
+          "mean": 0.9784722222222222,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 4.733796296296299
+        },
+        "1.5/0.5": {
+          "mean": 0.7067129629629629,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 1.4236111111111116
+        },
+        "1.0/0.0": {
+          "mean": 0.9321759259259259,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 5.1273148148148096
+        },
+        "1.0/1.0": {
+          "mean": 0.8938657407407407,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 5.833333333333323
+        }
+      },
+      "delta_pp": 6.076388888888889,
+      "delta_cases_pp": {
+        "S1": 5.416666666666667,
+        "S2": 8.750000000000004,
+        "S3": 4.0625
+      },
+      "ci95_pp": [
+        4.328703703703705,
+        7.673611111111112
+      ],
+      "positive_seeds": 28,
+      "n_seeds": 30,
+      "cost": 25.414579076132217,
+      "completion": 0.953935185185185,
+      "observations": 0.0,
+      "max_independent_diff": 2.8421709430404014e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "B supplementary; larger than required grid",
+      "holdout_pp": {
+        "mean": 1.3802083333333328,
+        "fold0": -0.41666666666666713,
+        "fold1": 3.1770833333333335
+      },
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": true,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": true
+    },
+    "B_K32": {
+      "nominal_pct": 89.43287037037037,
+      "by_case_pct": {
+        "S1": 98.95833333333334,
+        "S2": 87.36111111111111,
+        "S3": 81.97916666666667
+      },
+      "five_mapping_pct": 87.17361111111111,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8943287037037037,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 4.340277777777779
+        },
+        "0.75/0.5": {
+          "mean": 0.969560185185185,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 3.8425925925925863
+        },
+        "1.5/0.5": {
+          "mean": 0.7053240740740742,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 1.2847222222222343
+        },
+        "1.0/0.0": {
+          "mean": 0.9152777777777777,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.4374999999999933
+        },
+        "1.0/1.0": {
+          "mean": 0.8741898148148147,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 3.8657407407407307
+        }
+      },
+      "delta_pp": 4.3402777777777795,
+      "delta_cases_pp": {
+        "S1": 5.625,
+        "S2": 6.66666666666667,
+        "S3": 0.7291666666666666
+      },
+      "ci95_pp": [
+        2.905092592592593,
+        5.76388888888889
+      ],
+      "positive_seeds": 24,
+      "n_seeds": 30,
+      "cost": 25.349511138459043,
+      "completion": 0.9457175925925927,
+      "observations": 0.0,
+      "max_independent_diff": 2.8421709430404014e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "B smoke-time primary K=32",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "B_K64": {
+      "nominal_pct": 90.96064814814815,
+      "by_case_pct": {
+        "S1": 98.75,
+        "S2": 89.44444444444444,
+        "S3": 84.6875
+      },
+      "five_mapping_pct": 88.96064814814815,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9096064814814814,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.868055555555552
+        },
+        "0.75/0.5": {
+          "mean": 0.974074074074074,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 4.293981481481479
+        },
+        "1.5/0.5": {
+          "mean": 0.7355324074074074,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 4.3055555555555625
+        },
+        "1.0/0.0": {
+          "mean": 0.9324074074074074,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 5.150462962962954
+        },
+        "1.0/1.0": {
+          "mean": 0.896412037037037,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 6.087962962962957
+        }
+      },
+      "delta_pp": 5.868055555555555,
+      "delta_cases_pp": {
+        "S1": 5.416666666666667,
+        "S2": 8.750000000000002,
+        "S3": 3.4375
+      },
+      "ci95_pp": [
+        4.43287037037037,
+        7.303240740740742
+      ],
+      "positive_seeds": 27,
+      "n_seeds": 30,
+      "cost": 25.436882291265363,
+      "completion": 0.9527777777777777,
+      "observations": 0.0,
+      "max_independent_diff": 2.8421709430404014e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "B main config: stated rule 'max K in required grid {8,16,32,64}'; chosen after seeing validation",
+      "holdout_pp": {
+        "mean": 0.5902777777777773,
+        "fold0": -0.6250000000000002,
+        "fold1": 1.8055555555555547
+      },
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": true,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": true
+    },
+    "C_mc_t4_s64_dt05": {
+      "nominal_pct": 90.56712962962963,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 89.30555555555556,
+        "S3": 83.22916666666667
+      },
+      "five_mapping_pct": 88.82407407407408,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9056712962962964,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.474537037037052
+        },
+        "0.75/0.5": {
+          "mean": 0.9895833333333334,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 5.844907407407418
+        },
+        "1.5/0.5": {
+          "mean": 0.7349537037037036,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 4.24768518518518
+        },
+        "1.0/0.0": {
+          "mean": 0.9245370370370369,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 4.363425925925912
+        },
+        "1.0/1.0": {
+          "mean": 0.8864583333333333,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 5.0925925925925934
+        }
+      },
+      "delta_pp": 5.474537037037037,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 8.611111111111112,
+        "S3": 1.9791666666666667
+      },
+      "ci95_pp": [
+        4.027777777777779,
+        6.909722222222224
+      ],
+      "positive_seeds": 24,
+      "n_seeds": 30,
+      "cost": 25.332591566352665,
+      "completion": 0.9392361111111112,
+      "observations": 0.0,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "C earlier candidate (64 samples)",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "C_mc_t4_s64_dt10": {
+      "nominal_pct": 90.74074074074075,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 89.30555555555556,
+        "S3": 83.75
+      },
+      "five_mapping_pct": 88.88888888888889,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9074074074074074,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.648148148148158
+        },
+        "0.75/0.5": {
+          "mean": 0.9895833333333334,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 5.844907407407418
+        },
+        "1.5/0.5": {
+          "mean": 0.7340277777777777,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 4.155092592592591
+        },
+        "1.0/0.0": {
+          "mean": 0.9266203703703704,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 4.571759259259256
+        },
+        "1.0/1.0": {
+          "mean": 0.8868055555555555,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 5.1273148148148096
+        }
+      },
+      "delta_pp": 5.648148148148149,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 8.611111111111112,
+        "S3": 2.5
+      },
+      "ci95_pp": [
+        4.270833333333334,
+        7.037037037037037
+      ],
+      "positive_seeds": 24,
+      "n_seeds": 30,
+      "cost": 25.310543000985717,
+      "completion": 0.9385416666666667,
+      "observations": 0.0,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "C earlier candidate (64 samples, dt=1.0)",
+      "holdout_pp": {
+        "mean": 1.1805555555555551,
+        "fold0": -2.1875,
+        "fold1": 4.548611111111111
+      },
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": true,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": true
+    },
+    "C_mc_t4_s256_dt05": {
+      "nominal_pct": 90.8449074074074,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 90.13888888888889,
+        "S3": 83.22916666666667
+      },
+      "five_mapping_pct": 88.66666666666667,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9084490740740739,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.752314814814808
+        },
+        "0.75/0.5": {
+          "mean": 0.9890046296296295,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 5.7870370370370345
+        },
+        "1.5/0.5": {
+          "mean": 0.7219907407407407,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.951388888888884
+        },
+        "1.0/0.0": {
+          "mean": 0.930787037037037,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 4.988425925925921
+        },
+        "1.0/1.0": {
+          "mean": 0.8831018518518517,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 4.756944444444433
+        }
+      },
+      "delta_pp": 5.752314814814817,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 9.444444444444448,
+        "S3": 1.9791666666666667
+      },
+      "ci95_pp": [
+        4.282407407407408,
+        7.15277777777778
+      ],
+      "positive_seeds": 27,
+      "n_seeds": 30,
+      "cost": 25.35058446806123,
+      "completion": 0.9410879629629628,
+      "observations": 0.0,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "C candidate (256 samples, dt=.5), not submitted",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "C_mc_t4_s256_dt10": {
+      "nominal_pct": 91.08796296296298,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 90.13888888888889,
+        "S3": 83.95833333333333
+      },
+      "five_mapping_pct": 88.76388888888889,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9108796296296295,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.995370370370368
+        },
+        "0.75/0.5": {
+          "mean": 0.9890046296296295,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 5.7870370370370345
+        },
+        "1.5/0.5": {
+          "mean": 0.7209490740740739,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.847222222222212
+        },
+        "1.0/0.0": {
+          "mean": 0.9318287037037036,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 5.092592592592582
+        },
+        "1.0/1.0": {
+          "mean": 0.8855324074074074,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 4.999999999999993
+        }
+      },
+      "delta_pp": 5.995370370370372,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 9.444444444444448,
+        "S3": 2.7083333333333335
+      },
+      "ci95_pp": [
+        4.571469907407408,
+        7.337962962962964
+      ],
+      "positive_seeds": 27,
+      "n_seeds": 30,
+      "cost": 25.346392580244846,
+      "completion": 0.9410879629629628,
+      "observations": 0.0,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "C submitted config: max of its candidate table on the same validation seeds (post-hoc)",
+      "holdout_pp": {
+        "mean": 2.1788194444444438,
+        "fold0": -0.5902777777777782,
+        "fold1": 4.947916666666667
+      },
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": true,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": true
+    },
+    "C_plan": {
+      "nominal_pct": 87.63888888888887,
+      "by_case_pct": {
+        "S1": 97.91666666666666,
+        "S2": 85.41666666666666,
+        "S3": 79.58333333333333
+      },
+      "five_mapping_pct": 86.17129629629629,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8763888888888889,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 2.546296296296302
+        },
+        "0.75/0.5": {
+          "mean": 0.9798611111111111,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 4.872685185185189
+        },
+        "1.5/0.5": {
+          "mean": 0.6697916666666667,
+          "baseline": 0.6924768518518518,
+          "delta_pp": -2.268518518518514
+        },
+        "1.0/0.0": {
+          "mean": 0.9146990740740739,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.37962962962961
+        },
+        "1.0/1.0": {
+          "mean": 0.8678240740740739,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 3.2291666666666496
+        }
+      },
+      "delta_pp": 2.546296296296297,
+      "delta_cases_pp": {
+        "S1": 4.583333333333333,
+        "S2": 4.722222222222225,
+        "S3": -1.6666666666666667
+      },
+      "ci95_pp": [
+        0.4742476851851854,
+        4.479166666666668
+      ],
+      "positive_seeds": 22,
+      "n_seeds": 30,
+      "cost": 23.474975061472154,
+      "completion": 0.9203703703703703,
+      "observations": 0.0,
+      "max_independent_diff": 2.8421709430404014e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "C default plan (dt=.5), no per-config tuning",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": false,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "D_v2_base": {
+      "nominal_pct": 90.24305555555556,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 87.5,
+        "S3": 84.0625
+      },
+      "five_mapping_pct": 87.61805555555556,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9024305555555555,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.1504629629629655
+        },
+        "0.75/0.5": {
+          "mean": 0.9575231481481481,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 2.6388888888888906
+        },
+        "1.5/0.5": {
+          "mean": 0.7160879629629631,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.361111111111125
+        },
+        "1.0/0.0": {
+          "mean": 0.9170138888888889,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.6111111111111094
+        },
+        "1.0/1.0": {
+          "mean": 0.8878472222222222,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 5.231481481481481
+        }
+      },
+      "delta_pp": 5.150462962962964,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 6.805555555555558,
+        "S3": 2.8125
+      },
+      "ci95_pp": [
+        3.449074074074075,
+        6.771122685185188
+      ],
+      "positive_seeds": 25,
+      "n_seeds": 30,
+      "cost": 25.23215197547348,
+      "completion": 0.9450231481481483,
+      "observations": 0.0,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "D control: v2 with no information channel",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "D_v2_both": {
+      "nominal_pct": 87.87037037037037,
+      "by_case_pct": {
+        "S1": 97.08333333333333,
+        "S2": 89.02777777777777,
+        "S3": 77.5
+      },
+      "five_mapping_pct": 85.02314814814814,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8787037037037037,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 2.777777777777779
+        },
+        "0.75/0.5": {
+          "mean": 0.9472222222222222,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 1.6087962962962998
+        },
+        "1.5/0.5": {
+          "mean": 0.6884259259259259,
+          "baseline": 0.6924768518518518,
+          "delta_pp": -0.405092592592593
+        },
+        "1.0/0.0": {
+          "mean": 0.8907407407407406,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 0.9837962962962798
+        },
+        "1.0/1.0": {
+          "mean": 0.8460648148148148,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 1.0532407407407351
+        }
+      },
+      "delta_pp": 2.7777777777777786,
+      "delta_cases_pp": {
+        "S1": 3.75,
+        "S2": 8.333333333333336,
+        "S3": -3.75
+      },
+      "ci95_pp": [
+        0.9375000000000007,
+        4.43287037037037
+      ],
+      "positive_seeds": 24,
+      "n_seeds": 30,
+      "cost": 25.57943687972663,
+      "completion": 0.9447916666666667,
+      "observations": 0.13333333333333333,
+      "max_independent_diff": 5.684341886080803e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "D free+paid arm",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": false,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "D_v2_free": {
+      "nominal_pct": 88.05555555555556,
+      "by_case_pct": {
+        "S1": 97.08333333333333,
+        "S2": 89.16666666666667,
+        "S3": 77.91666666666667
+      },
+      "five_mapping_pct": 85.12731481481481,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8805555555555555,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 2.9629629629629672
+        },
+        "0.75/0.5": {
+          "mean": 0.9489583333333333,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 1.7824074074074159
+        },
+        "1.5/0.5": {
+          "mean": 0.6868055555555556,
+          "baseline": 0.6924768518518518,
+          "delta_pp": -0.5671296296296258
+        },
+        "1.0/0.0": {
+          "mean": 0.8925925925925925,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 1.168981481481468
+        },
+        "1.0/1.0": {
+          "mean": 0.8474537037037037,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 1.1921296296296235
+        }
+      },
+      "delta_pp": 2.9629629629629637,
+      "delta_cases_pp": {
+        "S1": 3.75,
+        "S2": 8.472222222222225,
+        "S3": -3.3333333333333335
+      },
+      "ci95_pp": [
+        1.133969907407408,
+        4.61834490740741
+      ],
+      "positive_seeds": 24,
+      "n_seeds": 30,
+      "cost": 25.493214657504403,
+      "completion": 0.9461805555555556,
+      "observations": 0.0,
+      "max_independent_diff": 5.684341886080803e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "D free-prefix arm (gate resolved on train only)",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": false,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "D_v2_paid": {
+      "nominal_pct": 90.10416666666666,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 87.5,
+        "S3": 83.64583333333333
+      },
+      "five_mapping_pct": 87.53703703703705,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9010416666666666,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.011574074074076
+        },
+        "0.75/0.5": {
+          "mean": 0.9571759259259258,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 2.604166666666663
+        },
+        "1.5/0.5": {
+          "mean": 0.7157407407407408,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.3263888888888973
+        },
+        "1.0/0.0": {
+          "mean": 0.9170138888888889,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.6111111111111094
+        },
+        "1.0/1.0": {
+          "mean": 0.8858796296296295,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 5.03472222222221
+        }
+      },
+      "delta_pp": 5.011574074074075,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 6.805555555555558,
+        "S3": 2.3958333333333335
+      },
+      "ci95_pp": [
+        3.333333333333334,
+        6.632233796296298
+      ],
+      "positive_seeds": 25,
+      "n_seeds": 30,
+      "cost": 25.367960087657092,
+      "completion": 0.9436342592592594,
+      "observations": 0.14444444444444443,
+      "max_independent_diff": 4.263256414560601e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "D paid-review arm (gate resolved on train only)",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "E_env_s20_fb3": {
+      "nominal_pct": 89.10879629629629,
+      "by_case_pct": {
+        "S1": 97.91666666666666,
+        "S2": 87.22222222222223,
+        "S3": 82.1875
+      },
+      "five_mapping_pct": 87.53472222222223,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8910879629629629,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 4.016203703703702
+        },
+        "0.75/0.5": {
+          "mean": 0.9701388888888889,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 3.9004629629629695
+        },
+        "1.5/0.5": {
+          "mean": 0.7199074074074074,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.7430555555555625
+        },
+        "1.0/0.0": {
+          "mean": 0.9238425925925925,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 4.2939814814814685
+        },
+        "1.0/1.0": {
+          "mean": 0.8717592592592593,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 3.6226851851851927
+        }
+      },
+      "delta_pp": 4.016203703703704,
+      "delta_cases_pp": {
+        "S1": 4.583333333333333,
+        "S2": 6.52777777777778,
+        "S3": 0.9375
+      },
+      "ci95_pp": [
+        2.4305555555555567,
+        5.486400462962966
+      ],
+      "positive_seeds": 25,
+      "n_seeds": 30,
+      "cost": 25.315653854246346,
+      "completion": 0.9414351851851852,
+      "observations": 0.0,
+      "max_independent_diff": 5.684341886080803e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "E candidate, not selected",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "E_env_s40_fb3_w95": {
+      "nominal_pct": 89.89583333333333,
+      "by_case_pct": {
+        "S1": 97.5,
+        "S2": 87.91666666666667,
+        "S3": 84.27083333333333
+      },
+      "five_mapping_pct": 88.44675925925927,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8989583333333333,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 4.803240740740744
+        },
+        "0.75/0.5": {
+          "mean": 0.971875,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 4.074074074074085
+        },
+        "1.5/0.5": {
+          "mean": 0.7388888888888889,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 4.641203703703711
+        },
+        "1.0/0.0": {
+          "mean": 0.9278935185185185,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 4.699074074074073
+        },
+        "1.0/1.0": {
+          "mean": 0.8847222222222222,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 4.918981481481477
+        }
+      },
+      "delta_pp": 4.803240740740741,
+      "delta_cases_pp": {
+        "S1": 4.166666666666667,
+        "S2": 7.222222222222225,
+        "S3": 3.0208333333333335
+      },
+      "ci95_pp": [
+        3.3796296296296293,
+        6.145833333333333
+      ],
+      "positive_seeds": 27,
+      "n_seeds": 30,
+      "cost": 25.41001252051298,
+      "completion": 0.9504629629629631,
+      "observations": 0.0,
+      "max_independent_diff": 5.684341886080803e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "E candidate (CV tie-break rule), not selected",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "E_pooled_s20_fb3": {
+      "nominal_pct": 90.61342592592592,
+      "by_case_pct": {
+        "S1": 99.16666666666667,
+        "S2": 88.19444444444444,
+        "S3": 84.47916666666667
+      },
+      "five_mapping_pct": 87.41898148148147,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9061342592592594,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.520833333333353
+        },
+        "0.75/0.5": {
+          "mean": 0.9557870370370369,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 2.4652777777777746
+        },
+        "1.5/0.5": {
+          "mean": 0.7151620370370372,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.2685185185185364
+        },
+        "1.0/0.0": {
+          "mean": 0.9098379629629628,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 2.893518518518501
+        },
+        "1.0/1.0": {
+          "mean": 0.8840277777777777,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 4.849537037037033
+        }
+      },
+      "delta_pp": 5.520833333333335,
+      "delta_cases_pp": {
+        "S1": 5.833333333333333,
+        "S2": 7.500000000000003,
+        "S3": 3.2291666666666665
+      },
+      "ci95_pp": [
+        3.934895833333334,
+        7.106481481481482
+      ],
+      "positive_seeds": 26,
+      "n_seeds": 30,
+      "cost": 25.230867101244648,
+      "completion": 0.9444444444444444,
+      "observations": 0.0,
+      "max_independent_diff": 2.8421709430404014e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "E candidate, not selected",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "E_pooled_s20_fb3_w95": {
+      "nominal_pct": 89.65277777777777,
+      "by_case_pct": {
+        "S1": 98.54166666666667,
+        "S2": 87.5,
+        "S3": 82.91666666666667
+      },
+      "five_mapping_pct": 87.21990740740742,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.8965277777777778,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 4.560185185185195
+        },
+        "0.75/0.5": {
+          "mean": 0.9657407407407407,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 3.460648148148149
+        },
+        "1.5/0.5": {
+          "mean": 0.7056712962962963,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 1.3194444444444509
+        },
+        "1.0/0.0": {
+          "mean": 0.9097222222222222,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 2.8819444444444398
+        },
+        "1.0/1.0": {
+          "mean": 0.8833333333333333,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 4.780092592592588
+        }
+      },
+      "delta_pp": 4.560185185185186,
+      "delta_cases_pp": {
+        "S1": 5.208333333333333,
+        "S2": 6.805555555555558,
+        "S3": 1.6666666666666667
+      },
+      "ci95_pp": [
+        2.9745370370370376,
+        6.1114004629629655
+      ],
+      "positive_seeds": 25,
+      "n_seeds": 30,
+      "cost": 25.335182571410556,
+      "completion": 0.9409722222222222,
+      "observations": 0.0,
+      "max_independent_diff": 2.8421709430404014e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "E candidate, not selected",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": false,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    },
+    "E_env_s40_fb3": {
+      "nominal_pct": 90.4513888888889,
+      "by_case_pct": {
+        "S1": 97.91666666666666,
+        "S2": 87.91666666666667,
+        "S3": 85.52083333333333
+      },
+      "five_mapping_pct": 88.57407407407408,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9045138888888888,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.358796296296298
+        },
+        "0.75/0.5": {
+          "mean": 0.9723379629629628,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 4.120370370370363
+        },
+        "1.5/0.5": {
+          "mean": 0.734375,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 4.189814814814818
+        },
+        "1.0/0.0": {
+          "mean": 0.9318287037037039,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 5.092592592592604
+        },
+        "1.0/1.0": {
+          "mean": 0.8856481481481481,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 5.0115740740740655
+        }
+      },
+      "delta_pp": 5.358796296296297,
+      "delta_cases_pp": {
+        "S1": 4.583333333333333,
+        "S2": 7.222222222222225,
+        "S3": 4.270833333333333
+      },
+      "ci95_pp": [
+        3.7615740740740753,
+        6.851851851851852
+      ],
+      "positive_seeds": 27,
+      "n_seeds": 30,
+      "cost": 25.32424874209445,
+      "completion": 0.9512731481481482,
+      "observations": 0.0,
+      "max_independent_diff": 5.684341886080803e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "E selected by train-environment grouped CV before validation; confirmatory",
+      "holdout_pp": {
+        "mean": 1.6493055555555551,
+        "fold0": 0.20833333333333334,
+        "fold1": 3.0902777777777772
+      },
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": true,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": true
+    },
+    "official_s40": {
+      "nominal_pct": 90.79861111111111,
+      "by_case_pct": {
+        "S1": 98.95833333333334,
+        "S2": 89.16666666666667,
+        "S3": 84.27083333333333
+      },
+      "five_mapping_pct": 87.51851851851853,
+      "per_mapping": {
+        "1.0/0.5": {
+          "mean": 0.9079861111111112,
+          "baseline": 0.8509259259259259,
+          "delta_pp": 5.70601851851853
+        },
+        "0.75/0.5": {
+          "mean": 0.9570601851851851,
+          "baseline": 0.9311342592592592,
+          "delta_pp": 2.592592592592591
+        },
+        "1.5/0.5": {
+          "mean": 0.7172453703703703,
+          "baseline": 0.6924768518518518,
+          "delta_pp": 2.4768518518518468
+        },
+        "1.0/0.0": {
+          "mean": 0.9152777777777777,
+          "baseline": 0.8809027777777778,
+          "delta_pp": 3.4374999999999933
+        },
+        "1.0/1.0": {
+          "mean": 0.8783564814814816,
+          "baseline": 0.8355324074074074,
+          "delta_pp": 4.282407407407418
+        }
+      },
+      "delta_pp": 5.706018518518519,
+      "delta_cases_pp": {
+        "S1": 5.625,
+        "S2": 8.472222222222225,
+        "S3": 3.0208333333333335
+      },
+      "ci95_pp": [
+        4.374710648148149,
+        7.0023148148148175
+      ],
+      "positive_seeds": 26,
+      "n_seeds": 30,
+      "cost": 25.320593530565557,
+      "completion": 0.95,
+      "observations": 0.0,
+      "max_independent_diff": 5.684341886080803e-14,
+      "invalid_actions": 0,
+      "n_runs": 90,
+      "nominal_only": false,
+      "selection": "official pre-audit lookahead at strength=40; control for the audit A/B (contains P1/P2 defects)",
+      "holdout_pp": null,
+      "gate_checks": {
+        "nominal_ge_90.198": true,
+        "paired_ci_lower_gt_0": true,
+        "all_mappings_ge_baseline": true,
+        "holdout_mean_nonneg": null,
+        "independent_diff_lt_1e-9": true,
+        "no_invalid_actions": true
+      },
+      "gate_pass": false
+    }
+  },
+  "baseline": {
+    "nominal_pct": 85.09259259259258,
+    "by_case_pct": {
+      "S1": 93.33333333333333,
+      "S2": 80.69444444444443,
+      "S3": 81.25
+    },
+    "five_mapping_pct": 83.81944444444444,
+    "per_mapping": {
+      "1.0/0.5": {
+        "mean": 0.8509259259259259,
+        "baseline": 0.8509259259259259,
+        "delta_pp": 0.0
+      },
+      "0.75/0.5": {
+        "mean": 0.9311342592592592,
+        "baseline": 0.9311342592592592,
+        "delta_pp": 0.0
+      },
+      "1.5/0.5": {
+        "mean": 0.6924768518518518,
+        "baseline": 0.6924768518518518,
+        "delta_pp": 0.0
+      },
+      "1.0/0.0": {
+        "mean": 0.8809027777777778,
+        "baseline": 0.8809027777777778,
+        "delta_pp": 0.0
+      },
+      "1.0/1.0": {
+        "mean": 0.8355324074074074,
+        "baseline": 0.8355324074074074,
+        "delta_pp": 0.0
+      }
+    },
+    "delta_pp": 0.0,
+    "delta_cases_pp": {
+      "S1": 0.0,
+      "S2": 0.0,
+      "S3": 0.0
+    },
+    "ci95_pp": [
+      0.0,
+      0.0
+    ],
+    "positive_seeds": 0,
+    "n_seeds": 30,
+    "cost": 25.381089179240362,
+    "completion": 0.9407407407407407,
+    "observations": 0.0,
+    "max_independent_diff": 2.8421709430404014e-14,
+    "invalid_actions": 0,
+    "n_runs": 90,
+    "nominal_only": false,
+    "selection": "reference, no selection",
+    "holdout_pp": null
+  },
+  "paper_ready": "在统一的 3 案例 × 30 个验证种子 × 5 种映射配对协议（隐藏时长逐字复用 confirm_lookahead.hidden_for，正式 Engine 计分并以 independent_metrics 复核）下，压力门控基线标称按时率为 85.09%（五映射均值 83.82%）。按训练环境分组交叉验证预先选定、验证集未参与选参的稳健先验策略 env_s40_fb3 取得标称 90.45%（配对提升 +5.36pp，按种子 bootstrap 95% 区间 [3.76, 6.85]，30 个种子中 27 个为正），五映射均值 88.57% 且五种映射逐一不低于基线；环境分组留出两组均值 +1.65pp（两折 +0.21 / +3.09pp，均为非负），独立计分最大差 5.7e-14，非法动作 0 个。在验证集上标称更高的联合场景前瞻（K=64，90.96%）与尾部蒙特卡洛 DP（91.09%）分别在 K 与候选参数上做过事后选择，其点估计含选择偏差（环境留出仅 +0.59 与 +2.18pp，且各自一折为负），故只作为探索性上探，不作为无偏效果。此外，未修正的官方前瞻基准（s40）在同一框架下复现为标称 90.80%、五映射 87.52%，与角色 F 自报一致；打开时钟、链式与预算三项审计修正后降为 89.99% / 87.12%，两者标称差 +0.81pp（配对 95% 区间 [−0.31, 2.11]，16/30 为正，不显著），但分别落在 6% 门槛两侧。因此“某方法是否过线”对尾部实现的正确性敏感，不能直接引用未修正版本。需要强调三点：其一，环境分组留出下的基线均值（约 78.39%）明显低于验证集（85.09%），说明留出环境与验证环境存在系统性差异，留出增益的绝对幅度不能与验证集增益直接等同；其二，A/D/E 三者的“祖先链完成概率门控”经把 _ancestors 置空的探针对照后逐位不变（差 0.0），属代码级空操作，因此上述增益应归因于环境平衡的稳健时长先验与反馈强度，而非链式概率建模；其三，独立复算的完美信息子集 DP 最优为 95.73%（S1 99.375 / S2 95.000 / S3 92.813），对全部在线策略 0 违例，故 90.45% 距上界仍有约 5.3pp 空间，不存在“已逼近最优”的证据。综上，本报告结论为：稳健先验策略在给定协议与当前数据上达到 6% 相对目标的门槛，但证据强度分级为“验证集强、环境留出弱”，不得表述为已证实的跨环境泛化突破。",
+  "audit_ab": {
+    "official_s40_nominal_pct": 90.79861111111111,
+    "audit_ref_nominal_pct": 89.98842592592592,
+    "official_minus_corrected_pp": 0.8101851851851851,
+    "boot95_pp": [
+      -0.3125000000000001,
+      2.106770833333335
+    ],
+    "positive_seeds": 16,
+    "n_seeds": 30,
+    "note": "同一 harness、同种子配对；official 含 P1 时钟/链式/P2 预算缺陷，修正后降幅即缺陷带来的虚高"
+  },
+  "p1p2_audit": {
+    "A_多步前瞻": {
+      "clock_end_is_start_plus_p": true,
+      "chain_probability_effective": false,
+      "budget_screen_before_rank": true,
+      "grid_is_discrete_disclosed": true,
+      "note": "祖先门控为代码级空操作：把 _ancestors 置空后 9 个 episode 逐位相同；后代仍被当作必然按时完成"
+    },
+    "B_联合场景前瞻": {
+      "clock_end_is_start_plus_p": true,
+      "chain_probability_effective": true,
+      "budget_screen_before_rank": true,
+      "grid_is_discrete_disclosed": true,
+      "note": "场景内 C>H 即不释放后继，链式失败被真实模拟；闭包用均值时长作点估计，属启发式而非概率链"
+    },
+    "C_尾部价值DP": {
+      "clock_end_is_start_plus_p": true,
+      "chain_probability_effective": true,
+      "budget_screen_before_rank": true,
+      "grid_is_discrete_disclosed": true,
+      "note": "DP 用 need/done 掩码强制前驱完成；时间网格 dt 与分位场景均明确声明为离散近似"
+    },
+    "D_信息价值": {
+      "clock_end_is_start_plus_p": true,
+      "chain_probability_effective": false,
+      "budget_screen_before_rank": true,
+      "grid_is_discrete_disclosed": true,
+      "note": "与 A 同源，祖先门控同样为空操作；但 D 的结论是不启用观测，不影响其否定性结论"
+    },
+    "E_稳健分布与选参": {
+      "clock_end_is_start_plus_p": true,
+      "chain_probability_effective": false,
+      "budget_screen_before_rank": true,
+      "grid_is_discrete_disclosed": true,
+      "note": "祖先门控为空操作（探针差 0.0）；实测增益应归因于环境平衡的稳健时长先验与强度 40，而非链式概率"
+    },
+    "F_上界与可行性": {
+      "note": "原始 trials_S1/S2/S3（各 600 行）+ legal_extra（450 行）完整；运行器使用 solve_oracle_dp（子集 DP），非 solve_oracle（MILP）；本审计独立复算 DP 上界 95.73%，对全部策略 0 违例；relaxation_ub 98.45% 亦 0 违例。尚未产出顶层 trials.csv/summary.json 与 report.md，属交付缺口。solve_oracle(MILP) 在 status=0 时仍被在线策略超越，属未使用的不健全实现，不作为上界引用"
+    }
+  },
+  "recompute_discrepancies": {
+    "all_core_point_estimates_match": true,
+    "max_abs_point_difference_pp_vs_roles": 0.0,
+    "max_bootstrap_ci_endpoint_difference_pp": 0.06,
+    "details": [
+      "A：标称 90.243/五映射 87.618 与本单元复算逐位一致；其留出只用 12 种子，本单元按 holdout_lookahead.py 用 20 种子，符号相反（A 报告 −0.45pp / 本单元 +0.84pp），A 的留出标为协议不一致、不可采信",
+      "B：K32/K64/K128 标称与五映射、以及 +0.59/+1.38 留出与本单元逐位一致",
+      "C：角色 C 已补齐顶层 trials.csv（2700 行，30 种子×5 映射×6 方法）与 report.md；本单元独立重跑其提交配置 dp_mc_t4_s256_dt10，标称 91.088、五映射 88.764、配对 +6.00 [4.57,7.34]、27/30，与 C 自报逐位一致（CI 端点差 <0.04pp，实现差异）",
+      "D：四臂标称 90.243/88.056/90.104/87.870 与本单元逐位一致；D 已自行撤回不可复现的 prefix 面板",
+      "E：90.451/88.574、留出 +1.649 与本单元逐位一致；仅 bootstrap 实现不同，CI 端点差 <0.06pp",
+      "F：角色 F 已补齐顶层 trials.csv（2250 行）与 report.md；本单元复算 oracle 95.729（S1 99.375 / S2 95.000 / S3 92.813）、ub_relax 98.449、v2 90.243、pressure_gated 85.093 逐位一致。另：其 lookahead_s40 在本单元复现为五映射 87.5185，与 F 自报一致；该配置是未修正的官方实现（含 P1/P2 缺陷），修正后 audit_ref 为 89.988 / 87.120",
+      "共享参考 v2_s20 90.16%：来自 C 的 v2_reference 副本；A/E 的 multi_step_policy v2 为 90.243%，差 0.083pp，属实现差异而非协议差异，本报告只用自己复算的 90.243%",
+      "共享参考审计修正版 89.9884% 与五映射 87.12%：本单元复算逐位一致"
+    ]
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "method": "E_env_s40_fb3",
+      "role": "稳健候选",
+      "why": "唯一在 train 环境分组 CV 上选参、验证集未参与；六项门槛全过；留出两折均非负；机制简单"
+    },
+    {
+      "rank": 2,
+      "method": "C_mc_t4_s256_dt10",
+      "role": "激进候选",
+      "why": "标称 91.088 为已核验最高的提交配置，五映射 88.764，留出 +2.18；但配置为其候选表在同一 validation 上的事后最大，含选择偏差，且留出 fold0 −0.59"
+    },
+    {
+      "rank": 3,
+      "method": "B_K64",
+      "role": "激进备选",
+      "why": "五映射最高 88.961、标称 90.961；K 按 max-K 规则在同一 validation 上选定，留出 +0.59 且 fold0 −0.63"
+    },
+    {
+      "rank": 4,
+      "method": "B_K128",
+      "role": "不采用为主",
+      "why": "标称最高 91.169，但 K=128 超出预注册网格，五映射 88.458 低于 K64"
+    },
+    {
+      "rank": 5,
+      "method": "A_v2",
+      "role": "不采用",
+      "why": "标称仅超门槛 0.045pp；留出符号随种子集翻转；祖先链门控为空操作"
+    }
+  ],
+  "adoption": {
+    "single": "E_env_s40_fb3",
+    "aggressive": "C_mc_t4_s256_dt10",
+    "aggressive_alt": "B_K64",
+    "robust": "E_env_s40_fb3",
+    "caveat": "两候选均只在本验证协议与当前数据上达到门槛；不得写成跨环境泛化突破"
+  },
+  "code_snapshot_sha256_16": {
+    "A": "80fd0b7c5d92f547",
+    "B": "2a321d4585f863de",
+    "C": "af55aef845f58c7d",
+    "D": "e9e08a8fb90b601f",
+    "E": "1551788650fabb88",
+    "E_configs": "8204623c447ee6ea",
+    "F": "53ead0212ca518d1"
+  },
+  "deliverable_gaps": {
+    "generated_from": "filesystem scan of parallel/<role>/ (report.md, results/trials.csv, results/summary.json)",
+    "complete": [
+      "B_联合场景前瞻",
+      "C_尾部价值DP",
+      "D_信息价值",
+      "E_稳健分布与选参",
+      "F_上界与可行性"
+    ],
+    "incomplete": {
+      "A_多步前瞻": {
+        "missing": [
+          "results/trials.csv",
+          "results/summary.json"
+        ],
+        "report_placeholders": 4,
+        "available_data": "results/full 1350 行(30种子×5映射×baseline/v2/d2b4q5)；results/ref30 1350 行(baseline/v2/audit)；results/holdout 216 行(12种子)",
+        "issue": "无顶层规范产物；holdout 仅 12 种子，与 holdout_lookahead.py 的 20 种子协议不一致；report 尚有 4 处 TBD（第 111/151/155/177 行）",
+        "fix": "在 A 目录汇总 results/full 为顶层 trials.csv/summary.json；报告 4 处 TBD 改为实测值；holdout 改用 20 种子重跑"
+      }
+    },
+    "trust": {
+      "A": "点估计可采信（与 G 复算逐位一致）；留出数字不可采信（12 种子）",
+      "C": "已补齐并核验：提交配置 dp_mc_t4_s256_dt10 由 G 独立重跑一致",
+      "F": "已补齐并核验：oracle/ub/v2/基线由 G 独立重跑一致"
+    },
+    "note": "本单元遵守“不得改动其它目录”，未替 A 生成文件；缺口清单仅作交接。"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "protocol": {
+    "cases": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "seeds": 30,
+    "mappings": [
+      [
+        1.0,
+        0.5
+      ]
+    ],
+    "methods": [
+      "baseline",
+      "role_e"
+    ]
+  },
+  "config_name": "pooled_s20_fb3",
+  "config_params": {
+    "balance": "pooled",
+    "strength": 20.0,
+    "feedback_strength": 3.0
+  },
+  "max_independent_metric_diff": 2.842170943040401e-14,
+  "nominal_avg": {
+    "baseline": 0.8509259259259259,
+    "role_e": 0.9061342592592593
+  },
+  "nominal_by_case": {
+    "baseline": {
+      "S1": 0.9333333333333333,
+      "S2": 0.8069444444444444,
+      "S3": 0.8125
+    },
+    "role_e": {
+      "S1": 0.9916666666666667,
+      "S2": 0.8819444444444444,
+      "S3": 0.8447916666666667
+    }
+  },
+  "all_mapping_avg": {
+    "baseline": 0.8509259259259259,
+    "role_e": 0.9061342592592594
+  },
+  "per_mapping_avg": {
+    "1.0,0.5": {
+      "baseline": 0.8509259259259259,
+      "role_e": 0.9061342592592594
+    }
+  },
+  "paired": {
+    "role_e": {
+      "nominal_delta_pp": 5.520833333333335,
+      "nominal_delta_by_case_pp": {
+        "S1": 5.833333333333333,
+        "S2": 7.500000000000001,
+        "S3": 3.229166666666667
+      },
+      "nominal_delta_ci95_pp": [
+        3.9348958333333335,
+        7.106481481481482
+      ],
+      "nominal_positive_seeds": 26,
+      "n_seeds": 30,
+      "all_mapping_delta_pp": 5.520833333333335,
+      "all_mapping_delta_ci95_pp": [
+        3.8770254629629637,
+        7.072048611111113
+      ],
+      "all_mapping_positive_seeds": 26,
+      "per_mapping_delta_pp": {
+        "1.0,0.5": 5.520833333333335
+      }
+    }
+  },
+  "nominal_cost": {
+    "baseline": 25.381089179240362,
+    "role_e": 25.230867101244648
+  },
+  "nominal_completion": {
+    "baseline": 0.9407407407407407,
+    "role_e": 0.9444444444444444
+  },
+  "all_mapping_completion": {
+    "baseline": 0.9407407407407407,
+    "role_e": 0.9444444444444444
+  },
+  "nominal_observations": {
+    "baseline": 0.0,
+    "role_e": 0.0
+  }
+}

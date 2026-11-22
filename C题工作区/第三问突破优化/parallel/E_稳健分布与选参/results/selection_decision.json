@@ -1,0 +1,252 @@
+{
+  "selected_config": "env_s40_fb3",
+  "selected_params": {
+    "balance": "env",
+    "strength": 40.0,
+    "feedback_strength": 3.0
+  },
+  "selection_rule": "maximise pooled paired delta; tie-break by worst-fold delta",
+  "selected_cv": {
+    "params": {
+      "balance": "env",
+      "strength": 40.0,
+      "feedback_strength": 3.0
+    },
+    "otr_pooled": 0.8669704861111112,
+    "delta_pooled_pp": 4.275173611111111,
+    "delta_ci95_pp": [
+      1.3888888888888888,
+      7.075737847222216
+    ],
+    "delta_fold0_pp": 4.730902777777779,
+    "delta_fold1_pp": 3.819444444444444,
+    "worst_fold_pp": 3.819444444444444,
+    "n": 48
+  },
+  "candidate_count": 23,
+  "ranking": [
+    {
+      "config": "env_s40_fb3",
+      "delta_pooled_pp": 4.275173611111111,
+      "worst_fold_pp": 3.819444444444444,
+      "delta_ci95_pp": [
+        1.3888888888888888,
+        7.075737847222216
+      ]
+    },
+    {
+      "config": "env_s40_fb3_w95",
+      "delta_pooled_pp": 3.754340277777778,
+      "worst_fold_pp": 3.5590277777777777,
+      "delta_ci95_pp": [
+        0.4985894097222219,
+        6.814236111111111
+      ]
+    },
+    {
+      "config": "region_s40_fb3_w95",
+      "delta_pooled_pp": 3.211805555555556,
+      "worst_fold_pp": 2.8211805555555554,
+      "delta_ci95_pp": [
+        -0.2826605902777777,
+        6.119791666666667
+      ]
+    },
+    {
+      "config": "env_s80_fb3_w95",
+      "delta_pooled_pp": 3.211805555555556,
+      "worst_fold_pp": 2.1701388888888884,
+      "delta_ci95_pp": [
+        0.1296657986111107,
+        5.925021701388886
+      ]
+    },
+    {
+      "config": "env_s40_fb6_w95",
+      "delta_pooled_pp": 3.0381944444444446,
+      "worst_fold_pp": 2.5607638888888893,
+      "delta_ci95_pp": [
+        0.13020833333333356,
+        5.902777777777778
+      ]
+    },
+    {
+      "config": "env_s20_fb3",
+      "delta_pooled_pp": 2.7560763888888893,
+      "worst_fold_pp": 2.5173611111111107,
+      "delta_ci95_pp": [
+        0.08680555555555523,
+        5.100368923611109
+      ]
+    },
+    {
+      "config": "env_s40_fb3_w90",
+      "delta_pooled_pp": 2.7343749999999996,
+      "worst_fold_pp": 1.5190972222222219,
+      "delta_ci95_pp": [
+        -0.26041666666666646,
+        5.468749999999998
+      ]
+    },
+    {
+      "config": "env_s10_fb3_w95",
+      "delta_pooled_pp": 2.495659722222222,
+      "worst_fold_pp": 1.8663194444444444,
+      "delta_ci95_pp": [
+        -0.8034939236111107,
+        5.512695312499998
+      ]
+    },
+    {
+      "config": "env_s40_fb1_w95",
+      "delta_pooled_pp": 2.1484375,
+      "worst_fold_pp": 0.6510416666666667,
+      "delta_ci95_pp": [
+        -1.8240017361111116,
+        5.46929253472222
+      ]
+    },
+    {
+      "config": "env_s20_fb3_w95",
+      "delta_pooled_pp": 1.9748263888888888,
+      "worst_fold_pp": 1.605902777777778,
+      "delta_ci95_pp": [
+        -1.2375217013888888,
+        4.84103732638888
+      ]
+    },
+    {
+      "config": "env_s40_fb0_w95",
+      "delta_pooled_pp": 1.6710069444444444,
+      "worst_fold_pp": 1.5625,
+      "delta_ci95_pp": [
+        -1.9097222222222223,
+        5.295138888888889
+      ]
+    },
+    {
+      "config": "pooled_s20_fb3_w95",
+      "delta_pooled_pp": 1.5624999999999998,
+      "worst_fold_pp": -0.30381944444444425,
+      "delta_ci95_pp": [
+        -1.975368923611111,
+        4.601236979166663
+      ]
+    },
+    {
+      "config": "region_s20_fb3",
+      "delta_pooled_pp": 1.4322916666666665,
+      "worst_fold_pp": -0.8680555555555558,
+      "delta_ci95_pp": [
+        -3.0604383680555562,
+        5.295681423611108
+      ]
+    },
+    {
+      "config": "pooled_s20_fb6",
+      "delta_pooled_pp": 1.1067708333333328,
+      "worst_fold_pp": -1.4322916666666672,
+      "delta_ci95_pp": [
+        -3.298611111111112,
+        4.7314453124999964
+      ]
+    },
+    {
+      "config": "env_s5_fb3_w95",
+      "delta_pooled_pp": 0.933159722222222,
+      "worst_fold_pp": -0.9114583333333334,
+      "delta_ci95_pp": [
+        -2.712673611111111,
+        4.254014756944442
+      ]
+    },
+    {
+      "config": "pooled_s20_fb3_w90",
+      "delta_pooled_pp": 0.846354166666666,
+      "worst_fold_pp": -1.953125000000001,
+      "delta_ci95_pp": [
+        -4.579535590277779,
+        5.186631944444444
+      ]
+    },
+    {
+      "config": "region_s20_fb3_w95",
+      "delta_pooled_pp": 0.19531249999999975,
+      "worst_fold_pp": -2.3871527777777777,
+      "delta_ci95_pp": [
+        -4.232313368055555,
+        3.971896701388885
+      ]
+    },
+    {
+      "config": "pooled_s5_fb3",
+      "delta_pooled_pp": -0.13020833333333356,
+      "worst_fold_pp": -3.3420138888888893,
+      "delta_ci95_pp": [
+        -5.208875868055556,
+        4.427625868055553
+      ]
+    },
+    {
+      "config": "pooled_s20_fb1",
+      "delta_pooled_pp": -0.1736111111111112,
+      "worst_fold_pp": -3.2118055555555554,
+      "delta_ci95_pp": [
+        -3.927951388888888,
+        2.9947916666666665
+      ]
+    },
+    {
+      "config": "pooled_s10_fb3",
+      "delta_pooled_pp": -0.5859374999999998,
+      "worst_fold_pp": -3.4722222222222223,
+      "delta_ci95_pp": [
+        -4.275716145833333,
+        2.90852864583333
+      ]
+    },
+    {
+      "config": "pooled_s40_fb3",
+      "delta_pooled_pp": -0.8246527777777775,
+      "worst_fold_pp": -4.991319444444444,
+      "delta_ci95_pp": [
+        -4.27517361111111,
+        2.430555555555556
+      ]
+    },
+    {
+      "config": "pooled_s20_fb0",
+      "delta_pooled_pp": -1.0850694444444446,
+      "worst_fold_pp": -4.383680555555556,
+      "delta_ci95_pp": [
+        -5.512152777777778,
+        2.6258680555555545
+      ]
+    },
+    {
+      "config": "pooled_s20_fb3",
+      "delta_pooled_pp": -1.6927083333333333,
+      "worst_fold_pp": -6.684027777777778,
+      "delta_ci95_pp": [
+        -5.729166666666667,
+        2.2357855902777746
+      ]
+    }
+  ],
+  "grouped_cv_source": "results\\grouped_cv\\summary.json",
+  "grouped_cv_seeds": [
+    2026112300,
+    2026112307
+  ],
+  "code_sha256": {
+    "robust_chain_policy.py": "1551788650fabb8897e2a3a913e94458cfb24fcc41c3ebba0a8a069ae87f4058",
+    "configs.py": "8204623c447ee6ea6cacf040b7794bbbb2922af417b9cc32573f388def1f7d39",
+    "run_grouped_cv.py": "4703a9b817eea60e940cc8552c51c82d4c7e174e1c3f397fa90b8bd9107e4273",
+    "common.py": "68b4817979e6f6585ef4e73810d0abdea330d817752ff48cdb0e3bad99fa58f2"
+  },
+  "pre_validation_checks_disclosed": [
+    "v2_s20 nominal validation replay (3 cases x 30 seeds) to verify the shared reference number; reproduced 90.2431% (S1 99.1667 / S2 87.5000 / S3 84.0625), 0.08pp above the quoted 90.16% shared number.",
+    "pooled_s20_fb3 nominal validation replay (3 cases x 30 seeds) as a code compatibility check; 90.6134%. It did NOT enter the selection rule."
+  ],
+  "note": "Validation is used once for confirmation only; the selected config is not changed after this file is written."
+}

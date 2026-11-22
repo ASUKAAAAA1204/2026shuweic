@@ -1,0 +1,924 @@
+{
+  "pressure_gated": {
+    "nominal_mean": 0.8509259259259259,
+    "by_case_nominal": {
+      "S1": 0.9333333333333333,
+      "S2": 0.8069444444444444,
+      "S3": 0.8125
+    },
+    "mapping_means": {
+      "0.75|0.5": 0.9311342592592592,
+      "1.0|0.0": 0.8809027777777778,
+      "1.0|0.5": 0.8509259259259259,
+      "1.0|1.0": 0.8355324074074074,
+      "1.5|0.5": 0.6924768518518518
+    },
+    "overall_five_mapping_mean": 0.8381944444444445,
+    "cost_mean": 25.381089179240362,
+    "completion_mean": 0.9407407407407407,
+    "observations_mean": 0.0,
+    "observation_total": 0
+  },
+  "v2_s20": {
+    "nominal_mean": 0.9024305555555555,
+    "by_case_nominal": {
+      "S1": 0.9916666666666667,
+      "S2": 0.875,
+      "S3": 0.840625
+    },
+    "mapping_means": {
+      "0.75|0.5": 0.9575231481481481,
+      "1.0|0.0": 0.9170138888888889,
+      "1.0|0.5": 0.9024305555555555,
+      "1.0|1.0": 0.8878472222222222,
+      "1.5|0.5": 0.7160879629629631
+    },
+    "overall_five_mapping_mean": 0.8761805555555555,
+    "cost_mean": 25.23215197547348,
+    "completion_mean": 0.9450231481481483,
+    "observations_mean": 0.0,
+    "observation_total": 0
+  },
+  "v2_free": {
+    "nominal_mean": 0.8805555555555555,
+    "by_case_nominal": {
+      "S1": 0.9708333333333333,
+      "S2": 0.8916666666666667,
+      "S3": 0.7791666666666667
+    },
+    "mapping_means": {
+      "0.75|0.5": 0.9489583333333333,
+      "1.0|0.0": 0.8925925925925925,
+      "1.0|0.5": 0.8805555555555555,
+      "1.0|1.0": 0.8474537037037037,
+      "1.5|0.5": 0.6868055555555556
+    },
+    "overall_five_mapping_mean": 0.8512731481481481,
+    "cost_mean": 25.493214657504403,
+    "completion_mean": 0.9461805555555556,
+    "observations_mean": 0.0,
+    "observation_total": 0
+  },
+  "v2_paid": {
+    "nominal_mean": 0.9010416666666666,
+    "by_case_nominal": {
+      "S1": 0.9916666666666667,
+      "S2": 0.875,
+      "S3": 0.8364583333333333
+    },
+    "mapping_means": {
+      "0.75|0.5": 0.9571759259259258,
+      "1.0|0.0": 0.9170138888888889,
+      "1.0|0.5": 0.9010416666666666,
+      "1.0|1.0": 0.8858796296296296,
+      "1.5|0.5": 0.7157407407407408
+    },
+    "overall_five_mapping_mean": 0.8753703703703705,
+    "cost_mean": 25.367960087657092,
+    "completion_mean": 0.9436342592592594,
+    "observations_mean": 0.13777777777777778,
+    "observation_total": 62
+  },
+  "v2_both": {
+    "nominal_mean": 0.8787037037037037,
+    "by_case_nominal": {
+      "S1": 0.9708333333333333,
+      "S2": 0.8902777777777777,
+      "S3": 0.775
+    },
+    "mapping_means": {
+      "0.75|0.5": 0.9472222222222222,
+      "1.0|0.0": 0.8907407407407408,
+      "1.0|0.5": 0.8787037037037037,
+      "1.0|1.0": 0.8460648148148148,
+      "1.5|0.5": 0.688425925925926
+    },
+    "overall_five_mapping_mean": 0.8502314814814815,
+    "cost_mean": 25.57943687972663,
+    "completion_mean": 0.9447916666666667,
+    "observations_mean": 0.1511111111111111,
+    "observation_total": 68
+  },
+  "v2_gated": {
+    "nominal_mean": 0.9024305555555555,
+    "by_case_nominal": {
+      "S1": 0.9916666666666667,
+      "S2": 0.875,
+      "S3": 0.840625
+    },
+    "mapping_means": {
+      "0.75|0.5": 0.9575231481481481,
+      "1.0|0.0": 0.9170138888888889,
+      "1.0|0.5": 0.9024305555555555,
+      "1.0|1.0": 0.8878472222222222,
+      "1.5|0.5": 0.7160879629629631
+    },
+    "overall_five_mapping_mean": 0.8761805555555555,
+    "cost_mean": 25.23215197547348,
+    "completion_mean": 0.9450231481481483,
+    "observations_mean": 0.0,
+    "observation_total": 0
+  },
+  "_paired": {
+    "v2_s20": {
+      "nominal_delta_pp": 5.150462962962964,
+      "overall_delta_pp": 3.7986111111111107,
+      "by_case_delta_pp": {
+        "S1": 4.083333333333333,
+        "S2": 5.166666666666668,
+        "S3": 2.1458333333333335
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": 2.638888888888889,
+        "1.0|0.0": 3.6111111111111116,
+        "1.0|0.5": 5.150462962962964,
+        "1.0|1.0": 5.231481481481482,
+        "1.5|0.5": 2.361111111111111
+      },
+      "bootstrap95_pp": [
+        2.82175925925926,
+        4.703761574074075
+      ],
+      "positive_seeds": 28,
+      "seeds": 30,
+      "min_mapping_delta_pp": 2.361111111111111
+    },
+    "v2_free": {
+      "nominal_delta_pp": 2.9629629629629637,
+      "overall_delta_pp": 1.3078703703703711,
+      "by_case_delta_pp": {
+        "S1": 2.875,
+        "S2": 3.694444444444447,
+        "S3": -2.6458333333333335
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": 1.7824074074074083,
+        "1.0|0.0": 1.1689814814814823,
+        "1.0|0.5": 2.9629629629629637,
+        "1.0|1.0": 1.1921296296296304,
+        "1.5|0.5": -0.5671296296296295
+      },
+      "bootstrap95_pp": [
+        0.4675347222222228,
+        2.245428240740742
+      ],
+      "positive_seeds": 21,
+      "seeds": 30,
+      "min_mapping_delta_pp": -0.5671296296296295
+    },
+    "v2_paid": {
+      "nominal_delta_pp": 5.011574074074074,
+      "overall_delta_pp": 3.717592592592593,
+      "by_case_delta_pp": {
+        "S1": 4.083333333333333,
+        "S2": 5.1111111111111125,
+        "S3": 1.9583333333333335
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": 2.604166666666667,
+        "1.0|0.0": 3.6111111111111116,
+        "1.0|0.5": 5.011574074074074,
+        "1.0|1.0": 5.034722222222223,
+        "1.5|0.5": 2.326388888888889
+      },
+      "bootstrap95_pp": [
+        2.7406250000000005,
+        4.631944444444445
+      ],
+      "positive_seeds": 28,
+      "seeds": 30,
+      "min_mapping_delta_pp": 2.326388888888889
+    },
+    "v2_both": {
+      "nominal_delta_pp": 2.7777777777777786,
+      "overall_delta_pp": 1.2037037037037044,
+      "by_case_delta_pp": {
+        "S1": 2.875,
+        "S2": 3.77777777777778,
+        "S3": -3.041666666666667
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": 1.6087962962962972,
+        "1.0|0.0": 0.9837962962962972,
+        "1.0|0.5": 2.7777777777777786,
+        "1.0|1.0": 1.0532407407407416,
+        "1.5|0.5": -0.4050925925925925
+      },
+      "bootstrap95_pp": [
+        0.3540509259259267,
+        2.141261574074075
+      ],
+      "positive_seeds": 21,
+      "seeds": 30,
+      "min_mapping_delta_pp": -0.4050925925925925
+    },
+    "v2_gated": {
+      "nominal_delta_pp": 5.150462962962964,
+      "overall_delta_pp": 3.7986111111111107,
+      "by_case_delta_pp": {
+        "S1": 4.083333333333333,
+        "S2": 5.166666666666668,
+        "S3": 2.1458333333333335
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": 2.638888888888889,
+        "1.0|0.0": 3.6111111111111116,
+        "1.0|0.5": 5.150462962962964,
+        "1.0|1.0": 5.231481481481482,
+        "1.5|0.5": 2.361111111111111
+      },
+      "bootstrap95_pp": [
+        2.82175925925926,
+        4.703761574074075
+      ],
+      "positive_seeds": 28,
+      "seeds": 30,
+      "min_mapping_delta_pp": 2.361111111111111
+    }
+  },
+  "_max_independent_diff": 1.1368683772161603e-13,
+  "_baseline_nominal": 0.8509259259259259,
+  "_protocol": {
+    "cases": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "seeds": [
+      2026111700,
+      2026111701,
+      2026111702,
+      2026111703,
+      2026111704,
+      2026111705,
+      2026111706,
+      2026111707,
+      2026111708,
+      2026111709,
+      2026111710,
+      2026111711,
+      2026111712,
+      2026111713,
+      2026111714,
+      2026111715,
+      2026111716,
+      2026111717,
+      2026111718,
+      2026111719,
+      2026111720,
+      2026111721,
+      2026111722,
+      2026111723,
+      2026111724,
+      2026111725,
+      2026111726,
+      2026111727,
+      2026111728,
+      2026111729
+    ],
+    "mappings": [
+      [
+        1.0,
+        0.5
+      ],
+      [
+        0.75,
+        0.5
+      ],
+      [
+        1.5,
+        0.5
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "arms": [
+      "pressure_gated",
+      "v2_s20",
+      "v2_free",
+      "v2_paid",
+      "v2_both",
+      "v2_gated"
+    ],
+    "baseline": "pressure_gated",
+    "target_nominal": 90.198
+  },
+  "_gate": {
+    "train_only": true,
+    "min_gain_pct": 3.0,
+    "resolved": {
+      "kind": "info",
+      "use_free": false,
+      "allow_paid": false
+    },
+    "note": "gate resolved before validation replay; all channels were below 3% so the gated arm opened no channel and reproduced v2_s20 on all 450 paired episodes"
+  },
+  "_model": {
+    "kind": "tree",
+    "train_rows": 246,
+    "environments": [
+      "home_x_apartment_0342",
+      "home_x_apartment_0701",
+      "logistics_x_courier_station_0021",
+      "office_x_corporate_office_0086",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0054",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0124",
+      "retail_x_supermarket_0125"
+    ],
+    "prefixes": {
+      "0.2": {
+        "model_mae": 4.196340515912057,
+        "family_mae": 3.6540650406504067,
+        "model_rmse": 10.696753340567751,
+        "family_rmse": 10.604380518392471,
+        "improvement_pct": -14.840334510442332,
+        "spearman": 0.04174695650947255,
+        "oof_rows": 246,
+        "per_family": {
+          "A": {
+            "n": 112,
+            "model_mae": 3.01901206343234,
+            "family_mae": 2.457142857142857,
+            "improvement_pct": -22.8667700234092
+          },
+          "L": {
+            "n": 10,
+            "model_mae": 7.270825612323527,
+            "family_mae": 8.120000000000001,
+            "improvement_pct": 10.457812656114207
+          },
+          "P": {
+            "n": 124,
+            "model_mae": 5.011791610376683,
+            "family_mae": 4.375,
+            "improvement_pct": -14.555236808609905
+          }
+        }
+      },
+      "0.6": {
+        "model_mae": 4.4214687010009595,
+        "family_mae": 3.6540650406504067,
+        "model_rmse": 10.755626689290112,
+        "family_rmse": 10.604380518392471,
+        "improvement_pct": -21.001368388723552,
+        "spearman": -0.009588834052432072,
+        "oof_rows": 246,
+        "per_family": {
+          "A": {
+            "n": 112,
+            "model_mae": 3.2601905828355733,
+            "family_mae": 2.457142857142857,
+            "improvement_pct": -32.68217488284311
+          },
+          "L": {
+            "n": 10,
+            "model_mae": 7.832348572846854,
+            "family_mae": 8.120000000000001,
+            "improvement_pct": 3.542505260506734
+          },
+          "P": {
+            "n": 124,
+            "model_mae": 5.195294108388573,
+            "family_mae": 4.375,
+            "improvement_pct": -18.749579620310254
+          }
+        }
+      },
+      "1.0": {
+        "model_mae": 4.130947118186015,
+        "family_mae": 3.6540650406504067,
+        "model_rmse": 10.658202127485515,
+        "family_rmse": 10.604380518392471,
+        "improvement_pct": -13.050727675354267,
+        "spearman": 0.24412774095517537,
+        "oof_rows": 246,
+        "per_family": {
+          "A": {
+            "n": 112,
+            "model_mae": 2.7636192344397146,
+            "family_mae": 2.457142857142857,
+            "improvement_pct": -12.472875820220963
+          },
+          "L": {
+            "n": 10,
+            "model_mae": 7.7995329742742046,
+            "family_mae": 8.120000000000001,
+            "improvement_pct": 3.946638247854639
+          },
+          "P": {
+            "n": 124,
+            "model_mae": 5.070099250594917,
+            "family_mae": 4.375,
+            "improvement_pct": -15.887982870740958
+          }
+        }
+      }
+    }
+  },
+  "_candidates": {
+    "pressure_gated": "reported",
+    "v2_s20": "reported",
+    "v2_free": "reported",
+    "v2_paid": "reported",
+    "v2_both": "reported",
+    "v2_gated": "reported"
+  },
+  "_selection_bias": "No parameter search over validation. The purchase rule and depth/strength/beam were fixed before replay; the only fitted object is the train-only prefix model, whose learner was chosen by train OOF MAE. v2_gated was resolved from train OOF gains before any validation run, so its point estimate carries no validation-selection bias.",
+  "_paired_vs_v2_s20": {
+    "pressure_gated": {
+      "nominal_delta_pp": -5.150462962962964,
+      "overall_delta_pp": -3.7986111111111107,
+      "by_case_delta_pp": {
+        "S1": -4.083333333333333,
+        "S2": -5.166666666666668,
+        "S3": -2.1458333333333335
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": -2.638888888888889,
+        "1.0|0.0": -3.6111111111111116,
+        "1.0|0.5": -5.150462962962964,
+        "1.0|1.0": -5.231481481481482,
+        "1.5|0.5": -2.361111111111111
+      },
+      "bootstrap95_pp": [
+        -4.703761574074074,
+        -2.82175925925926
+      ],
+      "positive_seeds": 2,
+      "seeds": 30
+    },
+    "v2_both": {
+      "nominal_delta_pp": -2.372685185185185,
+      "overall_delta_pp": -2.5949074074074074,
+      "by_case_delta_pp": {
+        "S1": -1.2083333333333333,
+        "S2": -1.3888888888888882,
+        "S3": -5.1875
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": -1.030092592592592,
+        "1.0|0.0": -2.6273148148148144,
+        "1.0|0.5": -2.372685185185185,
+        "1.0|1.0": -4.178240740740741,
+        "1.5|0.5": -2.7662037037037033
+      },
+      "bootstrap95_pp": [
+        -3.319444444444444,
+        -1.8124421296296291
+      ],
+      "positive_seeds": 3,
+      "seeds": 30
+    },
+    "v2_free": {
+      "nominal_delta_pp": -2.1875,
+      "overall_delta_pp": -2.4907407407407405,
+      "by_case_delta_pp": {
+        "S1": -1.2083333333333333,
+        "S2": -1.4722222222222214,
+        "S3": -4.791666666666667
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": -0.856481481481481,
+        "1.0|0.0": -2.4421296296296293,
+        "1.0|0.5": -2.1875,
+        "1.0|1.0": -4.039351851851852,
+        "1.5|0.5": -2.9282407407407405
+      },
+      "bootstrap95_pp": [
+        -3.231481481481481,
+        -1.6736111111111107
+      ],
+      "positive_seeds": 3,
+      "seeds": 30
+    },
+    "v2_gated": {
+      "nominal_delta_pp": 0.0,
+      "overall_delta_pp": 0.0,
+      "by_case_delta_pp": {
+        "S1": 0.0,
+        "S2": 0.0,
+        "S3": 0.0
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": 0.0,
+        "1.0|0.0": 0.0,
+        "1.0|0.5": 0.0,
+        "1.0|1.0": 0.0,
+        "1.5|0.5": 0.0
+      },
+      "bootstrap95_pp": [
+        0.0,
+        0.0
+      ],
+      "positive_seeds": 0,
+      "seeds": 30
+    },
+    "v2_paid": {
+      "nominal_delta_pp": -0.1388888888888889,
+      "overall_delta_pp": -0.08101851851851853,
+      "by_case_delta_pp": {
+        "S1": 0.0,
+        "S2": -0.05555555555555558,
+        "S3": -0.1875
+      },
+      "by_mapping_delta_pp": {
+        "0.75|0.5": -0.034722222222222224,
+        "1.0|0.0": 0.0,
+        "1.0|0.5": -0.1388888888888889,
+        "1.0|1.0": -0.19675925925925927,
+        "1.5|0.5": -0.034722222222222224
+      },
+      "bootstrap95_pp": [
+        -0.18055555555555558,
+        0.006944444444444448
+      ],
+      "positive_seeds": 1,
+      "seeds": 30
+    }
+  },
+  "_holdout": {
+    "folds": [
+      [
+        "office_x_corporate_office_0086",
+        "home_x_apartment_0342",
+        "logistics_x_courier_station_0021",
+        "retail_x_supermarket_0037",
+        "retail_x_supermarket_0058",
+        "retail_x_supermarket_0066",
+        "retail_x_supermarket_0087",
+        "retail_x_supermarket_0124"
+      ],
+      [
+        "retail_x_supermarket_0054",
+        "home_x_apartment_0701",
+        "retail_x_convenience_0014",
+        "retail_x_supermarket_0049",
+        "retail_x_supermarket_0059",
+        "retail_x_supermarket_0071",
+        "retail_x_supermarket_0121",
+        "retail_x_supermarket_0125"
+      ]
+    ],
+    "per_arm": {
+      "v2_s20": {
+        "mean_delta_pp": 0.8420138888888883,
+        "fold0_delta_pp": -1.9097222222222225,
+        "fold1_delta_pp": 3.593749999999999,
+        "passes_nonnegative": true,
+        "nominal_mean": 0.7923611111111111
+      },
+      "v2_free": {
+        "mean_delta_pp": -4.852430555555556,
+        "fold0_delta_pp": -9.305555555555555,
+        "fold1_delta_pp": -0.3993055555555556,
+        "passes_nonnegative": false,
+        "nominal_mean": 0.7354166666666667
+      },
+      "v2_paid": {
+        "mean_delta_pp": 0.6684027777777771,
+        "fold0_delta_pp": -2.1180555555555562,
+        "fold1_delta_pp": 3.4548611111111103,
+        "passes_nonnegative": true,
+        "nominal_mean": 0.790625
+      },
+      "v2_both": {
+        "mean_delta_pp": -4.947916666666667,
+        "fold0_delta_pp": -9.305555555555555,
+        "fold1_delta_pp": -0.5902777777777778,
+        "passes_nonnegative": false,
+        "nominal_mean": 0.7344618055555555
+      },
+      "v2_gated": {
+        "mean_delta_pp": 0.8420138888888883,
+        "fold0_delta_pp": -1.9097222222222225,
+        "fold1_delta_pp": 3.593749999999999,
+        "passes_nonnegative": true,
+        "nominal_mean": 0.7923611111111111
+      }
+    },
+    "_note": "Pools and prefix model refitted per fold on the other environment half; prefix features of held units are observed online only."
+  },
+  "_oracle_bound_analysis_only": {
+    "nominal_mean_pct": {
+      "oracle_pi_analysis_only": 92.8125,
+      "pressure_gated": 85.09259259259258,
+      "v2_s20": 90.24305555555556
+    },
+    "by_case_nominal_pct": {
+      "oracle_pi_analysis_only": {
+        "S1": 98.95833333333334,
+        "S2": 91.25,
+        "S3": 88.22916666666667
+      },
+      "pressure_gated": {
+        "S1": 93.33333333333333,
+        "S2": 80.69444444444443,
+        "S3": 81.25
+      },
+      "v2_s20": {
+        "S1": 99.16666666666667,
+        "S2": 87.5,
+        "S3": 84.0625
+      }
+    },
+    "five_mapping_mean_pct": {
+      "oracle_pi_analysis_only": 91.43981481481482,
+      "pressure_gated": 83.81944444444444,
+      "v2_s20": 87.61805555555556
+    },
+    "oracle_gain_vs_v2_nominal_pp": 2.569444444444443,
+    "oracle_gain_vs_baseline_nominal_pp": 7.719907407407419,
+    "note": "analysis-only ceiling for the fixed v2_s20 decision rule; not deployable; no deployable arm reads hidden durations"
+  },
+  "_prefix_quality": {
+    "coverage": {
+      "train_rows": 246,
+      "feature_coverage": {
+        "0.2": 1.0,
+        "0.6": 1.0,
+        "1.0": 1.0
+      }
+    },
+    "train_duration_median_by_family": {
+      "A": 3.2,
+      "L": 3.6,
+      "P": 4.0
+    },
+    "models": {
+      "ridge": {
+        "kind": "ridge",
+        "train_rows": 246,
+        "environments": [
+          "home_x_apartment_0342",
+          "home_x_apartment_0701",
+          "logistics_x_courier_station_0021",
+          "office_x_corporate_office_0086",
+          "retail_x_convenience_0014",
+          "retail_x_supermarket_0037",
+          "retail_x_supermarket_0049",
+          "retail_x_supermarket_0054",
+          "retail_x_supermarket_0058",
+          "retail_x_supermarket_0059",
+          "retail_x_supermarket_0066",
+          "retail_x_supermarket_0071",
+          "retail_x_supermarket_0087",
+          "retail_x_supermarket_0121",
+          "retail_x_supermarket_0124",
+          "retail_x_supermarket_0125"
+        ],
+        "prefixes": {
+          "0.2": {
+            "model_mae": 4.713934662598083,
+            "family_mae": 3.6540650406504067,
+            "model_rmse": 10.657721016063785,
+            "family_rmse": 10.604380518392471,
+            "improvement_pct": -29.005220491615134,
+            "spearman": -0.0406410021300907,
+            "oof_rows": 246,
+            "per_family": {
+              "A": {
+                "n": 112,
+                "model_mae": 3.032507238733765,
+                "family_mae": 2.457142857142857,
+                "improvement_pct": -23.4159922740486
+              },
+              "L": {
+                "n": 10,
+                "model_mae": 7.9383211861869,
+                "family_mae": 8.120000000000001,
+                "improvement_pct": 2.2374238154322823
+              },
+              "P": {
+                "n": 124,
+                "model_mae": 5.972612132250626,
+                "family_mae": 4.375,
+                "improvement_pct": -36.51684873715717
+              }
+            },
+            "pinball_replace": 3.3360334661885025,
+            "pinball_shift": 3.885920796503342,
+            "pinball_family": 3.1929340560072257,
+            "pinball_replace_improvement_pct": -4.481752760037372,
+            "pinball_shift_improvement_pct": -21.70375987541373
+          },
+          "0.6": {
+            "model_mae": 4.831423635799416,
+            "family_mae": 3.6540650406504067,
+            "model_rmse": 10.888242722140316,
+            "family_rmse": 10.604380518392471,
+            "improvement_pct": -32.220515564206956,
+            "spearman": 0.11343972367262298,
+            "oof_rows": 246,
+            "per_family": {
+              "A": {
+                "n": 112,
+                "model_mae": 2.9937119381002417,
+                "family_mae": 2.457142857142857,
+                "improvement_pct": -21.83711375989357
+              },
+              "L": {
+                "n": 10,
+                "model_mae": 6.759375542092279,
+                "family_mae": 8.120000000000001,
+                "improvement_pct": 16.756458841228106
+              },
+              "P": {
+                "n": 124,
+                "model_mae": 6.335812273536342,
+                "family_mae": 4.375,
+                "improvement_pct": -44.81856625225924
+              }
+            },
+            "pinball_replace": 3.338388602769444,
+            "pinball_shift": 3.7271331906393703,
+            "pinball_family": 3.1929340560072257,
+            "pinball_replace_improvement_pct": -4.55551365016631,
+            "pinball_shift_improvement_pct": -16.730666066438047
+          },
+          "1.0": {
+            "model_mae": 4.676847049426038,
+            "family_mae": 3.6540650406504067,
+            "model_rmse": 10.875790757463912,
+            "family_rmse": 10.604380518392471,
+            "improvement_pct": -27.990251881055215,
+            "spearman": 0.21494247545962197,
+            "oof_rows": 246,
+            "per_family": {
+              "A": {
+                "n": 112,
+                "model_mae": 2.9304927159751597,
+                "family_mae": 2.457142857142857,
+                "improvement_pct": -19.264238440849546
+              },
+              "L": {
+                "n": 10,
+                "model_mae": 7.1056361502329155,
+                "family_mae": 8.120000000000001,
+                "improvement_pct": 12.492165637525687
+              },
+              "P": {
+                "n": 124,
+                "model_mae": 6.0583292618327285,
+                "family_mae": 4.375,
+                "improvement_pct": -38.4760974133195
+              }
+            },
+            "pinball_replace": 3.339134947195274,
+            "pinball_shift": 3.5988961965444375,
+            "pinball_family": 3.1929340560072257,
+            "pinball_replace_improvement_pct": -4.578888527715885,
+            "pinball_shift_improvement_pct": -12.714391635286981
+          }
+        }
+      },
+      "tree": {
+        "kind": "tree",
+        "train_rows": 246,
+        "environments": [
+          "home_x_apartment_0342",
+          "home_x_apartment_0701",
+          "logistics_x_courier_station_0021",
+          "office_x_corporate_office_0086",
+          "retail_x_convenience_0014",
+          "retail_x_supermarket_0037",
+          "retail_x_supermarket_0049",
+          "retail_x_supermarket_0054",
+          "retail_x_supermarket_0058",
+          "retail_x_supermarket_0059",
+          "retail_x_supermarket_0066",
+          "retail_x_supermarket_0071",
+          "retail_x_supermarket_0087",
+          "retail_x_supermarket_0121",
+          "retail_x_supermarket_0124",
+          "retail_x_supermarket_0125"
+        ],
+        "prefixes": {
+          "0.2": {
+            "model_mae": 4.196340515912057,
+            "family_mae": 3.6540650406504067,
+            "model_rmse": 10.696753340567751,
+            "family_rmse": 10.604380518392471,
+            "improvement_pct": -14.840334510442332,
+            "spearman": 0.04174695650947255,
+            "oof_rows": 246,
+            "per_family": {
+              "A": {
+                "n": 112,
+                "model_mae": 3.01901206343234,
+                "family_mae": 2.457142857142857,
+                "improvement_pct": -22.8667700234092
+              },
+              "L": {
+                "n": 10,
+                "model_mae": 7.270825612323527,
+                "family_mae": 8.120000000000001,
+                "improvement_pct": 10.457812656114207
+              },
+              "P": {
+                "n": 124,
+                "model_mae": 5.011791610376683,
+                "family_mae": 4.375,
+                "improvement_pct": -14.555236808609905
+              }
+            },
+            "pinball_replace": 3.2616683082729665,
+            "pinball_shift": 3.5868350528129938,
+            "pinball_family": 3.1929340560072257,
+            "pinball_replace_improvement_pct": -2.152698773606776,
+            "pinball_shift_improvement_pct": -12.336646792459671
+          },
+          "0.6": {
+            "model_mae": 4.4214687010009595,
+            "family_mae": 3.6540650406504067,
+            "model_rmse": 10.755626689290112,
+            "family_rmse": 10.604380518392471,
+            "improvement_pct": -21.001368388723552,
+            "spearman": -0.009588834052432072,
+            "oof_rows": 246,
+            "per_family": {
+              "A": {
+                "n": 112,
+                "model_mae": 3.2601905828355733,
+                "family_mae": 2.457142857142857,
+                "improvement_pct": -32.68217488284311
+              },
+              "L": {
+                "n": 10,
+                "model_mae": 7.832348572846854,
+                "family_mae": 8.120000000000001,
+                "improvement_pct": 3.542505260506734
+              },
+              "P": {
+                "n": 124,
+                "model_mae": 5.195294108388573,
+                "family_mae": 4.375,
+                "improvement_pct": -18.749579620310254
+              }
+            },
+            "pinball_replace": 3.279652345661665,
+            "pinball_shift": 3.6820379717489944,
+            "pinball_family": 3.1929340560072257,
+            "pinball_replace_improvement_pct": -2.715943647232133,
+            "pinball_shift_improvement_pct": -15.318321868300488
+          },
+          "1.0": {
+            "model_mae": 4.130947118186015,
+            "family_mae": 3.6540650406504067,
+            "model_rmse": 10.658202127485515,
+            "family_rmse": 10.604380518392471,
+            "improvement_pct": -13.050727675354267,
+            "spearman": 0.24412774095517537,
+            "oof_rows": 246,
+            "per_family": {
+              "A": {
+                "n": 112,
+                "model_mae": 2.7636192344397146,
+                "family_mae": 2.457142857142857,
+                "improvement_pct": -12.472875820220963
+              },
+              "L": {
+                "n": 10,
+                "model_mae": 7.7995329742742046,
+                "family_mae": 8.120000000000001,
+                "improvement_pct": 3.946638247854639
+              },
+              "P": {
+                "n": 124,
+                "model_mae": 5.070099250594917,
+                "family_mae": 4.375,
+                "improvement_pct": -15.887982870740958
+              }
+            },
+            "pinball_replace": 3.2863280346121626,
+            "pinball_shift": 3.4572708561323604,
+            "pinball_family": 3.1929340560072257,
+            "pinball_replace_improvement_pct": -2.9250205913029736,
+            "pinball_shift_improvement_pct": -8.27880549639941
+          }
+        }
+      }
+    },
+    "frozen_kind": "tree",
+    "frozen_rule": "min train OOF MAE at the free 0.2 s prefix (train-only model choice)",
+    "passes_3pct_threshold": false,
+    "payoff_of_paid_prefix": {
+      "0.6": -21.001368388723552,
+      "1.0": -13.050727675354267
+    }
+  }
+}

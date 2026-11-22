@@ -1,0 +1,276 @@
+{
+  "coverage": {
+    "train_rows": 246,
+    "feature_coverage": {
+      "0.2": 1.0,
+      "0.6": 1.0,
+      "1.0": 1.0
+    }
+  },
+  "train_duration_median_by_family": {
+    "A": 3.2,
+    "L": 3.6,
+    "P": 4.0
+  },
+  "models": {
+    "ridge": {
+      "kind": "ridge",
+      "train_rows": 246,
+      "environments": [
+        "home_x_apartment_0342",
+        "home_x_apartment_0701",
+        "logistics_x_courier_station_0021",
+        "office_x_corporate_office_0086",
+        "retail_x_convenience_0014",
+        "retail_x_supermarket_0037",
+        "retail_x_supermarket_0049",
+        "retail_x_supermarket_0054",
+        "retail_x_supermarket_0058",
+        "retail_x_supermarket_0059",
+        "retail_x_supermarket_0066",
+        "retail_x_supermarket_0071",
+        "retail_x_supermarket_0087",
+        "retail_x_supermarket_0121",
+        "retail_x_supermarket_0124",
+        "retail_x_supermarket_0125"
+      ],
+      "prefixes": {
+        "0.2": {
+          "model_mae": 4.713934662598083,
+          "family_mae": 3.6540650406504067,
+          "model_rmse": 10.657721016063785,
+          "family_rmse": 10.604380518392471,
+          "improvement_pct": -29.005220491615134,
+          "spearman": -0.0406410021300907,
+          "oof_rows": 246,
+          "per_family": {
+            "A": {
+              "n": 112,
+              "model_mae": 3.032507238733765,
+              "family_mae": 2.457142857142857,
+              "improvement_pct": -23.4159922740486
+            },
+            "L": {
+              "n": 10,
+              "model_mae": 7.9383211861869,
+              "family_mae": 8.120000000000001,
+              "improvement_pct": 2.2374238154322823
+            },
+            "P": {
+              "n": 124,
+              "model_mae": 5.972612132250626,
+              "family_mae": 4.375,
+              "improvement_pct": -36.51684873715717
+            }
+          },
+          "pinball_replace": 3.3360334661885025,
+          "pinball_shift": 3.885920796503342,
+          "pinball_family": 3.1929340560072257,
+          "pinball_replace_improvement_pct": -4.481752760037372,
+          "pinball_shift_improvement_pct": -21.70375987541373
+        },
+        "0.6": {
+          "model_mae": 4.831423635799416,
+          "family_mae": 3.6540650406504067,
+          "model_rmse": 10.888242722140316,
+          "family_rmse": 10.604380518392471,
+          "improvement_pct": -32.220515564206956,
+          "spearman": 0.11343972367262298,
+          "oof_rows": 246,
+          "per_family": {
+            "A": {
+              "n": 112,
+              "model_mae": 2.9937119381002417,
+              "family_mae": 2.457142857142857,
+              "improvement_pct": -21.83711375989357
+            },
+            "L": {
+              "n": 10,
+              "model_mae": 6.759375542092279,
+              "family_mae": 8.120000000000001,
+              "improvement_pct": 16.756458841228106
+            },
+            "P": {
+              "n": 124,
+              "model_mae": 6.335812273536342,
+              "family_mae": 4.375,
+              "improvement_pct": -44.81856625225924
+            }
+          },
+          "pinball_replace": 3.338388602769444,
+          "pinball_shift": 3.7271331906393703,
+          "pinball_family": 3.1929340560072257,
+          "pinball_replace_improvement_pct": -4.55551365016631,
+          "pinball_shift_improvement_pct": -16.730666066438047
+        },
+        "1.0": {
+          "model_mae": 4.676847049426038,
+          "family_mae": 3.6540650406504067,
+          "model_rmse": 10.875790757463912,
+          "family_rmse": 10.604380518392471,
+          "improvement_pct": -27.990251881055215,
+          "spearman": 0.21494247545962197,
+          "oof_rows": 246,
+          "per_family": {
+            "A": {
+              "n": 112,
+              "model_mae": 2.9304927159751597,
+              "family_mae": 2.457142857142857,
+              "improvement_pct": -19.264238440849546
+            },
+            "L": {
+              "n": 10,
+              "model_mae": 7.1056361502329155,
+              "family_mae": 8.120000000000001,
+              "improvement_pct": 12.492165637525687
+            },
+            "P": {
+              "n": 124,
+              "model_mae": 6.0583292618327285,
+              "family_mae": 4.375,
+              "improvement_pct": -38.4760974133195
+            }
+          },
+          "pinball_replace": 3.339134947195274,
+          "pinball_shift": 3.5988961965444375,
+          "pinball_family": 3.1929340560072257,
+          "pinball_replace_improvement_pct": -4.578888527715885,
+          "pinball_shift_improvement_pct": -12.714391635286981
+        }
+      }
+    },
+    "tree": {
+      "kind": "tree",
+      "train_rows": 246,
+      "environments": [
+        "home_x_apartment_0342",
+        "home_x_apartment_0701",
+        "logistics_x_courier_station_0021",
+        "office_x_corporate_office_0086",
+        "retail_x_convenience_0014",
+        "retail_x_supermarket_0037",
+        "retail_x_supermarket_0049",
+        "retail_x_supermarket_0054",
+        "retail_x_supermarket_0058",
+        "retail_x_supermarket_0059",
+        "retail_x_supermarket_0066",
+        "retail_x_supermarket_0071",
+        "retail_x_supermarket_0087",
+        "retail_x_supermarket_0121",
+        "retail_x_supermarket_0124",
+        "retail_x_supermarket_0125"
+      ],
+      "prefixes": {
+        "0.2": {
+          "model_mae": 4.196340515912057,
+          "family_mae": 3.6540650406504067,
+          "model_rmse": 10.696753340567751,
+          "family_rmse": 10.604380518392471,
+          "improvement_pct": -14.840334510442332,
+          "spearman": 0.04174695650947255,
+          "oof_rows": 246,
+          "per_family": {
+            "A": {
+              "n": 112,
+              "model_mae": 3.01901206343234,
+              "family_mae": 2.457142857142857,
+              "improvement_pct": -22.8667700234092
+            },
+            "L": {
+              "n": 10,
+              "model_mae": 7.270825612323527,
+              "family_mae": 8.120000000000001,
+              "improvement_pct": 10.457812656114207
+            },
+            "P": {
+              "n": 124,
+              "model_mae": 5.011791610376683,
+              "family_mae": 4.375,
+              "improvement_pct": -14.555236808609905
+            }
+          },
+          "pinball_replace": 3.2616683082729665,
+          "pinball_shift": 3.5868350528129938,
+          "pinball_family": 3.1929340560072257,
+          "pinball_replace_improvement_pct": -2.152698773606776,
+          "pinball_shift_improvement_pct": -12.336646792459671
+        },
+        "0.6": {
+          "model_mae": 4.4214687010009595,
+          "family_mae": 3.6540650406504067,
+          "model_rmse": 10.755626689290112,
+          "family_rmse": 10.604380518392471,
+          "improvement_pct": -21.001368388723552,
+          "spearman": -0.009588834052432072,
+          "oof_rows": 246,
+          "per_family": {
+            "A": {
+              "n": 112,
+              "model_mae": 3.2601905828355733,
+              "family_mae": 2.457142857142857,
+              "improvement_pct": -32.68217488284311
+            },
+            "L": {
+              "n": 10,
+              "model_mae": 7.832348572846854,
+              "family_mae": 8.120000000000001,
+              "improvement_pct": 3.542505260506734
+            },
+            "P": {
+              "n": 124,
+              "model_mae": 5.195294108388573,
+              "family_mae": 4.375,
+              "improvement_pct": -18.749579620310254
+            }
+          },
+          "pinball_replace": 3.279652345661665,
+          "pinball_shift": 3.6820379717489944,
+          "pinball_family": 3.1929340560072257,
+          "pinball_replace_improvement_pct": -2.715943647232133,
+          "pinball_shift_improvement_pct": -15.318321868300488
+        },
+        "1.0": {
+          "model_mae": 4.130947118186015,
+          "family_mae": 3.6540650406504067,
+          "model_rmse": 10.658202127485515,
+          "family_rmse": 10.604380518392471,
+          "improvement_pct": -13.050727675354267,
+          "spearman": 0.24412774095517537,
+          "oof_rows": 246,
+          "per_family": {
+            "A": {
+              "n": 112,
+              "model_mae": 2.7636192344397146,
+              "family_mae": 2.457142857142857,
+              "improvement_pct": -12.472875820220963
+            },
+            "L": {
+              "n": 10,
+              "model_mae": 7.7995329742742046,
+              "family_mae": 8.120000000000001,
+              "improvement_pct": 3.946638247854639
+            },
+            "P": {
+              "n": 124,
+              "model_mae": 5.070099250594917,
+              "family_mae": 4.375,
+              "improvement_pct": -15.887982870740958
+            }
+          },
+          "pinball_replace": 3.2863280346121626,
+          "pinball_shift": 3.4572708561323604,
+          "pinball_family": 3.1929340560072257,
+          "pinball_replace_improvement_pct": -2.9250205913029736,
+          "pinball_shift_improvement_pct": -8.27880549639941
+        }
+      }
+    }
+  },
+  "frozen_kind": "tree",
+  "frozen_rule": "min train OOF MAE at the free 0.2 s prefix (train-only model choice)",
+  "passes_3pct_threshold": false,
+  "payoff_of_paid_prefix": {
+    "0.6": -21.001368388723552,
+    "1.0": -13.050727675354267
+  }
+}
