@@ -1,0 +1,529 @@
+{
+  "cases": [
+    {
+      "case_id": "S1",
+      "jobs": 8,
+      "horizon_s": 100,
+      "cost_budget": 32,
+      "observation_limit": 4
+    },
+    {
+      "case_id": "S2",
+      "jobs": 12,
+      "horizon_s": 100,
+      "cost_budget": 34,
+      "observation_limit": 6
+    },
+    {
+      "case_id": "S3",
+      "jobs": 16,
+      "horizon_s": 125,
+      "cost_budget": 40,
+      "observation_limit": 8
+    }
+  ],
+  "zones": {
+    "Z0": [
+      0,
+      0
+    ],
+    "Z1": [
+      1,
+      0
+    ],
+    "Z2": [
+      0,
+      1
+    ],
+    "Z3": [
+      1,
+      1
+    ],
+    "Z4": [
+      2,
+      0
+    ]
+  },
+  "seeds": [
+    2026111700,
+    2026111701,
+    2026111702,
+    2026111703,
+    2026111704,
+    2026111705,
+    2026111706,
+    2026111707,
+    2026111708,
+    2026111709,
+    2026111710,
+    2026111711,
+    2026111712,
+    2026111713,
+    2026111714,
+    2026111715,
+    2026111716,
+    2026111717,
+    2026111718,
+    2026111719,
+    2026111720,
+    2026111721,
+    2026111722,
+    2026111723,
+    2026111724,
+    2026111725,
+    2026111726,
+    2026111727,
+    2026111728,
+    2026111729
+  ],
+  "mappings": [
+    [
+      1.0,
+      0.5
+    ],
+    [
+      0.75,
+      0.5
+    ],
+    [
+      1.5,
+      0.5
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "jobs": {
+    "S1": [
+      {
+        "job_id": "S1_J01",
+        "family_id": "P",
+        "release_s": 0.0,
+        "due_s": 35.0,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S1_J02",
+        "family_id": "A",
+        "release_s": 0.0,
+        "due_s": 45.0,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S1_J03",
+        "family_id": "L",
+        "release_s": 0.0,
+        "due_s": 55.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": []
+      },
+      {
+        "job_id": "S1_J04",
+        "family_id": "P",
+        "release_s": 0.0,
+        "due_s": 65.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": []
+      },
+      {
+        "job_id": "S1_J05",
+        "family_id": "A",
+        "release_s": 20.0,
+        "due_s": 55.0,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S1_J06",
+        "family_id": "L",
+        "release_s": 20.0,
+        "due_s": 65.0,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S1_J07",
+        "family_id": "P",
+        "release_s": 40.0,
+        "due_s": 95.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": []
+      },
+      {
+        "job_id": "S1_J08",
+        "family_id": "A",
+        "release_s": 40.0,
+        "due_s": 100.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": []
+      }
+    ],
+    "S2": [
+      {
+        "job_id": "S2_J01",
+        "family_id": "P",
+        "release_s": 0.0,
+        "due_s": 35.0,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J02",
+        "family_id": "A",
+        "release_s": 0.0,
+        "due_s": 45.0,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J03",
+        "family_id": "L",
+        "release_s": 0.0,
+        "due_s": 55.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J04",
+        "family_id": "P",
+        "release_s": 0.0,
+        "due_s": 65.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J05",
+        "family_id": "A",
+        "release_s": 0.0,
+        "due_s": 35.0,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J06",
+        "family_id": "L",
+        "release_s": 0.0,
+        "due_s": 45.0,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J07",
+        "family_id": "P",
+        "release_s": 20.0,
+        "due_s": 75.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J08",
+        "family_id": "A",
+        "release_s": 20.0,
+        "due_s": 85.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J09",
+        "family_id": "L",
+        "release_s": 20.0,
+        "due_s": 55.0,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": [
+          "S2_J02"
+        ]
+      },
+      {
+        "job_id": "S2_J10",
+        "family_id": "P",
+        "release_s": 40.0,
+        "due_s": 85.0,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S2_J11",
+        "family_id": "A",
+        "release_s": 40.0,
+        "due_s": 95.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": [
+          "S2_J05"
+        ]
+      },
+      {
+        "job_id": "S2_J12",
+        "family_id": "L",
+        "release_s": 40.0,
+        "due_s": 100.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": []
+      }
+    ],
+    "S3": [
+      {
+        "job_id": "S3_J01",
+        "family_id": "P",
+        "release_s": 0.0,
+        "due_s": 43.75,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J02",
+        "family_id": "A",
+        "release_s": 0.0,
+        "due_s": 56.25,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J03",
+        "family_id": "L",
+        "release_s": 0.0,
+        "due_s": 68.75,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J04",
+        "family_id": "P",
+        "release_s": 0.0,
+        "due_s": 81.25,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J05",
+        "family_id": "A",
+        "release_s": 0.0,
+        "due_s": 43.75,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J06",
+        "family_id": "L",
+        "release_s": 0.0,
+        "due_s": 56.25,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J07",
+        "family_id": "P",
+        "release_s": 0.0,
+        "due_s": 68.75,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J08",
+        "family_id": "A",
+        "release_s": 0.0,
+        "due_s": 81.25,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J09",
+        "family_id": "L",
+        "release_s": 25.0,
+        "due_s": 68.75,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J10",
+        "family_id": "P",
+        "release_s": 25.0,
+        "due_s": 81.25,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J11",
+        "family_id": "A",
+        "release_s": 25.0,
+        "due_s": 93.75,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J12",
+        "family_id": "L",
+        "release_s": 25.0,
+        "due_s": 106.25,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": [
+          "S3_J03"
+        ]
+      },
+      {
+        "job_id": "S3_J13",
+        "family_id": "P",
+        "release_s": 50.0,
+        "due_s": 93.75,
+        "priority_weight": 3.0,
+        "zone_id": "Z4",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J14",
+        "family_id": "A",
+        "release_s": 50.0,
+        "due_s": 106.25,
+        "priority_weight": 1.0,
+        "zone_id": "Z3",
+        "predecessors": []
+      },
+      {
+        "job_id": "S3_J15",
+        "family_id": "L",
+        "release_s": 50.0,
+        "due_s": 118.75,
+        "priority_weight": 2.0,
+        "zone_id": "Z2",
+        "predecessors": [
+          "S3_J06"
+        ]
+      },
+      {
+        "job_id": "S3_J16",
+        "family_id": "P",
+        "release_s": 50.0,
+        "due_s": 125.0,
+        "priority_weight": 2.0,
+        "zone_id": "Z1",
+        "predecessors": [
+          "S3_J07"
+        ]
+      }
+    ]
+  },
+  "validation_pool": {
+    "A": [
+      3.0,
+      4.0,
+      4.0,
+      4.0,
+      3.0,
+      2.0,
+      9.8,
+      6.1,
+      7.9,
+      9.099999999999998,
+      7.0,
+      6.100000000000001,
+      10.5
+    ],
+    "L": [
+      8.9,
+      9.999999999999998,
+      14.200000000000005,
+      8.5,
+      2.8000000000000007,
+      9.099999999999998,
+      13.0
+    ],
+    "P": [
+      3.0,
+      3.0,
+      3.0,
+      4.0,
+      9.0,
+      4.0,
+      11.9,
+      9.999999999999998,
+      16.4,
+      2.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.6000000000000014
+    ]
+  },
+  "validation_source_units": {
+    "A": [
+      "U_41540a43a2a7",
+      "U_0921399184bd",
+      "U_edfa995465ee",
+      "U_8f2fb018b990",
+      "U_573e885e30ad",
+      "U_1c65a39aab99",
+      "U_ffbb52bdb2bd",
+      "U_4644a7d9c095",
+      "U_c5e4f585d338",
+      "U_7a43b550d814",
+      "U_b19c966dd52c",
+      "U_a76bd15ece66",
+      "U_c65a0d1bd03d"
+    ],
+    "L": [
+      "U_eaeb947a50af",
+      "U_24dd840d74c6",
+      "U_4224fd4fbf65",
+      "U_47c18c66bae2",
+      "U_3793733c3dcb",
+      "U_767c629e6d71",
+      "U_846267c4bb50"
+    ],
+    "P": [
+      "U_66fc3be49359",
+      "U_48e7dcf6bf7b",
+      "U_2bae0bcaa89a",
+      "U_306dcc476929",
+      "U_982915231b98",
+      "U_6569a3a10768",
+      "U_6da9a65af004",
+      "U_475b7a55d5d3",
+      "U_e045c5b73db2",
+      "U_5ead5c547ed8",
+      "U_48555f70f8e7",
+      "U_860e0ece4014",
+      "U_781ac43756da",
+      "U_003a5cdc9042",
+      "U_e5525e75bd48"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "status": "completed_three_candidate_acceptance_decisions",
+  "all_nine_delivery_requirements_completed": true,
+  "primary": "E_env_s40_fb3",
+  "candidate_decisions": {
+    "B_K64": "engineering_pass; robustness_gate_fail; retain_as_secondary",
+    "C_mc_t4_s256_dt10": "semantic_fail; original_score_not_adopted",
+    "C_repaired": "engineering_pass; fixed_configuration_outer_means_positive; inner_selection_unstable; secondary",
+    "E_env_s40_fb3": "engineering_pass; documentation_corrected_without_behavior_change; primary"
+  },
+  "gates": [
+    {
+      "item": "1_exact_freeze_interface_and_reset",
+      "passed": true,
+      "evidence": "bundle manifest; retained source hashes; trajectory summary; semantic full_episode_reset checks"
+    },
+    {
+      "item": "2_semantic_processing_complete",
+      "passed": true,
+      "evidence": "C original rejected; repaired C 240x12 scalar checks; B 133x8 scalar checks; E450-trial equivalence"
+    },
+    {
+      "item": "3_unified_full_replay",
+      "passed": true,
+      "evidence": "full_replay 1800 rows; reviewed_replay 900 rows; G one-to-one comparison"
+    },
+    {
+      "item": "4_all_metrics_and_resources",
+      "passed": true,
+      "evidence": "ten common metrics; all 15 case/mapping groups; raw per-decision timings and total replay timing"
+    },
+    {
+      "item": "5_legality_information_boundaries",
+      "passed": true,
+      "evidence": "independent physics rebuild; 309 trajectory decisions; no input mutation; no censored feedback"
+    },
+    {
+      "item": "6_BC_training_only_selection_audited",
+      "passed": true,
+      "evidence": "frozen 3-B/4-C grid; disjoint outer/inner units; L fallback; actual negative outcomes retained"
+    },
+    {
+      "item": "7_E_selection_history_disclosed",
+      "passed": true,
+      "evidence": "retained E selection_decision.json and precheck; acceptance report section6"
+    },
+    {
+      "item": "8_primary_and_all_paired_comparisons",
+      "passed": true,
+      "evidence": "preregistered worst-outer-fold rule; six nominal and six five-mapping pairs; no test model selection"
+    },
+    {
+      "item": "9_standalone_bundle_paper_and_handoff",
+      "passed": true,
+      "evidence": "standalone1800 replay; manifest; priors; per-action feedback; vector PDF; complete Q3 text and abstract/handoff; original formal directory unchanged"
+    }
+  ],
+  "packaged_episodes": 1800,
+  "packaged_decisions": 21134,
+  "complete_feedback_updates": 19251,
+  "raw_candidate_all_pass": false,
+  "unresolved_delivery_blockers": [],
+  "scope_limits": [
+    "No new-environment generalization proof",
+    "No global-optimality proof",
+    "Original C rejected; corrected C is separately scored",
+    "B/C retained as secondary",
+    "Actual paper master path unspecified; replacement-ready text supplied"
+  ],
+  "final_artifacts": {
+    ".gitattributes": "10dcef7823854bdedf7819ad7cb8cc5b8b79bda391a98206d17a11ccfd905fca",
+    "code/acceptance_run.py": "10f7f77342d8f4a72512c3ac05efc0fb3e9d0716ea33e72513073afedd49e9aa",
+    "code/b_rollout_check.py": "a05773d4136f5f1d4afacc942ad26a441497c35ac93076083ff46e3ad7611a7c",
+    "code/build_bundle.py": "bd762ade108c54c8f2f5e955ec29b430ba1415f6cc89fb0b2cb1851a50156ede",
+    "code/final_gate.py": "f7b2df918c6b92601b32535c4d57edac3d6ad5276179048ebac2bf842148fa05",
+    "code/frozen/b_policy.py": "7861bc48686ab3b6b1ab463157f68782fda10ab94690b59e1d9c846e68387734",
+    "code/frozen/c_original.py": "d13c019666441f8c070c9ca7a1c430f1c5ddfbac356b56e615dd2be1d9ab0149",
+    "code/frozen/c_policy.py": "0a6e04f85089f0b84bcf79392f00177a9d0152544c6898a23600518a2a31cc0c",
+    "code/frozen/e_policy.py": "f95c59a0bcf736431591889729fb6a5e808480a00ec9aac1cb522801f4a11ede",
+    "code/nested_selection.py": "4290351111f89fbe3cc2538e1bc16d662659bcebde9bc801d4affbdbe46d8ec1",
+    "code/prepare_variants.py": "d66f1e7bdd98fd3cbf96f448f9168cf9b647d5a8e0b3f084f7e5bf26964111de",
+    "code/repaired_replay.py": "d8548807e114f178ad8eedfb0ab3d2cdbcf5d2d1caedb84c69d0ca44f1f7f132",
+    "code/runtime.py": "72ee30b0299fea913744df9be45a1a5b16b36b6596997f28ed12099f9e44e677",
+    "code/semantic_checks.py": "c80b9985fdfe130ac12f53d160e4f0e20b7c7b1b7e3aa2ab6760557c0e42aa99",
+    "code/summarize_acceptance.py": "4d00142048803f766907f14c5043ffa71c97a4f3d9e42c22e1ae2706073efb8d",
+    "code/trajectory_boundary_checks.py": "791146c12d3abedb28e2d60f13568c5127236889e8ad466d11718672b4d61d8f",
+    "results/analysis/accepted_comparison_trials.csv": "f910b1a420a2ffab6a52245f7b9149c1f109ae48accc609f38ec3729094152b4",
+    "results/analysis/by_mapping.csv": "184348199c4084595f90e8a6d68caec5046576e3e7f4d6302245be0c1e140804",
+    "results/analysis/candidate_acceptance.pdf": "756d4de2f11106111814ad49a60afb5518c0bb302c886f9144c5ac3329fc9e17",
+    "results/analysis/candidate_acceptance.png": "796d9ca52e23bc58cbfcd1316b465e382250e92110b4811b3fa179a52e99b7a3",
+    "results/analysis/case_mapping_common_metrics.csv": "28321614b94b06db60bed6ce95c64092f02744fc9198117b53c6edeb904dedf1",
+    "results/analysis/five_mapping_common_metrics.csv": "bfc8d7815e4405720e9f7687234fd0c7185dc7a2a07c9a3f840448c9b3b8132a",
+    "results/analysis/nominal_by_case.csv": "d191dbae93b9b171ea14fd165e0a7d1b38ebf7abe5500d4db5258c7e9c3b7db6",
+    "results/analysis/nominal_common_metrics.csv": "9759c43f7003024b91c40a19ea3858404017f89f751456aa03b95e2c8ac8c91e",
+    "results/analysis/paired_comparisons.csv": "c024728f48d9e697afd6ccd58d6612a036c6e94da9ee11fc593b7a9644ad83ac",
+    "results/analysis/summary.json": "8ce25df4ed1d5583d966294c15a8c1b5d29eb47aa9d0a15f8e0a761e0dab912c",
+    "results/b_rollout/summary.json": "d67d599392cfdb5f3b15e26174a328221eb05a7811503fc4dc02706cb1d8301c",
+    "results/full_replay/events.jsonl": "60245db67fda904804f406d96f5fb40f3b28f19abdb46fcffdc201fc02544fd7",
+    "results/full_replay/independent_violations.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "results/full_replay/metrics.csv": "b9559710ec53066ec4243f2833dd0629e670c7308b8a331086f048cd685a05d1",
+    "results/full_replay/source_hashes.json": "9f37e7220325b6a55798b795b4bd31a97cb17ddc1a237cb7cdcbc1ba2e58a5f5",
+    "results/full_replay/summary.csv": "60b9b2453ece000511ecf7a087f5bec0f88a65ae01e027a19b074de65d8af76e",
+    "results/nested_selection/inner_trials.csv": "c278a31667e95d7d6494ec9c08677bb131586aa92cffe1dc1b4bd141f0fe235f",
+    "results/nested_selection/outer_delta_pp.csv": "c505c8bb747f6a8ca473d4a2ad0974f813638d52082fef711db12e1fcdd266ad",
+    "results/nested_selection/outer_trials.csv": "4f12f0e5cc9938205bd104693e00d7b3a1324cd3b2eb25b4c6da0b7ac4bd98b6",
+    "results/nested_selection/partitions.json": "cd1e84d86c809726da2c6b7b8fca86295e93162c67e341612f7c9358ffd18fa7",
+    "results/nested_selection/registration.json": "6b0939f896a99212505f9dfb96333a27b32e94589ef08ce699e7335299ae651e",
+    "results/nested_selection/selections.json": "a424ccf8053021bbfc448c904e6b212e47f5be9c66dd786ccdf9c4e0a2061d26",
+    "results/reviewed_replay/events.jsonl": "512d3fa38d9aae5daf4518cd6fe3a133d02b96903004d3c7dc0f3acb27facbb0",
+    "results/reviewed_replay/metrics.csv": "3391210f2eb8eee8f6864f62d74c6f1b81b72b1f303f811d9ea84a6f9e8384ff",
+    "results/semantic_checks/boundary_checks.csv": "16f8a330b0222f37ddcb9ba846fee8bfd9dd4d340d889c5dca17fff69f1d74bd",
+    "results/semantic_checks/summary.json": "e7a494dfde7b05ea9d7bbab6b762fcd159f2b109c0f2606ec5b56e2215cff802",
+    "results/trajectory_boundary/checks.csv": "97c17f7af4733b93b22b54b46b59aa0eb455766f07582145b68756111533845d",
+    "results/trajectory_boundary/decision_wall_times.csv": "518e6df89ce88772ebc47f09d088a16b4a40c69ac3d23931f4296711c60e7127",
+    "results/trajectory_boundary/summary.json": "72af7409e30b0f4d3aed4c00a0387c9a8a1aaaac919c748c8c4b51731f521535",
+    "三项验收报告.md": "11d688a52e63e518c34579542dc95529649d9f6b88b79ae02ee5c0f10e8db1fe",
+    "候选保留登记.json": "57351e23f4fb8953183240a72168cf78ed8ae99f57365cceedd8205787e7a282",
+    "分支交付说明.md": "95b0ffa073b72013673afa5655139d863d9288b6c229e051905e4dcfdf894e99",
+    "本次交付文件哈希.json": "ebe35630d8e4ad1ac8dba48c58c4f9432cc568b98dea3344d65da86b15ef5597",
+    "论文替换清单与总交接.md": "9d26b34644efa3c7a0aefb86c454214cec3ec0e972b0e744d2ebb792a877267f",
+    "采用前验收清单.md": "e8a39693da79436976d33345ca138d9fa2c0650de2777839082d7ec9582e074d",
+    "采用版/code/b_policy.py": "7861bc48686ab3b6b1ab463157f68782fda10ab94690b59e1d9c846e68387734",
+    "采用版/code/baseline.py": "ae0287c6c87720e4248ac7817471a30c3b7d04026b6117317c44f273f9bee62b",
+    "采用版/code/c_policy.py": "0a6e04f85089f0b84bcf79392f00177a9d0152544c6898a23600518a2a31cc0c",
+    "采用版/code/deadline_policy.py": "e928a461923a4392f152857b19865f1addf149f1ffd88b8928a41e6c8200c9db",
+    "采用版/code/e_policy.py": "f95c59a0bcf736431591889729fb6a5e808480a00ec9aac1cb522801f4a11ede",
+    "采用版/code/engine.py": "c060ffa549a8badc5620e1a906f997eaecf438dcdb3b26fecb931c942825c100",
+    "采用版/code/independent.py": "c46136d8ce06fa30e00358bfc7573680ae5e18ba3d789b738fe3132583bfc09c",
+    "采用版/code/policy.py": "b7568097f3e143e4c6ab3a5dabe26d02fd1dfc1ae67381b2302fa8f317702cbc",
+    "采用版/code/run_all.py": "ee4c4ddbd275f52377d0ddec1f98c92ec3419d224f1fda2448de01c930a29086",
+    "采用版/data/expected_metrics.csv": "f910b1a420a2ffab6a52245f7b9149c1f109ae48accc609f38ec3729094152b4",
+    "采用版/data/protocol.json": "a0116915fb1f3deb96ad30458334ac7705674fadd41cac24016b33c7e200e3d8",
+    "采用版/environment.json": "784790367c3b2a96a1f2960bb4645f42d0c8d515ea10964261063bf0e46f842b",
+    "采用版/manifest.json": "bfb8c6f5ab023fca1196a0c5224d9d03f1b1fe171f022359946938f8399044d1",
+    "采用版/model/priors.json": "48d635785cdd54ece3957d927740defa9fbd9172141e6678e16fd56ed42f4f5e",
+    "采用版/README.md": "fe0afe63e28036e9c1d1d259648a6f916b27124f75b734cc201f454a875f8f74",
+    "采用版/requirements.txt": "48155bbd1c9e04413103c1e4b4701879cb8b0ed6161b452f285324241e4bf7df",
+    "采用版/第三问完整解答.md": "ce2bc8c3f30f80653ffdb9e2a99683433bf5822dc5f2783c72c20c46fbc97e4f",
+    "采用版/运行结果/audit.json": "9b59e40cca768f4d9d28226fd7b6ac082ff2ac7a8805680e660b3ebf214accbe",
+    "采用版/运行结果/events_feedback.jsonl": "9e6ff62fe5ceabb488c5423d178f7dfa4359341c403b033c6e19be3bde6fb519",
+    "采用版/运行结果/metrics.csv": "5faa91d7078c6e27a2750eca7c9d6fc12f994c31287dd75872a304dfd7b0705b"
+  }
+}

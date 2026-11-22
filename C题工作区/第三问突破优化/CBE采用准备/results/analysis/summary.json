@@ -1,0 +1,29 @@
+{
+  "episodes_original": 1800,
+  "episodes_reviewed": 900,
+  "G_regression_rows": 1800,
+  "G_regression_max_rate_difference": 0.0,
+  "E_documentation_equivalence_max_metric_difference": 0.0,
+  "nominal_percent": {
+    "B_K64": 90.96064814814814,
+    "C_repaired": 90.72916666666667,
+    "E_env_s40_fb3": 90.45138888888889,
+    "baseline": 85.09259259259258
+  },
+  "five_mapping_percent": {
+    "B_K64": 88.96064814814815,
+    "C_repaired": 88.93981481481482,
+    "E_env_s40_fb3": 88.57407407407408,
+    "baseline": 83.81944444444444
+  },
+  "C_original_nominal_percent": 91.08796296296295,
+  "C_repaired_nominal_percent": 90.72916666666667,
+  "winner_under_frozen_rule": "E_env_s40_fb3",
+  "candidate_acceptance": {
+    "B_K64": "engineering_pass; robustness_gate_fail; retain_as_secondary",
+    "C_mc_t4_s256_dt10": "semantic_fail; original_score_not_adopted",
+    "C_repaired": "engineering_pass; fixed_configuration_outer_means_positive; inner_selection_unstable; secondary",
+    "E_env_s40_fb3": "engineering_pass; documentation_corrected_without_behavior_change; primary"
+  },
+  "uncertainty_scope": "4000 seed-cluster bootstrap replicates conditional on existing source pools; unadjusted for historical adaptive selection, not environment-generalization confidence"
+}

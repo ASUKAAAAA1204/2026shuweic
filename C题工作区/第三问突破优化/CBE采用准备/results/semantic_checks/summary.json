@@ -1,0 +1,14 @@
+{
+  "c_censor_counterexample": {
+    "original": 5.0,
+    "repaired": 0.0,
+    "official_scalar": 0.0
+  },
+  "random_fixed_plan_cases": 240,
+  "scenarios_per_case": 12,
+  "repaired_max_error": 0.0,
+  "original_mismatched_cases": 177,
+  "original_max_error": 3.3333333333333335,
+  "boundary_rows_passed": 18,
+  "scope": "Initial observations and whole-episode fresh-state replay; no new environment generalization."
+}

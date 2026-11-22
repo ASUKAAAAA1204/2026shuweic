@@ -1,0 +1,102 @@
+{
+  "purpose": "retrospective training-only configuration-selection audit; not pristine prospective validation",
+  "outer_held_groups": [
+    [
+      "office_x_corporate_office_0086",
+      "home_x_apartment_0342",
+      "logistics_x_courier_station_0021",
+      "retail_x_supermarket_0037",
+      "retail_x_supermarket_0058",
+      "retail_x_supermarket_0066",
+      "retail_x_supermarket_0087",
+      "retail_x_supermarket_0124"
+    ],
+    [
+      "retail_x_supermarket_0054",
+      "home_x_apartment_0701",
+      "retail_x_convenience_0014",
+      "retail_x_supermarket_0049",
+      "retail_x_supermarket_0059",
+      "retail_x_supermarket_0071",
+      "retail_x_supermarket_0121",
+      "retail_x_supermarket_0125"
+    ]
+  ],
+  "B_grid": [
+    {
+      "K": 16
+    },
+    {
+      "K": 32
+    },
+    {
+      "K": 64
+    }
+  ],
+  "C_repaired_grid": [
+    {
+      "samples": 64,
+      "dt": 0.5
+    },
+    {
+      "samples": 64,
+      "dt": 1.0
+    },
+    {
+      "samples": 256,
+      "dt": 0.5
+    },
+    {
+      "samples": 256,
+      "dt": 1.0
+    }
+  ],
+  "inner_seeds": [
+    2026112400,
+    2026112401,
+    2026112402,
+    2026112403,
+    2026112404,
+    2026112405,
+    2026112406,
+    2026112407
+  ],
+  "outer_seeds": [
+    2026120100,
+    2026120101,
+    2026120102,
+    2026120103,
+    2026120104,
+    2026120105,
+    2026120106,
+    2026120107,
+    2026120108,
+    2026120109,
+    2026120110,
+    2026120111,
+    2026120112,
+    2026120113,
+    2026120114,
+    2026120115,
+    2026120116,
+    2026120117,
+    2026120118,
+    2026120119
+  ],
+  "mappings": [
+    [
+      1.0,
+      0.5
+    ]
+  ],
+  "selection": "max inner equal-case mean on-time rate; exact ties choose smaller K/samples then coarser dt",
+  "missing_train_family": "copy inner-training global source-duration pool; never use held data",
+  "inner_folds": "one all-family held group per outer fold; L scarcity prevents a complementary all-family group",
+  "adoption_order": "legal semantics, positive nominal improvement, no negative outer-fold mean versus baseline, then highest worst-outer-fold mean; if tied, nominal rate then runtime",
+  "source_hashes": {
+    "b_policy.py": "7861bc48686ab3b6b1ab463157f68782fda10ab94690b59e1d9c846e68387734",
+    "c_original.py": "d13c019666441f8c070c9ca7a1c430f1c5ddfbac356b56e615dd2be1d9ab0149",
+    "c_policy.py": "0a6e04f85089f0b84bcf79392f00177a9d0152544c6898a23600518a2a31cc0c",
+    "e_policy.py": "f95c59a0bcf736431591889729fb6a5e808480a00ec9aac1cb522801f4a11ede"
+  }
+}

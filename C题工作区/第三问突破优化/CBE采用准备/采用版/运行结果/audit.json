@@ -1,0 +1,13 @@
+{
+  "episodes": 1800,
+  "reference_max_absolute_diff": 8.526512829121202e-14,
+  "invalid_actions": 0,
+  "independent_max_absolute_diff": 1.1368683772161603e-13,
+  "seconds": 163.17650730000605,
+  "methods": [
+    "baseline",
+    "B_K64",
+    "C_repaired",
+    "E_env_s40_fb3"
+  ]
+}

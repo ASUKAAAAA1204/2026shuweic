@@ -1,0 +1,19 @@
+case,method,kind,action,passed
+S1,B,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S1_J01"", ""reserve"": 0.2}",True
+S1,B,full_episode_reset,all_events_equal,True
+S1,C,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S1_J01"", ""reserve"": 0.2}",True
+S1,C,full_episode_reset,all_events_equal,True
+S1,E,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S1_J02"", ""reserve"": 0.2}",True
+S1,E,full_episode_reset,all_events_equal,True
+S2,B,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S2_J02"", ""reserve"": 0.2}",True
+S2,B,full_episode_reset,all_events_equal,True
+S2,C,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S2_J02"", ""reserve"": 0.2}",True
+S2,C,full_episode_reset,all_events_equal,True
+S2,E,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S2_J02"", ""reserve"": 0.2}",True
+S2,E,full_episode_reset,all_events_equal,True
+S3,B,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S3_J03"", ""reserve"": 0.2}",True
+S3,B,full_episode_reset,all_events_equal,True
+S3,C,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S3_J01"", ""reserve"": 0.2}",True
+S3,C,full_episode_reset,all_events_equal,True
+S3,E,initial_boundary,"{""type"": ""execute"", ""job_id"": ""S3_J07"", ""reserve"": 0.2}",True
+S3,E,full_episode_reset,all_events_equal,True

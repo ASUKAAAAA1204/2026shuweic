@@ -1,0 +1,7 @@
+{
+  "synthetic_instances": 64,
+  "root_candidates_checked": 133,
+  "scenarios_per_root": 8,
+  "max_absolute_value_error": 0.0,
+  "scalar_oracle": "formal Engine; independently computed survival density tail"
+}
