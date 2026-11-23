@@ -85,6 +85,15 @@ def draw_matrix(fig, rect, frame, rows, cols, limit, percent=False, invert=False
            yticks=range(len(rows)),yticklabels=rows)
     ax.tick_params(length=0,pad=5,labelsize=9)
     for edge in ax.spines.values(): edge.set_visible(False)
+    left,bottom,width,_=rect
+    unit="%" if percent else " 点"
+    legend=fig.add_axes([left+.085,bottom-.047,width-.17,.006])
+    for i in range(48):
+        legend.add_patch(Rectangle((i/48,0),1/48+.001,1,facecolor=cmap(i/47),lw=0))
+    legend.set(xticks=[],yticks=[],xlim=(0,1),ylim=(0,1))
+    for edge in legend.spines.values(): edge.set_visible(False)
+    for x,label in [(0,f"−{limit}{unit}"),(.5,"0"),(1,f"+{limit}{unit}")]:
+        legend.text(x,-.28,label,ha="center",va="top",transform=legend.transAxes,fontsize=7.1,color=SUB)
 
 
 def series(ax, x, frame, labels):
@@ -105,7 +114,7 @@ def sensitivity():
     np.testing.assert_allclose(delay.loc[1.],pd.read_csv(SENS/"q2/summary.csv").nade)
     grid=100*pd.read_csv(EXT/"grid_means.csv").pivot(index="alpha",columns="beta",values="overall")
     baseline=grid.loc[1.,.5]
-    fig=canvas("三问终稿模型的敏感性","左列为冻结模型实测响应，右列为相对名义条件的变化。红色表示性能变差，蓝色表示改善。",9.8)
+    fig=canvas("三问终稿模型的敏感性","左列为冻结模型实测响应。右列热图显示相对名义条件的变化，红色表示性能变差，蓝色表示改善。",9.8)
     for y, label, subtitle in [
         (.851,"第一问   可见历史与质心预测","212 个开发窗"),
         (.589,"第二问   回传延迟与遮挡预测","同一批开发窗 · 计划请求时刻 0.3、0.6 秒"),
@@ -137,11 +146,11 @@ def sensitivity():
     export(fig,"01_敏感性")
 
 
-def environments():
+def environments(height=6.05, save=export):
     data=pd.read_csv(EXT/"spaced_environments.csv").sort_values(["split","environment_id"],ascending=[False,True])
     np.testing.assert_allclose(data.change_pct,100*(data.nade_02/data.nade_01-1))
     assert len(data)==8 and data.n.sum()==308
-    fig=canvas("八个已审核地点的延迟敏感性","第二问 · 可见历史 0.30 秒 · 同窗比较单次回传延迟 0.10 秒与 0.20 秒",6.05)
+    fig=canvas("八个已审核地点的延迟敏感性","第二问 · 可见历史 0.30 秒 · 同窗比较单次回传延迟 0.10 秒与 0.20 秒",height)
     heading(fig,.07,.752,"各地点在两档延迟下的 NADE")
     heading(fig,.555,.752,"同一地点的误差增幅")
     ax=fig.add_axes([.105,.217,.33,.458])
@@ -178,14 +187,14 @@ def environments():
     markers=[Line2D([],[],marker=m,ls="",color=c,label=l) for m,c,l in [("o",BLUE,"开发地点"),("D",RED,"既有测试地点")]]
     fig.legend(handles=markers,loc="upper left",bbox_to_anchor=(.066,.736),ncol=2,fontsize=9,handletextpad=.15)
     note(fig,"同一记录、同一只手的相邻保留窗至少间隔 2 秒。开发 110 窗，既有测试 198 窗；八个地点的误差均随延迟增加。")
-    export(fig,"02_跨环境稳定性")
+    save(fig,"02_跨环境稳定性")
 
 
-def uncertainty():
+def uncertainty(height=5.0, save=export):
     official=pd.read_csv(SENS/"q3_mapping.csv").query("alpha==1.5 and beta==.5").iloc[0]
     extra=pd.read_csv(EXT/"paired_grid.csv").query("contrast=='long-minus-nominal'").sort_values("n")
     rows=[(official.delta_pp,official.low_pp,official.high_pp)]+list(extra[["delta_pp","lower_pp","upper_pp"]].itertuples(index=False,name=None))
-    fig=canvas("长工期使平均按时率下降多少？","第三问 · 长工期减名义工期 · β 固定为 0.5 秒，α 从 1.00 增至 1.50",5.0)
+    fig=canvas("长工期使平均按时率下降多少？","第三问 · 长工期减名义工期 · β 固定为 0.5 秒，α 从 1.00 增至 1.50",height)
     ax=fig.add_axes([.219,.263,.373,.366]);style(ax,"x")
     ax.set(ylim=(-.5,2.5),yticks=[2,1,0],yticklabels=["官方 30 个","扩展前 30 个","扩展全部 300 个"],
            xlim=(-22.5,-14.9),xticks=[-22,-20,-18,-16],xlabel="平均加权按时率差（百分点）")
@@ -202,15 +211,15 @@ def uncertainty():
         fig.text(.937,yf,f"{(hi-lo)/2:.2f}",ha="right",va="center",fontsize=11,weight="bold",color=color)
     fig.text(.075,.134,"扩展批次的配对区间半宽从 2.33 缩至 0.69 个百分点，达到预设的 ≤2 个百分点。",fontsize=10.5,weight="semibold")
     note(fig,"按工期种子成组重抽 10,000 次，保留三个案例的配对。扩展前 30 个包含在全部 300 个中；区间以现有案例和工期池为条件。")
-    export(fig,"03_配对不确定性")
+    save(fig,"03_配对不确定性")
 
 
-def tail():
+def tail(height=6.2, save=export):
     data=pd.read_csv(TAIL/"trials.csv.gz");summary=pd.read_csv(TAIL/"batches.csv").set_index("batch")
     old=pd.read_csv(EXT/"tail_replication.csv").query("case_id=='S2' and alpha==1").iloc[0]
-    fig=canvas("S2 名义工况的尾部风险","第三问 · 两个独立工期种子批次，每批 300 次 · 固定任务、内部种子和 K = 64",6.2)
+    fig=canvas("S2 名义工况的尾部风险","第三问 · 两个独立工期种子批次，每批 300 次 · 固定任务、内部种子和 K = 64",height)
     heading(fig,.073,.756,"按批内排名观察最低一成")
-    heading(fig,.702,.756,"两次尾部复核")
+    heading(fig,.702,.756,"尾部均值的绝对差")
     for batch,bottom in [("A",.476),("B",.212)]:
         g=data[data.batch==batch].sort_values("rank")
         rank=g["rank"].to_numpy(); pct=100*g.weighted_on_time_rate.to_numpy()
@@ -228,15 +237,15 @@ def tail():
         if batch=="A": ax.tick_params(labelbottom=False)
         else: ax.set_xlabel("批内加权按时率排名（由低到高）")
     gap=abs(summary.at["A","tail_pct"]-summary.at["B","tail_pct"])
-    for y,label,v,desc,col in [(.644,"首轮分半",old.gap_pp,"每半 150 次，各取最低 15 次",RED),
-                                (.398,"独立两批",gap,"每批 300 次，各取最低 30 次",NAVY)]:
+    for y,label,v,desc,col in [(.644,"首轮分半 · 超出容差",old.gap_pp,"每半 150 次，各取最低 15 次",RED),
+                                (.398,"独立两批 · 通过复验",gap,"每批 300 次，各取最低 30 次",NAVY)]:
         fig.text(.702,y,label,weight="bold",fontsize=11)
         fig.text(.702,y-.072,f"{v:.2f}",fontsize=23,color=col,weight="bold")
         fig.text(.812,y-.070,"个百分点",fontsize=10,color=SUB)
         fig.text(.702,y-.132,desc,fontsize=9,color=SUB)
     fig.text(.702,.174,"预设批间绝对差 ≤5 个百分点",fontsize=10,color=INK)
     note(fig,"红点为批内最低 30 次，蓝点为其余 270 次。两批第 30 名均为 75%；同分按种子升序取足 30 次。")
-    export(fig,"04_尾部风险")
+    save(fig,"04_尾部风险")
 
 
 def packed(values,spacing):

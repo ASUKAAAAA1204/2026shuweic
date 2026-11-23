@@ -1,0 +1,13 @@
+{
+  "commit": "9f8bc05fae9d8ce32da7fa7c5e28a82960085819",
+  "method": "baseline",
+  "original_stream_base": 20261123,
+  "original_label": 20261122,
+  "fixed_instances": 450,
+  "second_batch_instances": 180,
+  "default_matches": 450,
+  "n_replays": 12600,
+  "invalid_actions": 0,
+  "max_archive_error": 5.684341886080802e-14,
+  "max_score_rebuild_error": 1.1368683772161603e-13
+}

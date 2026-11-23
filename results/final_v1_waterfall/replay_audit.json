@@ -1,0 +1,20 @@
+{
+  "nominal_new": {
+    "replays": 3600,
+    "fixed_instances": 90,
+    "archive_default_max_abs_diff": 2.842170943040401e-14,
+    "invalid_actions": 0,
+    "score_rebuild_max_abs_diff": 2.8421709430404014e-14
+  },
+  "long_existing": {
+    "replays": 3600,
+    "fixed_instances": 90,
+    "archive_default_max_abs_diff": 2.842170943040401e-14,
+    "invalid_actions": 0,
+    "score_rebuild_max_abs_diff": 1.1368683772161605e-13
+  },
+  "release": "v1.0.0-final",
+  "comparison": "previous_local",
+  "seed_design": "Same 90 instances per mapping, two disjoint batches of 20 streams. Nominal seed offsets applied to active online seed salts of previous dispatcher only. No changes to frozen files or training.",
+  "nominal_trials_sha256": "e7a17f1bcdf51f567d862f6cc5d22058dd3d8fe190dffd20ddfbd0f9c8d883ec"
+}
